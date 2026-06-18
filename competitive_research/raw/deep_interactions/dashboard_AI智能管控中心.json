@@ -1,0 +1,125 @@
+{
+  "module": "数据看板",
+  "submodule": "AI智能管控中心",
+  "capability": "综合态势大屏、实时监控、报警趋势、排行榜与指挥视角",
+  "url": "http://192.168.11.88:8081/app/main-app/frame",
+  "title": "数据看板首页",
+  "bodyText": "人工智能推理平台\n搜索菜单\n数据看板\n智能分析\n数据中心\n平台管理",
+  "controls": [
+    {
+      "idx": 1,
+      "tag": "DIV",
+      "text": "搜索菜单",
+      "placeholder": "",
+      "title": "",
+      "aria": "",
+      "cls": "custom-light-select-selector",
+      "rect": {
+        "x": 961,
+        "y": 6,
+        "w": 220,
+        "h": 32
+      },
+      "disabled": false
+    }
+  ],
+  "menus": [
+    {
+      "idx": 0,
+      "text": "数据看板",
+      "cls": "app-menu-item",
+      "rect": {
+        "x": 8,
+        "y": 52,
+        "w": 63,
+        "h": 76
+      }
+    },
+    {
+      "idx": 1,
+      "text": "数据看板",
+      "cls": "app-menu-text",
+      "rect": {
+        "x": 8,
+        "y": 104,
+        "w": 63,
+        "h": 20
+      }
+    },
+    {
+      "idx": 2,
+      "text": "智能分析",
+      "cls": "app-menu-item",
+      "rect": {
+        "x": 8,
+        "y": 136,
+        "w": 63,
+        "h": 76
+      }
+    },
+    {
+      "idx": 3,
+      "text": "智能分析",
+      "cls": "app-menu-text",
+      "rect": {
+        "x": 8,
+        "y": 188,
+        "w": 63,
+        "h": 20
+      }
+    },
+    {
+      "idx": 4,
+      "text": "数据中心",
+      "cls": "app-menu-item",
+      "rect": {
+        "x": 8,
+        "y": 220,
+        "w": 63,
+        "h": 76
+      }
+    },
+    {
+      "idx": 5,
+      "text": "数据中心",
+      "cls": "app-menu-text",
+      "rect": {
+        "x": 8,
+        "y": 272,
+        "w": 63,
+        "h": 20
+      }
+    },
+    {
+      "idx": 6,
+      "text": "平台管理",
+      "cls": "app-menu-item",
+      "rect": {
+        "x": 8,
+        "y": 304,
+        "w": 63,
+        "h": 76
+      }
+    },
+    {
+      "idx": 7,
+      "text": "平台管理",
+      "cls": "app-menu-text",
+      "rect": {
+        "x": 8,
+        "y": 356,
+        "w": 63,
+        "h": 20
+      }
+    }
+  ],
+  "tables": [],
+  "forms": [
+    {
+      "idx": 0,
+      "text": "人工智能推理平台",
+      "inputs": []
+    }
+  ],
+  "cards": []
+}

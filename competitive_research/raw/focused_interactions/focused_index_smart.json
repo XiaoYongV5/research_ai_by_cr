@@ -1,0 +1,1635 @@
+[
+  {
+    "id": "02_smart_analysis-001",
+    "module": "智能分析",
+    "moduleId": "smart",
+    "submodule": "算法详情-人员入侵识别",
+    "label": "进入前_编辑",
+    "note": "进入详情或配置前的业务列表局部截图",
+    "url": "http://192.168.11.88:8081/app/main-app/dispatch/pre-processing/algo-info/#/algorithm-dispatch/pre-scheduling/algorithm-list",
+    "screenshot": "screenshots_focused/02_smart_analysis/001_算法详情-人员入侵识别_进入前_编辑.png",
+    "clip": {
+      "kind": "business",
+      "x": 280,
+      "y": 72,
+      "width": 1160,
+      "height": 928,
+      "scale": 1
+    },
+    "meta": {}
+  },
+  {
+    "id": "02_smart_analysis-002",
+    "module": "智能分析",
+    "moduleId": "smart",
+    "submodule": "算法详情-人员入侵识别",
+    "label": "业务区域默认态",
+    "note": "裁剪业务区域，排除顶部公共工具区和左侧一级导航",
+    "url": "http://192.168.11.88:8081/app/main-app/dispatch/pre-processing/algo-info/#/algorithm-dispatch/pre-scheduling/algorithm-list-detail?algoInfo={%22algorithm_id%22:4,%22name%22:%22%E4%BA%BA%E5%91%98%E5%85%A5%E4%BE%B5%E8%AF%86%E5%88%AB%22,%22name_en%22:%22Person-Invasion%22,%22threshold%22:[],%22content%22:[{%22enable_special%22:true,%22value%22:1,%22text%22:%22%E4%BA%BA%E5%91%98%E5%85%A5%E4%BE%B5%E8%AF%86%E5%88%AB%22,%22type%22:%22classId%22,%22special_draw%22:{%22rect%22:{%22option%22:{%22color%22:[255,255,255]}}}}],%22paint%22:[{%22type%22:%22roi%22,%22whether%22:true,%22option%22:{%22thickness%22:2,%22color%22:[255,0,0],%22style%22:1}},{%22type%22:%22rect%22,%22whether%22:true,%22option%22:{%22thickness%22:2,%22color%22:[255,0,0],%22style%22:1}},{%22type%22:%22polygonList%22,%22whether%22:true,%22option%22:{%22thickness%22:2,%22color%22:[255,0,0],%22style%22:1}},{%22type%22:%22multiPointList%22,%22whether%22:true,%22option%22:{%22thickness%22:2,%22color%22:[255,0,0],%22style%22:1},%22other%22:[{%22type%22:%22head%22,%22whether%22:true,%22thickness%22:2,%22color%22:[0,0,255]},{%22type%22:%22hand%22,%22whether%22:true,%22thickness%22:2,%22color%22:[255,0,0]},{%22type%22:%22foot%22,%22whether%22:true,%22thickness%22:2,%22color%22:[0,255,0]},{%22type%22:%22body%22,%22whether%22:true,%22thickness%22:2,%22color%22:[0,255,255]}]},{%22type%22:%22text%22,%22whether%22:true,%22draw%22:[%22rect%22],%22option%22:{%22size%22:24,%22font%22:%22NotoSansCJKsc-Regular.otf%22,%22color%22:[255,255,255],%22background%22:[255,0,0]}},{%22type%22:%22ocr%22,%22whether%22:true,%22option%22:{%22color%22:[0,0,255]}}],%22degree%22:3,%22version%22:%22v17%22,%22voice_name%22:%22default.mp3%22,%22voice_url%22:%22%22,%22extra_data%22:{%22hd_split%22:{%22mode%22:%22sliding_window%22,%22res%22:[[1080,1920],[540,960]],%22stride%22:[[],[]],%22idx%22:0},%22channel_analysis_frame_rate%22:-1,%22roi_flag%22:false,%22roi_check%22:{%22type%22:%22roi%22,%22name%22:%22rois%22,%22vals%22:[{%22type%22:%22group%22,%22name%22:%22%22,%22check_items%22:[{%22name%22:%22count%22,%22vals%22:[0,1],%22rule%22:%22rule_count%22}],%22vals%22:[{%22type%22:%22polyset%22,%22name%22:%22polyset%22,%22vals%22:[{%22type%22:%22poly%22,%22name%22:%22%22,%22check_items%22:[{%22name%22:%22count%22,%22vals%22:[1,10],%22rule%22:%22rule_count%22}]}]}]}]},%22threshold_check%22:{%22type%22:%22param%22,%22name%22:%22params%22,%22check_items%22:[],%22vals%22:[{%22name%22:%22person_det_th%22,%22type%22:%22float%22,%22cn_name%22:%22%E8%A1%8C%E4%BA%BA%E6%A3%80%E6%B5%8B%E9%98%88%E5%80%BC%22,%22vals%22:[0.5,0.4,0.2],%22check_items%22:[{%22vals%22:[0,1],%22name%22:%22range%22,%22rule%22:%22rule_range%22}],%22important%22:true,%22modify%22:true,%22step%22:0.1,%22desc%22:%22%E8%B0%83%E5%B0%8F%EF%BC%8C%E5%8D%87%E6%A3%80%E5%87%BA%EF%BC%9B%E8%B0%83%E5%A4%A7%EF%BC%8C%E9%99%8D%E8%AF%AF%E6%8A%A5%22},{%22name%22:%22person_cls_th%22,%22type%22:%22float%22,%22cn_name%22:%22%E8%A1%8C%E4%BA%BA%E5%88%86%E7%B1%BB%E9%98%88%E5%80%BC%22,%22vals%22:[0.8,0.7,0],%22check_items%22:[{%22vals%22:[0,1],%22name%22:%22range%22,%22rule%22:%22rule_range%22}],%22important%22:true,%22modify%22:true,%22step%22:0.1,%22desc%22:%22%E8%B0%83%E5%B0%8F%EF%BC%8C%E5%8D%87%E6%A3%80%E5%87%BA%EF%BC%9B%E8%B0%83%E5%A4%A7%EF%BC%8C%E9%99%8D%E8%AF%AF%E6%8A%A5%22},{%22name%22:%22light_th%22,%22type%22:%22float%22,%22cn_name%22:%22%E4%BA%AE%E5%BA%A6%E9%98%88%E5%80%BC%22,%22vals%22:[0.5,0.1,0],%22check_items%22:[{%22vals%22:[0,1],%22name%22:%22range%22,%22rule%22:%22rule_range%22}],%22important%22:true,%22modify%22:true,%22step%22:0.01,%22desc%22:%22%E8%B0%83%E5%B0%8F%EF%BC%8C%E5%8D%87%E6%A3%80%E5%87%BA%EF%BC%9B%E8%B0%83%E5%A4%A7%EF%BC%8C%E9%99%8D%E8%AF%AF%E6%8A%A5%22},{%22name%22:%22blur_th%22,%22type%22:%22float%22,%22cn_name%22:%22%E6%A8%A1%E7%B3%8A%E9%98%88%E5%80%BC%22,%22vals%22:[2.5,1.5,0],%22check_items%22:[{%22vals%22:[0,5],%22name%22:%22range%22,%22rule%22:%22rule_range%22}],%22important%22:true,%22modify%22:true,%22step%22:0.1,%22desc%22:%22%E8%B0%83%E5%B0%8F%EF%BC%8C%E5%8D%87%E6%A3%80%E5%87%BA%EF%BC%9B%E8%B0%83%E5%A4%A7%EF%BC%8C%E9%99%8D%E8%AF%AF%E6%8A%A5%22},{%22name%22:%22head_size_th%22,%22type%22:%22int%22,%22cn_name%22:%22%E5%A4%B4%E5%A4%A7%E5%B0%8F%E9%98%88%E5%80%BC%22,%22vals%22:[10,10,0],%22check_items%22:[{%22vals%22:[0,100],%22name%22:%22range%22,%22rule%22:%22rule_range%22}],%22important%22:false,%22modify%22:true,%22step%22:1,%22desc%22:%22%E8%B0%83%E5%B0%8F%EF%BC%8C%E5%8D%87%E6%A3%80%E5%87%BA%EF%BC%9B%E8%B0%83%E5%A4%A7%EF%BC%8C%E9%99%8D%E8%AF%AF%E6%8A%A5%22}],%22alarm_rule%22:%22(person_det_score%3Eperson_det_th)%26%26(person_cls_score%3Eperson_cls_th)%26%26(light_score%3Elight_th)%26%26(blur_score%3Eblur_th)%26%26(head_size_score%3Ehead_size_th)%22},%22threshold_current%22:{%22type%22:%22param%22,%22name%22:%22params%22,%22vals%22:[{%22type%22:%22float%22,%22name%22:%22person_det_th%22,%22vals%22:[0.5,0.4,0.2]},{%22type%22:%22float%22,%22name%22:%22person_cls_th%22,%22vals%22:[0.8,0.7,0]},{%22type%22:%22float%22,%22name%22:%22light_th%22,%22vals%22:[0.5,0.1,0]},{%22type%22:%22float%22,%22name%22:%22blur_th%22,%22vals%22:[2.5,1.5,0]},{%22type%22:%22int%22,%22name%22:%22head_size_th%22,%22vals%22:[10,10,0]}],%22sensitivity%22:0,%22custom%22:false}},%22default_info%22:{%22name%22:%22%E4%BA%BA%E5%91%98%E5%85%A5%E4%BE%B5%E8%AF%86%E5%88%AB%22,%22name_en%22:%22Person-Invasion%22,%22degree%22:3,%22threshold%22:[]},%22voice_type%22:0,%22voice_tmpl%22:null,%22is_virtual%22:false,%22selectedKeys%22:[3]}",
+    "screenshot": "screenshots_focused/02_smart_analysis/002_算法详情-人员入侵识别_业务区域默认态.png",
+    "clip": {
+      "kind": "business",
+      "x": 280,
+      "y": 72,
+      "width": 1160,
+      "height": 928,
+      "scale": 1
+    },
+    "meta": {}
+  },
+  {
+    "id": "02_smart_analysis-003",
+    "module": "智能分析",
+    "moduleId": "smart",
+    "submodule": "算法详情-人员入侵识别",
+    "label": "Tab_算法信息",
+    "note": "点击或切换 Tab/分段控件：算法信息",
+    "url": "http://192.168.11.88:8081/app/main-app/dispatch/pre-processing/algo-info/#/algorithm-dispatch/pre-scheduling/algorithm-list-detail?algoInfo={%22algorithm_id%22:4,%22name%22:%22%E4%BA%BA%E5%91%98%E5%85%A5%E4%BE%B5%E8%AF%86%E5%88%AB%22,%22name_en%22:%22Person-Invasion%22,%22threshold%22:[],%22content%22:[{%22enable_special%22:true,%22value%22:1,%22text%22:%22%E4%BA%BA%E5%91%98%E5%85%A5%E4%BE%B5%E8%AF%86%E5%88%AB%22,%22type%22:%22classId%22,%22special_draw%22:{%22rect%22:{%22option%22:{%22color%22:[255,255,255]}}}}],%22paint%22:[{%22type%22:%22roi%22,%22whether%22:true,%22option%22:{%22thickness%22:2,%22color%22:[255,0,0],%22style%22:1}},{%22type%22:%22rect%22,%22whether%22:true,%22option%22:{%22thickness%22:2,%22color%22:[255,0,0],%22style%22:1}},{%22type%22:%22polygonList%22,%22whether%22:true,%22option%22:{%22thickness%22:2,%22color%22:[255,0,0],%22style%22:1}},{%22type%22:%22multiPointList%22,%22whether%22:true,%22option%22:{%22thickness%22:2,%22color%22:[255,0,0],%22style%22:1},%22other%22:[{%22type%22:%22head%22,%22whether%22:true,%22thickness%22:2,%22color%22:[0,0,255]},{%22type%22:%22hand%22,%22whether%22:true,%22thickness%22:2,%22color%22:[255,0,0]},{%22type%22:%22foot%22,%22whether%22:true,%22thickness%22:2,%22color%22:[0,255,0]},{%22type%22:%22body%22,%22whether%22:true,%22thickness%22:2,%22color%22:[0,255,255]}]},{%22type%22:%22text%22,%22whether%22:true,%22draw%22:[%22rect%22],%22option%22:{%22size%22:24,%22font%22:%22NotoSansCJKsc-Regular.otf%22,%22color%22:[255,255,255],%22background%22:[255,0,0]}},{%22type%22:%22ocr%22,%22whether%22:true,%22option%22:{%22color%22:[0,0,255]}}],%22degree%22:3,%22version%22:%22v17%22,%22voice_name%22:%22default.mp3%22,%22voice_url%22:%22%22,%22extra_data%22:{%22hd_split%22:{%22mode%22:%22sliding_window%22,%22res%22:[[1080,1920],[540,960]],%22stride%22:[[],[]],%22idx%22:0},%22channel_analysis_frame_rate%22:-1,%22roi_flag%22:false,%22roi_check%22:{%22type%22:%22roi%22,%22name%22:%22rois%22,%22vals%22:[{%22type%22:%22group%22,%22name%22:%22%22,%22check_items%22:[{%22name%22:%22count%22,%22vals%22:[0,1],%22rule%22:%22rule_count%22}],%22vals%22:[{%22type%22:%22polyset%22,%22name%22:%22polyset%22,%22vals%22:[{%22type%22:%22poly%22,%22name%22:%22%22,%22check_items%22:[{%22name%22:%22count%22,%22vals%22:[1,10],%22rule%22:%22rule_count%22}]}]}]}]},%22threshold_check%22:{%22type%22:%22param%22,%22name%22:%22params%22,%22check_items%22:[],%22vals%22:[{%22name%22:%22person_det_th%22,%22type%22:%22float%22,%22cn_name%22:%22%E8%A1%8C%E4%BA%BA%E6%A3%80%E6%B5%8B%E9%98%88%E5%80%BC%22,%22vals%22:[0.5,0.4,0.2],%22check_items%22:[{%22vals%22:[0,1],%22name%22:%22range%22,%22rule%22:%22rule_range%22}],%22important%22:true,%22modify%22:true,%22step%22:0.1,%22desc%22:%22%E8%B0%83%E5%B0%8F%EF%BC%8C%E5%8D%87%E6%A3%80%E5%87%BA%EF%BC%9B%E8%B0%83%E5%A4%A7%EF%BC%8C%E9%99%8D%E8%AF%AF%E6%8A%A5%22},{%22name%22:%22person_cls_th%22,%22type%22:%22float%22,%22cn_name%22:%22%E8%A1%8C%E4%BA%BA%E5%88%86%E7%B1%BB%E9%98%88%E5%80%BC%22,%22vals%22:[0.8,0.7,0],%22check_items%22:[{%22vals%22:[0,1],%22name%22:%22range%22,%22rule%22:%22rule_range%22}],%22important%22:true,%22modify%22:true,%22step%22:0.1,%22desc%22:%22%E8%B0%83%E5%B0%8F%EF%BC%8C%E5%8D%87%E6%A3%80%E5%87%BA%EF%BC%9B%E8%B0%83%E5%A4%A7%EF%BC%8C%E9%99%8D%E8%AF%AF%E6%8A%A5%22},{%22name%22:%22light_th%22,%22type%22:%22float%22,%22cn_name%22:%22%E4%BA%AE%E5%BA%A6%E9%98%88%E5%80%BC%22,%22vals%22:[0.5,0.1,0],%22check_items%22:[{%22vals%22:[0,1],%22name%22:%22range%22,%22rule%22:%22rule_range%22}],%22important%22:true,%22modify%22:true,%22step%22:0.01,%22desc%22:%22%E8%B0%83%E5%B0%8F%EF%BC%8C%E5%8D%87%E6%A3%80%E5%87%BA%EF%BC%9B%E8%B0%83%E5%A4%A7%EF%BC%8C%E9%99%8D%E8%AF%AF%E6%8A%A5%22},{%22name%22:%22blur_th%22,%22type%22:%22float%22,%22cn_name%22:%22%E6%A8%A1%E7%B3%8A%E9%98%88%E5%80%BC%22,%22vals%22:[2.5,1.5,0],%22check_items%22:[{%22vals%22:[0,5],%22name%22:%22range%22,%22rule%22:%22rule_range%22}],%22important%22:true,%22modify%22:true,%22step%22:0.1,%22desc%22:%22%E8%B0%83%E5%B0%8F%EF%BC%8C%E5%8D%87%E6%A3%80%E5%87%BA%EF%BC%9B%E8%B0%83%E5%A4%A7%EF%BC%8C%E9%99%8D%E8%AF%AF%E6%8A%A5%22},{%22name%22:%22head_size_th%22,%22type%22:%22int%22,%22cn_name%22:%22%E5%A4%B4%E5%A4%A7%E5%B0%8F%E9%98%88%E5%80%BC%22,%22vals%22:[10,10,0],%22check_items%22:[{%22vals%22:[0,100],%22name%22:%22range%22,%22rule%22:%22rule_range%22}],%22important%22:false,%22modify%22:true,%22step%22:1,%22desc%22:%22%E8%B0%83%E5%B0%8F%EF%BC%8C%E5%8D%87%E6%A3%80%E5%87%BA%EF%BC%9B%E8%B0%83%E5%A4%A7%EF%BC%8C%E9%99%8D%E8%AF%AF%E6%8A%A5%22}],%22alarm_rule%22:%22(person_det_score%3Eperson_det_th)%26%26(person_cls_score%3Eperson_cls_th)%26%26(light_score%3Elight_th)%26%26(blur_score%3Eblur_th)%26%26(head_size_score%3Ehead_size_th)%22},%22threshold_current%22:{%22type%22:%22param%22,%22name%22:%22params%22,%22vals%22:[{%22type%22:%22float%22,%22name%22:%22person_det_th%22,%22vals%22:[0.5,0.4,0.2]},{%22type%22:%22float%22,%22name%22:%22person_cls_th%22,%22vals%22:[0.8,0.7,0]},{%22type%22:%22float%22,%22name%22:%22light_th%22,%22vals%22:[0.5,0.1,0]},{%22type%22:%22float%22,%22name%22:%22blur_th%22,%22vals%22:[2.5,1.5,0]},{%22type%22:%22int%22,%22name%22:%22head_size_th%22,%22vals%22:[10,10,0]}],%22sensitivity%22:0,%22custom%22:false}},%22default_info%22:{%22name%22:%22%E4%BA%BA%E5%91%98%E5%85%A5%E4%BE%B5%E8%AF%86%E5%88%AB%22,%22name_en%22:%22Person-Invasion%22,%22degree%22:3,%22threshold%22:[]},%22voice_type%22:0,%22voice_tmpl%22:null,%22is_virtual%22:false,%22selectedKeys%22:[3]}",
+    "screenshot": "screenshots_focused/02_smart_analysis/003_算法详情-人员入侵识别_Tab_算法信息.png",
+    "clip": {
+      "kind": "business",
+      "x": 280,
+      "y": 72,
+      "width": 1160,
+      "height": 928,
+      "scale": 1
+    },
+    "meta": {
+      "click": {
+        "ok": true,
+        "text": "算法信息",
+        "found": {
+          "text": "算法信息",
+          "rect": {
+            "x": 296,
+            "y": 142,
+            "w": 48,
+            "h": 19
+          },
+          "className": "custom-light-tabs-tab-btn"
+        }
+      }
+    }
+  },
+  {
+    "id": "02_smart_analysis-004",
+    "module": "智能分析",
+    "moduleId": "smart",
+    "submodule": "算法详情-人员入侵识别",
+    "label": "Tab_算法信息_操作_高精度",
+    "note": "在 算法信息 下点击或定位操作：高精度",
+    "url": "http://192.168.11.88:8081/app/main-app/dispatch/pre-processing/algo-info/#/algorithm-dispatch/pre-scheduling/algorithm-list-detail?algoInfo={%22algorithm_id%22:4,%22name%22:%22%E4%BA%BA%E5%91%98%E5%85%A5%E4%BE%B5%E8%AF%86%E5%88%AB%22,%22name_en%22:%22Person-Invasion%22,%22threshold%22:[],%22content%22:[{%22enable_special%22:true,%22value%22:1,%22text%22:%22%E4%BA%BA%E5%91%98%E5%85%A5%E4%BE%B5%E8%AF%86%E5%88%AB%22,%22type%22:%22classId%22,%22special_draw%22:{%22rect%22:{%22option%22:{%22color%22:[255,255,255]}}}}],%22paint%22:[{%22type%22:%22roi%22,%22whether%22:true,%22option%22:{%22thickness%22:2,%22color%22:[255,0,0],%22style%22:1}},{%22type%22:%22rect%22,%22whether%22:true,%22option%22:{%22thickness%22:2,%22color%22:[255,0,0],%22style%22:1}},{%22type%22:%22polygonList%22,%22whether%22:true,%22option%22:{%22thickness%22:2,%22color%22:[255,0,0],%22style%22:1}},{%22type%22:%22multiPointList%22,%22whether%22:true,%22option%22:{%22thickness%22:2,%22color%22:[255,0,0],%22style%22:1},%22other%22:[{%22type%22:%22head%22,%22whether%22:true,%22thickness%22:2,%22color%22:[0,0,255]},{%22type%22:%22hand%22,%22whether%22:true,%22thickness%22:2,%22color%22:[255,0,0]},{%22type%22:%22foot%22,%22whether%22:true,%22thickness%22:2,%22color%22:[0,255,0]},{%22type%22:%22body%22,%22whether%22:true,%22thickness%22:2,%22color%22:[0,255,255]}]},{%22type%22:%22text%22,%22whether%22:true,%22draw%22:[%22rect%22],%22option%22:{%22size%22:24,%22font%22:%22NotoSansCJKsc-Regular.otf%22,%22color%22:[255,255,255],%22background%22:[255,0,0]}},{%22type%22:%22ocr%22,%22whether%22:true,%22option%22:{%22color%22:[0,0,255]}}],%22degree%22:3,%22version%22:%22v17%22,%22voice_name%22:%22default.mp3%22,%22voice_url%22:%22%22,%22extra_data%22:{%22hd_split%22:{%22mode%22:%22sliding_window%22,%22res%22:[[1080,1920],[540,960]],%22stride%22:[[],[]],%22idx%22:0},%22channel_analysis_frame_rate%22:-1,%22roi_flag%22:false,%22roi_check%22:{%22type%22:%22roi%22,%22name%22:%22rois%22,%22vals%22:[{%22type%22:%22group%22,%22name%22:%22%22,%22check_items%22:[{%22name%22:%22count%22,%22vals%22:[0,1],%22rule%22:%22rule_count%22}],%22vals%22:[{%22type%22:%22polyset%22,%22name%22:%22polyset%22,%22vals%22:[{%22type%22:%22poly%22,%22name%22:%22%22,%22check_items%22:[{%22name%22:%22count%22,%22vals%22:[1,10],%22rule%22:%22rule_count%22}]}]}]}]},%22threshold_check%22:{%22type%22:%22param%22,%22name%22:%22params%22,%22check_items%22:[],%22vals%22:[{%22name%22:%22person_det_th%22,%22type%22:%22float%22,%22cn_name%22:%22%E8%A1%8C%E4%BA%BA%E6%A3%80%E6%B5%8B%E9%98%88%E5%80%BC%22,%22vals%22:[0.5,0.4,0.2],%22check_items%22:[{%22vals%22:[0,1],%22name%22:%22range%22,%22rule%22:%22rule_range%22}],%22important%22:true,%22modify%22:true,%22step%22:0.1,%22desc%22:%22%E8%B0%83%E5%B0%8F%EF%BC%8C%E5%8D%87%E6%A3%80%E5%87%BA%EF%BC%9B%E8%B0%83%E5%A4%A7%EF%BC%8C%E9%99%8D%E8%AF%AF%E6%8A%A5%22},{%22name%22:%22person_cls_th%22,%22type%22:%22float%22,%22cn_name%22:%22%E8%A1%8C%E4%BA%BA%E5%88%86%E7%B1%BB%E9%98%88%E5%80%BC%22,%22vals%22:[0.8,0.7,0],%22check_items%22:[{%22vals%22:[0,1],%22name%22:%22range%22,%22rule%22:%22rule_range%22}],%22important%22:true,%22modify%22:true,%22step%22:0.1,%22desc%22:%22%E8%B0%83%E5%B0%8F%EF%BC%8C%E5%8D%87%E6%A3%80%E5%87%BA%EF%BC%9B%E8%B0%83%E5%A4%A7%EF%BC%8C%E9%99%8D%E8%AF%AF%E6%8A%A5%22},{%22name%22:%22light_th%22,%22type%22:%22float%22,%22cn_name%22:%22%E4%BA%AE%E5%BA%A6%E9%98%88%E5%80%BC%22,%22vals%22:[0.5,0.1,0],%22check_items%22:[{%22vals%22:[0,1],%22name%22:%22range%22,%22rule%22:%22rule_range%22}],%22important%22:true,%22modify%22:true,%22step%22:0.01,%22desc%22:%22%E8%B0%83%E5%B0%8F%EF%BC%8C%E5%8D%87%E6%A3%80%E5%87%BA%EF%BC%9B%E8%B0%83%E5%A4%A7%EF%BC%8C%E9%99%8D%E8%AF%AF%E6%8A%A5%22},{%22name%22:%22blur_th%22,%22type%22:%22float%22,%22cn_name%22:%22%E6%A8%A1%E7%B3%8A%E9%98%88%E5%80%BC%22,%22vals%22:[2.5,1.5,0],%22check_items%22:[{%22vals%22:[0,5],%22name%22:%22range%22,%22rule%22:%22rule_range%22}],%22important%22:true,%22modify%22:true,%22step%22:0.1,%22desc%22:%22%E8%B0%83%E5%B0%8F%EF%BC%8C%E5%8D%87%E6%A3%80%E5%87%BA%EF%BC%9B%E8%B0%83%E5%A4%A7%EF%BC%8C%E9%99%8D%E8%AF%AF%E6%8A%A5%22},{%22name%22:%22head_size_th%22,%22type%22:%22int%22,%22cn_name%22:%22%E5%A4%B4%E5%A4%A7%E5%B0%8F%E9%98%88%E5%80%BC%22,%22vals%22:[10,10,0],%22check_items%22:[{%22vals%22:[0,100],%22name%22:%22range%22,%22rule%22:%22rule_range%22}],%22important%22:false,%22modify%22:true,%22step%22:1,%22desc%22:%22%E8%B0%83%E5%B0%8F%EF%BC%8C%E5%8D%87%E6%A3%80%E5%87%BA%EF%BC%9B%E8%B0%83%E5%A4%A7%EF%BC%8C%E9%99%8D%E8%AF%AF%E6%8A%A5%22}],%22alarm_rule%22:%22(person_det_score%3Eperson_det_th)%26%26(person_cls_score%3Eperson_cls_th)%26%26(light_score%3Elight_th)%26%26(blur_score%3Eblur_th)%26%26(head_size_score%3Ehead_size_th)%22},%22threshold_current%22:{%22type%22:%22param%22,%22name%22:%22params%22,%22vals%22:[{%22type%22:%22float%22,%22name%22:%22person_det_th%22,%22vals%22:[0.5,0.4,0.2]},{%22type%22:%22float%22,%22name%22:%22person_cls_th%22,%22vals%22:[0.8,0.7,0]},{%22type%22:%22float%22,%22name%22:%22light_th%22,%22vals%22:[0.5,0.1,0]},{%22type%22:%22float%22,%22name%22:%22blur_th%22,%22vals%22:[2.5,1.5,0]},{%22type%22:%22int%22,%22name%22:%22head_size_th%22,%22vals%22:[10,10,0]}],%22sensitivity%22:0,%22custom%22:false}},%22default_info%22:{%22name%22:%22%E4%BA%BA%E5%91%98%E5%85%A5%E4%BE%B5%E8%AF%86%E5%88%AB%22,%22name_en%22:%22Person-Invasion%22,%22degree%22:3,%22threshold%22:[]},%22voice_type%22:0,%22voice_tmpl%22:null,%22is_virtual%22:false,%22selectedKeys%22:[3]}",
+    "screenshot": "screenshots_focused/02_smart_analysis/004_算法详情-人员入侵识别_Tab_算法信息_操作_高精度.png",
+    "clip": {
+      "kind": "business",
+      "x": 280,
+      "y": 72,
+      "width": 1160,
+      "height": 928,
+      "scale": 1
+    },
+    "meta": {
+      "click": {
+        "ok": true,
+        "text": "高精度",
+        "found": {
+          "text": "高精度",
+          "rect": {
+            "x": 305,
+            "y": 411,
+            "w": 74,
+            "h": 32
+          },
+          "className": "custom-light-radio-button-wrapper custom-light-radio-button-wrapper-checked"
+        }
+      }
+    }
+  },
+  {
+    "id": "02_smart_analysis-005",
+    "module": "智能分析",
+    "moduleId": "smart",
+    "submodule": "算法详情-人员入侵识别",
+    "label": "Tab_算法信息_操作_均衡",
+    "note": "在 算法信息 下点击或定位操作：均衡",
+    "url": "http://192.168.11.88:8081/app/main-app/dispatch/pre-processing/algo-info/#/algorithm-dispatch/pre-scheduling/algorithm-list-detail?algoInfo={%22algorithm_id%22:4,%22name%22:%22%E4%BA%BA%E5%91%98%E5%85%A5%E4%BE%B5%E8%AF%86%E5%88%AB%22,%22name_en%22:%22Person-Invasion%22,%22threshold%22:[],%22content%22:[{%22enable_special%22:true,%22value%22:1,%22text%22:%22%E4%BA%BA%E5%91%98%E5%85%A5%E4%BE%B5%E8%AF%86%E5%88%AB%22,%22type%22:%22classId%22,%22special_draw%22:{%22rect%22:{%22option%22:{%22color%22:[255,255,255]}}}}],%22paint%22:[{%22type%22:%22roi%22,%22whether%22:true,%22option%22:{%22thickness%22:2,%22color%22:[255,0,0],%22style%22:1}},{%22type%22:%22rect%22,%22whether%22:true,%22option%22:{%22thickness%22:2,%22color%22:[255,0,0],%22style%22:1}},{%22type%22:%22polygonList%22,%22whether%22:true,%22option%22:{%22thickness%22:2,%22color%22:[255,0,0],%22style%22:1}},{%22type%22:%22multiPointList%22,%22whether%22:true,%22option%22:{%22thickness%22:2,%22color%22:[255,0,0],%22style%22:1},%22other%22:[{%22type%22:%22head%22,%22whether%22:true,%22thickness%22:2,%22color%22:[0,0,255]},{%22type%22:%22hand%22,%22whether%22:true,%22thickness%22:2,%22color%22:[255,0,0]},{%22type%22:%22foot%22,%22whether%22:true,%22thickness%22:2,%22color%22:[0,255,0]},{%22type%22:%22body%22,%22whether%22:true,%22thickness%22:2,%22color%22:[0,255,255]}]},{%22type%22:%22text%22,%22whether%22:true,%22draw%22:[%22rect%22],%22option%22:{%22size%22:24,%22font%22:%22NotoSansCJKsc-Regular.otf%22,%22color%22:[255,255,255],%22background%22:[255,0,0]}},{%22type%22:%22ocr%22,%22whether%22:true,%22option%22:{%22color%22:[0,0,255]}}],%22degree%22:3,%22version%22:%22v17%22,%22voice_name%22:%22default.mp3%22,%22voice_url%22:%22%22,%22extra_data%22:{%22hd_split%22:{%22mode%22:%22sliding_window%22,%22res%22:[[1080,1920],[540,960]],%22stride%22:[[],[]],%22idx%22:0},%22channel_analysis_frame_rate%22:-1,%22roi_flag%22:false,%22roi_check%22:{%22type%22:%22roi%22,%22name%22:%22rois%22,%22vals%22:[{%22type%22:%22group%22,%22name%22:%22%22,%22check_items%22:[{%22name%22:%22count%22,%22vals%22:[0,1],%22rule%22:%22rule_count%22}],%22vals%22:[{%22type%22:%22polyset%22,%22name%22:%22polyset%22,%22vals%22:[{%22type%22:%22poly%22,%22name%22:%22%22,%22check_items%22:[{%22name%22:%22count%22,%22vals%22:[1,10],%22rule%22:%22rule_count%22}]}]}]}]},%22threshold_check%22:{%22type%22:%22param%22,%22name%22:%22params%22,%22check_items%22:[],%22vals%22:[{%22name%22:%22person_det_th%22,%22type%22:%22float%22,%22cn_name%22:%22%E8%A1%8C%E4%BA%BA%E6%A3%80%E6%B5%8B%E9%98%88%E5%80%BC%22,%22vals%22:[0.5,0.4,0.2],%22check_items%22:[{%22vals%22:[0,1],%22name%22:%22range%22,%22rule%22:%22rule_range%22}],%22important%22:true,%22modify%22:true,%22step%22:0.1,%22desc%22:%22%E8%B0%83%E5%B0%8F%EF%BC%8C%E5%8D%87%E6%A3%80%E5%87%BA%EF%BC%9B%E8%B0%83%E5%A4%A7%EF%BC%8C%E9%99%8D%E8%AF%AF%E6%8A%A5%22},{%22name%22:%22person_cls_th%22,%22type%22:%22float%22,%22cn_name%22:%22%E8%A1%8C%E4%BA%BA%E5%88%86%E7%B1%BB%E9%98%88%E5%80%BC%22,%22vals%22:[0.8,0.7,0],%22check_items%22:[{%22vals%22:[0,1],%22name%22:%22range%22,%22rule%22:%22rule_range%22}],%22important%22:true,%22modify%22:true,%22step%22:0.1,%22desc%22:%22%E8%B0%83%E5%B0%8F%EF%BC%8C%E5%8D%87%E6%A3%80%E5%87%BA%EF%BC%9B%E8%B0%83%E5%A4%A7%EF%BC%8C%E9%99%8D%E8%AF%AF%E6%8A%A5%22},{%22name%22:%22light_th%22,%22type%22:%22float%22,%22cn_name%22:%22%E4%BA%AE%E5%BA%A6%E9%98%88%E5%80%BC%22,%22vals%22:[0.5,0.1,0],%22check_items%22:[{%22vals%22:[0,1],%22name%22:%22range%22,%22rule%22:%22rule_range%22}],%22important%22:true,%22modify%22:true,%22step%22:0.01,%22desc%22:%22%E8%B0%83%E5%B0%8F%EF%BC%8C%E5%8D%87%E6%A3%80%E5%87%BA%EF%BC%9B%E8%B0%83%E5%A4%A7%EF%BC%8C%E9%99%8D%E8%AF%AF%E6%8A%A5%22},{%22name%22:%22blur_th%22,%22type%22:%22float%22,%22cn_name%22:%22%E6%A8%A1%E7%B3%8A%E9%98%88%E5%80%BC%22,%22vals%22:[2.5,1.5,0],%22check_items%22:[{%22vals%22:[0,5],%22name%22:%22range%22,%22rule%22:%22rule_range%22}],%22important%22:true,%22modify%22:true,%22step%22:0.1,%22desc%22:%22%E8%B0%83%E5%B0%8F%EF%BC%8C%E5%8D%87%E6%A3%80%E5%87%BA%EF%BC%9B%E8%B0%83%E5%A4%A7%EF%BC%8C%E9%99%8D%E8%AF%AF%E6%8A%A5%22},{%22name%22:%22head_size_th%22,%22type%22:%22int%22,%22cn_name%22:%22%E5%A4%B4%E5%A4%A7%E5%B0%8F%E9%98%88%E5%80%BC%22,%22vals%22:[10,10,0],%22check_items%22:[{%22vals%22:[0,100],%22name%22:%22range%22,%22rule%22:%22rule_range%22}],%22important%22:false,%22modify%22:true,%22step%22:1,%22desc%22:%22%E8%B0%83%E5%B0%8F%EF%BC%8C%E5%8D%87%E6%A3%80%E5%87%BA%EF%BC%9B%E8%B0%83%E5%A4%A7%EF%BC%8C%E9%99%8D%E8%AF%AF%E6%8A%A5%22}],%22alarm_rule%22:%22(person_det_score%3Eperson_det_th)%26%26(person_cls_score%3Eperson_cls_th)%26%26(light_score%3Elight_th)%26%26(blur_score%3Eblur_th)%26%26(head_size_score%3Ehead_size_th)%22},%22threshold_current%22:{%22type%22:%22param%22,%22name%22:%22params%22,%22vals%22:[{%22type%22:%22float%22,%22name%22:%22person_det_th%22,%22vals%22:[0.5,0.4,0.2]},{%22type%22:%22float%22,%22name%22:%22person_cls_th%22,%22vals%22:[0.8,0.7,0]},{%22type%22:%22float%22,%22name%22:%22light_th%22,%22vals%22:[0.5,0.1,0]},{%22type%22:%22float%22,%22name%22:%22blur_th%22,%22vals%22:[2.5,1.5,0]},{%22type%22:%22int%22,%22name%22:%22head_size_th%22,%22vals%22:[10,10,0]}],%22sensitivity%22:0,%22custom%22:false}},%22default_info%22:{%22name%22:%22%E4%BA%BA%E5%91%98%E5%85%A5%E4%BE%B5%E8%AF%86%E5%88%AB%22,%22name_en%22:%22Person-Invasion%22,%22degree%22:3,%22threshold%22:[]},%22voice_type%22:0,%22voice_tmpl%22:null,%22is_virtual%22:false,%22selectedKeys%22:[3]}",
+    "screenshot": "screenshots_focused/02_smart_analysis/005_算法详情-人员入侵识别_Tab_算法信息_操作_均衡.png",
+    "clip": {
+      "kind": "business",
+      "x": 280,
+      "y": 72,
+      "width": 1160,
+      "height": 928,
+      "scale": 1
+    },
+    "meta": {
+      "click": {
+        "ok": true,
+        "text": "均衡",
+        "found": {
+          "text": "均衡",
+          "rect": {
+            "x": 379,
+            "y": 411,
+            "w": 59,
+            "h": 32
+          },
+          "className": "custom-light-radio-button-wrapper"
+        }
+      }
+    }
+  },
+  {
+    "id": "02_smart_analysis-006",
+    "module": "智能分析",
+    "moduleId": "smart",
+    "submodule": "算法详情-人员入侵识别",
+    "label": "Tab_算法信息_操作_高检出",
+    "note": "在 算法信息 下点击或定位操作：高检出",
+    "url": "http://192.168.11.88:8081/app/main-app/dispatch/pre-processing/algo-info/#/algorithm-dispatch/pre-scheduling/algorithm-list-detail?algoInfo={%22algorithm_id%22:4,%22name%22:%22%E4%BA%BA%E5%91%98%E5%85%A5%E4%BE%B5%E8%AF%86%E5%88%AB%22,%22name_en%22:%22Person-Invasion%22,%22threshold%22:[],%22content%22:[{%22enable_special%22:true,%22value%22:1,%22text%22:%22%E4%BA%BA%E5%91%98%E5%85%A5%E4%BE%B5%E8%AF%86%E5%88%AB%22,%22type%22:%22classId%22,%22special_draw%22:{%22rect%22:{%22option%22:{%22color%22:[255,255,255]}}}}],%22paint%22:[{%22type%22:%22roi%22,%22whether%22:true,%22option%22:{%22thickness%22:2,%22color%22:[255,0,0],%22style%22:1}},{%22type%22:%22rect%22,%22whether%22:true,%22option%22:{%22thickness%22:2,%22color%22:[255,0,0],%22style%22:1}},{%22type%22:%22polygonList%22,%22whether%22:true,%22option%22:{%22thickness%22:2,%22color%22:[255,0,0],%22style%22:1}},{%22type%22:%22multiPointList%22,%22whether%22:true,%22option%22:{%22thickness%22:2,%22color%22:[255,0,0],%22style%22:1},%22other%22:[{%22type%22:%22head%22,%22whether%22:true,%22thickness%22:2,%22color%22:[0,0,255]},{%22type%22:%22hand%22,%22whether%22:true,%22thickness%22:2,%22color%22:[255,0,0]},{%22type%22:%22foot%22,%22whether%22:true,%22thickness%22:2,%22color%22:[0,255,0]},{%22type%22:%22body%22,%22whether%22:true,%22thickness%22:2,%22color%22:[0,255,255]}]},{%22type%22:%22text%22,%22whether%22:true,%22draw%22:[%22rect%22],%22option%22:{%22size%22:24,%22font%22:%22NotoSansCJKsc-Regular.otf%22,%22color%22:[255,255,255],%22background%22:[255,0,0]}},{%22type%22:%22ocr%22,%22whether%22:true,%22option%22:{%22color%22:[0,0,255]}}],%22degree%22:3,%22version%22:%22v17%22,%22voice_name%22:%22default.mp3%22,%22voice_url%22:%22%22,%22extra_data%22:{%22hd_split%22:{%22mode%22:%22sliding_window%22,%22res%22:[[1080,1920],[540,960]],%22stride%22:[[],[]],%22idx%22:0},%22channel_analysis_frame_rate%22:-1,%22roi_flag%22:false,%22roi_check%22:{%22type%22:%22roi%22,%22name%22:%22rois%22,%22vals%22:[{%22type%22:%22group%22,%22name%22:%22%22,%22check_items%22:[{%22name%22:%22count%22,%22vals%22:[0,1],%22rule%22:%22rule_count%22}],%22vals%22:[{%22type%22:%22polyset%22,%22name%22:%22polyset%22,%22vals%22:[{%22type%22:%22poly%22,%22name%22:%22%22,%22check_items%22:[{%22name%22:%22count%22,%22vals%22:[1,10],%22rule%22:%22rule_count%22}]}]}]}]},%22threshold_check%22:{%22type%22:%22param%22,%22name%22:%22params%22,%22check_items%22:[],%22vals%22:[{%22name%22:%22person_det_th%22,%22type%22:%22float%22,%22cn_name%22:%22%E8%A1%8C%E4%BA%BA%E6%A3%80%E6%B5%8B%E9%98%88%E5%80%BC%22,%22vals%22:[0.5,0.4,0.2],%22check_items%22:[{%22vals%22:[0,1],%22name%22:%22range%22,%22rule%22:%22rule_range%22}],%22important%22:true,%22modify%22:true,%22step%22:0.1,%22desc%22:%22%E8%B0%83%E5%B0%8F%EF%BC%8C%E5%8D%87%E6%A3%80%E5%87%BA%EF%BC%9B%E8%B0%83%E5%A4%A7%EF%BC%8C%E9%99%8D%E8%AF%AF%E6%8A%A5%22},{%22name%22:%22person_cls_th%22,%22type%22:%22float%22,%22cn_name%22:%22%E8%A1%8C%E4%BA%BA%E5%88%86%E7%B1%BB%E9%98%88%E5%80%BC%22,%22vals%22:[0.8,0.7,0],%22check_items%22:[{%22vals%22:[0,1],%22name%22:%22range%22,%22rule%22:%22rule_range%22}],%22important%22:true,%22modify%22:true,%22step%22:0.1,%22desc%22:%22%E8%B0%83%E5%B0%8F%EF%BC%8C%E5%8D%87%E6%A3%80%E5%87%BA%EF%BC%9B%E8%B0%83%E5%A4%A7%EF%BC%8C%E9%99%8D%E8%AF%AF%E6%8A%A5%22},{%22name%22:%22light_th%22,%22type%22:%22float%22,%22cn_name%22:%22%E4%BA%AE%E5%BA%A6%E9%98%88%E5%80%BC%22,%22vals%22:[0.5,0.1,0],%22check_items%22:[{%22vals%22:[0,1],%22name%22:%22range%22,%22rule%22:%22rule_range%22}],%22important%22:true,%22modify%22:true,%22step%22:0.01,%22desc%22:%22%E8%B0%83%E5%B0%8F%EF%BC%8C%E5%8D%87%E6%A3%80%E5%87%BA%EF%BC%9B%E8%B0%83%E5%A4%A7%EF%BC%8C%E9%99%8D%E8%AF%AF%E6%8A%A5%22},{%22name%22:%22blur_th%22,%22type%22:%22float%22,%22cn_name%22:%22%E6%A8%A1%E7%B3%8A%E9%98%88%E5%80%BC%22,%22vals%22:[2.5,1.5,0],%22check_items%22:[{%22vals%22:[0,5],%22name%22:%22range%22,%22rule%22:%22rule_range%22}],%22important%22:true,%22modify%22:true,%22step%22:0.1,%22desc%22:%22%E8%B0%83%E5%B0%8F%EF%BC%8C%E5%8D%87%E6%A3%80%E5%87%BA%EF%BC%9B%E8%B0%83%E5%A4%A7%EF%BC%8C%E9%99%8D%E8%AF%AF%E6%8A%A5%22},{%22name%22:%22head_size_th%22,%22type%22:%22int%22,%22cn_name%22:%22%E5%A4%B4%E5%A4%A7%E5%B0%8F%E9%98%88%E5%80%BC%22,%22vals%22:[10,10,0],%22check_items%22:[{%22vals%22:[0,100],%22name%22:%22range%22,%22rule%22:%22rule_range%22}],%22important%22:false,%22modify%22:true,%22step%22:1,%22desc%22:%22%E8%B0%83%E5%B0%8F%EF%BC%8C%E5%8D%87%E6%A3%80%E5%87%BA%EF%BC%9B%E8%B0%83%E5%A4%A7%EF%BC%8C%E9%99%8D%E8%AF%AF%E6%8A%A5%22}],%22alarm_rule%22:%22(person_det_score%3Eperson_det_th)%26%26(person_cls_score%3Eperson_cls_th)%26%26(light_score%3Elight_th)%26%26(blur_score%3Eblur_th)%26%26(head_size_score%3Ehead_size_th)%22},%22threshold_current%22:{%22type%22:%22param%22,%22name%22:%22params%22,%22vals%22:[{%22type%22:%22float%22,%22name%22:%22person_det_th%22,%22vals%22:[0.5,0.4,0.2]},{%22type%22:%22float%22,%22name%22:%22person_cls_th%22,%22vals%22:[0.8,0.7,0]},{%22type%22:%22float%22,%22name%22:%22light_th%22,%22vals%22:[0.5,0.1,0]},{%22type%22:%22float%22,%22name%22:%22blur_th%22,%22vals%22:[2.5,1.5,0]},{%22type%22:%22int%22,%22name%22:%22head_size_th%22,%22vals%22:[10,10,0]}],%22sensitivity%22:0,%22custom%22:false}},%22default_info%22:{%22name%22:%22%E4%BA%BA%E5%91%98%E5%85%A5%E4%BE%B5%E8%AF%86%E5%88%AB%22,%22name_en%22:%22Person-Invasion%22,%22degree%22:3,%22threshold%22:[]},%22voice_type%22:0,%22voice_tmpl%22:null,%22is_virtual%22:false,%22selectedKeys%22:[3]}",
+    "screenshot": "screenshots_focused/02_smart_analysis/006_算法详情-人员入侵识别_Tab_算法信息_操作_高检出.png",
+    "clip": {
+      "kind": "business",
+      "x": 280,
+      "y": 72,
+      "width": 1160,
+      "height": 928,
+      "scale": 1
+    },
+    "meta": {
+      "click": {
+        "ok": true,
+        "text": "高检出",
+        "found": {
+          "text": "高检出",
+          "rect": {
+            "x": 438,
+            "y": 411,
+            "w": 73,
+            "h": 32
+          },
+          "className": "custom-light-radio-button-wrapper"
+        }
+      }
+    }
+  },
+  {
+    "id": "02_smart_analysis-007",
+    "module": "智能分析",
+    "moduleId": "smart",
+    "submodule": "算法详情-人员入侵识别",
+    "label": "Tab_算法信息_操作_更多阈值",
+    "note": "在 算法信息 下点击或定位操作：更多阈值",
+    "url": "http://192.168.11.88:8081/app/main-app/dispatch/pre-processing/algo-info/#/algorithm-dispatch/pre-scheduling/algorithm-list-detail?algoInfo={%22algorithm_id%22:4,%22name%22:%22%E4%BA%BA%E5%91%98%E5%85%A5%E4%BE%B5%E8%AF%86%E5%88%AB%22,%22name_en%22:%22Person-Invasion%22,%22threshold%22:[],%22content%22:[{%22enable_special%22:true,%22value%22:1,%22text%22:%22%E4%BA%BA%E5%91%98%E5%85%A5%E4%BE%B5%E8%AF%86%E5%88%AB%22,%22type%22:%22classId%22,%22special_draw%22:{%22rect%22:{%22option%22:{%22color%22:[255,255,255]}}}}],%22paint%22:[{%22type%22:%22roi%22,%22whether%22:true,%22option%22:{%22thickness%22:2,%22color%22:[255,0,0],%22style%22:1}},{%22type%22:%22rect%22,%22whether%22:true,%22option%22:{%22thickness%22:2,%22color%22:[255,0,0],%22style%22:1}},{%22type%22:%22polygonList%22,%22whether%22:true,%22option%22:{%22thickness%22:2,%22color%22:[255,0,0],%22style%22:1}},{%22type%22:%22multiPointList%22,%22whether%22:true,%22option%22:{%22thickness%22:2,%22color%22:[255,0,0],%22style%22:1},%22other%22:[{%22type%22:%22head%22,%22whether%22:true,%22thickness%22:2,%22color%22:[0,0,255]},{%22type%22:%22hand%22,%22whether%22:true,%22thickness%22:2,%22color%22:[255,0,0]},{%22type%22:%22foot%22,%22whether%22:true,%22thickness%22:2,%22color%22:[0,255,0]},{%22type%22:%22body%22,%22whether%22:true,%22thickness%22:2,%22color%22:[0,255,255]}]},{%22type%22:%22text%22,%22whether%22:true,%22draw%22:[%22rect%22],%22option%22:{%22size%22:24,%22font%22:%22NotoSansCJKsc-Regular.otf%22,%22color%22:[255,255,255],%22background%22:[255,0,0]}},{%22type%22:%22ocr%22,%22whether%22:true,%22option%22:{%22color%22:[0,0,255]}}],%22degree%22:3,%22version%22:%22v17%22,%22voice_name%22:%22default.mp3%22,%22voice_url%22:%22%22,%22extra_data%22:{%22hd_split%22:{%22mode%22:%22sliding_window%22,%22res%22:[[1080,1920],[540,960]],%22stride%22:[[],[]],%22idx%22:0},%22channel_analysis_frame_rate%22:-1,%22roi_flag%22:false,%22roi_check%22:{%22type%22:%22roi%22,%22name%22:%22rois%22,%22vals%22:[{%22type%22:%22group%22,%22name%22:%22%22,%22check_items%22:[{%22name%22:%22count%22,%22vals%22:[0,1],%22rule%22:%22rule_count%22}],%22vals%22:[{%22type%22:%22polyset%22,%22name%22:%22polyset%22,%22vals%22:[{%22type%22:%22poly%22,%22name%22:%22%22,%22check_items%22:[{%22name%22:%22count%22,%22vals%22:[1,10],%22rule%22:%22rule_count%22}]}]}]}]},%22threshold_check%22:{%22type%22:%22param%22,%22name%22:%22params%22,%22check_items%22:[],%22vals%22:[{%22name%22:%22person_det_th%22,%22type%22:%22float%22,%22cn_name%22:%22%E8%A1%8C%E4%BA%BA%E6%A3%80%E6%B5%8B%E9%98%88%E5%80%BC%22,%22vals%22:[0.5,0.4,0.2],%22check_items%22:[{%22vals%22:[0,1],%22name%22:%22range%22,%22rule%22:%22rule_range%22}],%22important%22:true,%22modify%22:true,%22step%22:0.1,%22desc%22:%22%E8%B0%83%E5%B0%8F%EF%BC%8C%E5%8D%87%E6%A3%80%E5%87%BA%EF%BC%9B%E8%B0%83%E5%A4%A7%EF%BC%8C%E9%99%8D%E8%AF%AF%E6%8A%A5%22},{%22name%22:%22person_cls_th%22,%22type%22:%22float%22,%22cn_name%22:%22%E8%A1%8C%E4%BA%BA%E5%88%86%E7%B1%BB%E9%98%88%E5%80%BC%22,%22vals%22:[0.8,0.7,0],%22check_items%22:[{%22vals%22:[0,1],%22name%22:%22range%22,%22rule%22:%22rule_range%22}],%22important%22:true,%22modify%22:true,%22step%22:0.1,%22desc%22:%22%E8%B0%83%E5%B0%8F%EF%BC%8C%E5%8D%87%E6%A3%80%E5%87%BA%EF%BC%9B%E8%B0%83%E5%A4%A7%EF%BC%8C%E9%99%8D%E8%AF%AF%E6%8A%A5%22},{%22name%22:%22light_th%22,%22type%22:%22float%22,%22cn_name%22:%22%E4%BA%AE%E5%BA%A6%E9%98%88%E5%80%BC%22,%22vals%22:[0.5,0.1,0],%22check_items%22:[{%22vals%22:[0,1],%22name%22:%22range%22,%22rule%22:%22rule_range%22}],%22important%22:true,%22modify%22:true,%22step%22:0.01,%22desc%22:%22%E8%B0%83%E5%B0%8F%EF%BC%8C%E5%8D%87%E6%A3%80%E5%87%BA%EF%BC%9B%E8%B0%83%E5%A4%A7%EF%BC%8C%E9%99%8D%E8%AF%AF%E6%8A%A5%22},{%22name%22:%22blur_th%22,%22type%22:%22float%22,%22cn_name%22:%22%E6%A8%A1%E7%B3%8A%E9%98%88%E5%80%BC%22,%22vals%22:[2.5,1.5,0],%22check_items%22:[{%22vals%22:[0,5],%22name%22:%22range%22,%22rule%22:%22rule_range%22}],%22important%22:true,%22modify%22:true,%22step%22:0.1,%22desc%22:%22%E8%B0%83%E5%B0%8F%EF%BC%8C%E5%8D%87%E6%A3%80%E5%87%BA%EF%BC%9B%E8%B0%83%E5%A4%A7%EF%BC%8C%E9%99%8D%E8%AF%AF%E6%8A%A5%22},{%22name%22:%22head_size_th%22,%22type%22:%22int%22,%22cn_name%22:%22%E5%A4%B4%E5%A4%A7%E5%B0%8F%E9%98%88%E5%80%BC%22,%22vals%22:[10,10,0],%22check_items%22:[{%22vals%22:[0,100],%22name%22:%22range%22,%22rule%22:%22rule_range%22}],%22important%22:false,%22modify%22:true,%22step%22:1,%22desc%22:%22%E8%B0%83%E5%B0%8F%EF%BC%8C%E5%8D%87%E6%A3%80%E5%87%BA%EF%BC%9B%E8%B0%83%E5%A4%A7%EF%BC%8C%E9%99%8D%E8%AF%AF%E6%8A%A5%22}],%22alarm_rule%22:%22(person_det_score%3Eperson_det_th)%26%26(person_cls_score%3Eperson_cls_th)%26%26(light_score%3Elight_th)%26%26(blur_score%3Eblur_th)%26%26(head_size_score%3Ehead_size_th)%22},%22threshold_current%22:{%22type%22:%22param%22,%22name%22:%22params%22,%22vals%22:[{%22type%22:%22float%22,%22name%22:%22person_det_th%22,%22vals%22:[0.5,0.4,0.2]},{%22type%22:%22float%22,%22name%22:%22person_cls_th%22,%22vals%22:[0.8,0.7,0]},{%22type%22:%22float%22,%22name%22:%22light_th%22,%22vals%22:[0.5,0.1,0]},{%22type%22:%22float%22,%22name%22:%22blur_th%22,%22vals%22:[2.5,1.5,0]},{%22type%22:%22int%22,%22name%22:%22head_size_th%22,%22vals%22:[10,10,0]}],%22sensitivity%22:0,%22custom%22:false}},%22default_info%22:{%22name%22:%22%E4%BA%BA%E5%91%98%E5%85%A5%E4%BE%B5%E8%AF%86%E5%88%AB%22,%22name_en%22:%22Person-Invasion%22,%22degree%22:3,%22threshold%22:[]},%22voice_type%22:0,%22voice_tmpl%22:null,%22is_virtual%22:false,%22selectedKeys%22:[3]}",
+    "screenshot": "screenshots_focused/02_smart_analysis/007_算法详情-人员入侵识别_Tab_算法信息_操作_更多阈值.png",
+    "clip": {
+      "kind": "business",
+      "x": 280,
+      "y": 72,
+      "width": 1160,
+      "height": 928,
+      "scale": 1
+    },
+    "meta": {
+      "click": {
+        "ok": true,
+        "text": "更多阈值",
+        "found": {
+          "text": "更多阈值",
+          "rect": {
+            "x": 317,
+            "y": 873,
+            "w": 1098,
+            "h": 20
+          },
+          "className": "collapse-btn flex-v-c"
+        }
+      }
+    }
+  },
+  {
+    "id": "02_smart_analysis-008",
+    "module": "智能分析",
+    "moduleId": "smart",
+    "submodule": "算法详情-人员入侵识别",
+    "label": "Tab_算法信息_操作_保存",
+    "note": "在 算法信息 下点击或定位操作：保存；该操作可能产生数据或配置变更，采集时仅悬停定位",
+    "url": "http://192.168.11.88:8081/app/main-app/dispatch/pre-processing/algo-info/#/algorithm-dispatch/pre-scheduling/algorithm-list-detail?algoInfo={%22algorithm_id%22:4,%22name%22:%22%E4%BA%BA%E5%91%98%E5%85%A5%E4%BE%B5%E8%AF%86%E5%88%AB%22,%22name_en%22:%22Person-Invasion%22,%22threshold%22:[],%22content%22:[{%22enable_special%22:true,%22value%22:1,%22text%22:%22%E4%BA%BA%E5%91%98%E5%85%A5%E4%BE%B5%E8%AF%86%E5%88%AB%22,%22type%22:%22classId%22,%22special_draw%22:{%22rect%22:{%22option%22:{%22color%22:[255,255,255]}}}}],%22paint%22:[{%22type%22:%22roi%22,%22whether%22:true,%22option%22:{%22thickness%22:2,%22color%22:[255,0,0],%22style%22:1}},{%22type%22:%22rect%22,%22whether%22:true,%22option%22:{%22thickness%22:2,%22color%22:[255,0,0],%22style%22:1}},{%22type%22:%22polygonList%22,%22whether%22:true,%22option%22:{%22thickness%22:2,%22color%22:[255,0,0],%22style%22:1}},{%22type%22:%22multiPointList%22,%22whether%22:true,%22option%22:{%22thickness%22:2,%22color%22:[255,0,0],%22style%22:1},%22other%22:[{%22type%22:%22head%22,%22whether%22:true,%22thickness%22:2,%22color%22:[0,0,255]},{%22type%22:%22hand%22,%22whether%22:true,%22thickness%22:2,%22color%22:[255,0,0]},{%22type%22:%22foot%22,%22whether%22:true,%22thickness%22:2,%22color%22:[0,255,0]},{%22type%22:%22body%22,%22whether%22:true,%22thickness%22:2,%22color%22:[0,255,255]}]},{%22type%22:%22text%22,%22whether%22:true,%22draw%22:[%22rect%22],%22option%22:{%22size%22:24,%22font%22:%22NotoSansCJKsc-Regular.otf%22,%22color%22:[255,255,255],%22background%22:[255,0,0]}},{%22type%22:%22ocr%22,%22whether%22:true,%22option%22:{%22color%22:[0,0,255]}}],%22degree%22:3,%22version%22:%22v17%22,%22voice_name%22:%22default.mp3%22,%22voice_url%22:%22%22,%22extra_data%22:{%22hd_split%22:{%22mode%22:%22sliding_window%22,%22res%22:[[1080,1920],[540,960]],%22stride%22:[[],[]],%22idx%22:0},%22channel_analysis_frame_rate%22:-1,%22roi_flag%22:false,%22roi_check%22:{%22type%22:%22roi%22,%22name%22:%22rois%22,%22vals%22:[{%22type%22:%22group%22,%22name%22:%22%22,%22check_items%22:[{%22name%22:%22count%22,%22vals%22:[0,1],%22rule%22:%22rule_count%22}],%22vals%22:[{%22type%22:%22polyset%22,%22name%22:%22polyset%22,%22vals%22:[{%22type%22:%22poly%22,%22name%22:%22%22,%22check_items%22:[{%22name%22:%22count%22,%22vals%22:[1,10],%22rule%22:%22rule_count%22}]}]}]}]},%22threshold_check%22:{%22type%22:%22param%22,%22name%22:%22params%22,%22check_items%22:[],%22vals%22:[{%22name%22:%22person_det_th%22,%22type%22:%22float%22,%22cn_name%22:%22%E8%A1%8C%E4%BA%BA%E6%A3%80%E6%B5%8B%E9%98%88%E5%80%BC%22,%22vals%22:[0.5,0.4,0.2],%22check_items%22:[{%22vals%22:[0,1],%22name%22:%22range%22,%22rule%22:%22rule_range%22}],%22important%22:true,%22modify%22:true,%22step%22:0.1,%22desc%22:%22%E8%B0%83%E5%B0%8F%EF%BC%8C%E5%8D%87%E6%A3%80%E5%87%BA%EF%BC%9B%E8%B0%83%E5%A4%A7%EF%BC%8C%E9%99%8D%E8%AF%AF%E6%8A%A5%22},{%22name%22:%22person_cls_th%22,%22type%22:%22float%22,%22cn_name%22:%22%E8%A1%8C%E4%BA%BA%E5%88%86%E7%B1%BB%E9%98%88%E5%80%BC%22,%22vals%22:[0.8,0.7,0],%22check_items%22:[{%22vals%22:[0,1],%22name%22:%22range%22,%22rule%22:%22rule_range%22}],%22important%22:true,%22modify%22:true,%22step%22:0.1,%22desc%22:%22%E8%B0%83%E5%B0%8F%EF%BC%8C%E5%8D%87%E6%A3%80%E5%87%BA%EF%BC%9B%E8%B0%83%E5%A4%A7%EF%BC%8C%E9%99%8D%E8%AF%AF%E6%8A%A5%22},{%22name%22:%22light_th%22,%22type%22:%22float%22,%22cn_name%22:%22%E4%BA%AE%E5%BA%A6%E9%98%88%E5%80%BC%22,%22vals%22:[0.5,0.1,0],%22check_items%22:[{%22vals%22:[0,1],%22name%22:%22range%22,%22rule%22:%22rule_range%22}],%22important%22:true,%22modify%22:true,%22step%22:0.01,%22desc%22:%22%E8%B0%83%E5%B0%8F%EF%BC%8C%E5%8D%87%E6%A3%80%E5%87%BA%EF%BC%9B%E8%B0%83%E5%A4%A7%EF%BC%8C%E9%99%8D%E8%AF%AF%E6%8A%A5%22},{%22name%22:%22blur_th%22,%22type%22:%22float%22,%22cn_name%22:%22%E6%A8%A1%E7%B3%8A%E9%98%88%E5%80%BC%22,%22vals%22:[2.5,1.5,0],%22check_items%22:[{%22vals%22:[0,5],%22name%22:%22range%22,%22rule%22:%22rule_range%22}],%22important%22:true,%22modify%22:true,%22step%22:0.1,%22desc%22:%22%E8%B0%83%E5%B0%8F%EF%BC%8C%E5%8D%87%E6%A3%80%E5%87%BA%EF%BC%9B%E8%B0%83%E5%A4%A7%EF%BC%8C%E9%99%8D%E8%AF%AF%E6%8A%A5%22},{%22name%22:%22head_size_th%22,%22type%22:%22int%22,%22cn_name%22:%22%E5%A4%B4%E5%A4%A7%E5%B0%8F%E9%98%88%E5%80%BC%22,%22vals%22:[10,10,0],%22check_items%22:[{%22vals%22:[0,100],%22name%22:%22range%22,%22rule%22:%22rule_range%22}],%22important%22:false,%22modify%22:true,%22step%22:1,%22desc%22:%22%E8%B0%83%E5%B0%8F%EF%BC%8C%E5%8D%87%E6%A3%80%E5%87%BA%EF%BC%9B%E8%B0%83%E5%A4%A7%EF%BC%8C%E9%99%8D%E8%AF%AF%E6%8A%A5%22}],%22alarm_rule%22:%22(person_det_score%3Eperson_det_th)%26%26(person_cls_score%3Eperson_cls_th)%26%26(light_score%3Elight_th)%26%26(blur_score%3Eblur_th)%26%26(head_size_score%3Ehead_size_th)%22},%22threshold_current%22:{%22type%22:%22param%22,%22name%22:%22params%22,%22vals%22:[{%22type%22:%22float%22,%22name%22:%22person_det_th%22,%22vals%22:[0.5,0.4,0.2]},{%22type%22:%22float%22,%22name%22:%22person_cls_th%22,%22vals%22:[0.8,0.7,0]},{%22type%22:%22float%22,%22name%22:%22light_th%22,%22vals%22:[0.5,0.1,0]},{%22type%22:%22float%22,%22name%22:%22blur_th%22,%22vals%22:[2.5,1.5,0]},{%22type%22:%22int%22,%22name%22:%22head_size_th%22,%22vals%22:[10,10,0]}],%22sensitivity%22:0,%22custom%22:false}},%22default_info%22:{%22name%22:%22%E4%BA%BA%E5%91%98%E5%85%A5%E4%BE%B5%E8%AF%86%E5%88%AB%22,%22name_en%22:%22Person-Invasion%22,%22degree%22:3,%22threshold%22:[]},%22voice_type%22:0,%22voice_tmpl%22:null,%22is_virtual%22:false,%22selectedKeys%22:[3]}",
+    "screenshot": "screenshots_focused/02_smart_analysis/008_算法详情-人员入侵识别_Tab_算法信息_操作_保存.png",
+    "clip": {
+      "kind": "business",
+      "x": 280,
+      "y": 72,
+      "width": 1160,
+      "height": 928,
+      "scale": 1
+    },
+    "meta": {
+      "click": {
+        "ok": true,
+        "text": "保存",
+        "mode": "hover",
+        "found": {
+          "text": "保 存",
+          "rect": {
+            "x": 296,
+            "y": 958,
+            "w": 80,
+            "h": 32
+          },
+          "className": "custom-light-btn custom-light-btn-primary cr-btn-middle cr-btn"
+        },
+        "safeSkipped": true,
+        "reason": "可能产生保存、删除、安装、归档或配置变更，仅定位/悬停截图"
+      }
+    }
+  },
+  {
+    "id": "02_smart_analysis-009",
+    "module": "智能分析",
+    "moduleId": "smart",
+    "submodule": "算法详情-人员入侵识别",
+    "label": "Tab_绘制对象管理",
+    "note": "点击或切换 Tab/分段控件：绘制对象管理",
+    "url": "http://192.168.11.88:8081/app/main-app/dispatch/pre-processing/algo-info/#/algorithm-dispatch/pre-scheduling/algorithm-list-detail?algoInfo={%22algorithm_id%22:4,%22name%22:%22%E4%BA%BA%E5%91%98%E5%85%A5%E4%BE%B5%E8%AF%86%E5%88%AB%22,%22name_en%22:%22Person-Invasion%22,%22threshold%22:[],%22content%22:[{%22enable_special%22:true,%22value%22:1,%22text%22:%22%E4%BA%BA%E5%91%98%E5%85%A5%E4%BE%B5%E8%AF%86%E5%88%AB%22,%22type%22:%22classId%22,%22special_draw%22:{%22rect%22:{%22option%22:{%22color%22:[255,255,255]}}}}],%22paint%22:[{%22type%22:%22roi%22,%22whether%22:true,%22option%22:{%22thickness%22:2,%22color%22:[255,0,0],%22style%22:1}},{%22type%22:%22rect%22,%22whether%22:true,%22option%22:{%22thickness%22:2,%22color%22:[255,0,0],%22style%22:1}},{%22type%22:%22polygonList%22,%22whether%22:true,%22option%22:{%22thickness%22:2,%22color%22:[255,0,0],%22style%22:1}},{%22type%22:%22multiPointList%22,%22whether%22:true,%22option%22:{%22thickness%22:2,%22color%22:[255,0,0],%22style%22:1},%22other%22:[{%22type%22:%22head%22,%22whether%22:true,%22thickness%22:2,%22color%22:[0,0,255]},{%22type%22:%22hand%22,%22whether%22:true,%22thickness%22:2,%22color%22:[255,0,0]},{%22type%22:%22foot%22,%22whether%22:true,%22thickness%22:2,%22color%22:[0,255,0]},{%22type%22:%22body%22,%22whether%22:true,%22thickness%22:2,%22color%22:[0,255,255]}]},{%22type%22:%22text%22,%22whether%22:true,%22draw%22:[%22rect%22],%22option%22:{%22size%22:24,%22font%22:%22NotoSansCJKsc-Regular.otf%22,%22color%22:[255,255,255],%22background%22:[255,0,0]}},{%22type%22:%22ocr%22,%22whether%22:true,%22option%22:{%22color%22:[0,0,255]}}],%22degree%22:3,%22version%22:%22v17%22,%22voice_name%22:%22default.mp3%22,%22voice_url%22:%22%22,%22extra_data%22:{%22hd_split%22:{%22mode%22:%22sliding_window%22,%22res%22:[[1080,1920],[540,960]],%22stride%22:[[],[]],%22idx%22:0},%22channel_analysis_frame_rate%22:-1,%22roi_flag%22:false,%22roi_check%22:{%22type%22:%22roi%22,%22name%22:%22rois%22,%22vals%22:[{%22type%22:%22group%22,%22name%22:%22%22,%22check_items%22:[{%22name%22:%22count%22,%22vals%22:[0,1],%22rule%22:%22rule_count%22}],%22vals%22:[{%22type%22:%22polyset%22,%22name%22:%22polyset%22,%22vals%22:[{%22type%22:%22poly%22,%22name%22:%22%22,%22check_items%22:[{%22name%22:%22count%22,%22vals%22:[1,10],%22rule%22:%22rule_count%22}]}]}]}]},%22threshold_check%22:{%22type%22:%22param%22,%22name%22:%22params%22,%22check_items%22:[],%22vals%22:[{%22name%22:%22person_det_th%22,%22type%22:%22float%22,%22cn_name%22:%22%E8%A1%8C%E4%BA%BA%E6%A3%80%E6%B5%8B%E9%98%88%E5%80%BC%22,%22vals%22:[0.5,0.4,0.2],%22check_items%22:[{%22vals%22:[0,1],%22name%22:%22range%22,%22rule%22:%22rule_range%22}],%22important%22:true,%22modify%22:true,%22step%22:0.1,%22desc%22:%22%E8%B0%83%E5%B0%8F%EF%BC%8C%E5%8D%87%E6%A3%80%E5%87%BA%EF%BC%9B%E8%B0%83%E5%A4%A7%EF%BC%8C%E9%99%8D%E8%AF%AF%E6%8A%A5%22},{%22name%22:%22person_cls_th%22,%22type%22:%22float%22,%22cn_name%22:%22%E8%A1%8C%E4%BA%BA%E5%88%86%E7%B1%BB%E9%98%88%E5%80%BC%22,%22vals%22:[0.8,0.7,0],%22check_items%22:[{%22vals%22:[0,1],%22name%22:%22range%22,%22rule%22:%22rule_range%22}],%22important%22:true,%22modify%22:true,%22step%22:0.1,%22desc%22:%22%E8%B0%83%E5%B0%8F%EF%BC%8C%E5%8D%87%E6%A3%80%E5%87%BA%EF%BC%9B%E8%B0%83%E5%A4%A7%EF%BC%8C%E9%99%8D%E8%AF%AF%E6%8A%A5%22},{%22name%22:%22light_th%22,%22type%22:%22float%22,%22cn_name%22:%22%E4%BA%AE%E5%BA%A6%E9%98%88%E5%80%BC%22,%22vals%22:[0.5,0.1,0],%22check_items%22:[{%22vals%22:[0,1],%22name%22:%22range%22,%22rule%22:%22rule_range%22}],%22important%22:true,%22modify%22:true,%22step%22:0.01,%22desc%22:%22%E8%B0%83%E5%B0%8F%EF%BC%8C%E5%8D%87%E6%A3%80%E5%87%BA%EF%BC%9B%E8%B0%83%E5%A4%A7%EF%BC%8C%E9%99%8D%E8%AF%AF%E6%8A%A5%22},{%22name%22:%22blur_th%22,%22type%22:%22float%22,%22cn_name%22:%22%E6%A8%A1%E7%B3%8A%E9%98%88%E5%80%BC%22,%22vals%22:[2.5,1.5,0],%22check_items%22:[{%22vals%22:[0,5],%22name%22:%22range%22,%22rule%22:%22rule_range%22}],%22important%22:true,%22modify%22:true,%22step%22:0.1,%22desc%22:%22%E8%B0%83%E5%B0%8F%EF%BC%8C%E5%8D%87%E6%A3%80%E5%87%BA%EF%BC%9B%E8%B0%83%E5%A4%A7%EF%BC%8C%E9%99%8D%E8%AF%AF%E6%8A%A5%22},{%22name%22:%22head_size_th%22,%22type%22:%22int%22,%22cn_name%22:%22%E5%A4%B4%E5%A4%A7%E5%B0%8F%E9%98%88%E5%80%BC%22,%22vals%22:[10,10,0],%22check_items%22:[{%22vals%22:[0,100],%22name%22:%22range%22,%22rule%22:%22rule_range%22}],%22important%22:false,%22modify%22:true,%22step%22:1,%22desc%22:%22%E8%B0%83%E5%B0%8F%EF%BC%8C%E5%8D%87%E6%A3%80%E5%87%BA%EF%BC%9B%E8%B0%83%E5%A4%A7%EF%BC%8C%E9%99%8D%E8%AF%AF%E6%8A%A5%22}],%22alarm_rule%22:%22(person_det_score%3Eperson_det_th)%26%26(person_cls_score%3Eperson_cls_th)%26%26(light_score%3Elight_th)%26%26(blur_score%3Eblur_th)%26%26(head_size_score%3Ehead_size_th)%22},%22threshold_current%22:{%22type%22:%22param%22,%22name%22:%22params%22,%22vals%22:[{%22type%22:%22float%22,%22name%22:%22person_det_th%22,%22vals%22:[0.5,0.4,0.2]},{%22type%22:%22float%22,%22name%22:%22person_cls_th%22,%22vals%22:[0.8,0.7,0]},{%22type%22:%22float%22,%22name%22:%22light_th%22,%22vals%22:[0.5,0.1,0]},{%22type%22:%22float%22,%22name%22:%22blur_th%22,%22vals%22:[2.5,1.5,0]},{%22type%22:%22int%22,%22name%22:%22head_size_th%22,%22vals%22:[10,10,0]}],%22sensitivity%22:0,%22custom%22:false}},%22default_info%22:{%22name%22:%22%E4%BA%BA%E5%91%98%E5%85%A5%E4%BE%B5%E8%AF%86%E5%88%AB%22,%22name_en%22:%22Person-Invasion%22,%22degree%22:3,%22threshold%22:[]},%22voice_type%22:0,%22voice_tmpl%22:null,%22is_virtual%22:false,%22selectedKeys%22:[3]}",
+    "screenshot": "screenshots_focused/02_smart_analysis/009_算法详情-人员入侵识别_Tab_绘制对象管理.png",
+    "clip": {
+      "kind": "business",
+      "x": 280,
+      "y": 72,
+      "width": 1160,
+      "height": 928,
+      "scale": 1
+    },
+    "meta": {
+      "click": {
+        "ok": true,
+        "text": "绘制对象管理",
+        "found": {
+          "text": "绘制对象管理",
+          "rect": {
+            "x": 376,
+            "y": 142,
+            "w": 72,
+            "h": 19
+          },
+          "className": "custom-light-tabs-tab-btn"
+        }
+      }
+    }
+  },
+  {
+    "id": "02_smart_analysis-010",
+    "module": "智能分析",
+    "moduleId": "smart",
+    "submodule": "算法详情-人员入侵识别",
+    "label": "Tab_绘制对象管理_操作_新增",
+    "note": "在 绘制对象管理 下点击或定位操作：新增",
+    "url": "http://192.168.11.88:8081/app/main-app/dispatch/pre-processing/algo-info/#/algorithm-dispatch/pre-scheduling/algorithm-list-detail?algoInfo={%22algorithm_id%22:4,%22name%22:%22%E4%BA%BA%E5%91%98%E5%85%A5%E4%BE%B5%E8%AF%86%E5%88%AB%22,%22name_en%22:%22Person-Invasion%22,%22threshold%22:[],%22content%22:[{%22enable_special%22:true,%22value%22:1,%22text%22:%22%E4%BA%BA%E5%91%98%E5%85%A5%E4%BE%B5%E8%AF%86%E5%88%AB%22,%22type%22:%22classId%22,%22special_draw%22:{%22rect%22:{%22option%22:{%22color%22:[255,255,255]}}}}],%22paint%22:[{%22type%22:%22roi%22,%22whether%22:true,%22option%22:{%22thickness%22:2,%22color%22:[255,0,0],%22style%22:1}},{%22type%22:%22rect%22,%22whether%22:true,%22option%22:{%22thickness%22:2,%22color%22:[255,0,0],%22style%22:1}},{%22type%22:%22polygonList%22,%22whether%22:true,%22option%22:{%22thickness%22:2,%22color%22:[255,0,0],%22style%22:1}},{%22type%22:%22multiPointList%22,%22whether%22:true,%22option%22:{%22thickness%22:2,%22color%22:[255,0,0],%22style%22:1},%22other%22:[{%22type%22:%22head%22,%22whether%22:true,%22thickness%22:2,%22color%22:[0,0,255]},{%22type%22:%22hand%22,%22whether%22:true,%22thickness%22:2,%22color%22:[255,0,0]},{%22type%22:%22foot%22,%22whether%22:true,%22thickness%22:2,%22color%22:[0,255,0]},{%22type%22:%22body%22,%22whether%22:true,%22thickness%22:2,%22color%22:[0,255,255]}]},{%22type%22:%22text%22,%22whether%22:true,%22draw%22:[%22rect%22],%22option%22:{%22size%22:24,%22font%22:%22NotoSansCJKsc-Regular.otf%22,%22color%22:[255,255,255],%22background%22:[255,0,0]}},{%22type%22:%22ocr%22,%22whether%22:true,%22option%22:{%22color%22:[0,0,255]}}],%22degree%22:3,%22version%22:%22v17%22,%22voice_name%22:%22default.mp3%22,%22voice_url%22:%22%22,%22extra_data%22:{%22hd_split%22:{%22mode%22:%22sliding_window%22,%22res%22:[[1080,1920],[540,960]],%22stride%22:[[],[]],%22idx%22:0},%22channel_analysis_frame_rate%22:-1,%22roi_flag%22:false,%22roi_check%22:{%22type%22:%22roi%22,%22name%22:%22rois%22,%22vals%22:[{%22type%22:%22group%22,%22name%22:%22%22,%22check_items%22:[{%22name%22:%22count%22,%22vals%22:[0,1],%22rule%22:%22rule_count%22}],%22vals%22:[{%22type%22:%22polyset%22,%22name%22:%22polyset%22,%22vals%22:[{%22type%22:%22poly%22,%22name%22:%22%22,%22check_items%22:[{%22name%22:%22count%22,%22vals%22:[1,10],%22rule%22:%22rule_count%22}]}]}]}]},%22threshold_check%22:{%22type%22:%22param%22,%22name%22:%22params%22,%22check_items%22:[],%22vals%22:[{%22name%22:%22person_det_th%22,%22type%22:%22float%22,%22cn_name%22:%22%E8%A1%8C%E4%BA%BA%E6%A3%80%E6%B5%8B%E9%98%88%E5%80%BC%22,%22vals%22:[0.5,0.4,0.2],%22check_items%22:[{%22vals%22:[0,1],%22name%22:%22range%22,%22rule%22:%22rule_range%22}],%22important%22:true,%22modify%22:true,%22step%22:0.1,%22desc%22:%22%E8%B0%83%E5%B0%8F%EF%BC%8C%E5%8D%87%E6%A3%80%E5%87%BA%EF%BC%9B%E8%B0%83%E5%A4%A7%EF%BC%8C%E9%99%8D%E8%AF%AF%E6%8A%A5%22},{%22name%22:%22person_cls_th%22,%22type%22:%22float%22,%22cn_name%22:%22%E8%A1%8C%E4%BA%BA%E5%88%86%E7%B1%BB%E9%98%88%E5%80%BC%22,%22vals%22:[0.8,0.7,0],%22check_items%22:[{%22vals%22:[0,1],%22name%22:%22range%22,%22rule%22:%22rule_range%22}],%22important%22:true,%22modify%22:true,%22step%22:0.1,%22desc%22:%22%E8%B0%83%E5%B0%8F%EF%BC%8C%E5%8D%87%E6%A3%80%E5%87%BA%EF%BC%9B%E8%B0%83%E5%A4%A7%EF%BC%8C%E9%99%8D%E8%AF%AF%E6%8A%A5%22},{%22name%22:%22light_th%22,%22type%22:%22float%22,%22cn_name%22:%22%E4%BA%AE%E5%BA%A6%E9%98%88%E5%80%BC%22,%22vals%22:[0.5,0.1,0],%22check_items%22:[{%22vals%22:[0,1],%22name%22:%22range%22,%22rule%22:%22rule_range%22}],%22important%22:true,%22modify%22:true,%22step%22:0.01,%22desc%22:%22%E8%B0%83%E5%B0%8F%EF%BC%8C%E5%8D%87%E6%A3%80%E5%87%BA%EF%BC%9B%E8%B0%83%E5%A4%A7%EF%BC%8C%E9%99%8D%E8%AF%AF%E6%8A%A5%22},{%22name%22:%22blur_th%22,%22type%22:%22float%22,%22cn_name%22:%22%E6%A8%A1%E7%B3%8A%E9%98%88%E5%80%BC%22,%22vals%22:[2.5,1.5,0],%22check_items%22:[{%22vals%22:[0,5],%22name%22:%22range%22,%22rule%22:%22rule_range%22}],%22important%22:true,%22modify%22:true,%22step%22:0.1,%22desc%22:%22%E8%B0%83%E5%B0%8F%EF%BC%8C%E5%8D%87%E6%A3%80%E5%87%BA%EF%BC%9B%E8%B0%83%E5%A4%A7%EF%BC%8C%E9%99%8D%E8%AF%AF%E6%8A%A5%22},{%22name%22:%22head_size_th%22,%22type%22:%22int%22,%22cn_name%22:%22%E5%A4%B4%E5%A4%A7%E5%B0%8F%E9%98%88%E5%80%BC%22,%22vals%22:[10,10,0],%22check_items%22:[{%22vals%22:[0,100],%22name%22:%22range%22,%22rule%22:%22rule_range%22}],%22important%22:false,%22modify%22:true,%22step%22:1,%22desc%22:%22%E8%B0%83%E5%B0%8F%EF%BC%8C%E5%8D%87%E6%A3%80%E5%87%BA%EF%BC%9B%E8%B0%83%E5%A4%A7%EF%BC%8C%E9%99%8D%E8%AF%AF%E6%8A%A5%22}],%22alarm_rule%22:%22(person_det_score%3Eperson_det_th)%26%26(person_cls_score%3Eperson_cls_th)%26%26(light_score%3Elight_th)%26%26(blur_score%3Eblur_th)%26%26(head_size_score%3Ehead_size_th)%22},%22threshold_current%22:{%22type%22:%22param%22,%22name%22:%22params%22,%22vals%22:[{%22type%22:%22float%22,%22name%22:%22person_det_th%22,%22vals%22:[0.5,0.4,0.2]},{%22type%22:%22float%22,%22name%22:%22person_cls_th%22,%22vals%22:[0.8,0.7,0]},{%22type%22:%22float%22,%22name%22:%22light_th%22,%22vals%22:[0.5,0.1,0]},{%22type%22:%22float%22,%22name%22:%22blur_th%22,%22vals%22:[2.5,1.5,0]},{%22type%22:%22int%22,%22name%22:%22head_size_th%22,%22vals%22:[10,10,0]}],%22sensitivity%22:0,%22custom%22:false}},%22default_info%22:{%22name%22:%22%E4%BA%BA%E5%91%98%E5%85%A5%E4%BE%B5%E8%AF%86%E5%88%AB%22,%22name_en%22:%22Person-Invasion%22,%22degree%22:3,%22threshold%22:[]},%22voice_type%22:0,%22voice_tmpl%22:null,%22is_virtual%22:false,%22selectedKeys%22:[3]}",
+    "screenshot": "screenshots_focused/02_smart_analysis/010_算法详情-人员入侵识别_Tab_绘制对象管理_操作_新增.png",
+    "clip": {
+      "kind": "business",
+      "x": 280,
+      "y": 72,
+      "width": 1160,
+      "height": 928,
+      "scale": 1
+    },
+    "meta": {
+      "click": {
+        "ok": true,
+        "text": "新增",
+        "found": {
+          "text": "新增",
+          "rect": {
+            "x": 362,
+            "y": 178,
+            "w": 70,
+            "h": 28
+          },
+          "className": "custom-light-btn custom-light-btn-text custom-light-btn-sm cr-btn-small cr-btn"
+        }
+      }
+    }
+  },
+  {
+    "id": "02_smart_analysis-011",
+    "module": "智能分析",
+    "moduleId": "smart",
+    "submodule": "算法详情-人员入侵识别",
+    "label": "Tab_绘制对象管理_操作_导入",
+    "note": "在 绘制对象管理 下点击或定位操作：导入",
+    "url": "http://192.168.11.88:8081/app/main-app/dispatch/pre-processing/algo-info/#/algorithm-dispatch/pre-scheduling/algorithm-list-detail?algoInfo={%22algorithm_id%22:4,%22name%22:%22%E4%BA%BA%E5%91%98%E5%85%A5%E4%BE%B5%E8%AF%86%E5%88%AB%22,%22name_en%22:%22Person-Invasion%22,%22threshold%22:[],%22content%22:[{%22enable_special%22:true,%22value%22:1,%22text%22:%22%E4%BA%BA%E5%91%98%E5%85%A5%E4%BE%B5%E8%AF%86%E5%88%AB%22,%22type%22:%22classId%22,%22special_draw%22:{%22rect%22:{%22option%22:{%22color%22:[255,255,255]}}}}],%22paint%22:[{%22type%22:%22roi%22,%22whether%22:true,%22option%22:{%22thickness%22:2,%22color%22:[255,0,0],%22style%22:1}},{%22type%22:%22rect%22,%22whether%22:true,%22option%22:{%22thickness%22:2,%22color%22:[255,0,0],%22style%22:1}},{%22type%22:%22polygonList%22,%22whether%22:true,%22option%22:{%22thickness%22:2,%22color%22:[255,0,0],%22style%22:1}},{%22type%22:%22multiPointList%22,%22whether%22:true,%22option%22:{%22thickness%22:2,%22color%22:[255,0,0],%22style%22:1},%22other%22:[{%22type%22:%22head%22,%22whether%22:true,%22thickness%22:2,%22color%22:[0,0,255]},{%22type%22:%22hand%22,%22whether%22:true,%22thickness%22:2,%22color%22:[255,0,0]},{%22type%22:%22foot%22,%22whether%22:true,%22thickness%22:2,%22color%22:[0,255,0]},{%22type%22:%22body%22,%22whether%22:true,%22thickness%22:2,%22color%22:[0,255,255]}]},{%22type%22:%22text%22,%22whether%22:true,%22draw%22:[%22rect%22],%22option%22:{%22size%22:24,%22font%22:%22NotoSansCJKsc-Regular.otf%22,%22color%22:[255,255,255],%22background%22:[255,0,0]}},{%22type%22:%22ocr%22,%22whether%22:true,%22option%22:{%22color%22:[0,0,255]}}],%22degree%22:3,%22version%22:%22v17%22,%22voice_name%22:%22default.mp3%22,%22voice_url%22:%22%22,%22extra_data%22:{%22hd_split%22:{%22mode%22:%22sliding_window%22,%22res%22:[[1080,1920],[540,960]],%22stride%22:[[],[]],%22idx%22:0},%22channel_analysis_frame_rate%22:-1,%22roi_flag%22:false,%22roi_check%22:{%22type%22:%22roi%22,%22name%22:%22rois%22,%22vals%22:[{%22type%22:%22group%22,%22name%22:%22%22,%22check_items%22:[{%22name%22:%22count%22,%22vals%22:[0,1],%22rule%22:%22rule_count%22}],%22vals%22:[{%22type%22:%22polyset%22,%22name%22:%22polyset%22,%22vals%22:[{%22type%22:%22poly%22,%22name%22:%22%22,%22check_items%22:[{%22name%22:%22count%22,%22vals%22:[1,10],%22rule%22:%22rule_count%22}]}]}]}]},%22threshold_check%22:{%22type%22:%22param%22,%22name%22:%22params%22,%22check_items%22:[],%22vals%22:[{%22name%22:%22person_det_th%22,%22type%22:%22float%22,%22cn_name%22:%22%E8%A1%8C%E4%BA%BA%E6%A3%80%E6%B5%8B%E9%98%88%E5%80%BC%22,%22vals%22:[0.5,0.4,0.2],%22check_items%22:[{%22vals%22:[0,1],%22name%22:%22range%22,%22rule%22:%22rule_range%22}],%22important%22:true,%22modify%22:true,%22step%22:0.1,%22desc%22:%22%E8%B0%83%E5%B0%8F%EF%BC%8C%E5%8D%87%E6%A3%80%E5%87%BA%EF%BC%9B%E8%B0%83%E5%A4%A7%EF%BC%8C%E9%99%8D%E8%AF%AF%E6%8A%A5%22},{%22name%22:%22person_cls_th%22,%22type%22:%22float%22,%22cn_name%22:%22%E8%A1%8C%E4%BA%BA%E5%88%86%E7%B1%BB%E9%98%88%E5%80%BC%22,%22vals%22:[0.8,0.7,0],%22check_items%22:[{%22vals%22:[0,1],%22name%22:%22range%22,%22rule%22:%22rule_range%22}],%22important%22:true,%22modify%22:true,%22step%22:0.1,%22desc%22:%22%E8%B0%83%E5%B0%8F%EF%BC%8C%E5%8D%87%E6%A3%80%E5%87%BA%EF%BC%9B%E8%B0%83%E5%A4%A7%EF%BC%8C%E9%99%8D%E8%AF%AF%E6%8A%A5%22},{%22name%22:%22light_th%22,%22type%22:%22float%22,%22cn_name%22:%22%E4%BA%AE%E5%BA%A6%E9%98%88%E5%80%BC%22,%22vals%22:[0.5,0.1,0],%22check_items%22:[{%22vals%22:[0,1],%22name%22:%22range%22,%22rule%22:%22rule_range%22}],%22important%22:true,%22modify%22:true,%22step%22:0.01,%22desc%22:%22%E8%B0%83%E5%B0%8F%EF%BC%8C%E5%8D%87%E6%A3%80%E5%87%BA%EF%BC%9B%E8%B0%83%E5%A4%A7%EF%BC%8C%E9%99%8D%E8%AF%AF%E6%8A%A5%22},{%22name%22:%22blur_th%22,%22type%22:%22float%22,%22cn_name%22:%22%E6%A8%A1%E7%B3%8A%E9%98%88%E5%80%BC%22,%22vals%22:[2.5,1.5,0],%22check_items%22:[{%22vals%22:[0,5],%22name%22:%22range%22,%22rule%22:%22rule_range%22}],%22important%22:true,%22modify%22:true,%22step%22:0.1,%22desc%22:%22%E8%B0%83%E5%B0%8F%EF%BC%8C%E5%8D%87%E6%A3%80%E5%87%BA%EF%BC%9B%E8%B0%83%E5%A4%A7%EF%BC%8C%E9%99%8D%E8%AF%AF%E6%8A%A5%22},{%22name%22:%22head_size_th%22,%22type%22:%22int%22,%22cn_name%22:%22%E5%A4%B4%E5%A4%A7%E5%B0%8F%E9%98%88%E5%80%BC%22,%22vals%22:[10,10,0],%22check_items%22:[{%22vals%22:[0,100],%22name%22:%22range%22,%22rule%22:%22rule_range%22}],%22important%22:false,%22modify%22:true,%22step%22:1,%22desc%22:%22%E8%B0%83%E5%B0%8F%EF%BC%8C%E5%8D%87%E6%A3%80%E5%87%BA%EF%BC%9B%E8%B0%83%E5%A4%A7%EF%BC%8C%E9%99%8D%E8%AF%AF%E6%8A%A5%22}],%22alarm_rule%22:%22(person_det_score%3Eperson_det_th)%26%26(person_cls_score%3Eperson_cls_th)%26%26(light_score%3Elight_th)%26%26(blur_score%3Eblur_th)%26%26(head_size_score%3Ehead_size_th)%22},%22threshold_current%22:{%22type%22:%22param%22,%22name%22:%22params%22,%22vals%22:[{%22type%22:%22float%22,%22name%22:%22person_det_th%22,%22vals%22:[0.5,0.4,0.2]},{%22type%22:%22float%22,%22name%22:%22person_cls_th%22,%22vals%22:[0.8,0.7,0]},{%22type%22:%22float%22,%22name%22:%22light_th%22,%22vals%22:[0.5,0.1,0]},{%22type%22:%22float%22,%22name%22:%22blur_th%22,%22vals%22:[2.5,1.5,0]},{%22type%22:%22int%22,%22name%22:%22head_size_th%22,%22vals%22:[10,10,0]}],%22sensitivity%22:0,%22custom%22:false}},%22default_info%22:{%22name%22:%22%E4%BA%BA%E5%91%98%E5%85%A5%E4%BE%B5%E8%AF%86%E5%88%AB%22,%22name_en%22:%22Person-Invasion%22,%22degree%22:3,%22threshold%22:[]},%22voice_type%22:0,%22voice_tmpl%22:null,%22is_virtual%22:false,%22selectedKeys%22:[3]}",
+    "screenshot": "screenshots_focused/02_smart_analysis/011_算法详情-人员入侵识别_Tab_绘制对象管理_操作_导入.png",
+    "clip": {
+      "kind": "overlay",
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 1000,
+      "scale": 1
+    },
+    "meta": {
+      "click": {
+        "ok": true,
+        "text": "导入",
+        "found": {
+          "text": "导入",
+          "rect": {
+            "x": 436,
+            "y": 178,
+            "w": 70,
+            "h": 28
+          },
+          "className": "custom-light-btn custom-light-btn-text custom-light-btn-sm cr-btn-small cr-btn"
+        }
+      }
+    }
+  },
+  {
+    "id": "02_smart_analysis-012",
+    "module": "智能分析",
+    "moduleId": "smart",
+    "submodule": "算法详情-人员入侵识别",
+    "label": "Tab_绘制对象管理_操作_编辑",
+    "note": "在 绘制对象管理 下点击或定位操作：编辑",
+    "url": "http://192.168.11.88:8081/app/main-app/dispatch/pre-processing/algo-info/#/algorithm-dispatch/pre-scheduling/algorithm-list-detail?algoInfo={%22algorithm_id%22:4,%22name%22:%22%E4%BA%BA%E5%91%98%E5%85%A5%E4%BE%B5%E8%AF%86%E5%88%AB%22,%22name_en%22:%22Person-Invasion%22,%22threshold%22:[],%22content%22:[{%22enable_special%22:true,%22value%22:1,%22text%22:%22%E4%BA%BA%E5%91%98%E5%85%A5%E4%BE%B5%E8%AF%86%E5%88%AB%22,%22type%22:%22classId%22,%22special_draw%22:{%22rect%22:{%22option%22:{%22color%22:[255,255,255]}}}}],%22paint%22:[{%22type%22:%22roi%22,%22whether%22:true,%22option%22:{%22thickness%22:2,%22color%22:[255,0,0],%22style%22:1}},{%22type%22:%22rect%22,%22whether%22:true,%22option%22:{%22thickness%22:2,%22color%22:[255,0,0],%22style%22:1}},{%22type%22:%22polygonList%22,%22whether%22:true,%22option%22:{%22thickness%22:2,%22color%22:[255,0,0],%22style%22:1}},{%22type%22:%22multiPointList%22,%22whether%22:true,%22option%22:{%22thickness%22:2,%22color%22:[255,0,0],%22style%22:1},%22other%22:[{%22type%22:%22head%22,%22whether%22:true,%22thickness%22:2,%22color%22:[0,0,255]},{%22type%22:%22hand%22,%22whether%22:true,%22thickness%22:2,%22color%22:[255,0,0]},{%22type%22:%22foot%22,%22whether%22:true,%22thickness%22:2,%22color%22:[0,255,0]},{%22type%22:%22body%22,%22whether%22:true,%22thickness%22:2,%22color%22:[0,255,255]}]},{%22type%22:%22text%22,%22whether%22:true,%22draw%22:[%22rect%22],%22option%22:{%22size%22:24,%22font%22:%22NotoSansCJKsc-Regular.otf%22,%22color%22:[255,255,255],%22background%22:[255,0,0]}},{%22type%22:%22ocr%22,%22whether%22:true,%22option%22:{%22color%22:[0,0,255]}}],%22degree%22:3,%22version%22:%22v17%22,%22voice_name%22:%22default.mp3%22,%22voice_url%22:%22%22,%22extra_data%22:{%22hd_split%22:{%22mode%22:%22sliding_window%22,%22res%22:[[1080,1920],[540,960]],%22stride%22:[[],[]],%22idx%22:0},%22channel_analysis_frame_rate%22:-1,%22roi_flag%22:false,%22roi_check%22:{%22type%22:%22roi%22,%22name%22:%22rois%22,%22vals%22:[{%22type%22:%22group%22,%22name%22:%22%22,%22check_items%22:[{%22name%22:%22count%22,%22vals%22:[0,1],%22rule%22:%22rule_count%22}],%22vals%22:[{%22type%22:%22polyset%22,%22name%22:%22polyset%22,%22vals%22:[{%22type%22:%22poly%22,%22name%22:%22%22,%22check_items%22:[{%22name%22:%22count%22,%22vals%22:[1,10],%22rule%22:%22rule_count%22}]}]}]}]},%22threshold_check%22:{%22type%22:%22param%22,%22name%22:%22params%22,%22check_items%22:[],%22vals%22:[{%22name%22:%22person_det_th%22,%22type%22:%22float%22,%22cn_name%22:%22%E8%A1%8C%E4%BA%BA%E6%A3%80%E6%B5%8B%E9%98%88%E5%80%BC%22,%22vals%22:[0.5,0.4,0.2],%22check_items%22:[{%22vals%22:[0,1],%22name%22:%22range%22,%22rule%22:%22rule_range%22}],%22important%22:true,%22modify%22:true,%22step%22:0.1,%22desc%22:%22%E8%B0%83%E5%B0%8F%EF%BC%8C%E5%8D%87%E6%A3%80%E5%87%BA%EF%BC%9B%E8%B0%83%E5%A4%A7%EF%BC%8C%E9%99%8D%E8%AF%AF%E6%8A%A5%22},{%22name%22:%22person_cls_th%22,%22type%22:%22float%22,%22cn_name%22:%22%E8%A1%8C%E4%BA%BA%E5%88%86%E7%B1%BB%E9%98%88%E5%80%BC%22,%22vals%22:[0.8,0.7,0],%22check_items%22:[{%22vals%22:[0,1],%22name%22:%22range%22,%22rule%22:%22rule_range%22}],%22important%22:true,%22modify%22:true,%22step%22:0.1,%22desc%22:%22%E8%B0%83%E5%B0%8F%EF%BC%8C%E5%8D%87%E6%A3%80%E5%87%BA%EF%BC%9B%E8%B0%83%E5%A4%A7%EF%BC%8C%E9%99%8D%E8%AF%AF%E6%8A%A5%22},{%22name%22:%22light_th%22,%22type%22:%22float%22,%22cn_name%22:%22%E4%BA%AE%E5%BA%A6%E9%98%88%E5%80%BC%22,%22vals%22:[0.5,0.1,0],%22check_items%22:[{%22vals%22:[0,1],%22name%22:%22range%22,%22rule%22:%22rule_range%22}],%22important%22:true,%22modify%22:true,%22step%22:0.01,%22desc%22:%22%E8%B0%83%E5%B0%8F%EF%BC%8C%E5%8D%87%E6%A3%80%E5%87%BA%EF%BC%9B%E8%B0%83%E5%A4%A7%EF%BC%8C%E9%99%8D%E8%AF%AF%E6%8A%A5%22},{%22name%22:%22blur_th%22,%22type%22:%22float%22,%22cn_name%22:%22%E6%A8%A1%E7%B3%8A%E9%98%88%E5%80%BC%22,%22vals%22:[2.5,1.5,0],%22check_items%22:[{%22vals%22:[0,5],%22name%22:%22range%22,%22rule%22:%22rule_range%22}],%22important%22:true,%22modify%22:true,%22step%22:0.1,%22desc%22:%22%E8%B0%83%E5%B0%8F%EF%BC%8C%E5%8D%87%E6%A3%80%E5%87%BA%EF%BC%9B%E8%B0%83%E5%A4%A7%EF%BC%8C%E9%99%8D%E8%AF%AF%E6%8A%A5%22},{%22name%22:%22head_size_th%22,%22type%22:%22int%22,%22cn_name%22:%22%E5%A4%B4%E5%A4%A7%E5%B0%8F%E9%98%88%E5%80%BC%22,%22vals%22:[10,10,0],%22check_items%22:[{%22vals%22:[0,100],%22name%22:%22range%22,%22rule%22:%22rule_range%22}],%22important%22:false,%22modify%22:true,%22step%22:1,%22desc%22:%22%E8%B0%83%E5%B0%8F%EF%BC%8C%E5%8D%87%E6%A3%80%E5%87%BA%EF%BC%9B%E8%B0%83%E5%A4%A7%EF%BC%8C%E9%99%8D%E8%AF%AF%E6%8A%A5%22}],%22alarm_rule%22:%22(person_det_score%3Eperson_det_th)%26%26(person_cls_score%3Eperson_cls_th)%26%26(light_score%3Elight_th)%26%26(blur_score%3Eblur_th)%26%26(head_size_score%3Ehead_size_th)%22},%22threshold_current%22:{%22type%22:%22param%22,%22name%22:%22params%22,%22vals%22:[{%22type%22:%22float%22,%22name%22:%22person_det_th%22,%22vals%22:[0.5,0.4,0.2]},{%22type%22:%22float%22,%22name%22:%22person_cls_th%22,%22vals%22:[0.8,0.7,0]},{%22type%22:%22float%22,%22name%22:%22light_th%22,%22vals%22:[0.5,0.1,0]},{%22type%22:%22float%22,%22name%22:%22blur_th%22,%22vals%22:[2.5,1.5,0]},{%22type%22:%22int%22,%22name%22:%22head_size_th%22,%22vals%22:[10,10,0]}],%22sensitivity%22:0,%22custom%22:false}},%22default_info%22:{%22name%22:%22%E4%BA%BA%E5%91%98%E5%85%A5%E4%BE%B5%E8%AF%86%E5%88%AB%22,%22name_en%22:%22Person-Invasion%22,%22degree%22:3,%22threshold%22:[]},%22voice_type%22:0,%22voice_tmpl%22:null,%22is_virtual%22:false,%22selectedKeys%22:[3]}",
+    "screenshot": "screenshots_focused/02_smart_analysis/012_算法详情-人员入侵识别_Tab_绘制对象管理_操作_编辑.png",
+    "clip": {
+      "kind": "business",
+      "x": 280,
+      "y": 72,
+      "width": 1160,
+      "height": 928,
+      "scale": 1
+    },
+    "meta": {
+      "click": {
+        "ok": true,
+        "text": "编辑",
+        "found": {
+          "text": "编辑",
+          "rect": {
+            "x": 764,
+            "y": 263,
+            "w": 24,
+            "h": 19
+          },
+          "className": "btn"
+        }
+      }
+    }
+  },
+  {
+    "id": "02_smart_analysis-013",
+    "module": "智能分析",
+    "moduleId": "smart",
+    "submodule": "算法详情-人员入侵识别",
+    "label": "Tab_绘制对象管理_操作_删除",
+    "note": "在 绘制对象管理 下点击或定位操作：删除；该操作可能产生数据或配置变更，采集时仅悬停定位",
+    "url": "http://192.168.11.88:8081/app/main-app/dispatch/pre-processing/algo-info/#/algorithm-dispatch/pre-scheduling/algorithm-list-detail?algoInfo={%22algorithm_id%22:4,%22name%22:%22%E4%BA%BA%E5%91%98%E5%85%A5%E4%BE%B5%E8%AF%86%E5%88%AB%22,%22name_en%22:%22Person-Invasion%22,%22threshold%22:[],%22content%22:[{%22enable_special%22:true,%22value%22:1,%22text%22:%22%E4%BA%BA%E5%91%98%E5%85%A5%E4%BE%B5%E8%AF%86%E5%88%AB%22,%22type%22:%22classId%22,%22special_draw%22:{%22rect%22:{%22option%22:{%22color%22:[255,255,255]}}}}],%22paint%22:[{%22type%22:%22roi%22,%22whether%22:true,%22option%22:{%22thickness%22:2,%22color%22:[255,0,0],%22style%22:1}},{%22type%22:%22rect%22,%22whether%22:true,%22option%22:{%22thickness%22:2,%22color%22:[255,0,0],%22style%22:1}},{%22type%22:%22polygonList%22,%22whether%22:true,%22option%22:{%22thickness%22:2,%22color%22:[255,0,0],%22style%22:1}},{%22type%22:%22multiPointList%22,%22whether%22:true,%22option%22:{%22thickness%22:2,%22color%22:[255,0,0],%22style%22:1},%22other%22:[{%22type%22:%22head%22,%22whether%22:true,%22thickness%22:2,%22color%22:[0,0,255]},{%22type%22:%22hand%22,%22whether%22:true,%22thickness%22:2,%22color%22:[255,0,0]},{%22type%22:%22foot%22,%22whether%22:true,%22thickness%22:2,%22color%22:[0,255,0]},{%22type%22:%22body%22,%22whether%22:true,%22thickness%22:2,%22color%22:[0,255,255]}]},{%22type%22:%22text%22,%22whether%22:true,%22draw%22:[%22rect%22],%22option%22:{%22size%22:24,%22font%22:%22NotoSansCJKsc-Regular.otf%22,%22color%22:[255,255,255],%22background%22:[255,0,0]}},{%22type%22:%22ocr%22,%22whether%22:true,%22option%22:{%22color%22:[0,0,255]}}],%22degree%22:3,%22version%22:%22v17%22,%22voice_name%22:%22default.mp3%22,%22voice_url%22:%22%22,%22extra_data%22:{%22hd_split%22:{%22mode%22:%22sliding_window%22,%22res%22:[[1080,1920],[540,960]],%22stride%22:[[],[]],%22idx%22:0},%22channel_analysis_frame_rate%22:-1,%22roi_flag%22:false,%22roi_check%22:{%22type%22:%22roi%22,%22name%22:%22rois%22,%22vals%22:[{%22type%22:%22group%22,%22name%22:%22%22,%22check_items%22:[{%22name%22:%22count%22,%22vals%22:[0,1],%22rule%22:%22rule_count%22}],%22vals%22:[{%22type%22:%22polyset%22,%22name%22:%22polyset%22,%22vals%22:[{%22type%22:%22poly%22,%22name%22:%22%22,%22check_items%22:[{%22name%22:%22count%22,%22vals%22:[1,10],%22rule%22:%22rule_count%22}]}]}]}]},%22threshold_check%22:{%22type%22:%22param%22,%22name%22:%22params%22,%22check_items%22:[],%22vals%22:[{%22name%22:%22person_det_th%22,%22type%22:%22float%22,%22cn_name%22:%22%E8%A1%8C%E4%BA%BA%E6%A3%80%E6%B5%8B%E9%98%88%E5%80%BC%22,%22vals%22:[0.5,0.4,0.2],%22check_items%22:[{%22vals%22:[0,1],%22name%22:%22range%22,%22rule%22:%22rule_range%22}],%22important%22:true,%22modify%22:true,%22step%22:0.1,%22desc%22:%22%E8%B0%83%E5%B0%8F%EF%BC%8C%E5%8D%87%E6%A3%80%E5%87%BA%EF%BC%9B%E8%B0%83%E5%A4%A7%EF%BC%8C%E9%99%8D%E8%AF%AF%E6%8A%A5%22},{%22name%22:%22person_cls_th%22,%22type%22:%22float%22,%22cn_name%22:%22%E8%A1%8C%E4%BA%BA%E5%88%86%E7%B1%BB%E9%98%88%E5%80%BC%22,%22vals%22:[0.8,0.7,0],%22check_items%22:[{%22vals%22:[0,1],%22name%22:%22range%22,%22rule%22:%22rule_range%22}],%22important%22:true,%22modify%22:true,%22step%22:0.1,%22desc%22:%22%E8%B0%83%E5%B0%8F%EF%BC%8C%E5%8D%87%E6%A3%80%E5%87%BA%EF%BC%9B%E8%B0%83%E5%A4%A7%EF%BC%8C%E9%99%8D%E8%AF%AF%E6%8A%A5%22},{%22name%22:%22light_th%22,%22type%22:%22float%22,%22cn_name%22:%22%E4%BA%AE%E5%BA%A6%E9%98%88%E5%80%BC%22,%22vals%22:[0.5,0.1,0],%22check_items%22:[{%22vals%22:[0,1],%22name%22:%22range%22,%22rule%22:%22rule_range%22}],%22important%22:true,%22modify%22:true,%22step%22:0.01,%22desc%22:%22%E8%B0%83%E5%B0%8F%EF%BC%8C%E5%8D%87%E6%A3%80%E5%87%BA%EF%BC%9B%E8%B0%83%E5%A4%A7%EF%BC%8C%E9%99%8D%E8%AF%AF%E6%8A%A5%22},{%22name%22:%22blur_th%22,%22type%22:%22float%22,%22cn_name%22:%22%E6%A8%A1%E7%B3%8A%E9%98%88%E5%80%BC%22,%22vals%22:[2.5,1.5,0],%22check_items%22:[{%22vals%22:[0,5],%22name%22:%22range%22,%22rule%22:%22rule_range%22}],%22important%22:true,%22modify%22:true,%22step%22:0.1,%22desc%22:%22%E8%B0%83%E5%B0%8F%EF%BC%8C%E5%8D%87%E6%A3%80%E5%87%BA%EF%BC%9B%E8%B0%83%E5%A4%A7%EF%BC%8C%E9%99%8D%E8%AF%AF%E6%8A%A5%22},{%22name%22:%22head_size_th%22,%22type%22:%22int%22,%22cn_name%22:%22%E5%A4%B4%E5%A4%A7%E5%B0%8F%E9%98%88%E5%80%BC%22,%22vals%22:[10,10,0],%22check_items%22:[{%22vals%22:[0,100],%22name%22:%22range%22,%22rule%22:%22rule_range%22}],%22important%22:false,%22modify%22:true,%22step%22:1,%22desc%22:%22%E8%B0%83%E5%B0%8F%EF%BC%8C%E5%8D%87%E6%A3%80%E5%87%BA%EF%BC%9B%E8%B0%83%E5%A4%A7%EF%BC%8C%E9%99%8D%E8%AF%AF%E6%8A%A5%22}],%22alarm_rule%22:%22(person_det_score%3Eperson_det_th)%26%26(person_cls_score%3Eperson_cls_th)%26%26(light_score%3Elight_th)%26%26(blur_score%3Eblur_th)%26%26(head_size_score%3Ehead_size_th)%22},%22threshold_current%22:{%22type%22:%22param%22,%22name%22:%22params%22,%22vals%22:[{%22type%22:%22float%22,%22name%22:%22person_det_th%22,%22vals%22:[0.5,0.4,0.2]},{%22type%22:%22float%22,%22name%22:%22person_cls_th%22,%22vals%22:[0.8,0.7,0]},{%22type%22:%22float%22,%22name%22:%22light_th%22,%22vals%22:[0.5,0.1,0]},{%22type%22:%22float%22,%22name%22:%22blur_th%22,%22vals%22:[2.5,1.5,0]},{%22type%22:%22int%22,%22name%22:%22head_size_th%22,%22vals%22:[10,10,0]}],%22sensitivity%22:0,%22custom%22:false}},%22default_info%22:{%22name%22:%22%E4%BA%BA%E5%91%98%E5%85%A5%E4%BE%B5%E8%AF%86%E5%88%AB%22,%22name_en%22:%22Person-Invasion%22,%22degree%22:3,%22threshold%22:[]},%22voice_type%22:0,%22voice_tmpl%22:null,%22is_virtual%22:false,%22selectedKeys%22:[3]}",
+    "screenshot": "screenshots_focused/02_smart_analysis/013_算法详情-人员入侵识别_Tab_绘制对象管理_操作_删除.png",
+    "clip": {
+      "kind": "business",
+      "x": 280,
+      "y": 72,
+      "width": 1160,
+      "height": 928,
+      "scale": 1
+    },
+    "meta": {
+      "click": {
+        "ok": false,
+        "text": "删除",
+        "mode": "hover",
+        "safeSkipped": true,
+        "reason": "可能产生保存、删除、安装、归档或配置变更，仅定位/悬停截图"
+      }
+    }
+  },
+  {
+    "id": "02_smart_analysis-014",
+    "module": "智能分析",
+    "moduleId": "smart",
+    "submodule": "算法详情-人员入侵识别",
+    "label": "Tab_绘制对象管理_操作_保存",
+    "note": "在 绘制对象管理 下点击或定位操作：保存；该操作可能产生数据或配置变更，采集时仅悬停定位",
+    "url": "http://192.168.11.88:8081/app/main-app/dispatch/pre-processing/algo-info/#/algorithm-dispatch/pre-scheduling/algorithm-list-detail?algoInfo={%22algorithm_id%22:4,%22name%22:%22%E4%BA%BA%E5%91%98%E5%85%A5%E4%BE%B5%E8%AF%86%E5%88%AB%22,%22name_en%22:%22Person-Invasion%22,%22threshold%22:[],%22content%22:[{%22enable_special%22:true,%22value%22:1,%22text%22:%22%E4%BA%BA%E5%91%98%E5%85%A5%E4%BE%B5%E8%AF%86%E5%88%AB%22,%22type%22:%22classId%22,%22special_draw%22:{%22rect%22:{%22option%22:{%22color%22:[255,255,255]}}}}],%22paint%22:[{%22type%22:%22roi%22,%22whether%22:true,%22option%22:{%22thickness%22:2,%22color%22:[255,0,0],%22style%22:1}},{%22type%22:%22rect%22,%22whether%22:true,%22option%22:{%22thickness%22:2,%22color%22:[255,0,0],%22style%22:1}},{%22type%22:%22polygonList%22,%22whether%22:true,%22option%22:{%22thickness%22:2,%22color%22:[255,0,0],%22style%22:1}},{%22type%22:%22multiPointList%22,%22whether%22:true,%22option%22:{%22thickness%22:2,%22color%22:[255,0,0],%22style%22:1},%22other%22:[{%22type%22:%22head%22,%22whether%22:true,%22thickness%22:2,%22color%22:[0,0,255]},{%22type%22:%22hand%22,%22whether%22:true,%22thickness%22:2,%22color%22:[255,0,0]},{%22type%22:%22foot%22,%22whether%22:true,%22thickness%22:2,%22color%22:[0,255,0]},{%22type%22:%22body%22,%22whether%22:true,%22thickness%22:2,%22color%22:[0,255,255]}]},{%22type%22:%22text%22,%22whether%22:true,%22draw%22:[%22rect%22],%22option%22:{%22size%22:24,%22font%22:%22NotoSansCJKsc-Regular.otf%22,%22color%22:[255,255,255],%22background%22:[255,0,0]}},{%22type%22:%22ocr%22,%22whether%22:true,%22option%22:{%22color%22:[0,0,255]}}],%22degree%22:3,%22version%22:%22v17%22,%22voice_name%22:%22default.mp3%22,%22voice_url%22:%22%22,%22extra_data%22:{%22hd_split%22:{%22mode%22:%22sliding_window%22,%22res%22:[[1080,1920],[540,960]],%22stride%22:[[],[]],%22idx%22:0},%22channel_analysis_frame_rate%22:-1,%22roi_flag%22:false,%22roi_check%22:{%22type%22:%22roi%22,%22name%22:%22rois%22,%22vals%22:[{%22type%22:%22group%22,%22name%22:%22%22,%22check_items%22:[{%22name%22:%22count%22,%22vals%22:[0,1],%22rule%22:%22rule_count%22}],%22vals%22:[{%22type%22:%22polyset%22,%22name%22:%22polyset%22,%22vals%22:[{%22type%22:%22poly%22,%22name%22:%22%22,%22check_items%22:[{%22name%22:%22count%22,%22vals%22:[1,10],%22rule%22:%22rule_count%22}]}]}]}]},%22threshold_check%22:{%22type%22:%22param%22,%22name%22:%22params%22,%22check_items%22:[],%22vals%22:[{%22name%22:%22person_det_th%22,%22type%22:%22float%22,%22cn_name%22:%22%E8%A1%8C%E4%BA%BA%E6%A3%80%E6%B5%8B%E9%98%88%E5%80%BC%22,%22vals%22:[0.5,0.4,0.2],%22check_items%22:[{%22vals%22:[0,1],%22name%22:%22range%22,%22rule%22:%22rule_range%22}],%22important%22:true,%22modify%22:true,%22step%22:0.1,%22desc%22:%22%E8%B0%83%E5%B0%8F%EF%BC%8C%E5%8D%87%E6%A3%80%E5%87%BA%EF%BC%9B%E8%B0%83%E5%A4%A7%EF%BC%8C%E9%99%8D%E8%AF%AF%E6%8A%A5%22},{%22name%22:%22person_cls_th%22,%22type%22:%22float%22,%22cn_name%22:%22%E8%A1%8C%E4%BA%BA%E5%88%86%E7%B1%BB%E9%98%88%E5%80%BC%22,%22vals%22:[0.8,0.7,0],%22check_items%22:[{%22vals%22:[0,1],%22name%22:%22range%22,%22rule%22:%22rule_range%22}],%22important%22:true,%22modify%22:true,%22step%22:0.1,%22desc%22:%22%E8%B0%83%E5%B0%8F%EF%BC%8C%E5%8D%87%E6%A3%80%E5%87%BA%EF%BC%9B%E8%B0%83%E5%A4%A7%EF%BC%8C%E9%99%8D%E8%AF%AF%E6%8A%A5%22},{%22name%22:%22light_th%22,%22type%22:%22float%22,%22cn_name%22:%22%E4%BA%AE%E5%BA%A6%E9%98%88%E5%80%BC%22,%22vals%22:[0.5,0.1,0],%22check_items%22:[{%22vals%22:[0,1],%22name%22:%22range%22,%22rule%22:%22rule_range%22}],%22important%22:true,%22modify%22:true,%22step%22:0.01,%22desc%22:%22%E8%B0%83%E5%B0%8F%EF%BC%8C%E5%8D%87%E6%A3%80%E5%87%BA%EF%BC%9B%E8%B0%83%E5%A4%A7%EF%BC%8C%E9%99%8D%E8%AF%AF%E6%8A%A5%22},{%22name%22:%22blur_th%22,%22type%22:%22float%22,%22cn_name%22:%22%E6%A8%A1%E7%B3%8A%E9%98%88%E5%80%BC%22,%22vals%22:[2.5,1.5,0],%22check_items%22:[{%22vals%22:[0,5],%22name%22:%22range%22,%22rule%22:%22rule_range%22}],%22important%22:true,%22modify%22:true,%22step%22:0.1,%22desc%22:%22%E8%B0%83%E5%B0%8F%EF%BC%8C%E5%8D%87%E6%A3%80%E5%87%BA%EF%BC%9B%E8%B0%83%E5%A4%A7%EF%BC%8C%E9%99%8D%E8%AF%AF%E6%8A%A5%22},{%22name%22:%22head_size_th%22,%22type%22:%22int%22,%22cn_name%22:%22%E5%A4%B4%E5%A4%A7%E5%B0%8F%E9%98%88%E5%80%BC%22,%22vals%22:[10,10,0],%22check_items%22:[{%22vals%22:[0,100],%22name%22:%22range%22,%22rule%22:%22rule_range%22}],%22important%22:false,%22modify%22:true,%22step%22:1,%22desc%22:%22%E8%B0%83%E5%B0%8F%EF%BC%8C%E5%8D%87%E6%A3%80%E5%87%BA%EF%BC%9B%E8%B0%83%E5%A4%A7%EF%BC%8C%E9%99%8D%E8%AF%AF%E6%8A%A5%22}],%22alarm_rule%22:%22(person_det_score%3Eperson_det_th)%26%26(person_cls_score%3Eperson_cls_th)%26%26(light_score%3Elight_th)%26%26(blur_score%3Eblur_th)%26%26(head_size_score%3Ehead_size_th)%22},%22threshold_current%22:{%22type%22:%22param%22,%22name%22:%22params%22,%22vals%22:[{%22type%22:%22float%22,%22name%22:%22person_det_th%22,%22vals%22:[0.5,0.4,0.2]},{%22type%22:%22float%22,%22name%22:%22person_cls_th%22,%22vals%22:[0.8,0.7,0]},{%22type%22:%22float%22,%22name%22:%22light_th%22,%22vals%22:[0.5,0.1,0]},{%22type%22:%22float%22,%22name%22:%22blur_th%22,%22vals%22:[2.5,1.5,0]},{%22type%22:%22int%22,%22name%22:%22head_size_th%22,%22vals%22:[10,10,0]}],%22sensitivity%22:0,%22custom%22:false}},%22default_info%22:{%22name%22:%22%E4%BA%BA%E5%91%98%E5%85%A5%E4%BE%B5%E8%AF%86%E5%88%AB%22,%22name_en%22:%22Person-Invasion%22,%22degree%22:3,%22threshold%22:[]},%22voice_type%22:0,%22voice_tmpl%22:null,%22is_virtual%22:false,%22selectedKeys%22:[3]}",
+    "screenshot": "screenshots_focused/02_smart_analysis/014_算法详情-人员入侵识别_Tab_绘制对象管理_操作_保存.png",
+    "clip": {
+      "kind": "business",
+      "x": 280,
+      "y": 72,
+      "width": 1160,
+      "height": 928,
+      "scale": 1
+    },
+    "meta": {
+      "click": {
+        "ok": true,
+        "text": "保存",
+        "mode": "hover",
+        "found": {
+          "text": "保 存",
+          "rect": {
+            "x": 288,
+            "y": 178,
+            "w": 70,
+            "h": 28
+          },
+          "className": "custom-light-btn custom-light-btn-primary custom-light-btn-sm cr-btn-small cr-btn"
+        },
+        "safeSkipped": true,
+        "reason": "可能产生保存、删除、安装、归档或配置变更，仅定位/悬停截图"
+      }
+    }
+  },
+  {
+    "id": "02_smart_analysis-015",
+    "module": "智能分析",
+    "moduleId": "smart",
+    "submodule": "算法详情-人员入侵识别",
+    "label": "Tab_默认绘制样式",
+    "note": "点击或切换 Tab/分段控件：默认绘制样式",
+    "url": "http://192.168.11.88:8081/app/main-app/dispatch/pre-processing/algo-info/#/algorithm-dispatch/pre-scheduling/algorithm-list-detail?algoInfo={%22algorithm_id%22:4,%22name%22:%22%E4%BA%BA%E5%91%98%E5%85%A5%E4%BE%B5%E8%AF%86%E5%88%AB%22,%22name_en%22:%22Person-Invasion%22,%22threshold%22:[],%22content%22:[{%22enable_special%22:true,%22value%22:1,%22text%22:%22%E4%BA%BA%E5%91%98%E5%85%A5%E4%BE%B5%E8%AF%86%E5%88%AB%22,%22type%22:%22classId%22,%22special_draw%22:{%22rect%22:{%22option%22:{%22color%22:[255,255,255]}}}}],%22paint%22:[{%22type%22:%22roi%22,%22whether%22:true,%22option%22:{%22thickness%22:2,%22color%22:[255,0,0],%22style%22:1}},{%22type%22:%22rect%22,%22whether%22:true,%22option%22:{%22thickness%22:2,%22color%22:[255,0,0],%22style%22:1}},{%22type%22:%22polygonList%22,%22whether%22:true,%22option%22:{%22thickness%22:2,%22color%22:[255,0,0],%22style%22:1}},{%22type%22:%22multiPointList%22,%22whether%22:true,%22option%22:{%22thickness%22:2,%22color%22:[255,0,0],%22style%22:1},%22other%22:[{%22type%22:%22head%22,%22whether%22:true,%22thickness%22:2,%22color%22:[0,0,255]},{%22type%22:%22hand%22,%22whether%22:true,%22thickness%22:2,%22color%22:[255,0,0]},{%22type%22:%22foot%22,%22whether%22:true,%22thickness%22:2,%22color%22:[0,255,0]},{%22type%22:%22body%22,%22whether%22:true,%22thickness%22:2,%22color%22:[0,255,255]}]},{%22type%22:%22text%22,%22whether%22:true,%22draw%22:[%22rect%22],%22option%22:{%22size%22:24,%22font%22:%22NotoSansCJKsc-Regular.otf%22,%22color%22:[255,255,255],%22background%22:[255,0,0]}},{%22type%22:%22ocr%22,%22whether%22:true,%22option%22:{%22color%22:[0,0,255]}}],%22degree%22:3,%22version%22:%22v17%22,%22voice_name%22:%22default.mp3%22,%22voice_url%22:%22%22,%22extra_data%22:{%22hd_split%22:{%22mode%22:%22sliding_window%22,%22res%22:[[1080,1920],[540,960]],%22stride%22:[[],[]],%22idx%22:0},%22channel_analysis_frame_rate%22:-1,%22roi_flag%22:false,%22roi_check%22:{%22type%22:%22roi%22,%22name%22:%22rois%22,%22vals%22:[{%22type%22:%22group%22,%22name%22:%22%22,%22check_items%22:[{%22name%22:%22count%22,%22vals%22:[0,1],%22rule%22:%22rule_count%22}],%22vals%22:[{%22type%22:%22polyset%22,%22name%22:%22polyset%22,%22vals%22:[{%22type%22:%22poly%22,%22name%22:%22%22,%22check_items%22:[{%22name%22:%22count%22,%22vals%22:[1,10],%22rule%22:%22rule_count%22}]}]}]}]},%22threshold_check%22:{%22type%22:%22param%22,%22name%22:%22params%22,%22check_items%22:[],%22vals%22:[{%22name%22:%22person_det_th%22,%22type%22:%22float%22,%22cn_name%22:%22%E8%A1%8C%E4%BA%BA%E6%A3%80%E6%B5%8B%E9%98%88%E5%80%BC%22,%22vals%22:[0.5,0.4,0.2],%22check_items%22:[{%22vals%22:[0,1],%22name%22:%22range%22,%22rule%22:%22rule_range%22}],%22important%22:true,%22modify%22:true,%22step%22:0.1,%22desc%22:%22%E8%B0%83%E5%B0%8F%EF%BC%8C%E5%8D%87%E6%A3%80%E5%87%BA%EF%BC%9B%E8%B0%83%E5%A4%A7%EF%BC%8C%E9%99%8D%E8%AF%AF%E6%8A%A5%22},{%22name%22:%22person_cls_th%22,%22type%22:%22float%22,%22cn_name%22:%22%E8%A1%8C%E4%BA%BA%E5%88%86%E7%B1%BB%E9%98%88%E5%80%BC%22,%22vals%22:[0.8,0.7,0],%22check_items%22:[{%22vals%22:[0,1],%22name%22:%22range%22,%22rule%22:%22rule_range%22}],%22important%22:true,%22modify%22:true,%22step%22:0.1,%22desc%22:%22%E8%B0%83%E5%B0%8F%EF%BC%8C%E5%8D%87%E6%A3%80%E5%87%BA%EF%BC%9B%E8%B0%83%E5%A4%A7%EF%BC%8C%E9%99%8D%E8%AF%AF%E6%8A%A5%22},{%22name%22:%22light_th%22,%22type%22:%22float%22,%22cn_name%22:%22%E4%BA%AE%E5%BA%A6%E9%98%88%E5%80%BC%22,%22vals%22:[0.5,0.1,0],%22check_items%22:[{%22vals%22:[0,1],%22name%22:%22range%22,%22rule%22:%22rule_range%22}],%22important%22:true,%22modify%22:true,%22step%22:0.01,%22desc%22:%22%E8%B0%83%E5%B0%8F%EF%BC%8C%E5%8D%87%E6%A3%80%E5%87%BA%EF%BC%9B%E8%B0%83%E5%A4%A7%EF%BC%8C%E9%99%8D%E8%AF%AF%E6%8A%A5%22},{%22name%22:%22blur_th%22,%22type%22:%22float%22,%22cn_name%22:%22%E6%A8%A1%E7%B3%8A%E9%98%88%E5%80%BC%22,%22vals%22:[2.5,1.5,0],%22check_items%22:[{%22vals%22:[0,5],%22name%22:%22range%22,%22rule%22:%22rule_range%22}],%22important%22:true,%22modify%22:true,%22step%22:0.1,%22desc%22:%22%E8%B0%83%E5%B0%8F%EF%BC%8C%E5%8D%87%E6%A3%80%E5%87%BA%EF%BC%9B%E8%B0%83%E5%A4%A7%EF%BC%8C%E9%99%8D%E8%AF%AF%E6%8A%A5%22},{%22name%22:%22head_size_th%22,%22type%22:%22int%22,%22cn_name%22:%22%E5%A4%B4%E5%A4%A7%E5%B0%8F%E9%98%88%E5%80%BC%22,%22vals%22:[10,10,0],%22check_items%22:[{%22vals%22:[0,100],%22name%22:%22range%22,%22rule%22:%22rule_range%22}],%22important%22:false,%22modify%22:true,%22step%22:1,%22desc%22:%22%E8%B0%83%E5%B0%8F%EF%BC%8C%E5%8D%87%E6%A3%80%E5%87%BA%EF%BC%9B%E8%B0%83%E5%A4%A7%EF%BC%8C%E9%99%8D%E8%AF%AF%E6%8A%A5%22}],%22alarm_rule%22:%22(person_det_score%3Eperson_det_th)%26%26(person_cls_score%3Eperson_cls_th)%26%26(light_score%3Elight_th)%26%26(blur_score%3Eblur_th)%26%26(head_size_score%3Ehead_size_th)%22},%22threshold_current%22:{%22type%22:%22param%22,%22name%22:%22params%22,%22vals%22:[{%22type%22:%22float%22,%22name%22:%22person_det_th%22,%22vals%22:[0.5,0.4,0.2]},{%22type%22:%22float%22,%22name%22:%22person_cls_th%22,%22vals%22:[0.8,0.7,0]},{%22type%22:%22float%22,%22name%22:%22light_th%22,%22vals%22:[0.5,0.1,0]},{%22type%22:%22float%22,%22name%22:%22blur_th%22,%22vals%22:[2.5,1.5,0]},{%22type%22:%22int%22,%22name%22:%22head_size_th%22,%22vals%22:[10,10,0]}],%22sensitivity%22:0,%22custom%22:false}},%22default_info%22:{%22name%22:%22%E4%BA%BA%E5%91%98%E5%85%A5%E4%BE%B5%E8%AF%86%E5%88%AB%22,%22name_en%22:%22Person-Invasion%22,%22degree%22:3,%22threshold%22:[]},%22voice_type%22:0,%22voice_tmpl%22:null,%22is_virtual%22:false,%22selectedKeys%22:[3]}",
+    "screenshot": "screenshots_focused/02_smart_analysis/015_算法详情-人员入侵识别_Tab_默认绘制样式.png",
+    "clip": {
+      "kind": "business",
+      "x": 280,
+      "y": 72,
+      "width": 1160,
+      "height": 928,
+      "scale": 1
+    },
+    "meta": {
+      "click": {
+        "ok": true,
+        "text": "默认绘制样式",
+        "found": {
+          "text": "默认绘制样式",
+          "rect": {
+            "x": 480,
+            "y": 142,
+            "w": 72,
+            "h": 19
+          },
+          "className": "custom-light-tabs-tab-btn"
+        }
+      }
+    }
+  },
+  {
+    "id": "02_smart_analysis-016",
+    "module": "智能分析",
+    "moduleId": "smart",
+    "submodule": "算法详情-人员入侵识别",
+    "label": "Tab_默认绘制样式_操作_预览绘制效果",
+    "note": "在 默认绘制样式 下点击或定位操作：预览绘制效果",
+    "url": "http://192.168.11.88:8081/app/main-app/dispatch/pre-processing/algo-info/#/algorithm-dispatch/pre-scheduling/algorithm-list-detail?algoInfo={%22algorithm_id%22:4,%22name%22:%22%E4%BA%BA%E5%91%98%E5%85%A5%E4%BE%B5%E8%AF%86%E5%88%AB%22,%22name_en%22:%22Person-Invasion%22,%22threshold%22:[],%22content%22:[{%22enable_special%22:true,%22value%22:1,%22text%22:%22%E4%BA%BA%E5%91%98%E5%85%A5%E4%BE%B5%E8%AF%86%E5%88%AB%22,%22type%22:%22classId%22,%22special_draw%22:{%22rect%22:{%22option%22:{%22color%22:[255,255,255]}}}}],%22paint%22:[{%22type%22:%22roi%22,%22whether%22:true,%22option%22:{%22thickness%22:2,%22color%22:[255,0,0],%22style%22:1}},{%22type%22:%22rect%22,%22whether%22:true,%22option%22:{%22thickness%22:2,%22color%22:[255,0,0],%22style%22:1}},{%22type%22:%22polygonList%22,%22whether%22:true,%22option%22:{%22thickness%22:2,%22color%22:[255,0,0],%22style%22:1}},{%22type%22:%22multiPointList%22,%22whether%22:true,%22option%22:{%22thickness%22:2,%22color%22:[255,0,0],%22style%22:1},%22other%22:[{%22type%22:%22head%22,%22whether%22:true,%22thickness%22:2,%22color%22:[0,0,255]},{%22type%22:%22hand%22,%22whether%22:true,%22thickness%22:2,%22color%22:[255,0,0]},{%22type%22:%22foot%22,%22whether%22:true,%22thickness%22:2,%22color%22:[0,255,0]},{%22type%22:%22body%22,%22whether%22:true,%22thickness%22:2,%22color%22:[0,255,255]}]},{%22type%22:%22text%22,%22whether%22:true,%22draw%22:[%22rect%22],%22option%22:{%22size%22:24,%22font%22:%22NotoSansCJKsc-Regular.otf%22,%22color%22:[255,255,255],%22background%22:[255,0,0]}},{%22type%22:%22ocr%22,%22whether%22:true,%22option%22:{%22color%22:[0,0,255]}}],%22degree%22:3,%22version%22:%22v17%22,%22voice_name%22:%22default.mp3%22,%22voice_url%22:%22%22,%22extra_data%22:{%22hd_split%22:{%22mode%22:%22sliding_window%22,%22res%22:[[1080,1920],[540,960]],%22stride%22:[[],[]],%22idx%22:0},%22channel_analysis_frame_rate%22:-1,%22roi_flag%22:false,%22roi_check%22:{%22type%22:%22roi%22,%22name%22:%22rois%22,%22vals%22:[{%22type%22:%22group%22,%22name%22:%22%22,%22check_items%22:[{%22name%22:%22count%22,%22vals%22:[0,1],%22rule%22:%22rule_count%22}],%22vals%22:[{%22type%22:%22polyset%22,%22name%22:%22polyset%22,%22vals%22:[{%22type%22:%22poly%22,%22name%22:%22%22,%22check_items%22:[{%22name%22:%22count%22,%22vals%22:[1,10],%22rule%22:%22rule_count%22}]}]}]}]},%22threshold_check%22:{%22type%22:%22param%22,%22name%22:%22params%22,%22check_items%22:[],%22vals%22:[{%22name%22:%22person_det_th%22,%22type%22:%22float%22,%22cn_name%22:%22%E8%A1%8C%E4%BA%BA%E6%A3%80%E6%B5%8B%E9%98%88%E5%80%BC%22,%22vals%22:[0.5,0.4,0.2],%22check_items%22:[{%22vals%22:[0,1],%22name%22:%22range%22,%22rule%22:%22rule_range%22}],%22important%22:true,%22modify%22:true,%22step%22:0.1,%22desc%22:%22%E8%B0%83%E5%B0%8F%EF%BC%8C%E5%8D%87%E6%A3%80%E5%87%BA%EF%BC%9B%E8%B0%83%E5%A4%A7%EF%BC%8C%E9%99%8D%E8%AF%AF%E6%8A%A5%22},{%22name%22:%22person_cls_th%22,%22type%22:%22float%22,%22cn_name%22:%22%E8%A1%8C%E4%BA%BA%E5%88%86%E7%B1%BB%E9%98%88%E5%80%BC%22,%22vals%22:[0.8,0.7,0],%22check_items%22:[{%22vals%22:[0,1],%22name%22:%22range%22,%22rule%22:%22rule_range%22}],%22important%22:true,%22modify%22:true,%22step%22:0.1,%22desc%22:%22%E8%B0%83%E5%B0%8F%EF%BC%8C%E5%8D%87%E6%A3%80%E5%87%BA%EF%BC%9B%E8%B0%83%E5%A4%A7%EF%BC%8C%E9%99%8D%E8%AF%AF%E6%8A%A5%22},{%22name%22:%22light_th%22,%22type%22:%22float%22,%22cn_name%22:%22%E4%BA%AE%E5%BA%A6%E9%98%88%E5%80%BC%22,%22vals%22:[0.5,0.1,0],%22check_items%22:[{%22vals%22:[0,1],%22name%22:%22range%22,%22rule%22:%22rule_range%22}],%22important%22:true,%22modify%22:true,%22step%22:0.01,%22desc%22:%22%E8%B0%83%E5%B0%8F%EF%BC%8C%E5%8D%87%E6%A3%80%E5%87%BA%EF%BC%9B%E8%B0%83%E5%A4%A7%EF%BC%8C%E9%99%8D%E8%AF%AF%E6%8A%A5%22},{%22name%22:%22blur_th%22,%22type%22:%22float%22,%22cn_name%22:%22%E6%A8%A1%E7%B3%8A%E9%98%88%E5%80%BC%22,%22vals%22:[2.5,1.5,0],%22check_items%22:[{%22vals%22:[0,5],%22name%22:%22range%22,%22rule%22:%22rule_range%22}],%22important%22:true,%22modify%22:true,%22step%22:0.1,%22desc%22:%22%E8%B0%83%E5%B0%8F%EF%BC%8C%E5%8D%87%E6%A3%80%E5%87%BA%EF%BC%9B%E8%B0%83%E5%A4%A7%EF%BC%8C%E9%99%8D%E8%AF%AF%E6%8A%A5%22},{%22name%22:%22head_size_th%22,%22type%22:%22int%22,%22cn_name%22:%22%E5%A4%B4%E5%A4%A7%E5%B0%8F%E9%98%88%E5%80%BC%22,%22vals%22:[10,10,0],%22check_items%22:[{%22vals%22:[0,100],%22name%22:%22range%22,%22rule%22:%22rule_range%22}],%22important%22:false,%22modify%22:true,%22step%22:1,%22desc%22:%22%E8%B0%83%E5%B0%8F%EF%BC%8C%E5%8D%87%E6%A3%80%E5%87%BA%EF%BC%9B%E8%B0%83%E5%A4%A7%EF%BC%8C%E9%99%8D%E8%AF%AF%E6%8A%A5%22}],%22alarm_rule%22:%22(person_det_score%3Eperson_det_th)%26%26(person_cls_score%3Eperson_cls_th)%26%26(light_score%3Elight_th)%26%26(blur_score%3Eblur_th)%26%26(head_size_score%3Ehead_size_th)%22},%22threshold_current%22:{%22type%22:%22param%22,%22name%22:%22params%22,%22vals%22:[{%22type%22:%22float%22,%22name%22:%22person_det_th%22,%22vals%22:[0.5,0.4,0.2]},{%22type%22:%22float%22,%22name%22:%22person_cls_th%22,%22vals%22:[0.8,0.7,0]},{%22type%22:%22float%22,%22name%22:%22light_th%22,%22vals%22:[0.5,0.1,0]},{%22type%22:%22float%22,%22name%22:%22blur_th%22,%22vals%22:[2.5,1.5,0]},{%22type%22:%22int%22,%22name%22:%22head_size_th%22,%22vals%22:[10,10,0]}],%22sensitivity%22:0,%22custom%22:false}},%22default_info%22:{%22name%22:%22%E4%BA%BA%E5%91%98%E5%85%A5%E4%BE%B5%E8%AF%86%E5%88%AB%22,%22name_en%22:%22Person-Invasion%22,%22degree%22:3,%22threshold%22:[]},%22voice_type%22:0,%22voice_tmpl%22:null,%22is_virtual%22:false,%22selectedKeys%22:[3]}",
+    "screenshot": "screenshots_focused/02_smart_analysis/016_算法详情-人员入侵识别_Tab_默认绘制样式_操作_预览绘制效果.png",
+    "clip": {
+      "kind": "business",
+      "x": 280,
+      "y": 72,
+      "width": 1160,
+      "height": 928,
+      "scale": 1
+    },
+    "meta": {
+      "click": {
+        "ok": true,
+        "text": "预览绘制效果",
+        "found": {
+          "text": "预览绘制效果",
+          "rect": {
+            "x": 1105,
+            "y": 732,
+            "w": 90,
+            "h": 28
+          },
+          "className": "custom-light-btn custom-light-btn-sm cr-btn-small cr-btn"
+        }
+      }
+    }
+  },
+  {
+    "id": "02_smart_analysis-017",
+    "module": "智能分析",
+    "moduleId": "smart",
+    "submodule": "算法详情-人员入侵识别",
+    "label": "Tab_默认绘制样式_操作_重置样式",
+    "note": "在 默认绘制样式 下点击或定位操作：重置样式",
+    "url": "http://192.168.11.88:8081/app/main-app/dispatch/pre-processing/algo-info/#/algorithm-dispatch/pre-scheduling/algorithm-list-detail?algoInfo={%22algorithm_id%22:4,%22name%22:%22%E4%BA%BA%E5%91%98%E5%85%A5%E4%BE%B5%E8%AF%86%E5%88%AB%22,%22name_en%22:%22Person-Invasion%22,%22threshold%22:[],%22content%22:[{%22enable_special%22:true,%22value%22:1,%22text%22:%22%E4%BA%BA%E5%91%98%E5%85%A5%E4%BE%B5%E8%AF%86%E5%88%AB%22,%22type%22:%22classId%22,%22special_draw%22:{%22rect%22:{%22option%22:{%22color%22:[255,255,255]}}}}],%22paint%22:[{%22type%22:%22roi%22,%22whether%22:true,%22option%22:{%22thickness%22:2,%22color%22:[255,0,0],%22style%22:1}},{%22type%22:%22rect%22,%22whether%22:true,%22option%22:{%22thickness%22:2,%22color%22:[255,0,0],%22style%22:1}},{%22type%22:%22polygonList%22,%22whether%22:true,%22option%22:{%22thickness%22:2,%22color%22:[255,0,0],%22style%22:1}},{%22type%22:%22multiPointList%22,%22whether%22:true,%22option%22:{%22thickness%22:2,%22color%22:[255,0,0],%22style%22:1},%22other%22:[{%22type%22:%22head%22,%22whether%22:true,%22thickness%22:2,%22color%22:[0,0,255]},{%22type%22:%22hand%22,%22whether%22:true,%22thickness%22:2,%22color%22:[255,0,0]},{%22type%22:%22foot%22,%22whether%22:true,%22thickness%22:2,%22color%22:[0,255,0]},{%22type%22:%22body%22,%22whether%22:true,%22thickness%22:2,%22color%22:[0,255,255]}]},{%22type%22:%22text%22,%22whether%22:true,%22draw%22:[%22rect%22],%22option%22:{%22size%22:24,%22font%22:%22NotoSansCJKsc-Regular.otf%22,%22color%22:[255,255,255],%22background%22:[255,0,0]}},{%22type%22:%22ocr%22,%22whether%22:true,%22option%22:{%22color%22:[0,0,255]}}],%22degree%22:3,%22version%22:%22v17%22,%22voice_name%22:%22default.mp3%22,%22voice_url%22:%22%22,%22extra_data%22:{%22hd_split%22:{%22mode%22:%22sliding_window%22,%22res%22:[[1080,1920],[540,960]],%22stride%22:[[],[]],%22idx%22:0},%22channel_analysis_frame_rate%22:-1,%22roi_flag%22:false,%22roi_check%22:{%22type%22:%22roi%22,%22name%22:%22rois%22,%22vals%22:[{%22type%22:%22group%22,%22name%22:%22%22,%22check_items%22:[{%22name%22:%22count%22,%22vals%22:[0,1],%22rule%22:%22rule_count%22}],%22vals%22:[{%22type%22:%22polyset%22,%22name%22:%22polyset%22,%22vals%22:[{%22type%22:%22poly%22,%22name%22:%22%22,%22check_items%22:[{%22name%22:%22count%22,%22vals%22:[1,10],%22rule%22:%22rule_count%22}]}]}]}]},%22threshold_check%22:{%22type%22:%22param%22,%22name%22:%22params%22,%22check_items%22:[],%22vals%22:[{%22name%22:%22person_det_th%22,%22type%22:%22float%22,%22cn_name%22:%22%E8%A1%8C%E4%BA%BA%E6%A3%80%E6%B5%8B%E9%98%88%E5%80%BC%22,%22vals%22:[0.5,0.4,0.2],%22check_items%22:[{%22vals%22:[0,1],%22name%22:%22range%22,%22rule%22:%22rule_range%22}],%22important%22:true,%22modify%22:true,%22step%22:0.1,%22desc%22:%22%E8%B0%83%E5%B0%8F%EF%BC%8C%E5%8D%87%E6%A3%80%E5%87%BA%EF%BC%9B%E8%B0%83%E5%A4%A7%EF%BC%8C%E9%99%8D%E8%AF%AF%E6%8A%A5%22},{%22name%22:%22person_cls_th%22,%22type%22:%22float%22,%22cn_name%22:%22%E8%A1%8C%E4%BA%BA%E5%88%86%E7%B1%BB%E9%98%88%E5%80%BC%22,%22vals%22:[0.8,0.7,0],%22check_items%22:[{%22vals%22:[0,1],%22name%22:%22range%22,%22rule%22:%22rule_range%22}],%22important%22:true,%22modify%22:true,%22step%22:0.1,%22desc%22:%22%E8%B0%83%E5%B0%8F%EF%BC%8C%E5%8D%87%E6%A3%80%E5%87%BA%EF%BC%9B%E8%B0%83%E5%A4%A7%EF%BC%8C%E9%99%8D%E8%AF%AF%E6%8A%A5%22},{%22name%22:%22light_th%22,%22type%22:%22float%22,%22cn_name%22:%22%E4%BA%AE%E5%BA%A6%E9%98%88%E5%80%BC%22,%22vals%22:[0.5,0.1,0],%22check_items%22:[{%22vals%22:[0,1],%22name%22:%22range%22,%22rule%22:%22rule_range%22}],%22important%22:true,%22modify%22:true,%22step%22:0.01,%22desc%22:%22%E8%B0%83%E5%B0%8F%EF%BC%8C%E5%8D%87%E6%A3%80%E5%87%BA%EF%BC%9B%E8%B0%83%E5%A4%A7%EF%BC%8C%E9%99%8D%E8%AF%AF%E6%8A%A5%22},{%22name%22:%22blur_th%22,%22type%22:%22float%22,%22cn_name%22:%22%E6%A8%A1%E7%B3%8A%E9%98%88%E5%80%BC%22,%22vals%22:[2.5,1.5,0],%22check_items%22:[{%22vals%22:[0,5],%22name%22:%22range%22,%22rule%22:%22rule_range%22}],%22important%22:true,%22modify%22:true,%22step%22:0.1,%22desc%22:%22%E8%B0%83%E5%B0%8F%EF%BC%8C%E5%8D%87%E6%A3%80%E5%87%BA%EF%BC%9B%E8%B0%83%E5%A4%A7%EF%BC%8C%E9%99%8D%E8%AF%AF%E6%8A%A5%22},{%22name%22:%22head_size_th%22,%22type%22:%22int%22,%22cn_name%22:%22%E5%A4%B4%E5%A4%A7%E5%B0%8F%E9%98%88%E5%80%BC%22,%22vals%22:[10,10,0],%22check_items%22:[{%22vals%22:[0,100],%22name%22:%22range%22,%22rule%22:%22rule_range%22}],%22important%22:false,%22modify%22:true,%22step%22:1,%22desc%22:%22%E8%B0%83%E5%B0%8F%EF%BC%8C%E5%8D%87%E6%A3%80%E5%87%BA%EF%BC%9B%E8%B0%83%E5%A4%A7%EF%BC%8C%E9%99%8D%E8%AF%AF%E6%8A%A5%22}],%22alarm_rule%22:%22(person_det_score%3Eperson_det_th)%26%26(person_cls_score%3Eperson_cls_th)%26%26(light_score%3Elight_th)%26%26(blur_score%3Eblur_th)%26%26(head_size_score%3Ehead_size_th)%22},%22threshold_current%22:{%22type%22:%22param%22,%22name%22:%22params%22,%22vals%22:[{%22type%22:%22float%22,%22name%22:%22person_det_th%22,%22vals%22:[0.5,0.4,0.2]},{%22type%22:%22float%22,%22name%22:%22person_cls_th%22,%22vals%22:[0.8,0.7,0]},{%22type%22:%22float%22,%22name%22:%22light_th%22,%22vals%22:[0.5,0.1,0]},{%22type%22:%22float%22,%22name%22:%22blur_th%22,%22vals%22:[2.5,1.5,0]},{%22type%22:%22int%22,%22name%22:%22head_size_th%22,%22vals%22:[10,10,0]}],%22sensitivity%22:0,%22custom%22:false}},%22default_info%22:{%22name%22:%22%E4%BA%BA%E5%91%98%E5%85%A5%E4%BE%B5%E8%AF%86%E5%88%AB%22,%22name_en%22:%22Person-Invasion%22,%22degree%22:3,%22threshold%22:[]},%22voice_type%22:0,%22voice_tmpl%22:null,%22is_virtual%22:false,%22selectedKeys%22:[3]}",
+    "screenshot": "screenshots_focused/02_smart_analysis/017_算法详情-人员入侵识别_Tab_默认绘制样式_操作_重置样式.png",
+    "clip": {
+      "kind": "business",
+      "x": 280,
+      "y": 72,
+      "width": 1160,
+      "height": 928,
+      "scale": 1
+    },
+    "meta": {
+      "click": {
+        "ok": true,
+        "text": "重置样式",
+        "found": {
+          "text": "重置样式",
+          "rect": {
+            "x": 362,
+            "y": 178,
+            "w": 84,
+            "h": 28
+          },
+          "className": "custom-light-btn custom-light-btn-text custom-light-btn-sm cr-btn-small cr-btn"
+        }
+      }
+    }
+  },
+  {
+    "id": "02_smart_analysis-018",
+    "module": "智能分析",
+    "moduleId": "smart",
+    "submodule": "算法详情-人员入侵识别",
+    "label": "Tab_默认绘制样式_操作_保存",
+    "note": "在 默认绘制样式 下点击或定位操作：保存；该操作可能产生数据或配置变更，采集时仅悬停定位",
+    "url": "http://192.168.11.88:8081/app/main-app/dispatch/pre-processing/algo-info/#/algorithm-dispatch/pre-scheduling/algorithm-list-detail?algoInfo={%22algorithm_id%22:4,%22name%22:%22%E4%BA%BA%E5%91%98%E5%85%A5%E4%BE%B5%E8%AF%86%E5%88%AB%22,%22name_en%22:%22Person-Invasion%22,%22threshold%22:[],%22content%22:[{%22enable_special%22:true,%22value%22:1,%22text%22:%22%E4%BA%BA%E5%91%98%E5%85%A5%E4%BE%B5%E8%AF%86%E5%88%AB%22,%22type%22:%22classId%22,%22special_draw%22:{%22rect%22:{%22option%22:{%22color%22:[255,255,255]}}}}],%22paint%22:[{%22type%22:%22roi%22,%22whether%22:true,%22option%22:{%22thickness%22:2,%22color%22:[255,0,0],%22style%22:1}},{%22type%22:%22rect%22,%22whether%22:true,%22option%22:{%22thickness%22:2,%22color%22:[255,0,0],%22style%22:1}},{%22type%22:%22polygonList%22,%22whether%22:true,%22option%22:{%22thickness%22:2,%22color%22:[255,0,0],%22style%22:1}},{%22type%22:%22multiPointList%22,%22whether%22:true,%22option%22:{%22thickness%22:2,%22color%22:[255,0,0],%22style%22:1},%22other%22:[{%22type%22:%22head%22,%22whether%22:true,%22thickness%22:2,%22color%22:[0,0,255]},{%22type%22:%22hand%22,%22whether%22:true,%22thickness%22:2,%22color%22:[255,0,0]},{%22type%22:%22foot%22,%22whether%22:true,%22thickness%22:2,%22color%22:[0,255,0]},{%22type%22:%22body%22,%22whether%22:true,%22thickness%22:2,%22color%22:[0,255,255]}]},{%22type%22:%22text%22,%22whether%22:true,%22draw%22:[%22rect%22],%22option%22:{%22size%22:24,%22font%22:%22NotoSansCJKsc-Regular.otf%22,%22color%22:[255,255,255],%22background%22:[255,0,0]}},{%22type%22:%22ocr%22,%22whether%22:true,%22option%22:{%22color%22:[0,0,255]}}],%22degree%22:3,%22version%22:%22v17%22,%22voice_name%22:%22default.mp3%22,%22voice_url%22:%22%22,%22extra_data%22:{%22hd_split%22:{%22mode%22:%22sliding_window%22,%22res%22:[[1080,1920],[540,960]],%22stride%22:[[],[]],%22idx%22:0},%22channel_analysis_frame_rate%22:-1,%22roi_flag%22:false,%22roi_check%22:{%22type%22:%22roi%22,%22name%22:%22rois%22,%22vals%22:[{%22type%22:%22group%22,%22name%22:%22%22,%22check_items%22:[{%22name%22:%22count%22,%22vals%22:[0,1],%22rule%22:%22rule_count%22}],%22vals%22:[{%22type%22:%22polyset%22,%22name%22:%22polyset%22,%22vals%22:[{%22type%22:%22poly%22,%22name%22:%22%22,%22check_items%22:[{%22name%22:%22count%22,%22vals%22:[1,10],%22rule%22:%22rule_count%22}]}]}]}]},%22threshold_check%22:{%22type%22:%22param%22,%22name%22:%22params%22,%22check_items%22:[],%22vals%22:[{%22name%22:%22person_det_th%22,%22type%22:%22float%22,%22cn_name%22:%22%E8%A1%8C%E4%BA%BA%E6%A3%80%E6%B5%8B%E9%98%88%E5%80%BC%22,%22vals%22:[0.5,0.4,0.2],%22check_items%22:[{%22vals%22:[0,1],%22name%22:%22range%22,%22rule%22:%22rule_range%22}],%22important%22:true,%22modify%22:true,%22step%22:0.1,%22desc%22:%22%E8%B0%83%E5%B0%8F%EF%BC%8C%E5%8D%87%E6%A3%80%E5%87%BA%EF%BC%9B%E8%B0%83%E5%A4%A7%EF%BC%8C%E9%99%8D%E8%AF%AF%E6%8A%A5%22},{%22name%22:%22person_cls_th%22,%22type%22:%22float%22,%22cn_name%22:%22%E8%A1%8C%E4%BA%BA%E5%88%86%E7%B1%BB%E9%98%88%E5%80%BC%22,%22vals%22:[0.8,0.7,0],%22check_items%22:[{%22vals%22:[0,1],%22name%22:%22range%22,%22rule%22:%22rule_range%22}],%22important%22:true,%22modify%22:true,%22step%22:0.1,%22desc%22:%22%E8%B0%83%E5%B0%8F%EF%BC%8C%E5%8D%87%E6%A3%80%E5%87%BA%EF%BC%9B%E8%B0%83%E5%A4%A7%EF%BC%8C%E9%99%8D%E8%AF%AF%E6%8A%A5%22},{%22name%22:%22light_th%22,%22type%22:%22float%22,%22cn_name%22:%22%E4%BA%AE%E5%BA%A6%E9%98%88%E5%80%BC%22,%22vals%22:[0.5,0.1,0],%22check_items%22:[{%22vals%22:[0,1],%22name%22:%22range%22,%22rule%22:%22rule_range%22}],%22important%22:true,%22modify%22:true,%22step%22:0.01,%22desc%22:%22%E8%B0%83%E5%B0%8F%EF%BC%8C%E5%8D%87%E6%A3%80%E5%87%BA%EF%BC%9B%E8%B0%83%E5%A4%A7%EF%BC%8C%E9%99%8D%E8%AF%AF%E6%8A%A5%22},{%22name%22:%22blur_th%22,%22type%22:%22float%22,%22cn_name%22:%22%E6%A8%A1%E7%B3%8A%E9%98%88%E5%80%BC%22,%22vals%22:[2.5,1.5,0],%22check_items%22:[{%22vals%22:[0,5],%22name%22:%22range%22,%22rule%22:%22rule_range%22}],%22important%22:true,%22modify%22:true,%22step%22:0.1,%22desc%22:%22%E8%B0%83%E5%B0%8F%EF%BC%8C%E5%8D%87%E6%A3%80%E5%87%BA%EF%BC%9B%E8%B0%83%E5%A4%A7%EF%BC%8C%E9%99%8D%E8%AF%AF%E6%8A%A5%22},{%22name%22:%22head_size_th%22,%22type%22:%22int%22,%22cn_name%22:%22%E5%A4%B4%E5%A4%A7%E5%B0%8F%E9%98%88%E5%80%BC%22,%22vals%22:[10,10,0],%22check_items%22:[{%22vals%22:[0,100],%22name%22:%22range%22,%22rule%22:%22rule_range%22}],%22important%22:false,%22modify%22:true,%22step%22:1,%22desc%22:%22%E8%B0%83%E5%B0%8F%EF%BC%8C%E5%8D%87%E6%A3%80%E5%87%BA%EF%BC%9B%E8%B0%83%E5%A4%A7%EF%BC%8C%E9%99%8D%E8%AF%AF%E6%8A%A5%22}],%22alarm_rule%22:%22(person_det_score%3Eperson_det_th)%26%26(person_cls_score%3Eperson_cls_th)%26%26(light_score%3Elight_th)%26%26(blur_score%3Eblur_th)%26%26(head_size_score%3Ehead_size_th)%22},%22threshold_current%22:{%22type%22:%22param%22,%22name%22:%22params%22,%22vals%22:[{%22type%22:%22float%22,%22name%22:%22person_det_th%22,%22vals%22:[0.5,0.4,0.2]},{%22type%22:%22float%22,%22name%22:%22person_cls_th%22,%22vals%22:[0.8,0.7,0]},{%22type%22:%22float%22,%22name%22:%22light_th%22,%22vals%22:[0.5,0.1,0]},{%22type%22:%22float%22,%22name%22:%22blur_th%22,%22vals%22:[2.5,1.5,0]},{%22type%22:%22int%22,%22name%22:%22head_size_th%22,%22vals%22:[10,10,0]}],%22sensitivity%22:0,%22custom%22:false}},%22default_info%22:{%22name%22:%22%E4%BA%BA%E5%91%98%E5%85%A5%E4%BE%B5%E8%AF%86%E5%88%AB%22,%22name_en%22:%22Person-Invasion%22,%22degree%22:3,%22threshold%22:[]},%22voice_type%22:0,%22voice_tmpl%22:null,%22is_virtual%22:false,%22selectedKeys%22:[3]}",
+    "screenshot": "screenshots_focused/02_smart_analysis/018_算法详情-人员入侵识别_Tab_默认绘制样式_操作_保存.png",
+    "clip": {
+      "kind": "business",
+      "x": 280,
+      "y": 72,
+      "width": 1160,
+      "height": 928,
+      "scale": 1
+    },
+    "meta": {
+      "click": {
+        "ok": true,
+        "text": "保存",
+        "mode": "hover",
+        "found": {
+          "text": "保 存",
+          "rect": {
+            "x": 288,
+            "y": 178,
+            "w": 70,
+            "h": 28
+          },
+          "className": "custom-light-btn custom-light-btn-primary custom-light-btn-sm cr-btn-small cr-btn"
+        },
+        "safeSkipped": true,
+        "reason": "可能产生保存、删除、安装、归档或配置变更，仅定位/悬停截图"
+      }
+    }
+  },
+  {
+    "id": "02_smart_analysis-019",
+    "module": "智能分析",
+    "moduleId": "smart",
+    "submodule": "视频流分析详情",
+    "label": "进入前_详情",
+    "note": "进入详情或配置前的业务列表局部截图",
+    "url": "http://192.168.11.88:8081/app/main-app/dispatch/task/video-analysis/#/algorithm-dispatch/schedule-tasks/video-stream-analysis",
+    "screenshot": "screenshots_focused/02_smart_analysis/019_视频流分析详情_进入前_详情.png",
+    "clip": {
+      "kind": "business",
+      "x": 280,
+      "y": 72,
+      "width": 1160,
+      "height": 928,
+      "scale": 1
+    },
+    "meta": {}
+  },
+  {
+    "id": "02_smart_analysis-020",
+    "module": "智能分析",
+    "moduleId": "smart",
+    "submodule": "视频流分析详情",
+    "label": "业务区域默认态",
+    "note": "裁剪业务区域，排除顶部公共工具区和左侧一级导航",
+    "url": "http://192.168.11.88:8081/app/main-app/dispatch/task/video-analysis/#/algorithm-dispatch/schedule-tasks/video-stream-analysis",
+    "screenshot": "screenshots_focused/02_smart_analysis/020_视频流分析详情_业务区域默认态.png",
+    "clip": {
+      "kind": "overlay",
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 1000,
+      "scale": 1
+    },
+    "meta": {}
+  },
+  {
+    "id": "02_smart_analysis-021",
+    "module": "智能分析",
+    "moduleId": "smart",
+    "submodule": "视频流分析详情",
+    "label": "Tab_选择摄像头与算法",
+    "note": "点击或切换 Tab/分段控件：选择摄像头与算法",
+    "url": "http://192.168.11.88:8081/app/main-app/dispatch/task/video-analysis/#/algorithm-dispatch/schedule-tasks/video-stream-analysis",
+    "screenshot": "screenshots_focused/02_smart_analysis/021_视频流分析详情_Tab_选择摄像头与算法.png",
+    "clip": {
+      "kind": "overlay",
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 1000,
+      "scale": 1
+    },
+    "meta": {
+      "click": {
+        "ok": true,
+        "text": "选择摄像头与算法",
+        "found": {
+          "text": "选择摄像头与算法",
+          "rect": {
+            "x": 170,
+            "y": 170,
+            "w": 112,
+            "h": 22
+          },
+          "className": "step-desc"
+        }
+      }
+    }
+  },
+  {
+    "id": "02_smart_analysis-022",
+    "module": "智能分析",
+    "moduleId": "smart",
+    "submodule": "视频流分析详情",
+    "label": "Tab_配置任务",
+    "note": "点击或切换 Tab/分段控件：配置任务",
+    "url": "http://192.168.11.88:8081/app/main-app/dispatch/task/video-analysis/#/algorithm-dispatch/schedule-tasks/video-stream-analysis",
+    "screenshot": "screenshots_focused/02_smart_analysis/022_视频流分析详情_Tab_配置任务.png",
+    "clip": {
+      "kind": "overlay",
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 1000,
+      "scale": 1
+    },
+    "meta": {
+      "click": {
+        "ok": true,
+        "text": "配置任务",
+        "found": {
+          "text": "配置任务",
+          "rect": {
+            "x": 170,
+            "y": 229,
+            "w": 56,
+            "h": 22
+          },
+          "className": "step-desc"
+        }
+      }
+    }
+  },
+  {
+    "id": "02_smart_analysis-023",
+    "module": "智能分析",
+    "moduleId": "smart",
+    "submodule": "视频流分析详情",
+    "label": "Tab_查看报警",
+    "note": "点击或切换 Tab/分段控件：查看报警",
+    "url": "http://192.168.11.88:8081/app/main-app/dispatch/task/video-analysis/#/algorithm-dispatch/schedule-tasks/video-stream-analysis",
+    "screenshot": "screenshots_focused/02_smart_analysis/023_视频流分析详情_Tab_查看报警.png",
+    "clip": {
+      "kind": "overlay",
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 1000,
+      "scale": 1
+    },
+    "meta": {
+      "click": {
+        "ok": true,
+        "text": "查看报警",
+        "found": {
+          "text": "查看报警",
+          "rect": {
+            "x": 170,
+            "y": 288,
+            "w": 56,
+            "h": 22
+          },
+          "className": "step-desc"
+        }
+      }
+    }
+  },
+  {
+    "id": "02_smart_analysis-024",
+    "module": "智能分析",
+    "moduleId": "smart",
+    "submodule": "视频流分析详情",
+    "label": "操作_启用",
+    "note": "点击或定位业务操作：启用",
+    "url": "http://192.168.11.88:8081/app/main-app/dispatch/task/video-analysis/#/algorithm-dispatch/schedule-tasks/video-stream-analysis",
+    "screenshot": "screenshots_focused/02_smart_analysis/024_视频流分析详情_操作_启用.png",
+    "clip": {
+      "kind": "overlay",
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 1000,
+      "scale": 1
+    },
+    "meta": {
+      "click": {
+        "ok": true,
+        "text": "启用",
+        "found": {
+          "text": "启用",
+          "rect": {
+            "x": 1141,
+            "y": 208,
+            "w": 26,
+            "h": 32
+          },
+          "className": "custom-light-btn custom-light-btn-link cr-btn-middle cr-btn"
+        }
+      }
+    }
+  },
+  {
+    "id": "02_smart_analysis-025",
+    "module": "智能分析",
+    "moduleId": "smart",
+    "submodule": "创建视频分析任务",
+    "label": "打开前_创建视频分析任务",
+    "note": "打开业务弹窗/抽屉前的列表局部截图",
+    "url": "http://192.168.11.88:8081/app/main-app/dispatch/task/video-analysis/#/algorithm-dispatch/schedule-tasks/video-stream-analysis",
+    "screenshot": "screenshots_focused/02_smart_analysis/025_创建视频分析任务_打开前_创建视频分析任务.png",
+    "clip": {
+      "kind": "business",
+      "x": 280,
+      "y": 72,
+      "width": 1160,
+      "height": 928,
+      "scale": 1
+    },
+    "meta": {}
+  },
+  {
+    "id": "02_smart_analysis-026",
+    "module": "智能分析",
+    "moduleId": "smart",
+    "submodule": "创建视频分析任务",
+    "label": "业务区域默认态",
+    "note": "裁剪业务区域，排除顶部公共工具区和左侧一级导航",
+    "url": "http://192.168.11.88:8081/app/main-app/dispatch/task/video-analysis/#/algorithm-dispatch/schedule-tasks/video-stream-analysis",
+    "screenshot": "screenshots_focused/02_smart_analysis/026_创建视频分析任务_业务区域默认态.png",
+    "clip": {
+      "kind": "overlay",
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 1000,
+      "scale": 1
+    },
+    "meta": {}
+  },
+  {
+    "id": "02_smart_analysis-027",
+    "module": "智能分析",
+    "moduleId": "smart",
+    "submodule": "创建视频分析任务",
+    "label": "Tab_实时分析",
+    "note": "点击或切换 Tab/分段控件：实时分析",
+    "url": "http://192.168.11.88:8081/app/main-app/dispatch/task/video-analysis/#/algorithm-dispatch/schedule-tasks/video-stream-analysis",
+    "screenshot": "screenshots_focused/02_smart_analysis/027_创建视频分析任务_Tab_实时分析.png",
+    "clip": {
+      "kind": "overlay",
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 1000,
+      "scale": 1
+    },
+    "meta": {
+      "click": {
+        "ok": true,
+        "text": "实时分析",
+        "found": {
+          "text": "实时分析",
+          "rect": {
+            "x": 574,
+            "y": 542,
+            "w": 64,
+            "h": 24
+          },
+          "className": "task-type-title"
+        }
+      }
+    }
+  },
+  {
+    "id": "02_smart_analysis-028",
+    "module": "智能分析",
+    "moduleId": "smart",
+    "submodule": "创建视频分析任务",
+    "label": "Tab_轮巡分析",
+    "note": "点击或切换 Tab/分段控件：轮巡分析",
+    "url": "http://192.168.11.88:8081/app/main-app/dispatch/task/video-analysis/#/algorithm-dispatch/schedule-tasks/video-stream-analysis",
+    "screenshot": "screenshots_focused/02_smart_analysis/028_创建视频分析任务_Tab_轮巡分析.png",
+    "clip": {
+      "kind": "overlay",
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 1000,
+      "scale": 1
+    },
+    "meta": {
+      "click": {
+        "ok": true,
+        "text": "轮巡分析",
+        "found": {
+          "text": "轮巡分析",
+          "rect": {
+            "x": 802,
+            "y": 542,
+            "w": 64,
+            "h": 24
+          },
+          "className": "task-type-title"
+        }
+      }
+    }
+  },
+  {
+    "id": "02_smart_analysis-029",
+    "module": "智能分析",
+    "moduleId": "smart",
+    "submodule": "创建视频分析任务",
+    "label": "操作_保存",
+    "note": "点击或定位业务操作：保存；该操作可能产生数据或配置变更，采集时仅悬停定位",
+    "url": "http://192.168.11.88:8081/app/main-app/dispatch/task/video-analysis/#/algorithm-dispatch/schedule-tasks/video-stream-analysis",
+    "screenshot": "screenshots_focused/02_smart_analysis/029_创建视频分析任务_操作_保存.png",
+    "clip": {
+      "kind": "overlay",
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 1000,
+      "scale": 1
+    },
+    "meta": {
+      "click": {
+        "ok": false,
+        "text": "保存",
+        "mode": "hover",
+        "safeSkipped": true,
+        "reason": "可能产生保存、删除、安装、归档或配置变更，仅定位/悬停截图"
+      }
+    }
+  },
+  {
+    "id": "02_smart_analysis-030",
+    "module": "智能分析",
+    "moduleId": "smart",
+    "submodule": "创建视频分析任务",
+    "label": "操作_取消",
+    "note": "点击或定位业务操作：取消",
+    "url": "http://192.168.11.88:8081/app/main-app/dispatch/task/video-analysis/#/algorithm-dispatch/schedule-tasks/video-stream-analysis",
+    "screenshot": "screenshots_focused/02_smart_analysis/030_创建视频分析任务_操作_取消.png",
+    "clip": {
+      "kind": "business",
+      "x": 280,
+      "y": 72,
+      "width": 1160,
+      "height": 928,
+      "scale": 1
+    },
+    "meta": {
+      "click": {
+        "ok": false,
+        "text": "取消"
+      }
+    }
+  },
+  {
+    "id": "02_smart_analysis-031",
+    "module": "智能分析",
+    "moduleId": "smart",
+    "submodule": "图片分析详情",
+    "label": "进入前_详情",
+    "note": "进入详情或配置前的业务列表局部截图",
+    "url": "http://192.168.11.88:8081/app/main-app/dispatch/task/img-analysis/#/algorithm-dispatch/schedule-tasks/picture-analysis",
+    "screenshot": "screenshots_focused/02_smart_analysis/031_图片分析详情_进入前_详情.png",
+    "clip": {
+      "kind": "business",
+      "x": 280,
+      "y": 72,
+      "width": 1160,
+      "height": 928,
+      "scale": 1
+    },
+    "meta": {}
+  },
+  {
+    "id": "02_smart_analysis-032",
+    "module": "智能分析",
+    "moduleId": "smart",
+    "submodule": "图片分析详情",
+    "label": "业务区域默认态",
+    "note": "裁剪业务区域，排除顶部公共工具区和左侧一级导航",
+    "url": "http://192.168.11.88:8081/app/main-app/dispatch/task/img-analysis/#/algorithm-dispatch/schedule-tasks/picture-analysis",
+    "screenshot": "screenshots_focused/02_smart_analysis/032_图片分析详情_业务区域默认态.png",
+    "clip": {
+      "kind": "overlay",
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 1000,
+      "scale": 1
+    },
+    "meta": {}
+  },
+  {
+    "id": "02_smart_analysis-033",
+    "module": "智能分析",
+    "moduleId": "smart",
+    "submodule": "图片分析详情",
+    "label": "Tab_配置算法",
+    "note": "点击或切换 Tab/分段控件：配置算法",
+    "url": "http://192.168.11.88:8081/app/main-app/dispatch/task/img-analysis/#/algorithm-dispatch/schedule-tasks/picture-analysis",
+    "screenshot": "screenshots_focused/02_smart_analysis/033_图片分析详情_Tab_配置算法.png",
+    "clip": {
+      "kind": "overlay",
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 1000,
+      "scale": 1
+    },
+    "meta": {
+      "click": {
+        "ok": true,
+        "text": "配置算法",
+        "found": {
+          "text": "配置算法",
+          "rect": {
+            "x": 170,
+            "y": 170,
+            "w": 56,
+            "h": 22
+          },
+          "className": "step-desc"
+        }
+      }
+    }
+  },
+  {
+    "id": "02_smart_analysis-034",
+    "module": "智能分析",
+    "moduleId": "smart",
+    "submodule": "图片分析详情",
+    "label": "Tab_配置任务",
+    "note": "点击或切换 Tab/分段控件：配置任务",
+    "url": "http://192.168.11.88:8081/app/main-app/dispatch/task/img-analysis/#/algorithm-dispatch/schedule-tasks/picture-analysis",
+    "screenshot": "screenshots_focused/02_smart_analysis/034_图片分析详情_Tab_配置任务.png",
+    "clip": {
+      "kind": "overlay",
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 1000,
+      "scale": 1
+    },
+    "meta": {
+      "click": {
+        "ok": true,
+        "text": "配置任务",
+        "found": {
+          "text": "配置任务",
+          "rect": {
+            "x": 170,
+            "y": 252,
+            "w": 56,
+            "h": 22
+          },
+          "className": "step-desc"
+        }
+      }
+    }
+  },
+  {
+    "id": "02_smart_analysis-035",
+    "module": "智能分析",
+    "moduleId": "smart",
+    "submodule": "图片分析详情",
+    "label": "Tab_查看报警",
+    "note": "点击或切换 Tab/分段控件：查看报警",
+    "url": "http://192.168.11.88:8081/app/main-app/dispatch/task/img-analysis/#/algorithm-dispatch/schedule-tasks/picture-analysis",
+    "screenshot": "screenshots_focused/02_smart_analysis/035_图片分析详情_Tab_查看报警.png",
+    "clip": {
+      "kind": "overlay",
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 1000,
+      "scale": 1
+    },
+    "meta": {
+      "click": {
+        "ok": true,
+        "text": "查看报警",
+        "found": {
+          "text": "查看报警",
+          "rect": {
+            "x": 170,
+            "y": 311,
+            "w": 56,
+            "h": 22
+          },
+          "className": "step-desc"
+        }
+      }
+    }
+  },
+  {
+    "id": "02_smart_analysis-036",
+    "module": "智能分析",
+    "moduleId": "smart",
+    "submodule": "报警推送创建",
+    "label": "打开前_创建推送",
+    "note": "打开业务弹窗/抽屉前的列表局部截图",
+    "url": "http://192.168.11.88:8081/app/main-app/dispatch/result-push/callback/#/open-ability/alarm-push/callback-output",
+    "screenshot": "screenshots_focused/02_smart_analysis/036_报警推送创建_打开前_创建推送.png",
+    "clip": {
+      "kind": "business",
+      "x": 280,
+      "y": 72,
+      "width": 1160,
+      "height": 928,
+      "scale": 1
+    },
+    "meta": {}
+  },
+  {
+    "id": "02_smart_analysis-037",
+    "module": "智能分析",
+    "moduleId": "smart",
+    "submodule": "报警推送创建",
+    "label": "业务区域默认态",
+    "note": "裁剪业务区域，排除顶部公共工具区和左侧一级导航",
+    "url": "http://192.168.11.88:8081/app/main-app/dispatch/result-push/callback/#/open-ability/alarm-push/callback-output",
+    "screenshot": "screenshots_focused/02_smart_analysis/037_报警推送创建_业务区域默认态.png",
+    "clip": {
+      "kind": "overlay",
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 1000,
+      "scale": 1
+    },
+    "meta": {}
+  },
+  {
+    "id": "02_smart_analysis-038",
+    "module": "智能分析",
+    "moduleId": "smart",
+    "submodule": "报警推送创建",
+    "label": "Tab_基础信息",
+    "note": "点击或切换 Tab/分段控件：基础信息",
+    "url": "http://192.168.11.88:8081/app/main-app/dispatch/result-push/callback/#/open-ability/alarm-push/callback-output",
+    "screenshot": "screenshots_focused/02_smart_analysis/038_报警推送创建_Tab_基础信息.png",
+    "clip": {
+      "kind": "overlay",
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 1000,
+      "scale": 1
+    },
+    "meta": {
+      "click": {
+        "ok": true,
+        "text": "基础信息",
+        "found": {
+          "text": "基础信息",
+          "rect": {
+            "x": 354,
+            "y": 257,
+            "w": 110,
+            "h": 32
+          },
+          "className": "aside-menu-item-label overfl-oneline"
+        }
+      }
+    }
+  },
+  {
+    "id": "02_smart_analysis-039",
+    "module": "智能分析",
+    "moduleId": "smart",
+    "submodule": "报警推送创建",
+    "label": "Tab_视频流分析场景",
+    "note": "点击或切换 Tab/分段控件：视频流分析场景",
+    "url": "http://192.168.11.88:8081/app/main-app/dispatch/result-push/callback/#/open-ability/alarm-push/callback-output",
+    "screenshot": "screenshots_focused/02_smart_analysis/039_报警推送创建_Tab_视频流分析场景.png",
+    "clip": {
+      "kind": "overlay",
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 1000,
+      "scale": 1
+    },
+    "meta": {
+      "click": {
+        "ok": true,
+        "text": "视频流分析场景",
+        "found": {
+          "text": "视频流分析场景",
+          "rect": {
+            "x": 354,
+            "y": 293,
+            "w": 110,
+            "h": 32
+          },
+          "className": "aside-menu-item-label overfl-oneline"
+        }
+      }
+    }
+  },
+  {
+    "id": "02_smart_analysis-040",
+    "module": "智能分析",
+    "moduleId": "smart",
+    "submodule": "报警推送创建",
+    "label": "Tab_图片分析场景",
+    "note": "点击或切换 Tab/分段控件：图片分析场景",
+    "url": "http://192.168.11.88:8081/app/main-app/dispatch/result-push/callback/#/open-ability/alarm-push/callback-output",
+    "screenshot": "screenshots_focused/02_smart_analysis/040_报警推送创建_Tab_图片分析场景.png",
+    "clip": {
+      "kind": "overlay",
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 1000,
+      "scale": 1
+    },
+    "meta": {
+      "click": {
+        "ok": true,
+        "text": "图片分析场景",
+        "found": {
+          "text": "图片分析场景",
+          "rect": {
+            "x": 354,
+            "y": 329,
+            "w": 110,
+            "h": 32
+          },
+          "className": "aside-menu-item-label overfl-oneline"
+        }
+      }
+    }
+  },
+  {
+    "id": "02_smart_analysis-041",
+    "module": "智能分析",
+    "moduleId": "smart",
+    "submodule": "报警推送创建",
+    "label": "Tab_base64",
+    "note": "点击或切换 Tab/分段控件：base64",
+    "url": "http://192.168.11.88:8081/app/main-app/dispatch/result-push/callback/#/open-ability/alarm-push/callback-output",
+    "screenshot": "screenshots_focused/02_smart_analysis/041_报警推送创建_Tab_base64.png",
+    "clip": {
+      "kind": "overlay",
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 1000,
+      "scale": 1
+    },
+    "meta": {
+      "click": {
+        "ok": false,
+        "text": "base64"
+      }
+    }
+  },
+  {
+    "id": "02_smart_analysis-042",
+    "module": "智能分析",
+    "moduleId": "smart",
+    "submodule": "报警推送创建",
+    "label": "Tab_对象存储",
+    "note": "点击或切换 Tab/分段控件：对象存储",
+    "url": "http://192.168.11.88:8081/app/main-app/dispatch/result-push/callback/#/open-ability/alarm-push/callback-output",
+    "screenshot": "screenshots_focused/02_smart_analysis/042_报警推送创建_Tab_对象存储.png",
+    "clip": {
+      "kind": "overlay",
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 1000,
+      "scale": 1
+    },
+    "meta": {
+      "click": {
+        "ok": false,
+        "text": "对象存储"
+      }
+    }
+  },
+  {
+    "id": "02_smart_analysis-043",
+    "module": "智能分析",
+    "moduleId": "smart",
+    "submodule": "报警推送创建",
+    "label": "Tab_本地链接",
+    "note": "点击或切换 Tab/分段控件：本地链接",
+    "url": "http://192.168.11.88:8081/app/main-app/dispatch/result-push/callback/#/open-ability/alarm-push/callback-output",
+    "screenshot": "screenshots_focused/02_smart_analysis/043_报警推送创建_Tab_本地链接.png",
+    "clip": {
+      "kind": "overlay",
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 1000,
+      "scale": 1
+    },
+    "meta": {
+      "click": {
+        "ok": false,
+        "text": "本地链接"
+      }
+    }
+  },
+  {
+    "id": "02_smart_analysis-044",
+    "module": "智能分析",
+    "moduleId": "smart",
+    "submodule": "报警推送创建",
+    "label": "Tab_预览",
+    "note": "点击或切换 Tab/分段控件：预览",
+    "url": "http://192.168.11.88:8081/app/main-app/dispatch/result-push/callback/#/open-ability/alarm-push/callback-output",
+    "screenshot": "screenshots_focused/02_smart_analysis/044_报警推送创建_Tab_预览.png",
+    "clip": {
+      "kind": "overlay",
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 1000,
+      "scale": 1
+    },
+    "meta": {
+      "click": {
+        "ok": false,
+        "text": "预览"
+      }
+    }
+  },
+  {
+    "id": "02_smart_analysis-045",
+    "module": "智能分析",
+    "moduleId": "smart",
+    "submodule": "报警推送创建",
+    "label": "Tab_编辑",
+    "note": "点击或切换 Tab/分段控件：编辑",
+    "url": "http://192.168.11.88:8081/app/main-app/dispatch/result-push/callback/#/open-ability/alarm-push/callback-output",
+    "screenshot": "screenshots_focused/02_smart_analysis/045_报警推送创建_Tab_编辑.png",
+    "clip": {
+      "kind": "overlay",
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 1000,
+      "scale": 1
+    },
+    "meta": {
+      "click": {
+        "ok": false,
+        "text": "编辑"
+      }
+    }
+  },
+  {
+    "id": "02_smart_analysis-046",
+    "module": "智能分析",
+    "moduleId": "smart",
+    "submodule": "报警推送创建",
+    "label": "操作_保存",
+    "note": "点击或定位业务操作：保存；该操作可能产生数据或配置变更，采集时仅悬停定位",
+    "url": "http://192.168.11.88:8081/app/main-app/dispatch/result-push/callback/#/open-ability/alarm-push/callback-output",
+    "screenshot": "screenshots_focused/02_smart_analysis/046_报警推送创建_操作_保存.png",
+    "clip": {
+      "kind": "overlay",
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 1000,
+      "scale": 1
+    },
+    "meta": {
+      "click": {
+        "ok": true,
+        "text": "保存",
+        "mode": "hover",
+        "found": {
+          "text": "保 存",
+          "rect": {
+            "x": 1024,
+            "y": 764,
+            "w": 80,
+            "h": 32
+          },
+          "className": "custom-light-btn custom-light-btn-primary cr-btn-middle cr-btn"
+        },
+        "safeSkipped": true,
+        "reason": "可能产生保存、删除、安装、归档或配置变更，仅定位/悬停截图"
+      }
+    }
+  },
+  {
+    "id": "02_smart_analysis-047",
+    "module": "智能分析",
+    "moduleId": "smart",
+    "submodule": "报警推送创建",
+    "label": "操作_取消",
+    "note": "点击或定位业务操作：取消",
+    "url": "http://192.168.11.88:8081/app/main-app/dispatch/result-push/callback/#/open-ability/alarm-push/callback-output",
+    "screenshot": "screenshots_focused/02_smart_analysis/047_报警推送创建_操作_取消.png",
+    "clip": {
+      "kind": "business",
+      "x": 280,
+      "y": 72,
+      "width": 1160,
+      "height": 928,
+      "scale": 1
+    },
+    "meta": {
+      "click": {
+        "ok": false,
+        "text": "取消"
+      }
+    }
+  },
+  {
+    "id": "02_smart_analysis-048",
+    "module": "智能分析",
+    "moduleId": "smart",
+    "submodule": "报警弹窗及语音",
+    "label": "业务区域默认态",
+    "note": "裁剪业务区域，排除顶部公共工具区和左侧一级导航",
+    "url": "http://192.168.11.88:8081/app/main-app/dispatch/result-push/modal-voice/#/modal-voice",
+    "screenshot": "screenshots_focused/02_smart_analysis/048_报警弹窗及语音_业务区域默认态.png",
+    "clip": {
+      "kind": "business",
+      "x": 280,
+      "y": 72,
+      "width": 1160,
+      "height": 928,
+      "scale": 1
+    },
+    "meta": {}
+  },
+  {
+    "id": "02_smart_analysis-049",
+    "module": "智能分析",
+    "moduleId": "smart",
+    "submodule": "报警弹窗及语音",
+    "label": "Tab_一级",
+    "note": "点击或切换 Tab/分段控件：一级",
+    "url": "http://192.168.11.88:8081/app/main-app/dispatch/result-push/modal-voice/#/modal-voice",
+    "screenshot": "screenshots_focused/02_smart_analysis/049_报警弹窗及语音_Tab_一级.png",
+    "clip": {
+      "kind": "business",
+      "x": 280,
+      "y": 72,
+      "width": 1160,
+      "height": 928,
+      "scale": 1
+    },
+    "meta": {
+      "click": {
+        "ok": true,
+        "text": "一级",
+        "found": {
+          "text": "一级",
+          "rect": {
+            "x": 321,
+            "y": 231,
+            "w": 24,
+            "h": 22
+          },
+          "className": "custom-light-select-selection-item-content"
+        }
+      }
+    }
+  },
+  {
+    "id": "02_smart_analysis-050",
+    "module": "智能分析",
+    "moduleId": "smart",
+    "submodule": "报警弹窗及语音",
+    "label": "Tab_二级",
+    "note": "点击或切换 Tab/分段控件：二级",
+    "url": "http://192.168.11.88:8081/app/main-app/dispatch/result-push/modal-voice/#/modal-voice",
+    "screenshot": "screenshots_focused/02_smart_analysis/050_报警弹窗及语音_Tab_二级.png",
+    "clip": {
+      "kind": "business",
+      "x": 280,
+      "y": 72,
+      "width": 1160,
+      "height": 928,
+      "scale": 1
+    },
+    "meta": {
+      "click": {
+        "ok": true,
+        "text": "二级",
+        "found": {
+          "text": "二级",
+          "rect": {
+            "x": 377,
+            "y": 231,
+            "w": 24,
+            "h": 22
+          },
+          "className": "custom-light-select-selection-item-content"
+        }
+      }
+    }
+  },
+  {
+    "id": "02_smart_analysis-051",
+    "module": "智能分析",
+    "moduleId": "smart",
+    "submodule": "报警弹窗及语音",
+    "label": "Tab_三级",
+    "note": "点击或切换 Tab/分段控件：三级",
+    "url": "http://192.168.11.88:8081/app/main-app/dispatch/result-push/modal-voice/#/modal-voice",
+    "screenshot": "screenshots_focused/02_smart_analysis/051_报警弹窗及语音_Tab_三级.png",
+    "clip": {
+      "kind": "business",
+      "x": 280,
+      "y": 72,
+      "width": 1160,
+      "height": 928,
+      "scale": 1
+    },
+    "meta": {
+      "click": {
+        "ok": true,
+        "text": "三级",
+        "found": {
+          "text": "三级",
+          "rect": {
+            "x": 433,
+            "y": 231,
+            "w": 24,
+            "h": 22
+          },
+          "className": "custom-light-select-selection-item-content"
+        }
+      }
+    }
+  },
+  {
+    "id": "02_smart_analysis-052",
+    "module": "智能分析",
+    "moduleId": "smart",
+    "submodule": "报警弹窗及语音",
+    "label": "Tab_试听",
+    "note": "点击或切换 Tab/分段控件：试听",
+    "url": "http://192.168.11.88:8081/app/main-app/dispatch/result-push/modal-voice/#/modal-voice",
+    "screenshot": "screenshots_focused/02_smart_analysis/052_报警弹窗及语音_Tab_试听.png",
+    "clip": {
+      "kind": "business",
+      "x": 280,
+      "y": 72,
+      "width": 1160,
+      "height": 928,
+      "scale": 1
+    },
+    "meta": {
+      "click": {
+        "ok": true,
+        "text": "试听",
+        "found": {
+          "text": "试听",
+          "rect": {
+            "x": 1271,
+            "y": 158,
+            "w": 26,
+            "h": 32
+          },
+          "className": "custom-light-btn custom-light-btn-link cr-btn-middle cr-btn"
+        }
+      }
+    }
+  },
+  {
+    "id": "02_smart_analysis-053",
+    "module": "智能分析",
+    "moduleId": "smart",
+    "submodule": "报警弹窗及语音",
+    "label": "Tab_替换",
+    "note": "点击或切换 Tab/分段控件：替换",
+    "url": "http://192.168.11.88:8081/app/main-app/dispatch/result-push/modal-voice/#/modal-voice",
+    "screenshot": "screenshots_focused/02_smart_analysis/053_报警弹窗及语音_Tab_替换.png",
+    "clip": {
+      "kind": "business",
+      "x": 280,
+      "y": 72,
+      "width": 1160,
+      "height": 928,
+      "scale": 1
+    },
+    "meta": {
+      "click": {
+        "ok": true,
+        "text": "替换",
+        "found": {
+          "text": "替换",
+          "rect": {
+            "x": 373,
+            "y": 417,
+            "w": 44,
+            "h": 19
+          },
+          "className": "custom-light-upload"
+        }
+      }
+    }
+  },
+  {
+    "id": "02_smart_analysis-054",
+    "module": "智能分析",
+    "moduleId": "smart",
+    "submodule": "报警弹窗及语音",
+    "label": "Tab_恢复默认",
+    "note": "点击或切换 Tab/分段控件：恢复默认",
+    "url": "http://192.168.11.88:8081/app/main-app/dispatch/result-push/modal-voice/#/modal-voice",
+    "screenshot": "screenshots_focused/02_smart_analysis/054_报警弹窗及语音_Tab_恢复默认.png",
+    "clip": {
+      "kind": "business",
+      "x": 280,
+      "y": 72,
+      "width": 1160,
+      "height": 928,
+      "scale": 1
+    },
+    "meta": {
+      "click": {
+        "ok": true,
+        "text": "恢复默认",
+        "found": {
+          "text": "恢复默认",
+          "rect": {
+            "x": 463,
+            "y": 411,
+            "w": 90,
+            "h": 32
+          },
+          "className": "custom-light-btn custom-light-btn-text cr-btn-middle cr-btn"
+        }
+      }
+    }
+  },
+  {
+    "id": "02_smart_analysis-055",
+    "module": "智能分析",
+    "moduleId": "smart",
+    "submodule": "报警弹窗及语音",
+    "label": "Tab_编辑",
+    "note": "点击或切换 Tab/分段控件：编辑",
+    "url": "http://192.168.11.88:8081/app/main-app/dispatch/result-push/modal-voice/#/modal-voice",
+    "screenshot": "screenshots_focused/02_smart_analysis/055_报警弹窗及语音_Tab_编辑.png",
+    "clip": {
+      "kind": "overlay",
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 1000,
+      "scale": 1
+    },
+    "meta": {
+      "click": {
+        "ok": true,
+        "text": "编辑",
+        "found": {
+          "text": "编辑",
+          "rect": {
+            "x": 1317,
+            "y": 158,
+            "w": 26,
+            "h": 32
+          },
+          "className": "custom-light-btn custom-light-btn-link cr-btn-middle cr-btn"
+        }
+      }
+    }
+  }
+]

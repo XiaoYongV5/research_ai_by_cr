@@ -1,0 +1,612 @@
+{
+  "module": "数据中心",
+  "submodule": "陌生人识别日志",
+  "capability": "陌生人识别结果查询与异常身份追踪",
+  "url": "http://192.168.11.88:8081/app/main-app/data/stranger_identification_log/#/stranger_identification_log",
+  "title": "陌生人识别日志",
+  "bodyText": "人工智能推理平台\n搜索菜单\n数据看板\n智能分析\n数据中心\n平台管理\n推理输出结果\n报警日志\n报警推送日志\n人员识别结果\n人员识别日志\n陌生人识别日志\n陌生人识别日志\n自动清理已开启\n清理缓存\n陌生人ID\n摄像头\n开始时间\n结束时间\n比对分数\n重置\n查询\n报警时间\t抓拍图\t注册照\t陌生人ID\t比对分数\t比对阈值\t摄像头\t\n \n\t\n \n\t\n \n\t\n \n\t\n \n\t\n \n\t\n \n\n暂无数据",
+  "controls": [
+    {
+      "idx": 1,
+      "tag": "DIV",
+      "text": "搜索菜单",
+      "placeholder": "",
+      "title": "",
+      "aria": "",
+      "cls": "custom-light-select-selector",
+      "rect": {
+        "x": 961,
+        "y": 6,
+        "w": 220,
+        "h": 32
+      },
+      "disabled": false
+    },
+    {
+      "idx": 12,
+      "tag": "INPUT",
+      "text": "",
+      "placeholder": "请输入",
+      "title": "",
+      "aria": "",
+      "cls": "custom-light-input",
+      "rect": {
+        "x": 325,
+        "y": 172,
+        "w": 158,
+        "h": 18
+      },
+      "disabled": false
+    },
+    {
+      "idx": 13,
+      "tag": "INPUT",
+      "text": "",
+      "placeholder": "请选择",
+      "title": "",
+      "aria": "",
+      "cls": "custom-light-input",
+      "rect": {
+        "x": 535,
+        "y": 167,
+        "w": 206,
+        "h": 28
+      },
+      "disabled": false
+    },
+    {
+      "idx": 14,
+      "tag": "DIV",
+      "text": "",
+      "placeholder": "请选择日期",
+      "title": "",
+      "aria": "",
+      "cls": "custom-light-picker",
+      "rect": {
+        "x": 757,
+        "y": 167,
+        "w": 206,
+        "h": 28
+      },
+      "disabled": false
+    },
+    {
+      "idx": 15,
+      "tag": "INPUT",
+      "text": "",
+      "placeholder": "请选择日期",
+      "title": "",
+      "aria": "",
+      "cls": "",
+      "rect": {
+        "x": 769,
+        "y": 170,
+        "w": 166,
+        "h": 22
+      },
+      "disabled": false
+    },
+    {
+      "idx": 16,
+      "tag": "DIV",
+      "text": "",
+      "placeholder": "请选择日期",
+      "title": "",
+      "aria": "",
+      "cls": "custom-light-picker",
+      "rect": {
+        "x": 979,
+        "y": 167,
+        "w": 206,
+        "h": 28
+      },
+      "disabled": false
+    },
+    {
+      "idx": 17,
+      "tag": "INPUT",
+      "text": "",
+      "placeholder": "请选择日期",
+      "title": "",
+      "aria": "",
+      "cls": "",
+      "rect": {
+        "x": 991,
+        "y": 170,
+        "w": 166,
+        "h": 22
+      },
+      "disabled": false
+    },
+    {
+      "idx": 18,
+      "tag": "SPAN",
+      "text": "",
+      "placeholder": "",
+      "title": "",
+      "aria": "Increase Value",
+      "cls": "custom-light-input-number-handler custom-light-input-number-handler-up",
+      "rect": {
+        "x": 1248,
+        "y": 168,
+        "w": 22,
+        "h": 13
+      },
+      "disabled": false
+    },
+    {
+      "idx": 19,
+      "tag": "SPAN",
+      "text": "",
+      "placeholder": "",
+      "title": "",
+      "aria": "Decrease Value",
+      "cls": "custom-light-input-number-handler custom-light-input-number-handler-down",
+      "rect": {
+        "x": 1248,
+        "y": 181,
+        "w": 22,
+        "h": 13
+      },
+      "disabled": false
+    },
+    {
+      "idx": 20,
+      "tag": "INPUT",
+      "text": "",
+      "placeholder": "请输入",
+      "title": "",
+      "aria": "",
+      "cls": "custom-light-input-number-input",
+      "rect": {
+        "x": 1203,
+        "y": 168,
+        "w": 67,
+        "h": 26
+      },
+      "disabled": false
+    },
+    {
+      "idx": 21,
+      "tag": "SPAN",
+      "text": "",
+      "placeholder": "",
+      "title": "",
+      "aria": "Increase Value",
+      "cls": "custom-light-input-number-handler custom-light-input-number-handler-up",
+      "rect": {
+        "x": 1377,
+        "y": 168,
+        "w": 22,
+        "h": 13
+      },
+      "disabled": false
+    },
+    {
+      "idx": 22,
+      "tag": "SPAN",
+      "text": "",
+      "placeholder": "",
+      "title": "",
+      "aria": "Decrease Value",
+      "cls": "custom-light-input-number-handler custom-light-input-number-handler-down",
+      "rect": {
+        "x": 1377,
+        "y": 181,
+        "w": 22,
+        "h": 13
+      },
+      "disabled": false
+    },
+    {
+      "idx": 23,
+      "tag": "INPUT",
+      "text": "",
+      "placeholder": "请输入",
+      "title": "",
+      "aria": "",
+      "cls": "custom-light-input-number-input",
+      "rect": {
+        "x": 1332,
+        "y": 168,
+        "w": 67,
+        "h": 26
+      },
+      "disabled": false
+    },
+    {
+      "idx": 24,
+      "tag": "BUTTON",
+      "text": "重置",
+      "placeholder": "",
+      "title": "",
+      "aria": "",
+      "cls": "custom-light-btn custom-light-btn-text btn",
+      "rect": {
+        "x": 1275,
+        "y": 211,
+        "w": 62,
+        "h": 24
+      },
+      "disabled": false
+    },
+    {
+      "idx": 25,
+      "tag": "BUTTON",
+      "text": "查询",
+      "placeholder": "",
+      "title": "",
+      "aria": "",
+      "cls": "custom-light-btn custom-light-btn-primary btn",
+      "rect": {
+        "x": 1341,
+        "y": 211,
+        "w": 62,
+        "h": 24
+      },
+      "disabled": false
+    }
+  ],
+  "menus": [
+    {
+      "idx": 0,
+      "text": "数据看板",
+      "cls": "app-menu-item",
+      "rect": {
+        "x": 8,
+        "y": 52,
+        "w": 63,
+        "h": 76
+      }
+    },
+    {
+      "idx": 1,
+      "text": "数据看板",
+      "cls": "app-menu-text",
+      "rect": {
+        "x": 8,
+        "y": 104,
+        "w": 63,
+        "h": 20
+      }
+    },
+    {
+      "idx": 2,
+      "text": "智能分析",
+      "cls": "app-menu-item",
+      "rect": {
+        "x": 8,
+        "y": 136,
+        "w": 63,
+        "h": 76
+      }
+    },
+    {
+      "idx": 3,
+      "text": "智能分析",
+      "cls": "app-menu-text",
+      "rect": {
+        "x": 8,
+        "y": 188,
+        "w": 63,
+        "h": 20
+      }
+    },
+    {
+      "idx": 4,
+      "text": "数据中心",
+      "cls": "app-menu-item active",
+      "rect": {
+        "x": 8,
+        "y": 220,
+        "w": 63,
+        "h": 76
+      }
+    },
+    {
+      "idx": 5,
+      "text": "数据中心",
+      "cls": "app-menu-text",
+      "rect": {
+        "x": 8,
+        "y": 272,
+        "w": 63,
+        "h": 20
+      }
+    },
+    {
+      "idx": 6,
+      "text": "平台管理",
+      "cls": "app-menu-item",
+      "rect": {
+        "x": 8,
+        "y": 304,
+        "w": 63,
+        "h": 76
+      }
+    },
+    {
+      "idx": 7,
+      "text": "平台管理",
+      "cls": "app-menu-text",
+      "rect": {
+        "x": 8,
+        "y": 356,
+        "w": 63,
+        "h": 20
+      }
+    },
+    {
+      "idx": 8,
+      "text": "推理输出结果",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 87,
+        "y": 54,
+        "w": 185,
+        "h": 28
+      }
+    },
+    {
+      "idx": 9,
+      "text": "报警日志",
+      "cls": "custom-light-menu-item custom-light-menu-item-only-child",
+      "rect": {
+        "x": 79,
+        "y": 86,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 10,
+      "text": "报警日志",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 87,
+        "y": 86,
+        "w": 185,
+        "h": 32
+      }
+    },
+    {
+      "idx": 11,
+      "text": "报警推送日志",
+      "cls": "custom-light-menu-item custom-light-menu-item-only-child",
+      "rect": {
+        "x": 79,
+        "y": 120,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 12,
+      "text": "报警推送日志",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 87,
+        "y": 120,
+        "w": 185,
+        "h": 32
+      }
+    },
+    {
+      "idx": 13,
+      "text": "人员识别结果",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 87,
+        "y": 173,
+        "w": 185,
+        "h": 28
+      }
+    },
+    {
+      "idx": 14,
+      "text": "人员识别日志",
+      "cls": "custom-light-menu-item custom-light-menu-item-only-child",
+      "rect": {
+        "x": 79,
+        "y": 205,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 15,
+      "text": "人员识别日志",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 87,
+        "y": 205,
+        "w": 185,
+        "h": 32
+      }
+    },
+    {
+      "idx": 16,
+      "text": "陌生人识别日志",
+      "cls": "custom-light-menu-item custom-light-menu-item-selected custom-light-menu-item-only-child",
+      "rect": {
+        "x": 79,
+        "y": 239,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 17,
+      "text": "陌生人识别日志",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 87,
+        "y": 239,
+        "w": 185,
+        "h": 32
+      }
+    }
+  ],
+  "tables": [
+    {
+      "idx": 0,
+      "text": "报警时间 抓拍图 注册照 陌生人ID 比对分数 比对阈值 摄像头 暂无数据",
+      "headers": [
+        "报警时间",
+        "抓拍图",
+        "注册照",
+        "陌生人ID",
+        "比对分数",
+        "比对阈值",
+        "摄像头"
+      ]
+    },
+    {
+      "idx": 1,
+      "text": "报警时间 抓拍图 注册照 陌生人ID 比对分数 比对阈值 摄像头",
+      "headers": [
+        "报警时间",
+        "抓拍图",
+        "注册照",
+        "陌生人ID",
+        "比对分数",
+        "比对阈值",
+        "摄像头"
+      ]
+    },
+    {
+      "idx": 2,
+      "text": "暂无数据",
+      "headers": []
+    }
+  ],
+  "forms": [
+    {
+      "idx": 0,
+      "text": "人工智能推理平台",
+      "inputs": []
+    },
+    {
+      "idx": 2,
+      "text": "陌生人ID 摄像头 开始时间 结束时间 比对分数",
+      "inputs": [
+        {
+          "placeholder": "请输入",
+          "type": "text",
+          "value": ""
+        },
+        {
+          "placeholder": "请选择",
+          "type": "text",
+          "value": ""
+        },
+        {
+          "placeholder": "请选择日期",
+          "type": "text",
+          "value": ""
+        },
+        {
+          "placeholder": "请选择日期",
+          "type": "text",
+          "value": ""
+        },
+        {
+          "placeholder": "请输入",
+          "type": "text",
+          "value": ""
+        },
+        {
+          "placeholder": "请输入",
+          "type": "text",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "idx": 3,
+      "text": "陌生人ID",
+      "inputs": [
+        {
+          "placeholder": "请输入",
+          "type": "text",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "idx": 4,
+      "text": "陌生人ID",
+      "inputs": []
+    },
+    {
+      "idx": 5,
+      "text": "摄像头",
+      "inputs": [
+        {
+          "placeholder": "请选择",
+          "type": "text",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "idx": 6,
+      "text": "摄像头",
+      "inputs": []
+    },
+    {
+      "idx": 7,
+      "text": "开始时间",
+      "inputs": [
+        {
+          "placeholder": "请选择日期",
+          "type": "text",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "idx": 8,
+      "text": "开始时间",
+      "inputs": []
+    },
+    {
+      "idx": 9,
+      "text": "结束时间",
+      "inputs": [
+        {
+          "placeholder": "请选择日期",
+          "type": "text",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "idx": 10,
+      "text": "结束时间",
+      "inputs": []
+    },
+    {
+      "idx": 11,
+      "text": "比对分数",
+      "inputs": [
+        {
+          "placeholder": "请输入",
+          "type": "text",
+          "value": ""
+        },
+        {
+          "placeholder": "请输入",
+          "type": "text",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "idx": 12,
+      "text": "比对分数",
+      "inputs": []
+    }
+  ],
+  "cards": []
+}

@@ -1,0 +1,51 @@
+{
+  "generatedAt": "2026-06-18T05:32:19.366Z",
+  "scope": "guide",
+  "maxInteractions": 4,
+  "modules": {
+    "dashboard": {
+      "id": "dashboard",
+      "folder": "01_dashboard",
+      "title": "数据看板",
+      "entry": "数据看板"
+    },
+    "smart": {
+      "id": "smart",
+      "folder": "02_smart_analysis",
+      "title": "智能分析",
+      "entry": "智能分析"
+    },
+    "data": {
+      "id": "data",
+      "folder": "03_data_center",
+      "title": "数据中心",
+      "entry": "数据中心"
+    },
+    "platform": {
+      "id": "platform",
+      "folder": "04_platform_management",
+      "title": "平台管理",
+      "entry": "平台管理"
+    },
+    "guide": {
+      "id": "guide",
+      "folder": "05_guide",
+      "title": "新手引导弹窗",
+      "entry": ""
+    },
+    "common": {
+      "id": "common",
+      "folder": "00_common",
+      "title": "通用导航与顶部栏",
+      "entry": ""
+    }
+  },
+  "indexFiles": [
+    "interaction_index_common.json",
+    "interaction_index_dashboard.json",
+    "interaction_index_data.json",
+    "interaction_index_guide.json",
+    "interaction_index_platform.json",
+    "interaction_index_smart.json"
+  ]
+}

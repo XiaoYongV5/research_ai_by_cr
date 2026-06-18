@@ -1,0 +1,73 @@
+{
+  "note": "/app/alarm_img_wall/",
+  "title": "登录",
+  "url": "http://192.168.11.88:8081/app/alarm_img_wall/#/login",
+  "path": "/app/alarm_img_wall/#/login",
+  "bodyText": "人工智能推理平台\n登录",
+  "headings": [],
+  "controls": [
+    {
+      "idx": 0,
+      "tag": "INPUT",
+      "cls": "el-input__inner",
+      "text": "",
+      "placeholder": "用户名/手机号",
+      "title": "",
+      "aria": "",
+      "disabled": false,
+      "rect": {
+        "x": 1110,
+        "y": 315,
+        "w": 260,
+        "h": 36
+      }
+    },
+    {
+      "idx": 1,
+      "tag": "INPUT",
+      "cls": "el-input__inner",
+      "text": "",
+      "placeholder": "请输入密码",
+      "title": "",
+      "aria": "",
+      "disabled": false,
+      "rect": {
+        "x": 1110,
+        "y": 367,
+        "w": 260,
+        "h": 36
+      }
+    },
+    {
+      "idx": 2,
+      "tag": "BUTTON",
+      "cls": "el-button login-button el-button--primary",
+      "text": "登录",
+      "placeholder": "",
+      "title": "",
+      "aria": "",
+      "disabled": false,
+      "rect": {
+        "x": 1110,
+        "y": 459,
+        "w": 260,
+        "h": 38
+      }
+    }
+  ],
+  "tables": [],
+  "cards": [],
+  "menus": [],
+  "storageKeys": {
+    "localStorage": [
+      "voiceConfig",
+      "theme",
+      "globalData",
+      "publicKey",
+      "token",
+      "userInfo",
+      "moduleSwitches"
+    ],
+    "sessionStorage": []
+  }
+}

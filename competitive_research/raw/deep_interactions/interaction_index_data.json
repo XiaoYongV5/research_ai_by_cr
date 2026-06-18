@@ -1,0 +1,3619 @@
+[
+  {
+    "id": "03_data_center-001",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "报警日志",
+    "capability": "报警检索、处理、归档、导出、推送、正误报统计",
+    "actionType": "overview",
+    "actionLabel": "页面全貌",
+    "actionNote": "进入子模块后的页面全貌，用于识别信息架构、主操作区、筛选区和表格/卡片区。",
+    "url": "http://192.168.11.88:8081/app/main-app/data/inference-output/algo/#/alarm-center/output-result/algorithm-log",
+    "screenshot": "screenshots_deep/03_data_center/001_报警日志_页面全貌.png",
+    "meta": {},
+    "capturedAt": "2026-06-18T05:03:14.738Z"
+  },
+  {
+    "id": "03_data_center-002",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "报警日志",
+    "capability": "报警检索、处理、归档、导出、推送、正误报统计",
+    "actionType": "scroll",
+    "actionLabel": "滚动位置_0%",
+    "actionNote": "记录页面不同滚动位置，补足表格、卡片和底部状态。",
+    "url": "http://192.168.11.88:8081/app/main-app/data/inference-output/algo/#/alarm-center/output-result/algorithm-log",
+    "screenshot": "screenshots_deep/03_data_center/002_报警日志_滚动位置_0_.png",
+    "meta": {
+      "scroll": {
+        "tag": "HTML",
+        "cls": " ",
+        "max": 0,
+        "top": 0
+      }
+    },
+    "capturedAt": "2026-06-18T05:03:15.149Z"
+  },
+  {
+    "id": "03_data_center-003",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "报警日志",
+    "capability": "报警检索、处理、归档、导出、推送、正误报统计",
+    "actionType": "hover",
+    "actionLabel": "01_正误报统计_悬停",
+    "actionNote": "悬停查看 正误报统计 的 hover/提示状态",
+    "url": "http://192.168.11.88:8081/app/main-app/data/inference-output/algo/#/alarm-center/output-result/algorithm-log",
+    "screenshot": "screenshots_deep/03_data_center/003_报警日志_01_正误报统计_悬停.png",
+    "meta": {
+      "candidate": {
+        "kind": "button",
+        "priority": 1,
+        "tag": "BUTTON",
+        "text": "正误报统计",
+        "placeholder": "",
+        "title": "",
+        "aria": "",
+        "cls": "custom-light-btn custom-light-btn-text btn",
+        "rect": {
+          "x": 1130,
+          "y": 254,
+          "w": 98,
+          "h": 24,
+          "cx": 1179,
+          "cy": 266
+        },
+        "disabled": false
+      }
+    },
+    "capturedAt": "2026-06-18T05:03:15.515Z"
+  },
+  {
+    "id": "03_data_center-004",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "报警日志",
+    "capability": "报警检索、处理、归档、导出、推送、正误报统计",
+    "actionType": "click",
+    "actionLabel": "01_正误报统计_点击后",
+    "actionNote": "点击后出现弹窗/下拉/提示：.custom-light-message",
+    "url": "http://192.168.11.88:8081/app/main-app/data/inference-output/algo/#/alarm-center/output-result/algorithm-log",
+    "screenshot": "screenshots_deep/03_data_center/004_报警日志_01_正误报统计_点击后.png",
+    "meta": {
+      "candidate": {
+        "kind": "button",
+        "priority": 1,
+        "tag": "BUTTON",
+        "text": "正误报统计",
+        "placeholder": "",
+        "title": "",
+        "aria": "",
+        "cls": "custom-light-btn custom-light-btn-text btn",
+        "rect": {
+          "x": 1130,
+          "y": 254,
+          "w": 98,
+          "h": 24,
+          "cx": 1179,
+          "cy": 266
+        },
+        "disabled": false
+      },
+      "overlays": [
+        {
+          "selector": ".custom-light-message",
+          "text": "请先选择统计范围（任务名称、摄像头、异常类型、报警等级、时间范围），才能进行日志的正误报统计"
+        }
+      ]
+    },
+    "capturedAt": "2026-06-18T05:03:16.581Z"
+  },
+  {
+    "id": "03_data_center-005",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "报警日志",
+    "capability": "报警检索、处理、归档、导出、推送、正误报统计",
+    "actionType": "hover",
+    "actionLabel": "02_重置_悬停",
+    "actionNote": "悬停查看 重置 的 hover/提示状态",
+    "url": "http://192.168.11.88:8081/app/main-app/data/inference-output/algo/#/alarm-center/output-result/algorithm-log",
+    "screenshot": "screenshots_deep/03_data_center/005_报警日志_02_重置_悬停.png",
+    "meta": {
+      "candidate": {
+        "kind": "button",
+        "priority": 1,
+        "tag": "BUTTON",
+        "text": "重置",
+        "placeholder": "",
+        "title": "",
+        "aria": "",
+        "cls": "custom-light-btn custom-light-btn-text btn",
+        "rect": {
+          "x": 1251,
+          "y": 254,
+          "w": 62,
+          "h": 24,
+          "cx": 1282,
+          "cy": 266
+        },
+        "disabled": false
+      }
+    },
+    "capturedAt": "2026-06-18T05:03:17.431Z"
+  },
+  {
+    "id": "03_data_center-006",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "报警日志",
+    "capability": "报警检索、处理、归档、导出、推送、正误报统计",
+    "actionType": "click",
+    "actionLabel": "02_重置_点击后",
+    "actionNote": "点击后出现弹窗/下拉/提示：.custom-light-message",
+    "url": "http://192.168.11.88:8081/app/main-app/data/inference-output/algo/#/alarm-center/output-result/algorithm-log",
+    "screenshot": "screenshots_deep/03_data_center/006_报警日志_02_重置_点击后.png",
+    "meta": {
+      "candidate": {
+        "kind": "button",
+        "priority": 1,
+        "tag": "BUTTON",
+        "text": "重置",
+        "placeholder": "",
+        "title": "",
+        "aria": "",
+        "cls": "custom-light-btn custom-light-btn-text btn",
+        "rect": {
+          "x": 1251,
+          "y": 254,
+          "w": 62,
+          "h": 24,
+          "cx": 1282,
+          "cy": 266
+        },
+        "disabled": false
+      },
+      "overlays": [
+        {
+          "selector": ".custom-light-message",
+          "text": "请先选择统计范围（任务名称、摄像头、异常类型、报警等级、时间范围），才能进行日志的正误报统计"
+        }
+      ]
+    },
+    "capturedAt": "2026-06-18T05:03:18.497Z"
+  },
+  {
+    "id": "03_data_center-007",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "报警日志",
+    "capability": "报警检索、处理、归档、导出、推送、正误报统计",
+    "actionType": "hover",
+    "actionLabel": "03_查询_悬停",
+    "actionNote": "悬停查看 查询 的 hover/提示状态",
+    "url": "http://192.168.11.88:8081/app/main-app/data/inference-output/algo/#/alarm-center/output-result/algorithm-log",
+    "screenshot": "screenshots_deep/03_data_center/007_报警日志_03_查询_悬停.png",
+    "meta": {
+      "candidate": {
+        "kind": "button",
+        "priority": 1,
+        "tag": "BUTTON",
+        "text": "查询",
+        "placeholder": "",
+        "title": "",
+        "aria": "",
+        "cls": "custom-light-btn custom-light-btn-primary btn",
+        "rect": {
+          "x": 1317,
+          "y": 254,
+          "w": 62,
+          "h": 24,
+          "cx": 1348,
+          "cy": 266
+        },
+        "disabled": false
+      }
+    },
+    "capturedAt": "2026-06-18T05:03:19.354Z"
+  },
+  {
+    "id": "03_data_center-008",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "报警日志",
+    "capability": "报警检索、处理、归档、导出、推送、正误报统计",
+    "actionType": "click",
+    "actionLabel": "03_查询_点击后",
+    "actionNote": "点击后记录页面反馈或空数据提示",
+    "url": "http://192.168.11.88:8081/app/main-app/data/inference-output/algo/#/alarm-center/output-result/algorithm-log",
+    "screenshot": "screenshots_deep/03_data_center/008_报警日志_03_查询_点击后.png",
+    "meta": {
+      "candidate": {
+        "kind": "button",
+        "priority": 1,
+        "tag": "BUTTON",
+        "text": "查询",
+        "placeholder": "",
+        "title": "",
+        "aria": "",
+        "cls": "custom-light-btn custom-light-btn-primary btn",
+        "rect": {
+          "x": 1317,
+          "y": 254,
+          "w": 62,
+          "h": 24,
+          "cx": 1348,
+          "cy": 266
+        },
+        "disabled": false
+      },
+      "overlays": []
+    },
+    "capturedAt": "2026-06-18T05:03:20.463Z"
+  },
+  {
+    "id": "03_data_center-009",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "报警日志",
+    "capability": "报警检索、处理、归档、导出、推送、正误报统计",
+    "actionType": "hover",
+    "actionLabel": "04_推送_悬停",
+    "actionNote": "悬停查看 推送 的 hover/提示状态",
+    "url": "http://192.168.11.88:8081/app/main-app/data/inference-output/algo/#/alarm-center/output-result/algorithm-log",
+    "screenshot": "screenshots_deep/03_data_center/009_报警日志_04_推送_悬停.png",
+    "meta": {
+      "candidate": {
+        "kind": "button",
+        "priority": 1,
+        "tag": "BUTTON",
+        "text": "推送",
+        "placeholder": "",
+        "title": "",
+        "aria": "",
+        "cls": "custom-light-btn custom-light-btn-text btn push",
+        "rect": {
+          "x": 305,
+          "y": 322,
+          "w": 52,
+          "h": 20,
+          "cx": 331,
+          "cy": 332
+        },
+        "disabled": false
+      }
+    },
+    "capturedAt": "2026-06-18T05:03:21.366Z"
+  },
+  {
+    "id": "03_data_center-010",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "报警日志",
+    "capability": "报警检索、处理、归档、导出、推送、正误报统计",
+    "actionType": "click",
+    "actionLabel": "04_推送_点击后",
+    "actionNote": "点击后出现弹窗/下拉/提示：.custom-light-message",
+    "url": "http://192.168.11.88:8081/app/main-app/data/inference-output/algo/#/alarm-center/output-result/algorithm-log",
+    "screenshot": "screenshots_deep/03_data_center/010_报警日志_04_推送_点击后.png",
+    "meta": {
+      "candidate": {
+        "kind": "button",
+        "priority": 1,
+        "tag": "BUTTON",
+        "text": "推送",
+        "placeholder": "",
+        "title": "",
+        "aria": "",
+        "cls": "custom-light-btn custom-light-btn-text btn push",
+        "rect": {
+          "x": 305,
+          "y": 322,
+          "w": 52,
+          "h": 20,
+          "cx": 331,
+          "cy": 332
+        },
+        "disabled": false
+      },
+      "overlays": [
+        {
+          "selector": ".custom-light-message",
+          "text": "请选择需要推送的日志，上限 100 条"
+        }
+      ]
+    },
+    "capturedAt": "2026-06-18T05:03:22.450Z"
+  },
+  {
+    "id": "03_data_center-011",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "报警日志",
+    "capability": "报警检索、处理、归档、导出、推送、正误报统计",
+    "actionType": "hover",
+    "actionLabel": "05_处理_悬停",
+    "actionNote": "悬停查看 处理 的 hover/提示状态",
+    "url": "http://192.168.11.88:8081/app/main-app/data/inference-output/algo/#/alarm-center/output-result/algorithm-log",
+    "screenshot": "screenshots_deep/03_data_center/011_报警日志_05_处理_悬停.png",
+    "meta": {
+      "candidate": {
+        "kind": "button",
+        "priority": 1,
+        "tag": "BUTTON",
+        "text": "处理",
+        "placeholder": "",
+        "title": "",
+        "aria": "",
+        "cls": "custom-light-btn custom-light-btn-text btn custom-light-dropdown-trigger",
+        "rect": {
+          "x": 365,
+          "y": 322,
+          "w": 52,
+          "h": 20,
+          "cx": 391,
+          "cy": 332
+        },
+        "disabled": false
+      }
+    },
+    "capturedAt": "2026-06-18T05:03:23.302Z"
+  },
+  {
+    "id": "03_data_center-012",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "报警日志",
+    "capability": "报警检索、处理、归档、导出、推送、正误报统计",
+    "actionType": "click",
+    "actionLabel": "05_处理_点击后",
+    "actionNote": "点击后出现弹窗/下拉/提示：.custom-light-dropdown、.custom-light-message",
+    "url": "http://192.168.11.88:8081/app/main-app/data/inference-output/algo/#/alarm-center/output-result/algorithm-log",
+    "screenshot": "screenshots_deep/03_data_center/012_报警日志_05_处理_点击后.png",
+    "meta": {
+      "candidate": {
+        "kind": "button",
+        "priority": 1,
+        "tag": "BUTTON",
+        "text": "处理",
+        "placeholder": "",
+        "title": "",
+        "aria": "",
+        "cls": "custom-light-btn custom-light-btn-text btn custom-light-dropdown-trigger",
+        "rect": {
+          "x": 365,
+          "y": 322,
+          "w": 52,
+          "h": 20,
+          "cx": 391,
+          "cy": 332
+        },
+        "disabled": false
+      },
+      "overlays": [
+        {
+          "selector": ".custom-light-dropdown",
+          "text": "未处理 已处理"
+        },
+        {
+          "selector": ".custom-light-message",
+          "text": "请选择需要推送的日志，上限 100 条"
+        }
+      ]
+    },
+    "capturedAt": "2026-06-18T05:03:24.365Z"
+  },
+  {
+    "id": "03_data_center-013",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "报警日志",
+    "capability": "报警检索、处理、归档、导出、推送、正误报统计",
+    "actionType": "hover",
+    "actionLabel": "06_归档_悬停",
+    "actionNote": "悬停查看 归档 的 hover/提示状态",
+    "url": "http://192.168.11.88:8081/app/main-app/data/inference-output/algo/#/alarm-center/output-result/algorithm-log",
+    "screenshot": "screenshots_deep/03_data_center/013_报警日志_06_归档_悬停.png",
+    "meta": {
+      "candidate": {
+        "kind": "button",
+        "priority": 1,
+        "tag": "BUTTON",
+        "text": "归档",
+        "placeholder": "",
+        "title": "",
+        "aria": "",
+        "cls": "custom-light-btn custom-light-btn-text btn custom-light-dropdown-trigger",
+        "rect": {
+          "x": 425,
+          "y": 322,
+          "w": 52,
+          "h": 20,
+          "cx": 451,
+          "cy": 332
+        },
+        "disabled": false
+      }
+    },
+    "capturedAt": "2026-06-18T05:03:25.217Z"
+  },
+  {
+    "id": "03_data_center-014",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "报警日志",
+    "capability": "报警检索、处理、归档、导出、推送、正误报统计",
+    "actionType": "click",
+    "actionLabel": "06_归档_点击后",
+    "actionNote": "点击后出现弹窗/下拉/提示：.custom-light-dropdown",
+    "url": "http://192.168.11.88:8081/app/main-app/data/inference-output/algo/#/alarm-center/output-result/algorithm-log",
+    "screenshot": "screenshots_deep/03_data_center/014_报警日志_06_归档_点击后.png",
+    "meta": {
+      "candidate": {
+        "kind": "button",
+        "priority": 1,
+        "tag": "BUTTON",
+        "text": "归档",
+        "placeholder": "",
+        "title": "",
+        "aria": "",
+        "cls": "custom-light-btn custom-light-btn-text btn custom-light-dropdown-trigger",
+        "rect": {
+          "x": 425,
+          "y": 322,
+          "w": 52,
+          "h": 20,
+          "cx": 451,
+          "cy": 332
+        },
+        "disabled": false
+      },
+      "overlays": [
+        {
+          "selector": ".custom-light-dropdown",
+          "text": "暂不归档 正确报警 错误报警"
+        }
+      ]
+    },
+    "capturedAt": "2026-06-18T05:03:26.285Z"
+  },
+  {
+    "id": "03_data_center-015",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "报警日志",
+    "capability": "报警检索、处理、归档、导出、推送、正误报统计",
+    "actionType": "hover",
+    "actionLabel": "07_导出_悬停",
+    "actionNote": "悬停查看 导出 的 hover/提示状态",
+    "url": "http://192.168.11.88:8081/app/main-app/data/inference-output/algo/#/alarm-center/output-result/algorithm-log",
+    "screenshot": "screenshots_deep/03_data_center/015_报警日志_07_导出_悬停.png",
+    "meta": {
+      "candidate": {
+        "kind": "button",
+        "priority": 1,
+        "tag": "BUTTON",
+        "text": "导出",
+        "placeholder": "",
+        "title": "",
+        "aria": "",
+        "cls": "custom-light-btn custom-light-btn-text btn",
+        "rect": {
+          "x": 485,
+          "y": 322,
+          "w": 52,
+          "h": 20,
+          "cx": 511,
+          "cy": 332
+        },
+        "disabled": false
+      }
+    },
+    "capturedAt": "2026-06-18T05:03:27.135Z"
+  },
+  {
+    "id": "03_data_center-016",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "报警日志",
+    "capability": "报警检索、处理、归档、导出、推送、正误报统计",
+    "actionType": "safety-skip",
+    "actionLabel": "07_导出_安全跳过点击",
+    "actionNote": "该控件可能触发安装、导出、保存等最终动作，本轮只记录悬停状态，避免修改系统数据。",
+    "url": "http://192.168.11.88:8081/app/main-app/data/inference-output/algo/#/alarm-center/output-result/algorithm-log",
+    "screenshot": "screenshots_deep/03_data_center/016_报警日志_07_导出_安全跳过点击.png",
+    "meta": {
+      "candidate": {
+        "kind": "button",
+        "priority": 1,
+        "tag": "BUTTON",
+        "text": "导出",
+        "placeholder": "",
+        "title": "",
+        "aria": "",
+        "cls": "custom-light-btn custom-light-btn-text btn",
+        "rect": {
+          "x": 485,
+          "y": 322,
+          "w": 52,
+          "h": 20,
+          "cx": 511,
+          "cy": 332
+        },
+        "disabled": false
+      },
+      "skipped": true
+    },
+    "capturedAt": "2026-06-18T05:03:27.196Z"
+  },
+  {
+    "id": "03_data_center-017",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "报警日志",
+    "capability": "报警检索、处理、归档、导出、推送、正误报统计",
+    "actionType": "hover",
+    "actionLabel": "08_删除_悬停",
+    "actionNote": "悬停查看 删除 的 hover/提示状态",
+    "url": "http://192.168.11.88:8081/app/main-app/data/inference-output/algo/#/alarm-center/output-result/algorithm-log",
+    "screenshot": "screenshots_deep/03_data_center/017_报警日志_08_删除_悬停.png",
+    "meta": {
+      "candidate": {
+        "kind": "button",
+        "priority": 1,
+        "tag": "BUTTON",
+        "text": "删除",
+        "placeholder": "",
+        "title": "",
+        "aria": "",
+        "cls": "custom-light-btn custom-light-btn-text btn danger",
+        "rect": {
+          "x": 545,
+          "y": 322,
+          "w": 52,
+          "h": 20,
+          "cx": 571,
+          "cy": 332
+        },
+        "disabled": false
+      }
+    },
+    "capturedAt": "2026-06-18T05:03:27.545Z"
+  },
+  {
+    "id": "03_data_center-018",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "报警日志",
+    "capability": "报警检索、处理、归档、导出、推送、正误报统计",
+    "actionType": "click",
+    "actionLabel": "08_删除_点击后",
+    "actionNote": "点击后出现弹窗/下拉/提示：.custom-light-modal、[role=\"dialog\"]",
+    "url": "http://192.168.11.88:8081/app/main-app/data/inference-output/algo/#/alarm-center/output-result/algorithm-log",
+    "screenshot": "screenshots_deep/03_data_center/018_报警日志_08_删除_点击后.png",
+    "meta": {
+      "candidate": {
+        "kind": "button",
+        "priority": 1,
+        "tag": "BUTTON",
+        "text": "删除",
+        "placeholder": "",
+        "title": "",
+        "aria": "",
+        "cls": "custom-light-btn custom-light-btn-text btn danger",
+        "rect": {
+          "x": 545,
+          "y": 322,
+          "w": 52,
+          "h": 20,
+          "cx": 571,
+          "cy": 332
+        },
+        "disabled": false
+      },
+      "overlays": [
+        {
+          "selector": ".custom-light-modal",
+          "text": "删除日志 单次最大支持删除 10000 条日志，超出后仅删除前 10000 条历史数据。 数据范围 全部(0) 筛选后内容(0) 已选中内容(0) 取消 确 定"
+        },
+        {
+          "selector": "[role=\"dialog\"]",
+          "text": "删除日志 单次最大支持删除 10000 条日志，超出后仅删除前 10000 条历史数据。 数据范围 全部(0) 筛选后内容(0) 已选中内容(0) 取消 确 定"
+        }
+      ]
+    },
+    "capturedAt": "2026-06-18T05:03:28.650Z"
+  },
+  {
+    "id": "03_data_center-019",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "报警日志",
+    "capability": "报警检索、处理、归档、导出、推送、正误报统计",
+    "actionType": "hover",
+    "actionLabel": "09_搜索菜单_悬停",
+    "actionNote": "悬停查看 搜索菜单 的 hover/提示状态",
+    "url": "http://192.168.11.88:8081/app/main-app/data/inference-output/algo/#/alarm-center/output-result/algorithm-log",
+    "screenshot": "screenshots_deep/03_data_center/019_报警日志_09_搜索菜单_悬停.png",
+    "meta": {
+      "candidate": {
+        "kind": "field",
+        "priority": 2,
+        "tag": "DIV",
+        "text": "搜索菜单",
+        "placeholder": "",
+        "title": "",
+        "aria": "",
+        "cls": "custom-light-select-selector",
+        "rect": {
+          "x": 961,
+          "y": 6,
+          "w": 220,
+          "h": 32,
+          "cx": 1071,
+          "cy": 22
+        },
+        "disabled": false
+      }
+    },
+    "capturedAt": "2026-06-18T05:03:29.530Z"
+  },
+  {
+    "id": "03_data_center-020",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "报警日志",
+    "capability": "报警检索、处理、归档、导出、推送、正误报统计",
+    "actionType": "focus-or-open",
+    "actionLabel": "09_搜索菜单_点击后",
+    "actionNote": "点击后出现弹窗/下拉/提示：.custom-light-select-dropdown",
+    "url": "http://192.168.11.88:8081/app/main-app/data/inference-output/algo/#/alarm-center/output-result/algorithm-log",
+    "screenshot": "screenshots_deep/03_data_center/020_报警日志_09_搜索菜单_点击后.png",
+    "meta": {
+      "candidate": {
+        "kind": "field",
+        "priority": 2,
+        "tag": "DIV",
+        "text": "搜索菜单",
+        "placeholder": "",
+        "title": "",
+        "aria": "",
+        "cls": "custom-light-select-selector",
+        "rect": {
+          "x": 961,
+          "y": 6,
+          "w": 220,
+          "h": 32,
+          "cx": 1071,
+          "cy": 22
+        },
+        "disabled": false
+      },
+      "overlays": [
+        {
+          "selector": ".custom-light-select-dropdown",
+          "text": "数据看板 智能分析 媒体与输入 摄像头配置 算法配置 算法列表 人员库 算法底库 智能分析配置 视频流分析 图片分析 分析服务状态 结果推送 报警推送 报警弹窗及语音 数据中心 推理输出结果 报警日志 报警推送日志 人员识别结果 人员识别日志 陌生人识别日志 平台管理 AI仓库 离线仓库 用户及权限 用户管理 用户组管理 系统权限 系统设置 基础信息 系统主题 网络配置 站内信 站内信 开放能力 接口授权 接口文档 免密登录 对象存储"
+        }
+      ]
+    },
+    "capturedAt": "2026-06-18T05:03:30.648Z"
+  },
+  {
+    "id": "03_data_center-021",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "报警日志",
+    "capability": "报警检索、处理、归档、导出、推送、正误报统计",
+    "actionType": "hover",
+    "actionLabel": "10_请选择_悬停",
+    "actionNote": "悬停查看 请选择 的 hover/提示状态",
+    "url": "http://192.168.11.88:8081/app/main-app/data/inference-output/algo/#/alarm-center/output-result/algorithm-log",
+    "screenshot": "screenshots_deep/03_data_center/021_报警日志_10_请选择_悬停.png",
+    "meta": {
+      "candidate": {
+        "kind": "field",
+        "priority": 2,
+        "tag": "DIV",
+        "text": "请选择",
+        "placeholder": "",
+        "title": "",
+        "aria": "",
+        "cls": "custom-light-select-selector",
+        "rect": {
+          "x": 313,
+          "y": 210,
+          "w": 169,
+          "h": 28,
+          "cx": 397,
+          "cy": 224
+        },
+        "disabled": false
+      }
+    },
+    "capturedAt": "2026-06-18T05:03:31.516Z"
+  },
+  {
+    "id": "03_data_center-022",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "报警日志",
+    "capability": "报警检索、处理、归档、导出、推送、正误报统计",
+    "actionType": "focus-or-open",
+    "actionLabel": "10_请选择_点击后",
+    "actionNote": "点击后出现弹窗/下拉/提示：.custom-light-select-dropdown",
+    "url": "http://192.168.11.88:8081/app/main-app/data/inference-output/algo/#/alarm-center/output-result/algorithm-log",
+    "screenshot": "screenshots_deep/03_data_center/022_报警日志_10_请选择_点击后.png",
+    "meta": {
+      "candidate": {
+        "kind": "field",
+        "priority": 2,
+        "tag": "DIV",
+        "text": "请选择",
+        "placeholder": "",
+        "title": "",
+        "aria": "",
+        "cls": "custom-light-select-selector",
+        "rect": {
+          "x": 313,
+          "y": 210,
+          "w": 169,
+          "h": 28,
+          "cx": 397,
+          "cy": 224
+        },
+        "disabled": false
+      },
+      "overlays": [
+        {
+          "selector": ".custom-light-select-dropdown",
+          "text": "d8468ec0a40443268756f8523ec1effb 产品测试任务"
+        }
+      ]
+    },
+    "capturedAt": "2026-06-18T05:03:32.581Z"
+  },
+  {
+    "id": "03_data_center-023",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "报警日志",
+    "capability": "报警检索、处理、归档、导出、推送、正误报统计",
+    "actionType": "hover",
+    "actionLabel": "11_请选择_悬停",
+    "actionNote": "悬停查看 请选择 的 hover/提示状态",
+    "url": "http://192.168.11.88:8081/app/main-app/data/inference-output/algo/#/alarm-center/output-result/algorithm-log",
+    "screenshot": "screenshots_deep/03_data_center/023_报警日志_11_请选择_悬停.png",
+    "meta": {
+      "candidate": {
+        "kind": "field",
+        "priority": 2,
+        "tag": "INPUT",
+        "text": "",
+        "placeholder": "请选择",
+        "title": "",
+        "aria": "",
+        "cls": "custom-light-input",
+        "rect": {
+          "x": 498,
+          "y": 210,
+          "w": 169,
+          "h": 28,
+          "cx": 582,
+          "cy": 224
+        },
+        "disabled": false
+      }
+    },
+    "capturedAt": "2026-06-18T05:03:33.413Z"
+  },
+  {
+    "id": "03_data_center-024",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "报警日志",
+    "capability": "报警检索、处理、归档、导出、推送、正误报统计",
+    "actionType": "focus-or-open",
+    "actionLabel": "11_请选择_点击后",
+    "actionNote": "点击后出现弹窗/下拉/提示：.custom-light-modal、[role=\"dialog\"]",
+    "url": "http://192.168.11.88:8081/app/main-app/data/inference-output/algo/#/alarm-center/output-result/algorithm-log",
+    "screenshot": "screenshots_deep/03_data_center/024_报警日志_11_请选择_点击后.png",
+    "meta": {
+      "candidate": {
+        "kind": "field",
+        "priority": 2,
+        "tag": "INPUT",
+        "text": "",
+        "placeholder": "请选择",
+        "title": "",
+        "aria": "",
+        "cls": "custom-light-input",
+        "rect": {
+          "x": 498,
+          "y": 210,
+          "w": 169,
+          "h": 28,
+          "cx": 582,
+          "cy": 224
+        },
+        "disabled": false
+      },
+      "overlays": [
+        {
+          "selector": ".custom-light-modal",
+          "text": "选择点位 已选择 点位列表 点位 系统 未分组 暂无数据 取消 确 定"
+        },
+        {
+          "selector": "[role=\"dialog\"]",
+          "text": "选择点位 已选择 点位列表 点位 系统 未分组 暂无数据 取消 确 定"
+        }
+      ]
+    },
+    "capturedAt": "2026-06-18T05:03:34.464Z"
+  },
+  {
+    "id": "03_data_center-025",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "报警日志",
+    "capability": "报警检索、处理、归档、导出、推送、正误报统计",
+    "actionType": "hover",
+    "actionLabel": "12_请选择_悬停",
+    "actionNote": "悬停查看 请选择 的 hover/提示状态",
+    "url": "http://192.168.11.88:8081/app/main-app/data/inference-output/algo/#/alarm-center/output-result/algorithm-log",
+    "screenshot": "screenshots_deep/03_data_center/025_报警日志_12_请选择_悬停.png",
+    "meta": {
+      "candidate": {
+        "kind": "field",
+        "priority": 2,
+        "tag": "DIV",
+        "text": "请选择",
+        "placeholder": "",
+        "title": "",
+        "aria": "",
+        "cls": "custom-light-select-selector",
+        "rect": {
+          "x": 683,
+          "y": 210,
+          "w": 169,
+          "h": 28,
+          "cx": 767,
+          "cy": 224
+        },
+        "disabled": false
+      }
+    },
+    "capturedAt": "2026-06-18T05:03:35.330Z"
+  },
+  {
+    "id": "03_data_center-026",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "报警日志",
+    "capability": "报警检索、处理、归档、导出、推送、正误报统计",
+    "actionType": "focus-or-open",
+    "actionLabel": "12_请选择_点击后",
+    "actionNote": "点击后出现弹窗/下拉/提示：.custom-light-select-dropdown",
+    "url": "http://192.168.11.88:8081/app/main-app/data/inference-output/algo/#/alarm-center/output-result/algorithm-log",
+    "screenshot": "screenshots_deep/03_data_center/026_报警日志_12_请选择_点击后.png",
+    "meta": {
+      "candidate": {
+        "kind": "field",
+        "priority": 2,
+        "tag": "DIV",
+        "text": "请选择",
+        "placeholder": "",
+        "title": "",
+        "aria": "",
+        "cls": "custom-light-select-selector",
+        "rect": {
+          "x": 683,
+          "y": 210,
+          "w": 169,
+          "h": 28,
+          "cx": 767,
+          "cy": 224
+        },
+        "disabled": false
+      },
+      "overlays": [
+        {
+          "selector": ".custom-light-select-dropdown",
+          "text": "select-all 4 全选 人员入侵识别 烟火识别 吸烟识别 异常聚集识别 安全帽识别 离岗识别 工衣工服识别 睡岗识别 翻越围栏识别 打电话识别"
+        }
+      ]
+    },
+    "capturedAt": "2026-06-18T05:03:36.398Z"
+  },
+  {
+    "id": "03_data_center-027",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "报警推送日志",
+    "capability": "推送结果审计、失败重推、推送状态与数据 ID 检索",
+    "actionType": "overview",
+    "actionLabel": "页面全貌",
+    "actionNote": "进入子模块后的页面全貌，用于识别信息架构、主操作区、筛选区和表格/卡片区。",
+    "url": "http://192.168.11.88:8081/app/main-app/data/inference-output/callback/#/open-ability/alarm-push/push-log",
+    "screenshot": "screenshots_deep/03_data_center/027_报警推送日志_页面全貌.png",
+    "meta": {},
+    "capturedAt": "2026-06-18T05:03:41.513Z"
+  },
+  {
+    "id": "03_data_center-028",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "报警推送日志",
+    "capability": "推送结果审计、失败重推、推送状态与数据 ID 检索",
+    "actionType": "scroll",
+    "actionLabel": "滚动位置_0%",
+    "actionNote": "记录页面不同滚动位置，补足表格、卡片和底部状态。",
+    "url": "http://192.168.11.88:8081/app/main-app/data/inference-output/callback/#/open-ability/alarm-push/push-log",
+    "screenshot": "screenshots_deep/03_data_center/028_报警推送日志_滚动位置_0_.png",
+    "meta": {
+      "scroll": {
+        "tag": "HTML",
+        "cls": " ",
+        "max": 0,
+        "top": 0
+      }
+    },
+    "capturedAt": "2026-06-18T05:03:41.931Z"
+  },
+  {
+    "id": "03_data_center-029",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "报警推送日志",
+    "capability": "推送结果审计、失败重推、推送状态与数据 ID 检索",
+    "actionType": "hover",
+    "actionLabel": "01_重置_悬停",
+    "actionNote": "悬停查看 重置 的 hover/提示状态",
+    "url": "http://192.168.11.88:8081/app/main-app/data/inference-output/callback/#/open-ability/alarm-push/push-log",
+    "screenshot": "screenshots_deep/03_data_center/029_报警推送日志_01_重置_悬停.png",
+    "meta": {
+      "candidate": {
+        "kind": "button",
+        "priority": 1,
+        "tag": "BUTTON",
+        "text": "重置",
+        "placeholder": "",
+        "title": "",
+        "aria": "",
+        "cls": "custom-light-btn custom-light-btn-text custom-light-btn-sm cr-btn-small cr-btn",
+        "rect": {
+          "x": 1259,
+          "y": 246,
+          "w": 70,
+          "h": 28,
+          "cx": 1294,
+          "cy": 260
+        },
+        "disabled": false
+      }
+    },
+    "capturedAt": "2026-06-18T05:03:42.261Z"
+  },
+  {
+    "id": "03_data_center-030",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "报警推送日志",
+    "capability": "推送结果审计、失败重推、推送状态与数据 ID 检索",
+    "actionType": "click",
+    "actionLabel": "01_重置_点击后",
+    "actionNote": "点击后记录页面反馈或空数据提示",
+    "url": "http://192.168.11.88:8081/app/main-app/data/inference-output/callback/#/open-ability/alarm-push/push-log",
+    "screenshot": "screenshots_deep/03_data_center/030_报警推送日志_01_重置_点击后.png",
+    "meta": {
+      "candidate": {
+        "kind": "button",
+        "priority": 1,
+        "tag": "BUTTON",
+        "text": "重置",
+        "placeholder": "",
+        "title": "",
+        "aria": "",
+        "cls": "custom-light-btn custom-light-btn-text custom-light-btn-sm cr-btn-small cr-btn",
+        "rect": {
+          "x": 1259,
+          "y": 246,
+          "w": 70,
+          "h": 28,
+          "cx": 1294,
+          "cy": 260
+        },
+        "disabled": false
+      },
+      "overlays": []
+    },
+    "capturedAt": "2026-06-18T05:03:43.329Z"
+  },
+  {
+    "id": "03_data_center-031",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "报警推送日志",
+    "capability": "推送结果审计、失败重推、推送状态与数据 ID 检索",
+    "actionType": "hover",
+    "actionLabel": "02_查询_悬停",
+    "actionNote": "悬停查看 查询 的 hover/提示状态",
+    "url": "http://192.168.11.88:8081/app/main-app/data/inference-output/callback/#/open-ability/alarm-push/push-log",
+    "screenshot": "screenshots_deep/03_data_center/031_报警推送日志_02_查询_悬停.png",
+    "meta": {
+      "candidate": {
+        "kind": "button",
+        "priority": 1,
+        "tag": "BUTTON",
+        "text": "查询",
+        "placeholder": "",
+        "title": "",
+        "aria": "",
+        "cls": "custom-light-btn custom-light-btn-primary custom-light-btn-sm cr-btn-small cr-btn",
+        "rect": {
+          "x": 1337,
+          "y": 246,
+          "w": 70,
+          "h": 28,
+          "cx": 1372,
+          "cy": 260
+        },
+        "disabled": false
+      }
+    },
+    "capturedAt": "2026-06-18T05:03:44.202Z"
+  },
+  {
+    "id": "03_data_center-032",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "报警推送日志",
+    "capability": "推送结果审计、失败重推、推送状态与数据 ID 检索",
+    "actionType": "click",
+    "actionLabel": "02_查询_点击后",
+    "actionNote": "点击后记录页面反馈或空数据提示",
+    "url": "http://192.168.11.88:8081/app/main-app/data/inference-output/callback/#/open-ability/alarm-push/push-log",
+    "screenshot": "screenshots_deep/03_data_center/032_报警推送日志_02_查询_点击后.png",
+    "meta": {
+      "candidate": {
+        "kind": "button",
+        "priority": 1,
+        "tag": "BUTTON",
+        "text": "查询",
+        "placeholder": "",
+        "title": "",
+        "aria": "",
+        "cls": "custom-light-btn custom-light-btn-primary custom-light-btn-sm cr-btn-small cr-btn",
+        "rect": {
+          "x": 1337,
+          "y": 246,
+          "w": 70,
+          "h": 28,
+          "cx": 1372,
+          "cy": 260
+        },
+        "disabled": false
+      },
+      "overlays": []
+    },
+    "capturedAt": "2026-06-18T05:03:45.313Z"
+  },
+  {
+    "id": "03_data_center-033",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "报警推送日志",
+    "capability": "推送结果审计、失败重推、推送状态与数据 ID 检索",
+    "actionType": "hover",
+    "actionLabel": "03_搜索菜单_悬停",
+    "actionNote": "悬停查看 搜索菜单 的 hover/提示状态",
+    "url": "http://192.168.11.88:8081/app/main-app/data/inference-output/callback/#/open-ability/alarm-push/push-log",
+    "screenshot": "screenshots_deep/03_data_center/033_报警推送日志_03_搜索菜单_悬停.png",
+    "meta": {
+      "candidate": {
+        "kind": "field",
+        "priority": 2,
+        "tag": "DIV",
+        "text": "搜索菜单",
+        "placeholder": "",
+        "title": "",
+        "aria": "",
+        "cls": "custom-light-select-selector",
+        "rect": {
+          "x": 961,
+          "y": 6,
+          "w": 220,
+          "h": 32,
+          "cx": 1071,
+          "cy": 22
+        },
+        "disabled": false
+      }
+    },
+    "capturedAt": "2026-06-18T05:03:46.163Z"
+  },
+  {
+    "id": "03_data_center-034",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "报警推送日志",
+    "capability": "推送结果审计、失败重推、推送状态与数据 ID 检索",
+    "actionType": "focus-or-open",
+    "actionLabel": "03_搜索菜单_点击后",
+    "actionNote": "点击后出现弹窗/下拉/提示：.custom-light-select-dropdown",
+    "url": "http://192.168.11.88:8081/app/main-app/data/inference-output/callback/#/open-ability/alarm-push/push-log",
+    "screenshot": "screenshots_deep/03_data_center/034_报警推送日志_03_搜索菜单_点击后.png",
+    "meta": {
+      "candidate": {
+        "kind": "field",
+        "priority": 2,
+        "tag": "DIV",
+        "text": "搜索菜单",
+        "placeholder": "",
+        "title": "",
+        "aria": "",
+        "cls": "custom-light-select-selector",
+        "rect": {
+          "x": 961,
+          "y": 6,
+          "w": 220,
+          "h": 32,
+          "cx": 1071,
+          "cy": 22
+        },
+        "disabled": false
+      },
+      "overlays": [
+        {
+          "selector": ".custom-light-select-dropdown",
+          "text": "数据看板 智能分析 媒体与输入 摄像头配置 算法配置 算法列表 人员库 算法底库 智能分析配置 视频流分析 图片分析 分析服务状态 结果推送 报警推送 报警弹窗及语音 数据中心 推理输出结果 报警日志 报警推送日志 人员识别结果 人员识别日志 陌生人识别日志 平台管理 AI仓库 离线仓库 用户及权限 用户管理 用户组管理 系统权限 系统设置 基础信息 系统主题 网络配置 站内信 站内信 开放能力 接口授权 接口文档 免密登录 对象存储"
+        }
+      ]
+    },
+    "capturedAt": "2026-06-18T05:03:47.264Z"
+  },
+  {
+    "id": "03_data_center-035",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "报警推送日志",
+    "capability": "推送结果审计、失败重推、推送状态与数据 ID 检索",
+    "actionType": "hover",
+    "actionLabel": "04_数据ID/任务ID/摄像头ID/流地址_悬停",
+    "actionNote": "悬停查看 数据ID/任务ID/摄像头ID/流地址 的 hover/提示状态",
+    "url": "http://192.168.11.88:8081/app/main-app/data/inference-output/callback/#/open-ability/alarm-push/push-log",
+    "screenshot": "screenshots_deep/03_data_center/035_报警推送日志_04_数据ID_任务ID_摄像头ID_流地址_悬停.png",
+    "meta": {
+      "candidate": {
+        "kind": "field",
+        "priority": 2,
+        "tag": "INPUT",
+        "text": "",
+        "placeholder": "数据ID/任务ID/摄像头ID/流地址",
+        "title": "",
+        "aria": "",
+        "cls": "custom-light-input cr-ant-input",
+        "rect": {
+          "x": 313,
+          "y": 198,
+          "w": 262,
+          "h": 32,
+          "cx": 444,
+          "cy": 214
+        },
+        "disabled": false
+      }
+    },
+    "capturedAt": "2026-06-18T05:03:48.116Z"
+  },
+  {
+    "id": "03_data_center-036",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "报警推送日志",
+    "capability": "推送结果审计、失败重推、推送状态与数据 ID 检索",
+    "actionType": "focus-or-open",
+    "actionLabel": "04_数据ID/任务ID/摄像头ID/流地址_点击后",
+    "actionNote": "点击后记录页面反馈或空数据提示",
+    "url": "http://192.168.11.88:8081/app/main-app/data/inference-output/callback/#/open-ability/alarm-push/push-log",
+    "screenshot": "screenshots_deep/03_data_center/036_报警推送日志_04_数据ID_任务ID_摄像头ID_流地址_点击后.png",
+    "meta": {
+      "candidate": {
+        "kind": "field",
+        "priority": 2,
+        "tag": "INPUT",
+        "text": "",
+        "placeholder": "数据ID/任务ID/摄像头ID/流地址",
+        "title": "",
+        "aria": "",
+        "cls": "custom-light-input cr-ant-input",
+        "rect": {
+          "x": 313,
+          "y": 198,
+          "w": 262,
+          "h": 32,
+          "cx": 444,
+          "cy": 214
+        },
+        "disabled": false
+      },
+      "overlays": []
+    },
+    "capturedAt": "2026-06-18T05:03:49.180Z"
+  },
+  {
+    "id": "03_data_center-037",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "报警推送日志",
+    "capability": "推送结果审计、失败重推、推送状态与数据 ID 检索",
+    "actionType": "hover",
+    "actionLabel": "05_请选择_悬停",
+    "actionNote": "悬停查看 请选择 的 hover/提示状态",
+    "url": "http://192.168.11.88:8081/app/main-app/data/inference-output/callback/#/open-ability/alarm-push/push-log",
+    "screenshot": "screenshots_deep/03_data_center/037_报警推送日志_05_请选择_悬停.png",
+    "meta": {
+      "candidate": {
+        "kind": "field",
+        "priority": 2,
+        "tag": "DIV",
+        "text": "请选择",
+        "placeholder": "",
+        "title": "",
+        "aria": "",
+        "cls": "custom-light-select-selector",
+        "rect": {
+          "x": 591,
+          "y": 198,
+          "w": 262,
+          "h": 32,
+          "cx": 721,
+          "cy": 214
+        },
+        "disabled": false
+      }
+    },
+    "capturedAt": "2026-06-18T05:03:50.031Z"
+  },
+  {
+    "id": "03_data_center-038",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "报警推送日志",
+    "capability": "推送结果审计、失败重推、推送状态与数据 ID 检索",
+    "actionType": "focus-or-open",
+    "actionLabel": "05_请选择_点击后",
+    "actionNote": "点击后出现弹窗/下拉/提示：.custom-light-select-dropdown",
+    "url": "http://192.168.11.88:8081/app/main-app/data/inference-output/callback/#/open-ability/alarm-push/push-log",
+    "screenshot": "screenshots_deep/03_data_center/038_报警推送日志_05_请选择_点击后.png",
+    "meta": {
+      "candidate": {
+        "kind": "field",
+        "priority": 2,
+        "tag": "DIV",
+        "text": "请选择",
+        "placeholder": "",
+        "title": "",
+        "aria": "",
+        "cls": "custom-light-select-selector",
+        "rect": {
+          "x": 591,
+          "y": 198,
+          "w": 262,
+          "h": 32,
+          "cx": 721,
+          "cy": 214
+        },
+        "disabled": false
+      },
+      "overlays": [
+        {
+          "selector": ".custom-light-select-dropdown",
+          "text": "4 7 人员入侵识别 烟火识别 吸烟识别 异常聚集识别 安全帽识别 离岗识别 工衣工服识别 睡岗识别 翻越围栏识别 打电话识别"
+        }
+      ]
+    },
+    "capturedAt": "2026-06-18T05:03:51.098Z"
+  },
+  {
+    "id": "03_data_center-039",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "报警推送日志",
+    "capability": "推送结果审计、失败重推、推送状态与数据 ID 检索",
+    "actionType": "hover",
+    "actionLabel": "06_请选择日期时间_悬停",
+    "actionNote": "悬停查看 请选择日期时间 的 hover/提示状态",
+    "url": "http://192.168.11.88:8081/app/main-app/data/inference-output/callback/#/open-ability/alarm-push/push-log",
+    "screenshot": "screenshots_deep/03_data_center/039_报警推送日志_06_请选择日期时间_悬停.png",
+    "meta": {
+      "candidate": {
+        "kind": "field",
+        "priority": 2,
+        "tag": "DIV",
+        "text": "",
+        "placeholder": "请选择日期时间",
+        "title": "",
+        "aria": "",
+        "cls": "custom-light-picker",
+        "rect": {
+          "x": 868,
+          "y": 198,
+          "w": 262,
+          "h": 32,
+          "cx": 999,
+          "cy": 214
+        },
+        "disabled": false
+      }
+    },
+    "capturedAt": "2026-06-18T05:03:51.965Z"
+  },
+  {
+    "id": "03_data_center-040",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "报警推送日志",
+    "capability": "推送结果审计、失败重推、推送状态与数据 ID 检索",
+    "actionType": "focus-or-open",
+    "actionLabel": "06_请选择日期时间_点击后",
+    "actionNote": "点击后出现弹窗/下拉/提示：.custom-light-picker-dropdown",
+    "url": "http://192.168.11.88:8081/app/main-app/data/inference-output/callback/#/open-ability/alarm-push/push-log",
+    "screenshot": "screenshots_deep/03_data_center/040_报警推送日志_06_请选择日期时间_点击后.png",
+    "meta": {
+      "candidate": {
+        "kind": "field",
+        "priority": 2,
+        "tag": "DIV",
+        "text": "",
+        "placeholder": "请选择日期时间",
+        "title": "",
+        "aria": "",
+        "cls": "custom-light-picker",
+        "rect": {
+          "x": 868,
+          "y": 198,
+          "w": 262,
+          "h": 32,
+          "cx": 999,
+          "cy": 214
+        },
+        "disabled": false
+      },
+      "overlays": [
+        {
+          "selector": ".custom-light-picker-dropdown",
+          "text": "2026年6月 一 二 三 四 五 六 日 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 1 2 3 4 5 6 7 8 9 10 11 12 00 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 00 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 00 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 此刻 确 定"
+        }
+      ]
+    },
+    "capturedAt": "2026-06-18T05:03:53.050Z"
+  },
+  {
+    "id": "03_data_center-041",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "报警推送日志",
+    "capability": "推送结果审计、失败重推、推送状态与数据 ID 检索",
+    "actionType": "hover",
+    "actionLabel": "07_请选择日期时间_悬停",
+    "actionNote": "悬停查看 请选择日期时间 的 hover/提示状态",
+    "url": "http://192.168.11.88:8081/app/main-app/data/inference-output/callback/#/open-ability/alarm-push/push-log",
+    "screenshot": "screenshots_deep/03_data_center/041_报警推送日志_07_请选择日期时间_悬停.png",
+    "meta": {
+      "candidate": {
+        "kind": "field",
+        "priority": 2,
+        "tag": "DIV",
+        "text": "",
+        "placeholder": "请选择日期时间",
+        "title": "",
+        "aria": "",
+        "cls": "custom-light-picker",
+        "rect": {
+          "x": 1146,
+          "y": 198,
+          "w": 262,
+          "h": 32,
+          "cx": 1276,
+          "cy": 214
+        },
+        "disabled": false
+      }
+    },
+    "capturedAt": "2026-06-18T05:03:53.915Z"
+  },
+  {
+    "id": "03_data_center-042",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "报警推送日志",
+    "capability": "推送结果审计、失败重推、推送状态与数据 ID 检索",
+    "actionType": "focus-or-open",
+    "actionLabel": "07_请选择日期时间_点击后",
+    "actionNote": "点击后出现弹窗/下拉/提示：.custom-light-picker-dropdown",
+    "url": "http://192.168.11.88:8081/app/main-app/data/inference-output/callback/#/open-ability/alarm-push/push-log",
+    "screenshot": "screenshots_deep/03_data_center/042_报警推送日志_07_请选择日期时间_点击后.png",
+    "meta": {
+      "candidate": {
+        "kind": "field",
+        "priority": 2,
+        "tag": "DIV",
+        "text": "",
+        "placeholder": "请选择日期时间",
+        "title": "",
+        "aria": "",
+        "cls": "custom-light-picker",
+        "rect": {
+          "x": 1146,
+          "y": 198,
+          "w": 262,
+          "h": 32,
+          "cx": 1276,
+          "cy": 214
+        },
+        "disabled": false
+      },
+      "overlays": [
+        {
+          "selector": ".custom-light-picker-dropdown",
+          "text": "2026年6月 一 二 三 四 五 六 日 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 1 2 3 4 5 6 7 8 9 10 11 12 00 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 00 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 00 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 此刻 确 定"
+        }
+      ]
+    },
+    "capturedAt": "2026-06-18T05:03:54.982Z"
+  },
+  {
+    "id": "03_data_center-043",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "报警推送日志",
+    "capability": "推送结果审计、失败重推、推送状态与数据 ID 检索",
+    "actionType": "hover",
+    "actionLabel": "08_请选择日期时间_悬停",
+    "actionNote": "悬停查看 请选择日期时间 的 hover/提示状态",
+    "url": "http://192.168.11.88:8081/app/main-app/data/inference-output/callback/#/open-ability/alarm-push/push-log",
+    "screenshot": "screenshots_deep/03_data_center/043_报警推送日志_08_请选择日期时间_悬停.png",
+    "meta": {
+      "candidate": {
+        "kind": "field",
+        "priority": 2,
+        "tag": "INPUT",
+        "text": "",
+        "placeholder": "请选择日期时间",
+        "title": "",
+        "aria": "",
+        "cls": "",
+        "rect": {
+          "x": 880,
+          "y": 203,
+          "w": 220,
+          "h": 22,
+          "cx": 990,
+          "cy": 214
+        },
+        "disabled": false
+      }
+    },
+    "capturedAt": "2026-06-18T05:03:55.849Z"
+  },
+  {
+    "id": "03_data_center-044",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "报警推送日志",
+    "capability": "推送结果审计、失败重推、推送状态与数据 ID 检索",
+    "actionType": "focus-or-open",
+    "actionLabel": "08_请选择日期时间_点击后",
+    "actionNote": "点击后出现弹窗/下拉/提示：.custom-light-picker-dropdown",
+    "url": "http://192.168.11.88:8081/app/main-app/data/inference-output/callback/#/open-ability/alarm-push/push-log",
+    "screenshot": "screenshots_deep/03_data_center/044_报警推送日志_08_请选择日期时间_点击后.png",
+    "meta": {
+      "candidate": {
+        "kind": "field",
+        "priority": 2,
+        "tag": "INPUT",
+        "text": "",
+        "placeholder": "请选择日期时间",
+        "title": "",
+        "aria": "",
+        "cls": "",
+        "rect": {
+          "x": 880,
+          "y": 203,
+          "w": 220,
+          "h": 22,
+          "cx": 990,
+          "cy": 214
+        },
+        "disabled": false
+      },
+      "overlays": [
+        {
+          "selector": ".custom-light-picker-dropdown",
+          "text": "2026年6月 一 二 三 四 五 六 日 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 1 2 3 4 5 6 7 8 9 10 11 12 00 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 00 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 00 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 此刻 确 定"
+        }
+      ]
+    },
+    "capturedAt": "2026-06-18T05:03:56.949Z"
+  },
+  {
+    "id": "03_data_center-045",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "报警推送日志",
+    "capability": "推送结果审计、失败重推、推送状态与数据 ID 检索",
+    "actionType": "hover",
+    "actionLabel": "09_请选择日期时间_悬停",
+    "actionNote": "悬停查看 请选择日期时间 的 hover/提示状态",
+    "url": "http://192.168.11.88:8081/app/main-app/data/inference-output/callback/#/open-ability/alarm-push/push-log",
+    "screenshot": "screenshots_deep/03_data_center/045_报警推送日志_09_请选择日期时间_悬停.png",
+    "meta": {
+      "candidate": {
+        "kind": "field",
+        "priority": 2,
+        "tag": "INPUT",
+        "text": "",
+        "placeholder": "请选择日期时间",
+        "title": "",
+        "aria": "",
+        "cls": "",
+        "rect": {
+          "x": 1158,
+          "y": 203,
+          "w": 220,
+          "h": 22,
+          "cx": 1267,
+          "cy": 214
+        },
+        "disabled": false
+      }
+    },
+    "capturedAt": "2026-06-18T05:03:57.816Z"
+  },
+  {
+    "id": "03_data_center-046",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "报警推送日志",
+    "capability": "推送结果审计、失败重推、推送状态与数据 ID 检索",
+    "actionType": "focus-or-open",
+    "actionLabel": "09_请选择日期时间_点击后",
+    "actionNote": "点击后出现弹窗/下拉/提示：.custom-light-picker-dropdown",
+    "url": "http://192.168.11.88:8081/app/main-app/data/inference-output/callback/#/open-ability/alarm-push/push-log",
+    "screenshot": "screenshots_deep/03_data_center/046_报警推送日志_09_请选择日期时间_点击后.png",
+    "meta": {
+      "candidate": {
+        "kind": "field",
+        "priority": 2,
+        "tag": "INPUT",
+        "text": "",
+        "placeholder": "请选择日期时间",
+        "title": "",
+        "aria": "",
+        "cls": "",
+        "rect": {
+          "x": 1158,
+          "y": 203,
+          "w": 220,
+          "h": 22,
+          "cx": 1267,
+          "cy": 214
+        },
+        "disabled": false
+      },
+      "overlays": [
+        {
+          "selector": ".custom-light-picker-dropdown",
+          "text": "2026年6月 一 二 三 四 五 六 日 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 1 2 3 4 5 6 7 8 9 10 11 12 00 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 00 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 00 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 此刻 确 定"
+        }
+      ]
+    },
+    "capturedAt": "2026-06-18T05:03:58.885Z"
+  },
+  {
+    "id": "03_data_center-047",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "报警推送日志",
+    "capability": "推送结果审计、失败重推、推送状态与数据 ID 检索",
+    "actionType": "hover",
+    "actionLabel": "10_dropdown-trigger_悬停",
+    "actionNote": "悬停查看 dropdown-trigger 的 hover/提示状态",
+    "url": "http://192.168.11.88:8081/app/main-app/data/inference-output/callback/#/open-ability/alarm-push/push-log",
+    "screenshot": "screenshots_deep/03_data_center/047_报警推送日志_10_dropdown-trigger_悬停.png",
+    "meta": {
+      "candidate": {
+        "kind": "dropdown-trigger",
+        "priority": 3,
+        "tag": "DIV",
+        "text": "",
+        "placeholder": "",
+        "title": "",
+        "aria": "",
+        "cls": "flex-v-c custom-light-dropdown-trigger",
+        "rect": {
+          "x": 1233,
+          "y": 6,
+          "w": 32,
+          "h": 32,
+          "cx": 1249,
+          "cy": 22
+        },
+        "disabled": false
+      }
+    },
+    "capturedAt": "2026-06-18T05:03:59.782Z"
+  },
+  {
+    "id": "03_data_center-048",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "报警推送日志",
+    "capability": "推送结果审计、失败重推、推送状态与数据 ID 检索",
+    "actionType": "click",
+    "actionLabel": "10_dropdown-trigger_点击后",
+    "actionNote": "点击后出现弹窗/下拉/提示：.custom-light-dropdown",
+    "url": "http://192.168.11.88:8081/app/main-app/data/inference-output/callback/#/open-ability/alarm-push/push-log",
+    "screenshot": "screenshots_deep/03_data_center/048_报警推送日志_10_dropdown-trigger_点击后.png",
+    "meta": {
+      "candidate": {
+        "kind": "dropdown-trigger",
+        "priority": 3,
+        "tag": "DIV",
+        "text": "",
+        "placeholder": "",
+        "title": "",
+        "aria": "",
+        "cls": "flex-v-c custom-light-dropdown-trigger",
+        "rect": {
+          "x": 1233,
+          "y": 6,
+          "w": 32,
+          "h": 32,
+          "cx": 1249,
+          "cy": 22
+        },
+        "disabled": false
+      },
+      "overlays": [
+        {
+          "selector": ".custom-light-dropdown",
+          "text": "应用中心 数据看板 智能分析 数据中心 平台管理 数据看板 实时视频监控 业务数据概览 报警图片墙 AI智能管控中心"
+        }
+      ]
+    },
+    "capturedAt": "2026-06-18T05:04:00.847Z"
+  },
+  {
+    "id": "03_data_center-049",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "报警推送日志",
+    "capability": "推送结果审计、失败重推、推送状态与数据 ID 检索",
+    "actionType": "hover",
+    "actionLabel": "11_dropdown-trigger_悬停",
+    "actionNote": "悬停查看 dropdown-trigger 的 hover/提示状态",
+    "url": "http://192.168.11.88:8081/app/main-app/data/inference-output/callback/#/open-ability/alarm-push/push-log",
+    "screenshot": "screenshots_deep/03_data_center/049_报警推送日志_11_dropdown-trigger_悬停.png",
+    "meta": {
+      "candidate": {
+        "kind": "dropdown-trigger",
+        "priority": 3,
+        "tag": "DIV",
+        "text": "",
+        "placeholder": "",
+        "title": "",
+        "aria": "",
+        "cls": "flex-v-c message-info-btn custom-light-dropdown-trigger",
+        "rect": {
+          "x": 1275,
+          "y": 6,
+          "w": 32,
+          "h": 32,
+          "cx": 1291,
+          "cy": 22
+        },
+        "disabled": false
+      }
+    },
+    "capturedAt": "2026-06-18T05:04:01.728Z"
+  },
+  {
+    "id": "03_data_center-050",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "报警推送日志",
+    "capability": "推送结果审计、失败重推、推送状态与数据 ID 检索",
+    "actionType": "click",
+    "actionLabel": "11_dropdown-trigger_点击后",
+    "actionNote": "点击后出现弹窗/下拉/提示：.custom-light-dropdown",
+    "url": "http://192.168.11.88:8081/app/main-app/data/inference-output/callback/#/open-ability/alarm-push/push-log",
+    "screenshot": "screenshots_deep/03_data_center/050_报警推送日志_11_dropdown-trigger_点击后.png",
+    "meta": {
+      "candidate": {
+        "kind": "dropdown-trigger",
+        "priority": 3,
+        "tag": "DIV",
+        "text": "",
+        "placeholder": "",
+        "title": "",
+        "aria": "",
+        "cls": "flex-v-c message-info-btn custom-light-dropdown-trigger",
+        "rect": {
+          "x": 1275,
+          "y": 6,
+          "w": 32,
+          "h": 32,
+          "cx": 1291,
+          "cy": 22
+        },
+        "disabled": false
+      },
+      "overlays": [
+        {
+          "selector": ".custom-light-dropdown",
+          "text": "站内信 只看未读 全部标为已读 2026-06-10 17:14:58报警日志 已完成 2026-06-01到2026-06-19期间共1819条报警日志清理，查看详情 2026-06-10 16:43:12离线仓库 29:离岗识别 算法安装成功，查看详情 2026-06-10 16:43:10离线仓库 33:工衣工服识别 算法安装成功，查看详情 2026-06-10 16:43:05离线仓库 26:异常聚集识别 算法安装成功，查看详情 2026-06-10 16:43:04离线仓库 7:烟火识别 算法安装成功，查看详情 2026-06-10 16:42:43离线仓库 120:打电话识别 算法安装成功，查看详情 2026-06-10 16:42:41离线仓库 35:睡岗识别 算法安装成功，查看详情 2026-06-10 16:42:38离线仓库 86:翻越围栏识别 算法安装成功，查看详情 2026-06-10 16:42:07离线仓库 4:人员入侵识别 算法安装成功，查看详情 2026-06-10 16:42:07离线仓库 28:安全帽识别 算法安装成功，查看详情 查看历史消息"
+        }
+      ]
+    },
+    "capturedAt": "2026-06-18T05:04:02.811Z"
+  },
+  {
+    "id": "03_data_center-051",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "报警推送日志",
+    "capability": "推送结果审计、失败重推、推送状态与数据 ID 检索",
+    "actionType": "hover",
+    "actionLabel": "12_dropdown-trigger_悬停",
+    "actionNote": "悬停查看 dropdown-trigger 的 hover/提示状态",
+    "url": "http://192.168.11.88:8081/app/main-app/data/inference-output/callback/#/open-ability/alarm-push/push-log",
+    "screenshot": "screenshots_deep/03_data_center/051_报警推送日志_12_dropdown-trigger_悬停.png",
+    "meta": {
+      "candidate": {
+        "kind": "dropdown-trigger",
+        "priority": 3,
+        "tag": "DIV",
+        "text": "",
+        "placeholder": "",
+        "title": "",
+        "aria": "",
+        "cls": "cr-icon-btn-contain drop-menu custom-light-dropdown-trigger",
+        "rect": {
+          "x": 1317,
+          "y": 6,
+          "w": 32,
+          "h": 32,
+          "cx": 1333,
+          "cy": 22
+        },
+        "disabled": false
+      }
+    },
+    "capturedAt": "2026-06-18T05:04:03.691Z"
+  },
+  {
+    "id": "03_data_center-052",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "报警推送日志",
+    "capability": "推送结果审计、失败重推、推送状态与数据 ID 检索",
+    "actionType": "click",
+    "actionLabel": "12_dropdown-trigger_点击后",
+    "actionNote": "点击后出现弹窗/下拉/提示：.custom-light-dropdown",
+    "url": "http://192.168.11.88:8081/app/main-app/data/inference-output/callback/#/open-ability/alarm-push/push-log",
+    "screenshot": "screenshots_deep/03_data_center/052_报警推送日志_12_dropdown-trigger_点击后.png",
+    "meta": {
+      "candidate": {
+        "kind": "dropdown-trigger",
+        "priority": 3,
+        "tag": "DIV",
+        "text": "",
+        "placeholder": "",
+        "title": "",
+        "aria": "",
+        "cls": "cr-icon-btn-contain drop-menu custom-light-dropdown-trigger",
+        "rect": {
+          "x": 1317,
+          "y": 6,
+          "w": 32,
+          "h": 32,
+          "cx": 1333,
+          "cy": 22
+        },
+        "disabled": false
+      },
+      "overlays": [
+        {
+          "selector": ".custom-light-dropdown",
+          "text": "简体中文 繁體中文 English"
+        }
+      ]
+    },
+    "capturedAt": "2026-06-18T05:04:04.747Z"
+  },
+  {
+    "id": "03_data_center-053",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "人员识别日志",
+    "capability": "人员识别结果查询、人员维度追踪与日志审计",
+    "actionType": "overview",
+    "actionLabel": "页面全貌",
+    "actionNote": "进入子模块后的页面全貌，用于识别信息架构、主操作区、筛选区和表格/卡片区。",
+    "url": "http://192.168.11.88:8081/app/main-app/data/personnel_identification_log/#/personnel_identification_log",
+    "screenshot": "screenshots_deep/03_data_center/053_人员识别日志_页面全貌.png",
+    "meta": {},
+    "capturedAt": "2026-06-18T05:04:13.861Z"
+  },
+  {
+    "id": "03_data_center-054",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "人员识别日志",
+    "capability": "人员识别结果查询、人员维度追踪与日志审计",
+    "actionType": "scroll",
+    "actionLabel": "滚动位置_0%",
+    "actionNote": "记录页面不同滚动位置，补足表格、卡片和底部状态。",
+    "url": "http://192.168.11.88:8081/app/main-app/data/personnel_identification_log/#/personnel_identification_log",
+    "screenshot": "screenshots_deep/03_data_center/054_人员识别日志_滚动位置_0_.png",
+    "meta": {
+      "scroll": {
+        "tag": "HTML",
+        "cls": " ",
+        "max": 0,
+        "top": 0
+      }
+    },
+    "capturedAt": "2026-06-18T05:04:14.280Z"
+  },
+  {
+    "id": "03_data_center-055",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "人员识别日志",
+    "capability": "人员识别结果查询、人员维度追踪与日志审计",
+    "actionType": "hover",
+    "actionLabel": "01_重置_悬停",
+    "actionNote": "悬停查看 重置 的 hover/提示状态",
+    "url": "http://192.168.11.88:8081/app/main-app/data/personnel_identification_log/#/personnel_identification_log",
+    "screenshot": "screenshots_deep/03_data_center/055_人员识别日志_01_重置_悬停.png",
+    "meta": {
+      "candidate": {
+        "kind": "button",
+        "priority": 1,
+        "tag": "BUTTON",
+        "text": "重置",
+        "placeholder": "",
+        "title": "",
+        "aria": "",
+        "cls": "custom-light-btn custom-light-btn-text btn",
+        "rect": {
+          "x": 1251,
+          "y": 211,
+          "w": 62,
+          "h": 24,
+          "cx": 1282,
+          "cy": 223
+        },
+        "disabled": false
+      }
+    },
+    "capturedAt": "2026-06-18T05:04:14.610Z"
+  },
+  {
+    "id": "03_data_center-056",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "人员识别日志",
+    "capability": "人员识别结果查询、人员维度追踪与日志审计",
+    "actionType": "click",
+    "actionLabel": "01_重置_点击后",
+    "actionNote": "点击后记录页面反馈或空数据提示",
+    "url": "http://192.168.11.88:8081/app/main-app/data/personnel_identification_log/#/personnel_identification_log",
+    "screenshot": "screenshots_deep/03_data_center/056_人员识别日志_01_重置_点击后.png",
+    "meta": {
+      "candidate": {
+        "kind": "button",
+        "priority": 1,
+        "tag": "BUTTON",
+        "text": "重置",
+        "placeholder": "",
+        "title": "",
+        "aria": "",
+        "cls": "custom-light-btn custom-light-btn-text btn",
+        "rect": {
+          "x": 1251,
+          "y": 211,
+          "w": 62,
+          "h": 24,
+          "cx": 1282,
+          "cy": 223
+        },
+        "disabled": false
+      },
+      "overlays": []
+    },
+    "capturedAt": "2026-06-18T05:04:15.678Z"
+  },
+  {
+    "id": "03_data_center-057",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "人员识别日志",
+    "capability": "人员识别结果查询、人员维度追踪与日志审计",
+    "actionType": "hover",
+    "actionLabel": "02_查询_悬停",
+    "actionNote": "悬停查看 查询 的 hover/提示状态",
+    "url": "http://192.168.11.88:8081/app/main-app/data/personnel_identification_log/#/personnel_identification_log",
+    "screenshot": "screenshots_deep/03_data_center/057_人员识别日志_02_查询_悬停.png",
+    "meta": {
+      "candidate": {
+        "kind": "button",
+        "priority": 1,
+        "tag": "BUTTON",
+        "text": "查询",
+        "placeholder": "",
+        "title": "",
+        "aria": "",
+        "cls": "custom-light-btn custom-light-btn-primary btn",
+        "rect": {
+          "x": 1317,
+          "y": 211,
+          "w": 62,
+          "h": 24,
+          "cx": 1348,
+          "cy": 223
+        },
+        "disabled": false
+      }
+    },
+    "capturedAt": "2026-06-18T05:04:16.531Z"
+  },
+  {
+    "id": "03_data_center-058",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "人员识别日志",
+    "capability": "人员识别结果查询、人员维度追踪与日志审计",
+    "actionType": "click",
+    "actionLabel": "02_查询_点击后",
+    "actionNote": "点击后记录页面反馈或空数据提示",
+    "url": "http://192.168.11.88:8081/app/main-app/data/personnel_identification_log/#/personnel_identification_log",
+    "screenshot": "screenshots_deep/03_data_center/058_人员识别日志_02_查询_点击后.png",
+    "meta": {
+      "candidate": {
+        "kind": "button",
+        "priority": 1,
+        "tag": "BUTTON",
+        "text": "查询",
+        "placeholder": "",
+        "title": "",
+        "aria": "",
+        "cls": "custom-light-btn custom-light-btn-primary btn",
+        "rect": {
+          "x": 1317,
+          "y": 211,
+          "w": 62,
+          "h": 24,
+          "cx": 1348,
+          "cy": 223
+        },
+        "disabled": false
+      },
+      "overlays": []
+    },
+    "capturedAt": "2026-06-18T05:04:17.618Z"
+  },
+  {
+    "id": "03_data_center-059",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "人员识别日志",
+    "capability": "人员识别结果查询、人员维度追踪与日志审计",
+    "actionType": "hover",
+    "actionLabel": "03_Increase Value_悬停",
+    "actionNote": "悬停查看 Increase Value 的 hover/提示状态",
+    "url": "http://192.168.11.88:8081/app/main-app/data/personnel_identification_log/#/personnel_identification_log",
+    "screenshot": "screenshots_deep/03_data_center/059_人员识别日志_03_Increase_Value_悬停.png",
+    "meta": {
+      "candidate": {
+        "kind": "button",
+        "priority": 1,
+        "tag": "SPAN",
+        "text": "",
+        "placeholder": "",
+        "title": "",
+        "aria": "Increase Value",
+        "cls": "custom-light-input-number-handler custom-light-input-number-handler-up",
+        "rect": {
+          "x": 356,
+          "y": 228,
+          "w": 22,
+          "h": 13,
+          "cx": 367,
+          "cy": 235
+        },
+        "disabled": false
+      }
+    },
+    "capturedAt": "2026-06-18T05:04:18.479Z"
+  },
+  {
+    "id": "03_data_center-060",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "人员识别日志",
+    "capability": "人员识别结果查询、人员维度追踪与日志审计",
+    "actionType": "click",
+    "actionLabel": "03_Increase Value_点击后",
+    "actionNote": "点击后记录页面反馈或空数据提示",
+    "url": "http://192.168.11.88:8081/app/main-app/data/personnel_identification_log/#/personnel_identification_log",
+    "screenshot": "screenshots_deep/03_data_center/060_人员识别日志_03_Increase_Value_点击后.png",
+    "meta": {
+      "candidate": {
+        "kind": "button",
+        "priority": 1,
+        "tag": "SPAN",
+        "text": "",
+        "placeholder": "",
+        "title": "",
+        "aria": "Increase Value",
+        "cls": "custom-light-input-number-handler custom-light-input-number-handler-up",
+        "rect": {
+          "x": 356,
+          "y": 228,
+          "w": 22,
+          "h": 13,
+          "cx": 367,
+          "cy": 235
+        },
+        "disabled": false
+      },
+      "overlays": []
+    },
+    "capturedAt": "2026-06-18T05:04:19.525Z"
+  },
+  {
+    "id": "03_data_center-061",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "人员识别日志",
+    "capability": "人员识别结果查询、人员维度追踪与日志审计",
+    "actionType": "hover",
+    "actionLabel": "04_Increase Value_悬停",
+    "actionNote": "悬停查看 Increase Value 的 hover/提示状态",
+    "url": "http://192.168.11.88:8081/app/main-app/data/personnel_identification_log/#/personnel_identification_log",
+    "screenshot": "screenshots_deep/03_data_center/061_人员识别日志_04_Increase_Value_悬停.png",
+    "meta": {
+      "candidate": {
+        "kind": "button",
+        "priority": 1,
+        "tag": "SPAN",
+        "text": "",
+        "placeholder": "",
+        "title": "",
+        "aria": "Increase Value",
+        "cls": "custom-light-input-number-handler custom-light-input-number-handler-up",
+        "rect": {
+          "x": 452,
+          "y": 228,
+          "w": 22,
+          "h": 13,
+          "cx": 463,
+          "cy": 235
+        },
+        "disabled": false
+      }
+    },
+    "capturedAt": "2026-06-18T05:04:20.362Z"
+  },
+  {
+    "id": "03_data_center-062",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "人员识别日志",
+    "capability": "人员识别结果查询、人员维度追踪与日志审计",
+    "actionType": "click",
+    "actionLabel": "04_Increase Value_点击后",
+    "actionNote": "点击后记录页面反馈或空数据提示",
+    "url": "http://192.168.11.88:8081/app/main-app/data/personnel_identification_log/#/personnel_identification_log",
+    "screenshot": "screenshots_deep/03_data_center/062_人员识别日志_04_Increase_Value_点击后.png",
+    "meta": {
+      "candidate": {
+        "kind": "button",
+        "priority": 1,
+        "tag": "SPAN",
+        "text": "",
+        "placeholder": "",
+        "title": "",
+        "aria": "Increase Value",
+        "cls": "custom-light-input-number-handler custom-light-input-number-handler-up",
+        "rect": {
+          "x": 452,
+          "y": 228,
+          "w": 22,
+          "h": 13,
+          "cx": 463,
+          "cy": 235
+        },
+        "disabled": false
+      },
+      "overlays": []
+    },
+    "capturedAt": "2026-06-18T05:04:21.414Z"
+  },
+  {
+    "id": "03_data_center-063",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "人员识别日志",
+    "capability": "人员识别结果查询、人员维度追踪与日志审计",
+    "actionType": "hover",
+    "actionLabel": "05_Decrease Value_悬停",
+    "actionNote": "悬停查看 Decrease Value 的 hover/提示状态",
+    "url": "http://192.168.11.88:8081/app/main-app/data/personnel_identification_log/#/personnel_identification_log",
+    "screenshot": "screenshots_deep/03_data_center/063_人员识别日志_05_Decrease_Value_悬停.png",
+    "meta": {
+      "candidate": {
+        "kind": "button",
+        "priority": 1,
+        "tag": "SPAN",
+        "text": "",
+        "placeholder": "",
+        "title": "",
+        "aria": "Decrease Value",
+        "cls": "custom-light-input-number-handler custom-light-input-number-handler-down",
+        "rect": {
+          "x": 356,
+          "y": 241,
+          "w": 22,
+          "h": 13,
+          "cx": 367,
+          "cy": 248
+        },
+        "disabled": false
+      }
+    },
+    "capturedAt": "2026-06-18T05:04:22.242Z"
+  },
+  {
+    "id": "03_data_center-064",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "人员识别日志",
+    "capability": "人员识别结果查询、人员维度追踪与日志审计",
+    "actionType": "click",
+    "actionLabel": "05_Decrease Value_点击后",
+    "actionNote": "点击后记录页面反馈或空数据提示",
+    "url": "http://192.168.11.88:8081/app/main-app/data/personnel_identification_log/#/personnel_identification_log",
+    "screenshot": "screenshots_deep/03_data_center/064_人员识别日志_05_Decrease_Value_点击后.png",
+    "meta": {
+      "candidate": {
+        "kind": "button",
+        "priority": 1,
+        "tag": "SPAN",
+        "text": "",
+        "placeholder": "",
+        "title": "",
+        "aria": "Decrease Value",
+        "cls": "custom-light-input-number-handler custom-light-input-number-handler-down",
+        "rect": {
+          "x": 356,
+          "y": 241,
+          "w": 22,
+          "h": 13,
+          "cx": 367,
+          "cy": 248
+        },
+        "disabled": false
+      },
+      "overlays": []
+    },
+    "capturedAt": "2026-06-18T05:04:23.294Z"
+  },
+  {
+    "id": "03_data_center-065",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "人员识别日志",
+    "capability": "人员识别结果查询、人员维度追踪与日志审计",
+    "actionType": "hover",
+    "actionLabel": "06_Decrease Value_悬停",
+    "actionNote": "悬停查看 Decrease Value 的 hover/提示状态",
+    "url": "http://192.168.11.88:8081/app/main-app/data/personnel_identification_log/#/personnel_identification_log",
+    "screenshot": "screenshots_deep/03_data_center/065_人员识别日志_06_Decrease_Value_悬停.png",
+    "meta": {
+      "candidate": {
+        "kind": "button",
+        "priority": 1,
+        "tag": "SPAN",
+        "text": "",
+        "placeholder": "",
+        "title": "",
+        "aria": "Decrease Value",
+        "cls": "custom-light-input-number-handler custom-light-input-number-handler-down",
+        "rect": {
+          "x": 452,
+          "y": 241,
+          "w": 22,
+          "h": 13,
+          "cx": 463,
+          "cy": 248
+        },
+        "disabled": false
+      }
+    },
+    "capturedAt": "2026-06-18T05:04:24.110Z"
+  },
+  {
+    "id": "03_data_center-066",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "人员识别日志",
+    "capability": "人员识别结果查询、人员维度追踪与日志审计",
+    "actionType": "click",
+    "actionLabel": "06_Decrease Value_点击后",
+    "actionNote": "点击后记录页面反馈或空数据提示",
+    "url": "http://192.168.11.88:8081/app/main-app/data/personnel_identification_log/#/personnel_identification_log",
+    "screenshot": "screenshots_deep/03_data_center/066_人员识别日志_06_Decrease_Value_点击后.png",
+    "meta": {
+      "candidate": {
+        "kind": "button",
+        "priority": 1,
+        "tag": "SPAN",
+        "text": "",
+        "placeholder": "",
+        "title": "",
+        "aria": "Decrease Value",
+        "cls": "custom-light-input-number-handler custom-light-input-number-handler-down",
+        "rect": {
+          "x": 452,
+          "y": 241,
+          "w": 22,
+          "h": 13,
+          "cx": 463,
+          "cy": 248
+        },
+        "disabled": false
+      },
+      "overlays": []
+    },
+    "capturedAt": "2026-06-18T05:04:25.161Z"
+  },
+  {
+    "id": "03_data_center-067",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "人员识别日志",
+    "capability": "人员识别结果查询、人员维度追踪与日志审计",
+    "actionType": "hover",
+    "actionLabel": "07_搜索菜单_悬停",
+    "actionNote": "悬停查看 搜索菜单 的 hover/提示状态",
+    "url": "http://192.168.11.88:8081/app/main-app/data/personnel_identification_log/#/personnel_identification_log",
+    "screenshot": "screenshots_deep/03_data_center/067_人员识别日志_07_搜索菜单_悬停.png",
+    "meta": {
+      "candidate": {
+        "kind": "field",
+        "priority": 2,
+        "tag": "DIV",
+        "text": "搜索菜单",
+        "placeholder": "",
+        "title": "",
+        "aria": "",
+        "cls": "custom-light-select-selector",
+        "rect": {
+          "x": 961,
+          "y": 6,
+          "w": 220,
+          "h": 32,
+          "cx": 1071,
+          "cy": 22
+        },
+        "disabled": false
+      }
+    },
+    "capturedAt": "2026-06-18T05:04:26.015Z"
+  },
+  {
+    "id": "03_data_center-068",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "人员识别日志",
+    "capability": "人员识别结果查询、人员维度追踪与日志审计",
+    "actionType": "focus-or-open",
+    "actionLabel": "07_搜索菜单_点击后",
+    "actionNote": "点击后出现弹窗/下拉/提示：.custom-light-select-dropdown",
+    "url": "http://192.168.11.88:8081/app/main-app/data/personnel_identification_log/#/personnel_identification_log",
+    "screenshot": "screenshots_deep/03_data_center/068_人员识别日志_07_搜索菜单_点击后.png",
+    "meta": {
+      "candidate": {
+        "kind": "field",
+        "priority": 2,
+        "tag": "DIV",
+        "text": "搜索菜单",
+        "placeholder": "",
+        "title": "",
+        "aria": "",
+        "cls": "custom-light-select-selector",
+        "rect": {
+          "x": 961,
+          "y": 6,
+          "w": 220,
+          "h": 32,
+          "cx": 1071,
+          "cy": 22
+        },
+        "disabled": false
+      },
+      "overlays": [
+        {
+          "selector": ".custom-light-select-dropdown",
+          "text": "数据看板 智能分析 媒体与输入 摄像头配置 算法配置 算法列表 人员库 算法底库 智能分析配置 视频流分析 图片分析 分析服务状态 结果推送 报警推送 报警弹窗及语音 数据中心 推理输出结果 报警日志 报警推送日志 人员识别结果 人员识别日志 陌生人识别日志 平台管理 AI仓库 离线仓库 用户及权限 用户管理 用户组管理 系统权限 系统设置 基础信息 系统主题 网络配置 站内信 站内信 开放能力 接口授权 接口文档 免密登录 对象存储"
+        }
+      ]
+    },
+    "capturedAt": "2026-06-18T05:04:27.112Z"
+  },
+  {
+    "id": "03_data_center-069",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "人员识别日志",
+    "capability": "人员识别结果查询、人员维度追踪与日志审计",
+    "actionType": "hover",
+    "actionLabel": "08_请选择日期_悬停",
+    "actionNote": "悬停查看 请选择日期 的 hover/提示状态",
+    "url": "http://192.168.11.88:8081/app/main-app/data/personnel_identification_log/#/personnel_identification_log",
+    "screenshot": "screenshots_deep/03_data_center/069_人员识别日志_08_请选择日期_悬停.png",
+    "meta": {
+      "candidate": {
+        "kind": "field",
+        "priority": 2,
+        "tag": "DIV",
+        "text": "",
+        "placeholder": "请选择日期",
+        "title": "",
+        "aria": "",
+        "cls": "custom-light-picker",
+        "rect": {
+          "x": 683,
+          "y": 167,
+          "w": 169,
+          "h": 28,
+          "cx": 767,
+          "cy": 181
+        },
+        "disabled": false
+      }
+    },
+    "capturedAt": "2026-06-18T05:04:28.011Z"
+  },
+  {
+    "id": "03_data_center-070",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "人员识别日志",
+    "capability": "人员识别结果查询、人员维度追踪与日志审计",
+    "actionType": "focus-or-open",
+    "actionLabel": "08_请选择日期_点击后",
+    "actionNote": "点击后出现弹窗/下拉/提示：.custom-light-picker-dropdown",
+    "url": "http://192.168.11.88:8081/app/main-app/data/personnel_identification_log/#/personnel_identification_log",
+    "screenshot": "screenshots_deep/03_data_center/070_人员识别日志_08_请选择日期_点击后.png",
+    "meta": {
+      "candidate": {
+        "kind": "field",
+        "priority": 2,
+        "tag": "DIV",
+        "text": "",
+        "placeholder": "请选择日期",
+        "title": "",
+        "aria": "",
+        "cls": "custom-light-picker",
+        "rect": {
+          "x": 683,
+          "y": 167,
+          "w": 169,
+          "h": 28,
+          "cx": 767,
+          "cy": 181
+        },
+        "disabled": false
+      },
+      "overlays": [
+        {
+          "selector": ".custom-light-picker-dropdown",
+          "text": "2026年6月 一 二 三 四 五 六 日 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 1 2 3 4 5 6 7 8 9 10 11 12 00 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 00 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 00 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 此刻 确 定"
+        }
+      ]
+    },
+    "capturedAt": "2026-06-18T05:04:29.094Z"
+  },
+  {
+    "id": "03_data_center-071",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "人员识别日志",
+    "capability": "人员识别结果查询、人员维度追踪与日志审计",
+    "actionType": "hover",
+    "actionLabel": "09_请选择日期_悬停",
+    "actionNote": "悬停查看 请选择日期 的 hover/提示状态",
+    "url": "http://192.168.11.88:8081/app/main-app/data/personnel_identification_log/#/personnel_identification_log",
+    "screenshot": "screenshots_deep/03_data_center/071_人员识别日志_09_请选择日期_悬停.png",
+    "meta": {
+      "candidate": {
+        "kind": "field",
+        "priority": 2,
+        "tag": "DIV",
+        "text": "",
+        "placeholder": "请选择日期",
+        "title": "",
+        "aria": "",
+        "cls": "custom-light-picker",
+        "rect": {
+          "x": 868,
+          "y": 167,
+          "w": 169,
+          "h": 28,
+          "cx": 952,
+          "cy": 181
+        },
+        "disabled": false
+      }
+    },
+    "capturedAt": "2026-06-18T05:04:29.978Z"
+  },
+  {
+    "id": "03_data_center-072",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "人员识别日志",
+    "capability": "人员识别结果查询、人员维度追踪与日志审计",
+    "actionType": "focus-or-open",
+    "actionLabel": "09_请选择日期_点击后",
+    "actionNote": "点击后出现弹窗/下拉/提示：.custom-light-picker-dropdown",
+    "url": "http://192.168.11.88:8081/app/main-app/data/personnel_identification_log/#/personnel_identification_log",
+    "screenshot": "screenshots_deep/03_data_center/072_人员识别日志_09_请选择日期_点击后.png",
+    "meta": {
+      "candidate": {
+        "kind": "field",
+        "priority": 2,
+        "tag": "DIV",
+        "text": "",
+        "placeholder": "请选择日期",
+        "title": "",
+        "aria": "",
+        "cls": "custom-light-picker",
+        "rect": {
+          "x": 868,
+          "y": 167,
+          "w": 169,
+          "h": 28,
+          "cx": 952,
+          "cy": 181
+        },
+        "disabled": false
+      },
+      "overlays": [
+        {
+          "selector": ".custom-light-picker-dropdown",
+          "text": "2026年6月 一 二 三 四 五 六 日 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 1 2 3 4 5 6 7 8 9 10 11 12 00 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 00 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 00 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 此刻 确 定"
+        }
+      ]
+    },
+    "capturedAt": "2026-06-18T05:04:31.045Z"
+  },
+  {
+    "id": "03_data_center-073",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "人员识别日志",
+    "capability": "人员识别结果查询、人员维度追踪与日志审计",
+    "actionType": "hover",
+    "actionLabel": "10_请选择_悬停",
+    "actionNote": "悬停查看 请选择 的 hover/提示状态",
+    "url": "http://192.168.11.88:8081/app/main-app/data/personnel_identification_log/#/personnel_identification_log",
+    "screenshot": "screenshots_deep/03_data_center/073_人员识别日志_10_请选择_悬停.png",
+    "meta": {
+      "candidate": {
+        "kind": "field",
+        "priority": 2,
+        "tag": "INPUT",
+        "text": "",
+        "placeholder": "请选择",
+        "title": "",
+        "aria": "",
+        "cls": "custom-light-input",
+        "rect": {
+          "x": 1053,
+          "y": 167,
+          "w": 169,
+          "h": 28,
+          "cx": 1137,
+          "cy": 181
+        },
+        "disabled": false
+      }
+    },
+    "capturedAt": "2026-06-18T05:04:31.878Z"
+  },
+  {
+    "id": "03_data_center-074",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "人员识别日志",
+    "capability": "人员识别结果查询、人员维度追踪与日志审计",
+    "actionType": "focus-or-open",
+    "actionLabel": "10_请选择_点击后",
+    "actionNote": "点击后出现弹窗/下拉/提示：.custom-light-modal、[role=\"dialog\"]",
+    "url": "http://192.168.11.88:8081/app/main-app/data/personnel_identification_log/#/personnel_identification_log",
+    "screenshot": "screenshots_deep/03_data_center/074_人员识别日志_10_请选择_点击后.png",
+    "meta": {
+      "candidate": {
+        "kind": "field",
+        "priority": 2,
+        "tag": "INPUT",
+        "text": "",
+        "placeholder": "请选择",
+        "title": "",
+        "aria": "",
+        "cls": "custom-light-input",
+        "rect": {
+          "x": 1053,
+          "y": 167,
+          "w": 169,
+          "h": 28,
+          "cx": 1137,
+          "cy": 181
+        },
+        "disabled": false
+      },
+      "overlays": [
+        {
+          "selector": ".custom-light-modal",
+          "text": "点位 列表 点位 系统 未分组 暂无数据 取消 确 定"
+        },
+        {
+          "selector": "[role=\"dialog\"]",
+          "text": "点位 列表 点位 系统 未分组 暂无数据 取消 确 定"
+        }
+      ]
+    },
+    "capturedAt": "2026-06-18T05:04:32.932Z"
+  },
+  {
+    "id": "03_data_center-075",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "人员识别日志",
+    "capability": "人员识别结果查询、人员维度追踪与日志审计",
+    "actionType": "hover",
+    "actionLabel": "11_请选择_悬停",
+    "actionNote": "悬停查看 请选择 的 hover/提示状态",
+    "url": "http://192.168.11.88:8081/app/main-app/data/personnel_identification_log/#/personnel_identification_log",
+    "screenshot": "screenshots_deep/03_data_center/075_人员识别日志_11_请选择_悬停.png",
+    "meta": {
+      "candidate": {
+        "kind": "field",
+        "priority": 2,
+        "tag": "DIV",
+        "text": "请选择",
+        "placeholder": "",
+        "title": "",
+        "aria": "",
+        "cls": "custom-light-select-selector",
+        "rect": {
+          "x": 1238,
+          "y": 167,
+          "w": 169,
+          "h": 28,
+          "cx": 1322,
+          "cy": 181
+        },
+        "disabled": false
+      }
+    },
+    "capturedAt": "2026-06-18T05:04:33.777Z"
+  },
+  {
+    "id": "03_data_center-076",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "人员识别日志",
+    "capability": "人员识别结果查询、人员维度追踪与日志审计",
+    "actionType": "focus-or-open",
+    "actionLabel": "11_请选择_点击后",
+    "actionNote": "点击后出现弹窗/下拉/提示：.custom-light-select-dropdown",
+    "url": "http://192.168.11.88:8081/app/main-app/data/personnel_identification_log/#/personnel_identification_log",
+    "screenshot": "screenshots_deep/03_data_center/076_人员识别日志_11_请选择_点击后.png",
+    "meta": {
+      "candidate": {
+        "kind": "field",
+        "priority": 2,
+        "tag": "DIV",
+        "text": "请选择",
+        "placeholder": "",
+        "title": "",
+        "aria": "",
+        "cls": "custom-light-select-selector",
+        "rect": {
+          "x": 1238,
+          "y": 167,
+          "w": 169,
+          "h": 28,
+          "cx": 1322,
+          "cy": 181
+        },
+        "disabled": false
+      },
+      "overlays": [
+        {
+          "selector": ".custom-light-select-dropdown",
+          "text": "whitelist blacklist 白名单 黑名单"
+        }
+      ]
+    },
+    "capturedAt": "2026-06-18T05:04:34.827Z"
+  },
+  {
+    "id": "03_data_center-077",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "人员识别日志",
+    "capability": "人员识别结果查询、人员维度追踪与日志审计",
+    "actionType": "hover",
+    "actionLabel": "12_请选择日期_悬停",
+    "actionNote": "悬停查看 请选择日期 的 hover/提示状态",
+    "url": "http://192.168.11.88:8081/app/main-app/data/personnel_identification_log/#/personnel_identification_log",
+    "screenshot": "screenshots_deep/03_data_center/077_人员识别日志_12_请选择日期_悬停.png",
+    "meta": {
+      "candidate": {
+        "kind": "field",
+        "priority": 2,
+        "tag": "INPUT",
+        "text": "",
+        "placeholder": "请选择日期",
+        "title": "",
+        "aria": "",
+        "cls": "",
+        "rect": {
+          "x": 695,
+          "y": 170,
+          "w": 129,
+          "h": 22,
+          "cx": 759,
+          "cy": 181
+        },
+        "disabled": false
+      }
+    },
+    "capturedAt": "2026-06-18T05:04:35.694Z"
+  },
+  {
+    "id": "03_data_center-078",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "人员识别日志",
+    "capability": "人员识别结果查询、人员维度追踪与日志审计",
+    "actionType": "focus-or-open",
+    "actionLabel": "12_请选择日期_点击后",
+    "actionNote": "点击后出现弹窗/下拉/提示：.custom-light-picker-dropdown",
+    "url": "http://192.168.11.88:8081/app/main-app/data/personnel_identification_log/#/personnel_identification_log",
+    "screenshot": "screenshots_deep/03_data_center/078_人员识别日志_12_请选择日期_点击后.png",
+    "meta": {
+      "candidate": {
+        "kind": "field",
+        "priority": 2,
+        "tag": "INPUT",
+        "text": "",
+        "placeholder": "请选择日期",
+        "title": "",
+        "aria": "",
+        "cls": "",
+        "rect": {
+          "x": 695,
+          "y": 170,
+          "w": 129,
+          "h": 22,
+          "cx": 759,
+          "cy": 181
+        },
+        "disabled": false
+      },
+      "overlays": [
+        {
+          "selector": ".custom-light-picker-dropdown",
+          "text": "2026年6月 一 二 三 四 五 六 日 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 1 2 3 4 5 6 7 8 9 10 11 12 00 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 00 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 00 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 此刻 确 定"
+        }
+      ]
+    },
+    "capturedAt": "2026-06-18T05:04:36.762Z"
+  },
+  {
+    "id": "03_data_center-079",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "陌生人识别日志",
+    "capability": "陌生人识别结果查询与异常身份追踪",
+    "actionType": "overview",
+    "actionLabel": "页面全貌",
+    "actionNote": "进入子模块后的页面全貌，用于识别信息架构、主操作区、筛选区和表格/卡片区。",
+    "url": "http://192.168.11.88:8081/app/main-app/data/stranger_identification_log/#/stranger_identification_log",
+    "screenshot": "screenshots_deep/03_data_center/079_陌生人识别日志_页面全貌.png",
+    "meta": {},
+    "capturedAt": "2026-06-18T05:04:45.925Z"
+  },
+  {
+    "id": "03_data_center-080",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "陌生人识别日志",
+    "capability": "陌生人识别结果查询与异常身份追踪",
+    "actionType": "scroll",
+    "actionLabel": "滚动位置_0%",
+    "actionNote": "记录页面不同滚动位置，补足表格、卡片和底部状态。",
+    "url": "http://192.168.11.88:8081/app/main-app/data/stranger_identification_log/#/stranger_identification_log",
+    "screenshot": "screenshots_deep/03_data_center/080_陌生人识别日志_滚动位置_0_.png",
+    "meta": {
+      "scroll": {
+        "tag": "HTML",
+        "cls": " ",
+        "max": 0,
+        "top": 0
+      }
+    },
+    "capturedAt": "2026-06-18T05:04:46.342Z"
+  },
+  {
+    "id": "03_data_center-081",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "陌生人识别日志",
+    "capability": "陌生人识别结果查询与异常身份追踪",
+    "actionType": "hover",
+    "actionLabel": "01_Increase Value_悬停",
+    "actionNote": "悬停查看 Increase Value 的 hover/提示状态",
+    "url": "http://192.168.11.88:8081/app/main-app/data/stranger_identification_log/#/stranger_identification_log",
+    "screenshot": "screenshots_deep/03_data_center/081_陌生人识别日志_01_Increase_Value_悬停.png",
+    "meta": {
+      "candidate": {
+        "kind": "button",
+        "priority": 1,
+        "tag": "SPAN",
+        "text": "",
+        "placeholder": "",
+        "title": "",
+        "aria": "Increase Value",
+        "cls": "custom-light-input-number-handler custom-light-input-number-handler-up",
+        "rect": {
+          "x": 1248,
+          "y": 168,
+          "w": 22,
+          "h": 13,
+          "cx": 1259,
+          "cy": 175
+        },
+        "disabled": false
+      }
+    },
+    "capturedAt": "2026-06-18T05:04:46.676Z"
+  },
+  {
+    "id": "03_data_center-082",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "陌生人识别日志",
+    "capability": "陌生人识别结果查询与异常身份追踪",
+    "actionType": "click",
+    "actionLabel": "01_Increase Value_点击后",
+    "actionNote": "点击后记录页面反馈或空数据提示",
+    "url": "http://192.168.11.88:8081/app/main-app/data/stranger_identification_log/#/stranger_identification_log",
+    "screenshot": "screenshots_deep/03_data_center/082_陌生人识别日志_01_Increase_Value_点击后.png",
+    "meta": {
+      "candidate": {
+        "kind": "button",
+        "priority": 1,
+        "tag": "SPAN",
+        "text": "",
+        "placeholder": "",
+        "title": "",
+        "aria": "Increase Value",
+        "cls": "custom-light-input-number-handler custom-light-input-number-handler-up",
+        "rect": {
+          "x": 1248,
+          "y": 168,
+          "w": 22,
+          "h": 13,
+          "cx": 1259,
+          "cy": 175
+        },
+        "disabled": false
+      },
+      "overlays": []
+    },
+    "capturedAt": "2026-06-18T05:04:47.725Z"
+  },
+  {
+    "id": "03_data_center-083",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "陌生人识别日志",
+    "capability": "陌生人识别结果查询与异常身份追踪",
+    "actionType": "hover",
+    "actionLabel": "02_Increase Value_悬停",
+    "actionNote": "悬停查看 Increase Value 的 hover/提示状态",
+    "url": "http://192.168.11.88:8081/app/main-app/data/stranger_identification_log/#/stranger_identification_log",
+    "screenshot": "screenshots_deep/03_data_center/083_陌生人识别日志_02_Increase_Value_悬停.png",
+    "meta": {
+      "candidate": {
+        "kind": "button",
+        "priority": 1,
+        "tag": "SPAN",
+        "text": "",
+        "placeholder": "",
+        "title": "",
+        "aria": "Increase Value",
+        "cls": "custom-light-input-number-handler custom-light-input-number-handler-up",
+        "rect": {
+          "x": 1377,
+          "y": 168,
+          "w": 22,
+          "h": 13,
+          "cx": 1388,
+          "cy": 175
+        },
+        "disabled": false
+      }
+    },
+    "capturedAt": "2026-06-18T05:04:48.577Z"
+  },
+  {
+    "id": "03_data_center-084",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "陌生人识别日志",
+    "capability": "陌生人识别结果查询与异常身份追踪",
+    "actionType": "click",
+    "actionLabel": "02_Increase Value_点击后",
+    "actionNote": "点击后记录页面反馈或空数据提示",
+    "url": "http://192.168.11.88:8081/app/main-app/data/stranger_identification_log/#/stranger_identification_log",
+    "screenshot": "screenshots_deep/03_data_center/084_陌生人识别日志_02_Increase_Value_点击后.png",
+    "meta": {
+      "candidate": {
+        "kind": "button",
+        "priority": 1,
+        "tag": "SPAN",
+        "text": "",
+        "placeholder": "",
+        "title": "",
+        "aria": "Increase Value",
+        "cls": "custom-light-input-number-handler custom-light-input-number-handler-up",
+        "rect": {
+          "x": 1377,
+          "y": 168,
+          "w": 22,
+          "h": 13,
+          "cx": 1388,
+          "cy": 175
+        },
+        "disabled": false
+      },
+      "overlays": []
+    },
+    "capturedAt": "2026-06-18T05:04:49.625Z"
+  },
+  {
+    "id": "03_data_center-085",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "陌生人识别日志",
+    "capability": "陌生人识别结果查询与异常身份追踪",
+    "actionType": "hover",
+    "actionLabel": "03_Decrease Value_悬停",
+    "actionNote": "悬停查看 Decrease Value 的 hover/提示状态",
+    "url": "http://192.168.11.88:8081/app/main-app/data/stranger_identification_log/#/stranger_identification_log",
+    "screenshot": "screenshots_deep/03_data_center/085_陌生人识别日志_03_Decrease_Value_悬停.png",
+    "meta": {
+      "candidate": {
+        "kind": "button",
+        "priority": 1,
+        "tag": "SPAN",
+        "text": "",
+        "placeholder": "",
+        "title": "",
+        "aria": "Decrease Value",
+        "cls": "custom-light-input-number-handler custom-light-input-number-handler-down",
+        "rect": {
+          "x": 1248,
+          "y": 181,
+          "w": 22,
+          "h": 13,
+          "cx": 1259,
+          "cy": 188
+        },
+        "disabled": false
+      }
+    },
+    "capturedAt": "2026-06-18T05:04:50.476Z"
+  },
+  {
+    "id": "03_data_center-086",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "陌生人识别日志",
+    "capability": "陌生人识别结果查询与异常身份追踪",
+    "actionType": "click",
+    "actionLabel": "03_Decrease Value_点击后",
+    "actionNote": "点击后记录页面反馈或空数据提示",
+    "url": "http://192.168.11.88:8081/app/main-app/data/stranger_identification_log/#/stranger_identification_log",
+    "screenshot": "screenshots_deep/03_data_center/086_陌生人识别日志_03_Decrease_Value_点击后.png",
+    "meta": {
+      "candidate": {
+        "kind": "button",
+        "priority": 1,
+        "tag": "SPAN",
+        "text": "",
+        "placeholder": "",
+        "title": "",
+        "aria": "Decrease Value",
+        "cls": "custom-light-input-number-handler custom-light-input-number-handler-down",
+        "rect": {
+          "x": 1248,
+          "y": 181,
+          "w": 22,
+          "h": 13,
+          "cx": 1259,
+          "cy": 188
+        },
+        "disabled": false
+      },
+      "overlays": []
+    },
+    "capturedAt": "2026-06-18T05:04:51.527Z"
+  },
+  {
+    "id": "03_data_center-087",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "陌生人识别日志",
+    "capability": "陌生人识别结果查询与异常身份追踪",
+    "actionType": "hover",
+    "actionLabel": "04_Decrease Value_悬停",
+    "actionNote": "悬停查看 Decrease Value 的 hover/提示状态",
+    "url": "http://192.168.11.88:8081/app/main-app/data/stranger_identification_log/#/stranger_identification_log",
+    "screenshot": "screenshots_deep/03_data_center/087_陌生人识别日志_04_Decrease_Value_悬停.png",
+    "meta": {
+      "candidate": {
+        "kind": "button",
+        "priority": 1,
+        "tag": "SPAN",
+        "text": "",
+        "placeholder": "",
+        "title": "",
+        "aria": "Decrease Value",
+        "cls": "custom-light-input-number-handler custom-light-input-number-handler-down",
+        "rect": {
+          "x": 1377,
+          "y": 181,
+          "w": 22,
+          "h": 13,
+          "cx": 1388,
+          "cy": 188
+        },
+        "disabled": false
+      }
+    },
+    "capturedAt": "2026-06-18T05:04:52.377Z"
+  },
+  {
+    "id": "03_data_center-088",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "陌生人识别日志",
+    "capability": "陌生人识别结果查询与异常身份追踪",
+    "actionType": "click",
+    "actionLabel": "04_Decrease Value_点击后",
+    "actionNote": "点击后记录页面反馈或空数据提示",
+    "url": "http://192.168.11.88:8081/app/main-app/data/stranger_identification_log/#/stranger_identification_log",
+    "screenshot": "screenshots_deep/03_data_center/088_陌生人识别日志_04_Decrease_Value_点击后.png",
+    "meta": {
+      "candidate": {
+        "kind": "button",
+        "priority": 1,
+        "tag": "SPAN",
+        "text": "",
+        "placeholder": "",
+        "title": "",
+        "aria": "Decrease Value",
+        "cls": "custom-light-input-number-handler custom-light-input-number-handler-down",
+        "rect": {
+          "x": 1377,
+          "y": 181,
+          "w": 22,
+          "h": 13,
+          "cx": 1388,
+          "cy": 188
+        },
+        "disabled": false
+      },
+      "overlays": []
+    },
+    "capturedAt": "2026-06-18T05:04:53.439Z"
+  },
+  {
+    "id": "03_data_center-089",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "陌生人识别日志",
+    "capability": "陌生人识别结果查询与异常身份追踪",
+    "actionType": "hover",
+    "actionLabel": "05_重置_悬停",
+    "actionNote": "悬停查看 重置 的 hover/提示状态",
+    "url": "http://192.168.11.88:8081/app/main-app/data/stranger_identification_log/#/stranger_identification_log",
+    "screenshot": "screenshots_deep/03_data_center/089_陌生人识别日志_05_重置_悬停.png",
+    "meta": {
+      "candidate": {
+        "kind": "button",
+        "priority": 1,
+        "tag": "BUTTON",
+        "text": "重置",
+        "placeholder": "",
+        "title": "",
+        "aria": "",
+        "cls": "custom-light-btn custom-light-btn-text btn",
+        "rect": {
+          "x": 1275,
+          "y": 211,
+          "w": 62,
+          "h": 24,
+          "cx": 1306,
+          "cy": 223
+        },
+        "disabled": false
+      }
+    },
+    "capturedAt": "2026-06-18T05:04:54.295Z"
+  },
+  {
+    "id": "03_data_center-090",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "陌生人识别日志",
+    "capability": "陌生人识别结果查询与异常身份追踪",
+    "actionType": "click",
+    "actionLabel": "05_重置_点击后",
+    "actionNote": "点击后记录页面反馈或空数据提示",
+    "url": "http://192.168.11.88:8081/app/main-app/data/stranger_identification_log/#/stranger_identification_log",
+    "screenshot": "screenshots_deep/03_data_center/090_陌生人识别日志_05_重置_点击后.png",
+    "meta": {
+      "candidate": {
+        "kind": "button",
+        "priority": 1,
+        "tag": "BUTTON",
+        "text": "重置",
+        "placeholder": "",
+        "title": "",
+        "aria": "",
+        "cls": "custom-light-btn custom-light-btn-text btn",
+        "rect": {
+          "x": 1275,
+          "y": 211,
+          "w": 62,
+          "h": 24,
+          "cx": 1306,
+          "cy": 223
+        },
+        "disabled": false
+      },
+      "overlays": []
+    },
+    "capturedAt": "2026-06-18T05:04:55.374Z"
+  },
+  {
+    "id": "03_data_center-091",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "陌生人识别日志",
+    "capability": "陌生人识别结果查询与异常身份追踪",
+    "actionType": "hover",
+    "actionLabel": "06_查询_悬停",
+    "actionNote": "悬停查看 查询 的 hover/提示状态",
+    "url": "http://192.168.11.88:8081/app/main-app/data/stranger_identification_log/#/stranger_identification_log",
+    "screenshot": "screenshots_deep/03_data_center/091_陌生人识别日志_06_查询_悬停.png",
+    "meta": {
+      "candidate": {
+        "kind": "button",
+        "priority": 1,
+        "tag": "BUTTON",
+        "text": "查询",
+        "placeholder": "",
+        "title": "",
+        "aria": "",
+        "cls": "custom-light-btn custom-light-btn-primary btn",
+        "rect": {
+          "x": 1341,
+          "y": 211,
+          "w": 62,
+          "h": 24,
+          "cx": 1372,
+          "cy": 223
+        },
+        "disabled": false
+      }
+    },
+    "capturedAt": "2026-06-18T05:04:56.245Z"
+  },
+  {
+    "id": "03_data_center-092",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "陌生人识别日志",
+    "capability": "陌生人识别结果查询与异常身份追踪",
+    "actionType": "click",
+    "actionLabel": "06_查询_点击后",
+    "actionNote": "点击后记录页面反馈或空数据提示",
+    "url": "http://192.168.11.88:8081/app/main-app/data/stranger_identification_log/#/stranger_identification_log",
+    "screenshot": "screenshots_deep/03_data_center/092_陌生人识别日志_06_查询_点击后.png",
+    "meta": {
+      "candidate": {
+        "kind": "button",
+        "priority": 1,
+        "tag": "BUTTON",
+        "text": "查询",
+        "placeholder": "",
+        "title": "",
+        "aria": "",
+        "cls": "custom-light-btn custom-light-btn-primary btn",
+        "rect": {
+          "x": 1341,
+          "y": 211,
+          "w": 62,
+          "h": 24,
+          "cx": 1372,
+          "cy": 223
+        },
+        "disabled": false
+      },
+      "overlays": []
+    },
+    "capturedAt": "2026-06-18T05:04:57.344Z"
+  },
+  {
+    "id": "03_data_center-093",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "陌生人识别日志",
+    "capability": "陌生人识别结果查询与异常身份追踪",
+    "actionType": "hover",
+    "actionLabel": "07_搜索菜单_悬停",
+    "actionNote": "悬停查看 搜索菜单 的 hover/提示状态",
+    "url": "http://192.168.11.88:8081/app/main-app/data/stranger_identification_log/#/stranger_identification_log",
+    "screenshot": "screenshots_deep/03_data_center/093_陌生人识别日志_07_搜索菜单_悬停.png",
+    "meta": {
+      "candidate": {
+        "kind": "field",
+        "priority": 2,
+        "tag": "DIV",
+        "text": "搜索菜单",
+        "placeholder": "",
+        "title": "",
+        "aria": "",
+        "cls": "custom-light-select-selector",
+        "rect": {
+          "x": 961,
+          "y": 6,
+          "w": 220,
+          "h": 32,
+          "cx": 1071,
+          "cy": 22
+        },
+        "disabled": false
+      }
+    },
+    "capturedAt": "2026-06-18T05:04:58.225Z"
+  },
+  {
+    "id": "03_data_center-094",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "陌生人识别日志",
+    "capability": "陌生人识别结果查询与异常身份追踪",
+    "actionType": "focus-or-open",
+    "actionLabel": "07_搜索菜单_点击后",
+    "actionNote": "点击后出现弹窗/下拉/提示：.custom-light-select-dropdown",
+    "url": "http://192.168.11.88:8081/app/main-app/data/stranger_identification_log/#/stranger_identification_log",
+    "screenshot": "screenshots_deep/03_data_center/094_陌生人识别日志_07_搜索菜单_点击后.png",
+    "meta": {
+      "candidate": {
+        "kind": "field",
+        "priority": 2,
+        "tag": "DIV",
+        "text": "搜索菜单",
+        "placeholder": "",
+        "title": "",
+        "aria": "",
+        "cls": "custom-light-select-selector",
+        "rect": {
+          "x": 961,
+          "y": 6,
+          "w": 220,
+          "h": 32,
+          "cx": 1071,
+          "cy": 22
+        },
+        "disabled": false
+      },
+      "overlays": [
+        {
+          "selector": ".custom-light-select-dropdown",
+          "text": "数据看板 智能分析 媒体与输入 摄像头配置 算法配置 算法列表 人员库 算法底库 智能分析配置 视频流分析 图片分析 分析服务状态 结果推送 报警推送 报警弹窗及语音 数据中心 推理输出结果 报警日志 报警推送日志 人员识别结果 人员识别日志 陌生人识别日志 平台管理 AI仓库 离线仓库 用户及权限 用户管理 用户组管理 系统权限 系统设置 基础信息 系统主题 网络配置 站内信 站内信 开放能力 接口授权 接口文档 免密登录 对象存储"
+        }
+      ]
+    },
+    "capturedAt": "2026-06-18T05:04:59.325Z"
+  },
+  {
+    "id": "03_data_center-095",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "陌生人识别日志",
+    "capability": "陌生人识别结果查询与异常身份追踪",
+    "actionType": "hover",
+    "actionLabel": "08_请选择_悬停",
+    "actionNote": "悬停查看 请选择 的 hover/提示状态",
+    "url": "http://192.168.11.88:8081/app/main-app/data/stranger_identification_log/#/stranger_identification_log",
+    "screenshot": "screenshots_deep/03_data_center/095_陌生人识别日志_08_请选择_悬停.png",
+    "meta": {
+      "candidate": {
+        "kind": "field",
+        "priority": 2,
+        "tag": "INPUT",
+        "text": "",
+        "placeholder": "请选择",
+        "title": "",
+        "aria": "",
+        "cls": "custom-light-input",
+        "rect": {
+          "x": 535,
+          "y": 167,
+          "w": 206,
+          "h": 28,
+          "cx": 638,
+          "cy": 181
+        },
+        "disabled": false
+      }
+    },
+    "capturedAt": "2026-06-18T05:05:00.158Z"
+  },
+  {
+    "id": "03_data_center-096",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "陌生人识别日志",
+    "capability": "陌生人识别结果查询与异常身份追踪",
+    "actionType": "focus-or-open",
+    "actionLabel": "08_请选择_点击后",
+    "actionNote": "点击后出现弹窗/下拉/提示：.custom-light-modal、[role=\"dialog\"]",
+    "url": "http://192.168.11.88:8081/app/main-app/data/stranger_identification_log/#/stranger_identification_log",
+    "screenshot": "screenshots_deep/03_data_center/096_陌生人识别日志_08_请选择_点击后.png",
+    "meta": {
+      "candidate": {
+        "kind": "field",
+        "priority": 2,
+        "tag": "INPUT",
+        "text": "",
+        "placeholder": "请选择",
+        "title": "",
+        "aria": "",
+        "cls": "custom-light-input",
+        "rect": {
+          "x": 535,
+          "y": 167,
+          "w": 206,
+          "h": 28,
+          "cx": 638,
+          "cy": 181
+        },
+        "disabled": false
+      },
+      "overlays": [
+        {
+          "selector": ".custom-light-modal",
+          "text": "点位 列表 点位 系统 未分组 暂无数据 取消 确 定"
+        },
+        {
+          "selector": "[role=\"dialog\"]",
+          "text": "点位 列表 点位 系统 未分组 暂无数据 取消 确 定"
+        }
+      ]
+    },
+    "capturedAt": "2026-06-18T05:05:01.213Z"
+  },
+  {
+    "id": "03_data_center-097",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "陌生人识别日志",
+    "capability": "陌生人识别结果查询与异常身份追踪",
+    "actionType": "hover",
+    "actionLabel": "09_请选择日期_悬停",
+    "actionNote": "悬停查看 请选择日期 的 hover/提示状态",
+    "url": "http://192.168.11.88:8081/app/main-app/data/stranger_identification_log/#/stranger_identification_log",
+    "screenshot": "screenshots_deep/03_data_center/097_陌生人识别日志_09_请选择日期_悬停.png",
+    "meta": {
+      "candidate": {
+        "kind": "field",
+        "priority": 2,
+        "tag": "DIV",
+        "text": "",
+        "placeholder": "请选择日期",
+        "title": "",
+        "aria": "",
+        "cls": "custom-light-picker",
+        "rect": {
+          "x": 757,
+          "y": 167,
+          "w": 206,
+          "h": 28,
+          "cx": 860,
+          "cy": 181
+        },
+        "disabled": false
+      }
+    },
+    "capturedAt": "2026-06-18T05:05:02.093Z"
+  },
+  {
+    "id": "03_data_center-098",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "陌生人识别日志",
+    "capability": "陌生人识别结果查询与异常身份追踪",
+    "actionType": "focus-or-open",
+    "actionLabel": "09_请选择日期_点击后",
+    "actionNote": "点击后出现弹窗/下拉/提示：.custom-light-picker-dropdown",
+    "url": "http://192.168.11.88:8081/app/main-app/data/stranger_identification_log/#/stranger_identification_log",
+    "screenshot": "screenshots_deep/03_data_center/098_陌生人识别日志_09_请选择日期_点击后.png",
+    "meta": {
+      "candidate": {
+        "kind": "field",
+        "priority": 2,
+        "tag": "DIV",
+        "text": "",
+        "placeholder": "请选择日期",
+        "title": "",
+        "aria": "",
+        "cls": "custom-light-picker",
+        "rect": {
+          "x": 757,
+          "y": 167,
+          "w": 206,
+          "h": 28,
+          "cx": 860,
+          "cy": 181
+        },
+        "disabled": false
+      },
+      "overlays": [
+        {
+          "selector": ".custom-light-picker-dropdown",
+          "text": "2026年6月 一 二 三 四 五 六 日 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 1 2 3 4 5 6 7 8 9 10 11 12 00 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 00 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 00 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 此刻 确 定"
+        }
+      ]
+    },
+    "capturedAt": "2026-06-18T05:05:03.176Z"
+  },
+  {
+    "id": "03_data_center-099",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "陌生人识别日志",
+    "capability": "陌生人识别结果查询与异常身份追踪",
+    "actionType": "hover",
+    "actionLabel": "10_请选择日期_悬停",
+    "actionNote": "悬停查看 请选择日期 的 hover/提示状态",
+    "url": "http://192.168.11.88:8081/app/main-app/data/stranger_identification_log/#/stranger_identification_log",
+    "screenshot": "screenshots_deep/03_data_center/099_陌生人识别日志_10_请选择日期_悬停.png",
+    "meta": {
+      "candidate": {
+        "kind": "field",
+        "priority": 2,
+        "tag": "DIV",
+        "text": "",
+        "placeholder": "请选择日期",
+        "title": "",
+        "aria": "",
+        "cls": "custom-light-picker",
+        "rect": {
+          "x": 979,
+          "y": 167,
+          "w": 206,
+          "h": 28,
+          "cx": 1082,
+          "cy": 181
+        },
+        "disabled": false
+      }
+    },
+    "capturedAt": "2026-06-18T05:05:04.030Z"
+  },
+  {
+    "id": "03_data_center-100",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "陌生人识别日志",
+    "capability": "陌生人识别结果查询与异常身份追踪",
+    "actionType": "focus-or-open",
+    "actionLabel": "10_请选择日期_点击后",
+    "actionNote": "点击后出现弹窗/下拉/提示：.custom-light-picker-dropdown",
+    "url": "http://192.168.11.88:8081/app/main-app/data/stranger_identification_log/#/stranger_identification_log",
+    "screenshot": "screenshots_deep/03_data_center/100_陌生人识别日志_10_请选择日期_点击后.png",
+    "meta": {
+      "candidate": {
+        "kind": "field",
+        "priority": 2,
+        "tag": "DIV",
+        "text": "",
+        "placeholder": "请选择日期",
+        "title": "",
+        "aria": "",
+        "cls": "custom-light-picker",
+        "rect": {
+          "x": 979,
+          "y": 167,
+          "w": 206,
+          "h": 28,
+          "cx": 1082,
+          "cy": 181
+        },
+        "disabled": false
+      },
+      "overlays": [
+        {
+          "selector": ".custom-light-picker-dropdown",
+          "text": "2026年6月 一 二 三 四 五 六 日 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 1 2 3 4 5 6 7 8 9 10 11 12 00 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 00 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 00 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 此刻 确 定"
+        }
+      ]
+    },
+    "capturedAt": "2026-06-18T05:05:05.110Z"
+  },
+  {
+    "id": "03_data_center-101",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "陌生人识别日志",
+    "capability": "陌生人识别结果查询与异常身份追踪",
+    "actionType": "hover",
+    "actionLabel": "11_请输入_悬停",
+    "actionNote": "悬停查看 请输入 的 hover/提示状态",
+    "url": "http://192.168.11.88:8081/app/main-app/data/stranger_identification_log/#/stranger_identification_log",
+    "screenshot": "screenshots_deep/03_data_center/101_陌生人识别日志_11_请输入_悬停.png",
+    "meta": {
+      "candidate": {
+        "kind": "field",
+        "priority": 2,
+        "tag": "INPUT",
+        "text": "",
+        "placeholder": "请输入",
+        "title": "",
+        "aria": "",
+        "cls": "custom-light-input-number-input",
+        "rect": {
+          "x": 1203,
+          "y": 168,
+          "w": 67,
+          "h": 26,
+          "cx": 1237,
+          "cy": 181
+        },
+        "disabled": false
+      }
+    },
+    "capturedAt": "2026-06-18T05:05:05.966Z"
+  },
+  {
+    "id": "03_data_center-102",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "陌生人识别日志",
+    "capability": "陌生人识别结果查询与异常身份追踪",
+    "actionType": "focus-or-open",
+    "actionLabel": "11_请输入_点击后",
+    "actionNote": "点击后记录页面反馈或空数据提示",
+    "url": "http://192.168.11.88:8081/app/main-app/data/stranger_identification_log/#/stranger_identification_log",
+    "screenshot": "screenshots_deep/03_data_center/102_陌生人识别日志_11_请输入_点击后.png",
+    "meta": {
+      "candidate": {
+        "kind": "field",
+        "priority": 2,
+        "tag": "INPUT",
+        "text": "",
+        "placeholder": "请输入",
+        "title": "",
+        "aria": "",
+        "cls": "custom-light-input-number-input",
+        "rect": {
+          "x": 1203,
+          "y": 168,
+          "w": 67,
+          "h": 26,
+          "cx": 1237,
+          "cy": 181
+        },
+        "disabled": false
+      },
+      "overlays": []
+    },
+    "capturedAt": "2026-06-18T05:05:07.024Z"
+  },
+  {
+    "id": "03_data_center-103",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "陌生人识别日志",
+    "capability": "陌生人识别结果查询与异常身份追踪",
+    "actionType": "hover",
+    "actionLabel": "12_请输入_悬停",
+    "actionNote": "悬停查看 请输入 的 hover/提示状态",
+    "url": "http://192.168.11.88:8081/app/main-app/data/stranger_identification_log/#/stranger_identification_log",
+    "screenshot": "screenshots_deep/03_data_center/103_陌生人识别日志_12_请输入_悬停.png",
+    "meta": {
+      "candidate": {
+        "kind": "field",
+        "priority": 2,
+        "tag": "INPUT",
+        "text": "",
+        "placeholder": "请输入",
+        "title": "",
+        "aria": "",
+        "cls": "custom-light-input-number-input",
+        "rect": {
+          "x": 1332,
+          "y": 168,
+          "w": 67,
+          "h": 26,
+          "cx": 1366,
+          "cy": 181
+        },
+        "disabled": false
+      }
+    },
+    "capturedAt": "2026-06-18T05:05:07.878Z"
+  },
+  {
+    "id": "03_data_center-104",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "陌生人识别日志",
+    "capability": "陌生人识别结果查询与异常身份追踪",
+    "actionType": "focus-or-open",
+    "actionLabel": "12_请输入_点击后",
+    "actionNote": "点击后记录页面反馈或空数据提示",
+    "url": "http://192.168.11.88:8081/app/main-app/data/stranger_identification_log/#/stranger_identification_log",
+    "screenshot": "screenshots_deep/03_data_center/104_陌生人识别日志_12_请输入_点击后.png",
+    "meta": {
+      "candidate": {
+        "kind": "field",
+        "priority": 2,
+        "tag": "INPUT",
+        "text": "",
+        "placeholder": "请输入",
+        "title": "",
+        "aria": "",
+        "cls": "custom-light-input-number-input",
+        "rect": {
+          "x": 1332,
+          "y": 168,
+          "w": 67,
+          "h": 26,
+          "cx": 1366,
+          "cy": 181
+        },
+        "disabled": false
+      },
+      "overlays": []
+    },
+    "capturedAt": "2026-06-18T05:05:08.940Z"
+  }
+]

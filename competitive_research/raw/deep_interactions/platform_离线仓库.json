@@ -1,0 +1,823 @@
+{
+  "module": "平台管理",
+  "submodule": "离线仓库",
+  "capability": "离线算法包/解决方案包上传、安装、版本盘点",
+  "url": "http://192.168.11.88:8081/app/main-app/platform/store/algo-store/#/algorithm-store",
+  "title": "离线仓库",
+  "bodyText": "人工智能推理平台\n搜索菜单\n数据看板\n智能分析\n数据中心\n平台管理\nAI仓库\n离线仓库\n用户及权限\n用户管理\n用户组管理\n系统权限\n系统设置\n基础信息\n系统主题\n网络配置\n站内信\n站内信\n开放能力\n接口授权\n接口文档\n免密登录\n对象存储\n离线仓库\n上传\n算法\n解决方案\n一键全部安装\n吸烟识别\n已安装\nID:9|v18\n人员入侵识别\n已安装\nID:4|v17\n翻越围栏识别\n已安装\nID:86|v13\n工衣工服识别\n已安装\nID:33|v15\n睡岗识别\n已安装\nID:35|v14\n离岗识别\n已安装\nID:29|v14\n打电话识别\n已安装\nID:120|v11\n烟火识别\n已安装\nID:7|v17\n异常聚集识别\n已安装\nID:26|v10\n安全帽识别\n已安装\nID:28|v19",
+  "controls": [
+    {
+      "idx": 1,
+      "tag": "DIV",
+      "text": "搜索菜单",
+      "placeholder": "",
+      "title": "",
+      "aria": "",
+      "cls": "custom-light-select-selector",
+      "rect": {
+        "x": 961,
+        "y": 6,
+        "w": 220,
+        "h": 32
+      },
+      "disabled": false
+    },
+    {
+      "idx": 12,
+      "tag": "INPUT",
+      "text": "",
+      "placeholder": "搜索",
+      "title": "",
+      "aria": "",
+      "cls": "custom-light-input",
+      "rect": {
+        "x": 613,
+        "y": 148,
+        "w": 354,
+        "h": 32
+      },
+      "disabled": false
+    },
+    {
+      "idx": 14,
+      "tag": "BUTTON",
+      "text": "上传",
+      "placeholder": "",
+      "title": "",
+      "aria": "",
+      "cls": "custom-light-btn custom-light-btn-primary btn-upload custom-light-dropdown-trigger",
+      "rect": {
+        "x": 1029,
+        "y": 148,
+        "w": 78,
+        "h": 32
+      },
+      "disabled": false
+    },
+    {
+      "idx": 15,
+      "tag": "BUTTON",
+      "text": "一键全部安装",
+      "placeholder": "",
+      "title": "",
+      "aria": "",
+      "cls": "custom-light-btn custom-light-btn-sm cr-btn-small cr-btn",
+      "rect": {
+        "x": 1308,
+        "y": 288,
+        "w": 108,
+        "h": 28
+      },
+      "disabled": false
+    }
+  ],
+  "menus": [
+    {
+      "idx": 0,
+      "text": "数据看板",
+      "cls": "app-menu-item",
+      "rect": {
+        "x": 8,
+        "y": 52,
+        "w": 63,
+        "h": 76
+      }
+    },
+    {
+      "idx": 1,
+      "text": "数据看板",
+      "cls": "app-menu-text",
+      "rect": {
+        "x": 8,
+        "y": 104,
+        "w": 63,
+        "h": 20
+      }
+    },
+    {
+      "idx": 2,
+      "text": "智能分析",
+      "cls": "app-menu-item",
+      "rect": {
+        "x": 8,
+        "y": 136,
+        "w": 63,
+        "h": 76
+      }
+    },
+    {
+      "idx": 3,
+      "text": "智能分析",
+      "cls": "app-menu-text",
+      "rect": {
+        "x": 8,
+        "y": 188,
+        "w": 63,
+        "h": 20
+      }
+    },
+    {
+      "idx": 4,
+      "text": "数据中心",
+      "cls": "app-menu-item",
+      "rect": {
+        "x": 8,
+        "y": 220,
+        "w": 63,
+        "h": 76
+      }
+    },
+    {
+      "idx": 5,
+      "text": "数据中心",
+      "cls": "app-menu-text",
+      "rect": {
+        "x": 8,
+        "y": 272,
+        "w": 63,
+        "h": 20
+      }
+    },
+    {
+      "idx": 6,
+      "text": "平台管理",
+      "cls": "app-menu-item active",
+      "rect": {
+        "x": 8,
+        "y": 304,
+        "w": 63,
+        "h": 76
+      }
+    },
+    {
+      "idx": 7,
+      "text": "平台管理",
+      "cls": "app-menu-text",
+      "rect": {
+        "x": 8,
+        "y": 356,
+        "w": 63,
+        "h": 20
+      }
+    },
+    {
+      "idx": 8,
+      "text": "AI仓库",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 88,
+        "y": 54,
+        "w": 185,
+        "h": 28
+      }
+    },
+    {
+      "idx": 9,
+      "text": "离线仓库",
+      "cls": "custom-light-menu-item custom-light-menu-item-selected custom-light-menu-item-only-child",
+      "rect": {
+        "x": 80,
+        "y": 86,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 10,
+      "text": "离线仓库",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 88,
+        "y": 86,
+        "w": 185,
+        "h": 32
+      }
+    },
+    {
+      "idx": 11,
+      "text": "用户及权限",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 88,
+        "y": 139,
+        "w": 185,
+        "h": 28
+      }
+    },
+    {
+      "idx": 12,
+      "text": "用户管理",
+      "cls": "custom-light-menu-item custom-light-menu-item-only-child",
+      "rect": {
+        "x": 80,
+        "y": 171,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 13,
+      "text": "用户管理",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 88,
+        "y": 171,
+        "w": 185,
+        "h": 32
+      }
+    },
+    {
+      "idx": 14,
+      "text": "用户组管理",
+      "cls": "custom-light-menu-item custom-light-menu-item-only-child",
+      "rect": {
+        "x": 80,
+        "y": 205,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 15,
+      "text": "用户组管理",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 88,
+        "y": 205,
+        "w": 185,
+        "h": 32
+      }
+    },
+    {
+      "idx": 16,
+      "text": "系统权限",
+      "cls": "custom-light-menu-item custom-light-menu-item-only-child",
+      "rect": {
+        "x": 80,
+        "y": 239,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 17,
+      "text": "系统权限",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 88,
+        "y": 239,
+        "w": 185,
+        "h": 32
+      }
+    },
+    {
+      "idx": 18,
+      "text": "系统设置",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 88,
+        "y": 292,
+        "w": 185,
+        "h": 28
+      }
+    },
+    {
+      "idx": 19,
+      "text": "基础信息",
+      "cls": "custom-light-menu-item custom-light-menu-item-only-child",
+      "rect": {
+        "x": 80,
+        "y": 324,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 20,
+      "text": "基础信息",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 88,
+        "y": 324,
+        "w": 185,
+        "h": 32
+      }
+    },
+    {
+      "idx": 21,
+      "text": "系统主题",
+      "cls": "custom-light-menu-item custom-light-menu-item-only-child",
+      "rect": {
+        "x": 80,
+        "y": 358,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 22,
+      "text": "系统主题",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 88,
+        "y": 358,
+        "w": 185,
+        "h": 32
+      }
+    },
+    {
+      "idx": 23,
+      "text": "网络配置",
+      "cls": "custom-light-menu-item custom-light-menu-item-only-child",
+      "rect": {
+        "x": 80,
+        "y": 392,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 24,
+      "text": "网络配置",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 88,
+        "y": 392,
+        "w": 185,
+        "h": 32
+      }
+    },
+    {
+      "idx": 25,
+      "text": "站内信",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 88,
+        "y": 445,
+        "w": 185,
+        "h": 28
+      }
+    },
+    {
+      "idx": 26,
+      "text": "站内信",
+      "cls": "custom-light-menu-item custom-light-menu-item-only-child",
+      "rect": {
+        "x": 80,
+        "y": 477,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 27,
+      "text": "站内信",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 88,
+        "y": 477,
+        "w": 185,
+        "h": 32
+      }
+    },
+    {
+      "idx": 28,
+      "text": "开放能力",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 88,
+        "y": 530,
+        "w": 185,
+        "h": 28
+      }
+    },
+    {
+      "idx": 29,
+      "text": "接口授权",
+      "cls": "custom-light-menu-item custom-light-menu-item-only-child",
+      "rect": {
+        "x": 80,
+        "y": 562,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 30,
+      "text": "接口授权",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 88,
+        "y": 562,
+        "w": 185,
+        "h": 32
+      }
+    },
+    {
+      "idx": 31,
+      "text": "接口文档",
+      "cls": "custom-light-menu-item custom-light-menu-item-only-child",
+      "rect": {
+        "x": 80,
+        "y": 596,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 32,
+      "text": "接口文档",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 88,
+        "y": 596,
+        "w": 185,
+        "h": 32
+      }
+    },
+    {
+      "idx": 33,
+      "text": "免密登录",
+      "cls": "custom-light-menu-item custom-light-menu-item-only-child",
+      "rect": {
+        "x": 80,
+        "y": 630,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 34,
+      "text": "免密登录",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 88,
+        "y": 630,
+        "w": 185,
+        "h": 32
+      }
+    },
+    {
+      "idx": 35,
+      "text": "对象存储",
+      "cls": "custom-light-menu-item custom-light-menu-item-only-child",
+      "rect": {
+        "x": 80,
+        "y": 664,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 36,
+      "text": "对象存储",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 88,
+        "y": 664,
+        "w": 185,
+        "h": 32
+      }
+    }
+  ],
+  "tables": [],
+  "forms": [
+    {
+      "idx": 0,
+      "text": "人工智能推理平台",
+      "inputs": []
+    }
+  ],
+  "cards": [
+    {
+      "idx": 0,
+      "text": "吸烟识别 已安装 ID:9|v18",
+      "cls": "card",
+      "rect": {
+        "x": 328,
+        "y": 356,
+        "w": 346,
+        "h": 76
+      }
+    },
+    {
+      "idx": 1,
+      "text": "吸烟识别 已安装",
+      "cls": "card-title",
+      "rect": {
+        "x": 401,
+        "y": 373,
+        "w": 224,
+        "h": 20
+      }
+    },
+    {
+      "idx": 2,
+      "text": "ID:9|v18",
+      "cls": "card-info",
+      "rect": {
+        "x": 401,
+        "y": 395,
+        "w": 224,
+        "h": 20
+      }
+    },
+    {
+      "idx": 3,
+      "text": "人员入侵识别 已安装 ID:4|v17",
+      "cls": "card",
+      "rect": {
+        "x": 686,
+        "y": 356,
+        "w": 346,
+        "h": 76
+      }
+    },
+    {
+      "idx": 4,
+      "text": "人员入侵识别 已安装",
+      "cls": "card-title",
+      "rect": {
+        "x": 759,
+        "y": 373,
+        "w": 224,
+        "h": 20
+      }
+    },
+    {
+      "idx": 5,
+      "text": "ID:4|v17",
+      "cls": "card-info",
+      "rect": {
+        "x": 759,
+        "y": 395,
+        "w": 224,
+        "h": 20
+      }
+    },
+    {
+      "idx": 6,
+      "text": "翻越围栏识别 已安装 ID:86|v13",
+      "cls": "card",
+      "rect": {
+        "x": 1044,
+        "y": 356,
+        "w": 346,
+        "h": 76
+      }
+    },
+    {
+      "idx": 7,
+      "text": "翻越围栏识别 已安装",
+      "cls": "card-title",
+      "rect": {
+        "x": 1117,
+        "y": 373,
+        "w": 224,
+        "h": 20
+      }
+    },
+    {
+      "idx": 8,
+      "text": "ID:86|v13",
+      "cls": "card-info",
+      "rect": {
+        "x": 1117,
+        "y": 395,
+        "w": 224,
+        "h": 20
+      }
+    },
+    {
+      "idx": 9,
+      "text": "工衣工服识别 已安装 ID:33|v15",
+      "cls": "card",
+      "rect": {
+        "x": 328,
+        "y": 444,
+        "w": 346,
+        "h": 76
+      }
+    },
+    {
+      "idx": 10,
+      "text": "工衣工服识别 已安装",
+      "cls": "card-title",
+      "rect": {
+        "x": 401,
+        "y": 461,
+        "w": 224,
+        "h": 20
+      }
+    },
+    {
+      "idx": 11,
+      "text": "ID:33|v15",
+      "cls": "card-info",
+      "rect": {
+        "x": 401,
+        "y": 483,
+        "w": 224,
+        "h": 20
+      }
+    },
+    {
+      "idx": 12,
+      "text": "睡岗识别 已安装 ID:35|v14",
+      "cls": "card",
+      "rect": {
+        "x": 686,
+        "y": 444,
+        "w": 346,
+        "h": 76
+      }
+    },
+    {
+      "idx": 13,
+      "text": "睡岗识别 已安装",
+      "cls": "card-title",
+      "rect": {
+        "x": 759,
+        "y": 461,
+        "w": 224,
+        "h": 20
+      }
+    },
+    {
+      "idx": 14,
+      "text": "ID:35|v14",
+      "cls": "card-info",
+      "rect": {
+        "x": 759,
+        "y": 483,
+        "w": 224,
+        "h": 20
+      }
+    },
+    {
+      "idx": 15,
+      "text": "离岗识别 已安装 ID:29|v14",
+      "cls": "card",
+      "rect": {
+        "x": 1044,
+        "y": 444,
+        "w": 346,
+        "h": 76
+      }
+    },
+    {
+      "idx": 16,
+      "text": "离岗识别 已安装",
+      "cls": "card-title",
+      "rect": {
+        "x": 1117,
+        "y": 461,
+        "w": 224,
+        "h": 20
+      }
+    },
+    {
+      "idx": 17,
+      "text": "ID:29|v14",
+      "cls": "card-info",
+      "rect": {
+        "x": 1117,
+        "y": 483,
+        "w": 224,
+        "h": 20
+      }
+    },
+    {
+      "idx": 18,
+      "text": "打电话识别 已安装 ID:120|v11",
+      "cls": "card",
+      "rect": {
+        "x": 328,
+        "y": 532,
+        "w": 346,
+        "h": 76
+      }
+    },
+    {
+      "idx": 19,
+      "text": "打电话识别 已安装",
+      "cls": "card-title",
+      "rect": {
+        "x": 401,
+        "y": 549,
+        "w": 224,
+        "h": 20
+      }
+    },
+    {
+      "idx": 20,
+      "text": "ID:120|v11",
+      "cls": "card-info",
+      "rect": {
+        "x": 401,
+        "y": 571,
+        "w": 224,
+        "h": 20
+      }
+    },
+    {
+      "idx": 21,
+      "text": "烟火识别 已安装 ID:7|v17",
+      "cls": "card",
+      "rect": {
+        "x": 686,
+        "y": 532,
+        "w": 346,
+        "h": 76
+      }
+    },
+    {
+      "idx": 22,
+      "text": "烟火识别 已安装",
+      "cls": "card-title",
+      "rect": {
+        "x": 759,
+        "y": 549,
+        "w": 224,
+        "h": 20
+      }
+    },
+    {
+      "idx": 23,
+      "text": "ID:7|v17",
+      "cls": "card-info",
+      "rect": {
+        "x": 759,
+        "y": 571,
+        "w": 224,
+        "h": 20
+      }
+    },
+    {
+      "idx": 24,
+      "text": "异常聚集识别 已安装 ID:26|v10",
+      "cls": "card",
+      "rect": {
+        "x": 1044,
+        "y": 532,
+        "w": 346,
+        "h": 76
+      }
+    },
+    {
+      "idx": 25,
+      "text": "异常聚集识别 已安装",
+      "cls": "card-title",
+      "rect": {
+        "x": 1117,
+        "y": 549,
+        "w": 224,
+        "h": 20
+      }
+    },
+    {
+      "idx": 26,
+      "text": "ID:26|v10",
+      "cls": "card-info",
+      "rect": {
+        "x": 1117,
+        "y": 571,
+        "w": 224,
+        "h": 20
+      }
+    },
+    {
+      "idx": 27,
+      "text": "安全帽识别 已安装 ID:28|v19",
+      "cls": "card",
+      "rect": {
+        "x": 328,
+        "y": 620,
+        "w": 346,
+        "h": 76
+      }
+    },
+    {
+      "idx": 28,
+      "text": "安全帽识别 已安装",
+      "cls": "card-title",
+      "rect": {
+        "x": 401,
+        "y": 637,
+        "w": 224,
+        "h": 20
+      }
+    },
+    {
+      "idx": 29,
+      "text": "ID:28|v19",
+      "cls": "card-info",
+      "rect": {
+        "x": 401,
+        "y": 659,
+        "w": 224,
+        "h": 20
+      }
+    }
+  ]
+}

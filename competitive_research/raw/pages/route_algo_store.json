@@ -1,0 +1,24 @@
+{
+  "note": "/app/algo_store/#/algo-store",
+  "title": "vue3-ts-cli",
+  "url": "http://192.168.11.88:8081/app/algo_store/#/algo-store",
+  "path": "/app/algo_store/#/algo-store",
+  "bodyText": "",
+  "headings": [],
+  "controls": [],
+  "tables": [],
+  "cards": [],
+  "menus": [],
+  "storageKeys": {
+    "localStorage": [
+      "voiceConfig",
+      "theme",
+      "globalData",
+      "publicKey",
+      "token",
+      "userInfo",
+      "moduleSwitches"
+    ],
+    "sessionStorage": []
+  }
+}

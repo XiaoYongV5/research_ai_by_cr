@@ -1,0 +1,158 @@
+[
+  {
+    "idx": 2,
+    "tag": "DIV",
+    "text": "搜索菜单",
+    "href": "",
+    "cls": "cr-ant-tree header-search-menu flex-v-c page-header-right-btn",
+    "rect": {
+      "x": 961,
+      "y": 0,
+      "w": 220,
+      "h": 43
+    }
+  },
+  {
+    "idx": 12,
+    "tag": "SECTION",
+    "text": "数据看板 智能分析 数据中心 平台管理",
+    "href": "",
+    "cls": "custom-light-layout page-layout-left-menu show hide-aside-bar",
+    "rect": {
+      "x": 0,
+      "y": 44,
+      "w": 80,
+      "h": 956
+    }
+  },
+  {
+    "idx": 13,
+    "tag": "ASIDE",
+    "text": "数据看板 智能分析 数据中心 平台管理",
+    "href": "",
+    "cls": "app-menu-comp",
+    "rect": {
+      "x": 0,
+      "y": 44,
+      "w": 80,
+      "h": 956
+    }
+  },
+  {
+    "idx": 14,
+    "tag": "DIV",
+    "text": "数据看板",
+    "href": "",
+    "cls": "app-menu-item",
+    "rect": {
+      "x": 8,
+      "y": 52,
+      "w": 63,
+      "h": 76
+    }
+  },
+  {
+    "idx": 16,
+    "tag": "DIV",
+    "text": "数据看板",
+    "href": "",
+    "cls": "app-menu-text",
+    "rect": {
+      "x": 8,
+      "y": 104,
+      "w": 63,
+      "h": 20
+    }
+  },
+  {
+    "idx": 17,
+    "tag": "DIV",
+    "text": "智能分析",
+    "href": "",
+    "cls": "app-menu-item",
+    "rect": {
+      "x": 8,
+      "y": 136,
+      "w": 63,
+      "h": 76
+    }
+  },
+  {
+    "idx": 19,
+    "tag": "DIV",
+    "text": "智能分析",
+    "href": "",
+    "cls": "app-menu-text",
+    "rect": {
+      "x": 8,
+      "y": 188,
+      "w": 63,
+      "h": 20
+    }
+  },
+  {
+    "idx": 20,
+    "tag": "DIV",
+    "text": "数据中心",
+    "href": "",
+    "cls": "app-menu-item",
+    "rect": {
+      "x": 8,
+      "y": 220,
+      "w": 63,
+      "h": 76
+    }
+  },
+  {
+    "idx": 22,
+    "tag": "DIV",
+    "text": "数据中心",
+    "href": "",
+    "cls": "app-menu-text",
+    "rect": {
+      "x": 8,
+      "y": 272,
+      "w": 63,
+      "h": 20
+    }
+  },
+  {
+    "idx": 23,
+    "tag": "DIV",
+    "text": "平台管理",
+    "href": "",
+    "cls": "app-menu-item",
+    "rect": {
+      "x": 8,
+      "y": 304,
+      "w": 63,
+      "h": 76
+    }
+  },
+  {
+    "idx": 25,
+    "tag": "DIV",
+    "text": "平台管理",
+    "href": "",
+    "cls": "app-menu-text",
+    "rect": {
+      "x": 8,
+      "y": 356,
+      "w": 63,
+      "h": 20
+    }
+  },
+  {
+    "idx": 26,
+    "tag": "BUTTON",
+    "text": "开始配置",
+    "href": "",
+    "cls": "custom-light-btn custom-light-btn-primary cr-btn-middle cr-btn",
+    "rect": {
+      "x": 620,
+      "y": 604,
+      "w": 200,
+      "h": 40
+    }
+  }
+]

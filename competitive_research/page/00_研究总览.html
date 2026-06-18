@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>人工智能推理平台竞品研究总览 - 竞品研究</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <div class="brand">
+        <a class="brand-text" href="index.html" aria-label="返回首页">
+          <span class="brand-kicker">Competitive Research</span>
+          <strong>人工智能推理平台</strong>
+        </a>
+        <button class="sidebar-toggle" type="button" aria-label="折叠菜单" aria-expanded="true"></button>
+      </div>
+      <nav class="doc-nav" aria-label="文档导航">
+        <a aria-current="page" href="00_研究总览.html" data-title="00_研究总览">00_研究总览</a>
+<a href="01_数据看板模块.html" data-title="01_数据看板模块">01_数据看板模块</a>
+<a href="02_智能分析模块.html" data-title="02_智能分析模块">02_智能分析模块</a>
+<a href="03_数据中心模块.html" data-title="03_数据中心模块">03_数据中心模块</a>
+<a href="04_平台管理模块.html" data-title="04_平台管理模块">04_平台管理模块</a>
+<a href="05_新手引导弹窗模块.html" data-title="05_新手引导弹窗模块">05_新手引导弹窗模块</a>
+<a href="06_跨模块依赖与交集.html" data-title="06_跨模块依赖与交集">06_跨模块依赖与交集</a>
+<a href="07_深度截图索引.html" data-title="07_深度截图索引">07_深度截图索引</a>
+      </nav>
+    </aside>
+    <main class="main">
+      <header class="page-header">
+        <div class="page-title-block">
+          <span class="page-kicker">HTML 阅读版</span>
+          <h1>人工智能推理平台竞品研究总览</h1>
+        </div>
+        <nav class="page-pager page-pager-top" aria-label="文档翻页">
+    <span class="page-turn page-turn-prev is-disabled" aria-disabled="true">
+      <span>上一篇</span>
+      <strong>已经是第一篇</strong>
+    </span>
+    <a class="page-turn page-turn-next" href="01_数据看板模块.html">
+    <span>下一篇</span>
+    <strong>01_数据看板模块</strong>
+  </a>
+  </nav>
+      </header>
+      <div class="content-layout">
+        <article class="doc-content">
+          <h1 id="人工智能推理平台竞品研究总览">人工智能推理平台竞品研究总览</h1>
+<p>研究日期：2026-06-18</p>
+<p>研究对象：局域网地址 <code>http://192.168.11.88:8081/</code></p>
+<p>研究身份：产品经理视角，重点拆解信息架构、核心对象、按钮交互、弹窗流程、空状态反馈、跨模块依赖和可借鉴设计。</p>
+<h2 id="本轮补充范围">本轮补充范围</h2>
+<p>本轮在原有页面级截图基础上，新增深度交互采集：悬停按钮、点击主操作、打开下拉、打开日期选择器、捕捉弹窗/确认层、记录空状态消息与安全跳过的高风险操作。所有截图已按模块分类存放在 <code>competitive_research/screenshots_deep/</code>。</p>
+<p>补充修正：针对截图中标红的重复顶部工具区，已新增业务区聚焦采集；公共顶部工具区只在通用导航中保留一次，模块文档优先使用裁剪后的业务区、tab、弹窗和按钮截图。</p>
+<div class="table-wrap"><table><thead><tr><th>模块</th><th>记录数</th><th>覆盖范围</th><th>动作类型/目录</th></tr></thead><tbody><tr><td>通用导航与顶部栏</td><td>6</td><td>顶部栏与全局导航</td><td>overview、global-nav</td></tr><tr><td>数据看板</td><td>32</td><td>数据看板首页、AI智能管控中心</td><td>overview、scroll、hover、focus-or-open、click</td></tr><tr><td>智能分析</td><td>192</td><td>报警弹窗及语音、报警推送、分析服务状态、人员库、摄像头配置、视频流分析、算法底库、算法列表、图片分析</td><td>overview、scroll、hover、click、safety-skip、focus-or-open</td></tr><tr><td>数据中心</td><td>104</td><td>报警日志、报警推送日志、陌生人识别日志、人员识别日志</td><td>overview、scroll、hover、click、safety-skip、focus-or-open</td></tr><tr><td>平台管理</td><td>235</td><td>对象存储、基础信息、接口授权、接口文档、离线仓库、免密登录、网络配置、系统权限、系统主题、用户管理、用户组管理、站内信</td><td>overview、scroll、hover、click、focus-or-open、safety-skip</td></tr><tr><td>新手引导弹窗</td><td>5 条原始弹窗记录，另补 8 张后续业务主线截图</td><td>首次登录引导弹窗、开始配置后的推荐业务闭环</td><td>legacy-guide + 业务主线补充图</td></tr><tr><td>截图文件合计</td><td>582</td><td>00_common: 6；01_dashboard: 32；02_smart_analysis: 192；03_data_center: 104；04_platform_management: 235；05_guide: 13</td><td>按模块目录归档</td></tr></tbody></table></div>
+<h2 id="本轮标红问题修正">本轮标红问题修正</h2>
+<ul>
+<li>用户标红的顶部搜索、应用中心、通知、语言和账号区域已被归类为“公共顶部工具区”。该区域只在 <code>screenshots_deep/00_common/</code> 和索引的通用导航章节保留一次，后续模块分析不再重复使用这块区域作为业务截图。</li>
+<li>新增 <code>screenshots_focused/</code> 聚焦截图 102 张，覆盖 102 条业务区交互记录；其中 tab/分段控件、弹窗/抽屉和安全定位操作均已按模块归档。</li>
+<li>业务模块文档新增“业务区聚焦补充”章节，用于分析每个 tab、按钮、弹窗和局部配置区；原 <code>screenshots_deep/</code> 继续作为完整历史证据保留。</li>
+</ul>
+<div class="table-wrap"><table><thead><tr><th>模块</th><th>聚焦截图/记录数</th><th>重点补充</th></tr></thead><tbody><tr><td>数据看板</td><td>6</td><td>数据看板首页</td></tr><tr><td>智能分析</td><td>55</td><td>报警弹窗及语音、报警推送创建、创建视频分析任务、视频流分析详情、算法详情-人员入侵识别、图片分析详情</td></tr><tr><td>数据中心</td><td>13</td><td>报警日志、人员识别日志</td></tr><tr><td>平台管理</td><td>28</td><td>对象存储、基础信息、离线仓库、系统主题、站内信</td></tr></tbody></table></div>
+<h2 id="研究边界与安全原则">研究边界与安全原则</h2>
+<ul>
+<li>本轮采集以真实登录后的页面为准，优先通过主应用菜单和真实 URL 进入子模块。</li>
+<li>对“删除、导出、保存、一键安装、状态测试、演示视频、网络保存”等可能产生副作用的操作，只记录按钮悬停或安全跳过截图，不执行最终确认。</li>
+<li>弹窗类操作只打开到表单/确认层，随后关闭；未提交新增、修改、删除、安装、网络配置或密码变更。</li>
+<li>当前系统存在较多空数据页面，因此分析重点放在字段设计、操作意图、校验反馈、空状态下一步引导和模块链路。</li>
+<li>新手引导弹窗在首次采集时出现，后续会话未稳定复现；文档中归档历史真实截图，并重点补充“开始配置”后的摄像头配置、视频流分析、报警推送、结果验证主业务链路。</li>
+</ul>
+<h2 id="文档清单">文档清单</h2>
+<ul>
+<li><a href="01_数据看板模块.html">01_数据看板模块.md</a></li>
+<li><a href="02_智能分析模块.html">02_智能分析模块.md</a></li>
+<li><a href="03_数据中心模块.html">03_数据中心模块.md</a></li>
+<li><a href="04_平台管理模块.html">04_平台管理模块.md</a></li>
+<li><a href="05_新手引导弹窗模块.html">05_新手引导弹窗模块.md</a></li>
+<li><a href="06_跨模块依赖与交集.html">06_跨模块依赖与交集.md</a></li>
+<li><a href="07_深度截图索引.html">07_深度截图索引.md</a></li>
+</ul>
+<h2 id="产品总体判断">产品总体判断</h2>
+<ul>
+<li>该系统的主链路是“平台管理安装/治理能力 -&gt; 智能分析接入输入源并编排任务 -&gt; 数据中心沉淀与处置结果 -&gt; 数据看板消费指标和态势”。</li>
+<li>菜单信息架构清晰地把生产链路、结果链路和治理链路分开，适合私有化 AI 推理平台，但新手冷启动依旧需要更强的任务向导。</li>
+<li>弹窗体系较完整：创建类弹窗承载表单，导入类弹窗承载模板下载和文件上传，日志类页面用消息提示处理空选择和无效操作。</li>
+<li>表格和筛选是主要工作形态：智能分析偏配置维护，数据中心偏检索处置，平台管理偏资源和权限治理。</li>
+<li>可优化方向集中在：空状态引导、风险操作二次确认、跨模块回跳、算法/任务/报警的详情页、运行健康与审计信息。</li>
+</ul>
+        </article>
+        <nav class="page-pager page-pager-bottom" aria-label="文档翻页">
+    <span class="page-turn page-turn-prev is-disabled" aria-disabled="true">
+      <span>上一篇</span>
+      <strong>已经是第一篇</strong>
+    </span>
+    <a class="page-turn page-turn-next" href="01_数据看板模块.html">
+    <span>下一篇</span>
+    <strong>01_数据看板模块</strong>
+  </a>
+  </nav>
+      </div>
+    </main>
+  </div>
+  <aside class="outline" id="page-outline" aria-label="页面大纲">
+    <div class="outline-rail" aria-hidden="true">
+      <span></span><span></span><span></span><span></span><span></span><span></span>
+    </div>
+    <section class="outline-panel">
+      <header class="outline-header">
+        <h2>大纲</h2>
+        <div class="outline-actions">
+          <button class="outline-pin" type="button" aria-pressed="false" title="固定大纲">固定</button>
+          <button class="outline-collapse" type="button" title="折叠大纲">折叠</button>
+        </div>
+      </header>
+      <div class="outline-scroll">
+        <div class="outline-group outline-leaf">
+        <a class="outline-link outline-level-2" href="#本轮补充范围">本轮补充范围</a>
+      </div>
+<div class="outline-group outline-leaf">
+        <a class="outline-link outline-level-2" href="#本轮标红问题修正">本轮标红问题修正</a>
+      </div>
+<div class="outline-group outline-leaf">
+        <a class="outline-link outline-level-2" href="#研究边界与安全原则">研究边界与安全原则</a>
+      </div>
+<div class="outline-group outline-leaf">
+        <a class="outline-link outline-level-2" href="#文档清单">文档清单</a>
+      </div>
+<div class="outline-group outline-leaf">
+        <a class="outline-link outline-level-2" href="#产品总体判断">产品总体判断</a>
+      </div>
+      </div>
+    </section>
+  </aside>
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox-close" type="button" aria-label="关闭图片预览">×</button>
+    <img alt="放大预览">
+    <div class="lightbox-caption"></div>
+  </div>
+  <script src="assets/lightbox.js"></script>
+</body>
+</html>

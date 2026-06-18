@@ -1,0 +1,387 @@
+[
+  {
+    "id": "03_data_center-001",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "报警日志",
+    "label": "业务区域默认态",
+    "note": "裁剪业务区域，排除顶部公共工具区和左侧一级导航",
+    "url": "http://192.168.11.88:8081/app/main-app/data/inference-output/algo/#/alarm-center/output-result/algorithm-log",
+    "screenshot": "screenshots_focused/03_data_center/001_报警日志_业务区域默认态.png",
+    "clip": {
+      "kind": "business",
+      "x": 280,
+      "y": 72,
+      "width": 1160,
+      "height": 928,
+      "scale": 1
+    },
+    "meta": {}
+  },
+  {
+    "id": "03_data_center-002",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "报警日志",
+    "label": "Tab_视频流分析",
+    "note": "点击或切换 Tab/分段控件：视频流分析",
+    "url": "http://192.168.11.88:8081/app/main-app/data/inference-output/algo/#/alarm-center/output-result/algorithm-log",
+    "screenshot": "screenshots_focused/03_data_center/002_报警日志_Tab_视频流分析.png",
+    "clip": {
+      "kind": "business",
+      "x": 280,
+      "y": 72,
+      "width": 1160,
+      "height": 928,
+      "scale": 1
+    },
+    "meta": {
+      "click": {
+        "ok": true,
+        "text": "视频流分析",
+        "found": {
+          "text": "视频流分析",
+          "rect": {
+            "x": 304,
+            "y": 122,
+            "w": 60,
+            "h": 19
+          },
+          "className": "custom-light-tabs-tab-btn"
+        }
+      }
+    }
+  },
+  {
+    "id": "03_data_center-003",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "报警日志",
+    "label": "Tab_图片分析",
+    "note": "点击或切换 Tab/分段控件：图片分析",
+    "url": "http://192.168.11.88:8081/app/main-app/data/inference-output/algo/#/alarm-center/output-result/algorithm-log",
+    "screenshot": "screenshots_focused/03_data_center/003_报警日志_Tab_图片分析.png",
+    "clip": {
+      "kind": "business",
+      "x": 280,
+      "y": 72,
+      "width": 1160,
+      "height": 928,
+      "scale": 1
+    },
+    "meta": {
+      "click": {
+        "ok": true,
+        "text": "图片分析",
+        "found": {
+          "text": "图片分析",
+          "rect": {
+            "x": 396,
+            "y": 122,
+            "w": 48,
+            "h": 19
+          },
+          "className": "custom-light-tabs-tab-btn"
+        }
+      }
+    }
+  },
+  {
+    "id": "03_data_center-004",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "报警日志",
+    "label": "Tab_表格视图",
+    "note": "点击或切换 Tab/分段控件：表格视图",
+    "url": "http://192.168.11.88:8081/app/main-app/data/inference-output/algo/#/alarm-center/output-result/algorithm-log",
+    "screenshot": "screenshots_focused/03_data_center/004_报警日志_Tab_表格视图.png",
+    "clip": {
+      "kind": "business",
+      "x": 280,
+      "y": 72,
+      "width": 1160,
+      "height": 928,
+      "scale": 1
+    },
+    "meta": {
+      "click": {
+        "ok": true,
+        "text": "表格视图",
+        "found": {
+          "text": "表格视图",
+          "rect": {
+            "x": 1267,
+            "y": 320,
+            "w": 72,
+            "h": 24
+          },
+          "className": "view-item active"
+        }
+      }
+    }
+  },
+  {
+    "id": "03_data_center-005",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "报警日志",
+    "label": "Tab_宫格视图",
+    "note": "点击或切换 Tab/分段控件：宫格视图",
+    "url": "http://192.168.11.88:8081/app/main-app/data/inference-output/algo/#/alarm-center/output-result/algorithm-log",
+    "screenshot": "screenshots_focused/03_data_center/005_报警日志_Tab_宫格视图.png",
+    "clip": {
+      "kind": "business",
+      "x": 280,
+      "y": 72,
+      "width": 1160,
+      "height": 928,
+      "scale": 1
+    },
+    "meta": {
+      "click": {
+        "ok": true,
+        "text": "宫格视图",
+        "found": {
+          "text": "宫格视图",
+          "rect": {
+            "x": 1341,
+            "y": 320,
+            "w": 72,
+            "h": 24
+          },
+          "className": "view-item"
+        }
+      }
+    }
+  },
+  {
+    "id": "03_data_center-006",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "报警日志",
+    "label": "操作_正误报统计",
+    "note": "点击或定位业务操作：正误报统计",
+    "url": "http://192.168.11.88:8081/app/main-app/data/inference-output/algo/#/alarm-center/output-result/algorithm-log",
+    "screenshot": "screenshots_focused/03_data_center/006_报警日志_操作_正误报统计.png",
+    "clip": {
+      "kind": "business",
+      "x": 280,
+      "y": 72,
+      "width": 1160,
+      "height": 928,
+      "scale": 1
+    },
+    "meta": {
+      "click": {
+        "ok": true,
+        "text": "正误报统计",
+        "found": {
+          "text": "正误报统计",
+          "rect": {
+            "x": 1130,
+            "y": 254,
+            "w": 98,
+            "h": 24
+          },
+          "className": "custom-light-btn custom-light-btn-text btn"
+        }
+      }
+    }
+  },
+  {
+    "id": "03_data_center-007",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "报警日志",
+    "label": "操作_处理",
+    "note": "点击或定位业务操作：处理",
+    "url": "http://192.168.11.88:8081/app/main-app/data/inference-output/algo/#/alarm-center/output-result/algorithm-log",
+    "screenshot": "screenshots_focused/03_data_center/007_报警日志_操作_处理.png",
+    "clip": {
+      "kind": "business",
+      "x": 280,
+      "y": 72,
+      "width": 1160,
+      "height": 928,
+      "scale": 1
+    },
+    "meta": {
+      "click": {
+        "ok": true,
+        "text": "处理",
+        "found": {
+          "text": "处理",
+          "rect": {
+            "x": 365,
+            "y": 322,
+            "w": 52,
+            "h": 20
+          },
+          "className": "custom-light-btn custom-light-btn-text btn custom-light-dropdown-trigger"
+        }
+      }
+    }
+  },
+  {
+    "id": "03_data_center-008",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "报警日志",
+    "label": "操作_归档",
+    "note": "点击或定位业务操作：归档；该操作可能产生数据或配置变更，采集时仅悬停定位",
+    "url": "http://192.168.11.88:8081/app/main-app/data/inference-output/algo/#/alarm-center/output-result/algorithm-log",
+    "screenshot": "screenshots_focused/03_data_center/008_报警日志_操作_归档.png",
+    "clip": {
+      "kind": "business",
+      "x": 280,
+      "y": 72,
+      "width": 1160,
+      "height": 928,
+      "scale": 1
+    },
+    "meta": {
+      "click": {
+        "ok": true,
+        "text": "归档",
+        "mode": "hover",
+        "found": {
+          "text": "归档",
+          "rect": {
+            "x": 425,
+            "y": 322,
+            "w": 52,
+            "h": 20
+          },
+          "className": "custom-light-btn custom-light-btn-text btn custom-light-dropdown-trigger"
+        },
+        "safeSkipped": true,
+        "reason": "可能产生保存、删除、安装、归档或配置变更，仅定位/悬停截图"
+      }
+    }
+  },
+  {
+    "id": "03_data_center-009",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "人员识别日志",
+    "label": "业务区域默认态",
+    "note": "裁剪业务区域，排除顶部公共工具区和左侧一级导航",
+    "url": "http://192.168.11.88:8081/app/main-app/data/personnel_identification_log/#/personnel_identification_log",
+    "screenshot": "screenshots_focused/03_data_center/009_人员识别日志_业务区域默认态.png",
+    "clip": {
+      "kind": "business",
+      "x": 280,
+      "y": 72,
+      "width": 1160,
+      "height": 928,
+      "scale": 1
+    },
+    "meta": {}
+  },
+  {
+    "id": "03_data_center-010",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "人员识别日志",
+    "label": "Tab_白名单",
+    "note": "点击或切换 Tab/分段控件：白名单",
+    "url": "http://192.168.11.88:8081/app/main-app/data/personnel_identification_log/#/personnel_identification_log",
+    "screenshot": "screenshots_focused/03_data_center/010_人员识别日志_Tab_白名单.png",
+    "clip": {
+      "kind": "business",
+      "x": 280,
+      "y": 72,
+      "width": 1160,
+      "height": 928,
+      "scale": 1
+    },
+    "meta": {
+      "click": {
+        "ok": false,
+        "text": "白名单"
+      }
+    }
+  },
+  {
+    "id": "03_data_center-011",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "人员识别日志",
+    "label": "Tab_黑名单",
+    "note": "点击或切换 Tab/分段控件：黑名单",
+    "url": "http://192.168.11.88:8081/app/main-app/data/personnel_identification_log/#/personnel_identification_log",
+    "screenshot": "screenshots_focused/03_data_center/011_人员识别日志_Tab_黑名单.png",
+    "clip": {
+      "kind": "business",
+      "x": 280,
+      "y": 72,
+      "width": 1160,
+      "height": 928,
+      "scale": 1
+    },
+    "meta": {
+      "click": {
+        "ok": false,
+        "text": "黑名单"
+      }
+    }
+  },
+  {
+    "id": "03_data_center-012",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "人员识别日志",
+    "label": "字段_请选择",
+    "note": "打开字段或选择器：请选择",
+    "url": "http://192.168.11.88:8081/app/main-app/data/personnel_identification_log/#/personnel_identification_log",
+    "screenshot": "screenshots_focused/03_data_center/012_人员识别日志_字段_请选择.png",
+    "clip": {
+      "kind": "business",
+      "x": 280,
+      "y": 72,
+      "width": 1160,
+      "height": 928,
+      "scale": 1
+    },
+    "meta": {
+      "click": {
+        "ok": true,
+        "text": "请选择",
+        "found": {
+          "text": "请选择",
+          "rect": {
+            "x": 1250,
+            "y": 158,
+            "w": 145,
+            "h": 30
+          },
+          "className": "custom-light-select-selection-placeholder"
+        }
+      }
+    }
+  },
+  {
+    "id": "03_data_center-013",
+    "module": "数据中心",
+    "moduleId": "data",
+    "submodule": "人员识别日志",
+    "label": "字段_请选择日期",
+    "note": "打开字段或选择器：请选择日期",
+    "url": "http://192.168.11.88:8081/app/main-app/data/personnel_identification_log/#/personnel_identification_log",
+    "screenshot": "screenshots_focused/03_data_center/013_人员识别日志_字段_请选择日期.png",
+    "clip": {
+      "kind": "business",
+      "x": 280,
+      "y": 72,
+      "width": 1160,
+      "height": 928,
+      "scale": 1
+    },
+    "meta": {
+      "click": {
+        "ok": false,
+        "text": "请选择日期"
+      }
+    }
+  }
+]

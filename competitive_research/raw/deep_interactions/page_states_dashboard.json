@@ -1,0 +1,445 @@
+[
+  {
+    "module": "数据看板",
+    "submodule": "数据看板首页",
+    "capability": "看板入口集合、创建看板、实时视频监控、业务数据概览、报警图片墙、AI 管控中心入口",
+    "url": "http://192.168.11.88:8081/app/main-app/cockpit/home/#/cockpit-home",
+    "title": "数据看板",
+    "bodyText": "人工智能推理平台\n搜索菜单\n数据看板\n智能分析\n数据中心\n平台管理\n数据看板 \n创建看板\n实时视频监控\n实时视频监控是以视频墙的方式来呈现摄像头直播流或演示直播流\n业务数据概览\n业务数据概览是以大屏可视化图表的方式来呈现系统的业务数据展示\n报警图片墙\n报警图片墙是将系统所产生的报警以图片墙的方式呈现\nAI智能管控中心\n通过可视化界面，对系统进行实时监控、智能分析与高效管控",
+    "controls": [
+      {
+        "idx": 1,
+        "tag": "DIV",
+        "text": "搜索菜单",
+        "placeholder": "",
+        "title": "",
+        "aria": "",
+        "cls": "custom-light-select-selector",
+        "rect": {
+          "x": 961,
+          "y": 6,
+          "w": 220,
+          "h": 32
+        },
+        "disabled": false
+      },
+      {
+        "idx": 12,
+        "tag": "BUTTON",
+        "text": "创建看板",
+        "placeholder": "",
+        "title": "",
+        "aria": "",
+        "cls": "custom-light-btn custom-light-btn-link custom-light-btn-sm cr-btn-small cr-btn",
+        "rect": {
+          "x": 216,
+          "y": 68,
+          "w": 67,
+          "h": 28
+        },
+        "disabled": false
+      }
+    ],
+    "menus": [
+      {
+        "idx": 0,
+        "text": "数据看板",
+        "cls": "app-menu-item active",
+        "rect": {
+          "x": 8,
+          "y": 52,
+          "w": 63,
+          "h": 76
+        }
+      },
+      {
+        "idx": 1,
+        "text": "数据看板",
+        "cls": "app-menu-text",
+        "rect": {
+          "x": 8,
+          "y": 104,
+          "w": 63,
+          "h": 20
+        }
+      },
+      {
+        "idx": 2,
+        "text": "智能分析",
+        "cls": "app-menu-item",
+        "rect": {
+          "x": 8,
+          "y": 136,
+          "w": 63,
+          "h": 76
+        }
+      },
+      {
+        "idx": 3,
+        "text": "智能分析",
+        "cls": "app-menu-text",
+        "rect": {
+          "x": 8,
+          "y": 188,
+          "w": 63,
+          "h": 20
+        }
+      },
+      {
+        "idx": 4,
+        "text": "数据中心",
+        "cls": "app-menu-item",
+        "rect": {
+          "x": 8,
+          "y": 220,
+          "w": 63,
+          "h": 76
+        }
+      },
+      {
+        "idx": 5,
+        "text": "数据中心",
+        "cls": "app-menu-text",
+        "rect": {
+          "x": 8,
+          "y": 272,
+          "w": 63,
+          "h": 20
+        }
+      },
+      {
+        "idx": 6,
+        "text": "平台管理",
+        "cls": "app-menu-item",
+        "rect": {
+          "x": 8,
+          "y": 304,
+          "w": 63,
+          "h": 76
+        }
+      },
+      {
+        "idx": 7,
+        "text": "平台管理",
+        "cls": "app-menu-text",
+        "rect": {
+          "x": 8,
+          "y": 356,
+          "w": 63,
+          "h": 20
+        }
+      }
+    ],
+    "tables": [],
+    "forms": [
+      {
+        "idx": 0,
+        "text": "人工智能推理平台",
+        "inputs": []
+      }
+    ],
+    "cards": [
+      {
+        "idx": 0,
+        "text": "实时视频监控 实时视频监控是以视频墙的方式来呈现摄像头直播流或演示直播流",
+        "cls": "quick-app-item-card-wrap",
+        "rect": {
+          "x": 104,
+          "y": 107,
+          "w": 250,
+          "h": 233
+        }
+      },
+      {
+        "idx": 1,
+        "text": "实时视频监控 实时视频监控是以视频墙的方式来呈现摄像头直播流或演示直播流",
+        "cls": "app-card-wrap-content",
+        "rect": {
+          "x": 105,
+          "y": 108,
+          "w": 248,
+          "h": 231
+        }
+      },
+      {
+        "idx": 3,
+        "text": "实时视频监控",
+        "cls": "app-card-title",
+        "rect": {
+          "x": 113,
+          "y": 259,
+          "w": 232,
+          "h": 14
+        }
+      },
+      {
+        "idx": 4,
+        "text": "实时视频监控是以视频墙的方式来呈现摄像头直播流或演示直播流",
+        "cls": "app-card-intro multiline",
+        "rect": {
+          "x": 113,
+          "y": 277,
+          "w": 232,
+          "h": 40
+        }
+      },
+      {
+        "idx": 5,
+        "text": "业务数据概览 业务数据概览是以大屏可视化图表的方式来呈现系统的业务数据展示",
+        "cls": "quick-app-item-card-wrap",
+        "rect": {
+          "x": 370,
+          "y": 107,
+          "w": 250,
+          "h": 233
+        }
+      },
+      {
+        "idx": 6,
+        "text": "业务数据概览 业务数据概览是以大屏可视化图表的方式来呈现系统的业务数据展示",
+        "cls": "app-card-wrap-content",
+        "rect": {
+          "x": 371,
+          "y": 108,
+          "w": 248,
+          "h": 231
+        }
+      },
+      {
+        "idx": 8,
+        "text": "业务数据概览",
+        "cls": "app-card-title",
+        "rect": {
+          "x": 379,
+          "y": 259,
+          "w": 232,
+          "h": 14
+        }
+      },
+      {
+        "idx": 9,
+        "text": "业务数据概览是以大屏可视化图表的方式来呈现系统的业务数据展示",
+        "cls": "app-card-intro multiline",
+        "rect": {
+          "x": 379,
+          "y": 277,
+          "w": 232,
+          "h": 40
+        }
+      },
+      {
+        "idx": 10,
+        "text": "报警图片墙 报警图片墙是将系统所产生的报警以图片墙的方式呈现",
+        "cls": "quick-app-item-card-wrap",
+        "rect": {
+          "x": 635,
+          "y": 107,
+          "w": 250,
+          "h": 233
+        }
+      },
+      {
+        "idx": 11,
+        "text": "报警图片墙 报警图片墙是将系统所产生的报警以图片墙的方式呈现",
+        "cls": "app-card-wrap-content",
+        "rect": {
+          "x": 636,
+          "y": 108,
+          "w": 248,
+          "h": 231
+        }
+      },
+      {
+        "idx": 13,
+        "text": "报警图片墙",
+        "cls": "app-card-title",
+        "rect": {
+          "x": 644,
+          "y": 259,
+          "w": 232,
+          "h": 14
+        }
+      },
+      {
+        "idx": 14,
+        "text": "报警图片墙是将系统所产生的报警以图片墙的方式呈现",
+        "cls": "app-card-intro multiline",
+        "rect": {
+          "x": 644,
+          "y": 277,
+          "w": 232,
+          "h": 40
+        }
+      },
+      {
+        "idx": 15,
+        "text": "AI智能管控中心 通过可视化界面，对系统进行实时监控、智能分析与高效管控",
+        "cls": "quick-app-item-card-wrap",
+        "rect": {
+          "x": 901,
+          "y": 107,
+          "w": 250,
+          "h": 233
+        }
+      },
+      {
+        "idx": 16,
+        "text": "AI智能管控中心 通过可视化界面，对系统进行实时监控、智能分析与高效管控",
+        "cls": "app-card-wrap-content",
+        "rect": {
+          "x": 902,
+          "y": 108,
+          "w": 248,
+          "h": 231
+        }
+      },
+      {
+        "idx": 18,
+        "text": "AI智能管控中心",
+        "cls": "app-card-title",
+        "rect": {
+          "x": 910,
+          "y": 259,
+          "w": 232,
+          "h": 14
+        }
+      },
+      {
+        "idx": 19,
+        "text": "通过可视化界面，对系统进行实时监控、智能分析与高效管控",
+        "cls": "app-card-intro multiline",
+        "rect": {
+          "x": 910,
+          "y": 277,
+          "w": 232,
+          "h": 40
+        }
+      }
+    ]
+  },
+  {
+    "module": "数据看板",
+    "submodule": "AI智能管控中心",
+    "capability": "综合态势大屏、实时监控、报警趋势、排行榜与指挥视角",
+    "url": "http://192.168.11.88:8081/app/main-app/frame",
+    "title": "数据看板首页",
+    "bodyText": "人工智能推理平台\n搜索菜单\n数据看板\n智能分析\n数据中心\n平台管理",
+    "controls": [
+      {
+        "idx": 1,
+        "tag": "DIV",
+        "text": "搜索菜单",
+        "placeholder": "",
+        "title": "",
+        "aria": "",
+        "cls": "custom-light-select-selector",
+        "rect": {
+          "x": 961,
+          "y": 6,
+          "w": 220,
+          "h": 32
+        },
+        "disabled": false
+      }
+    ],
+    "menus": [
+      {
+        "idx": 0,
+        "text": "数据看板",
+        "cls": "app-menu-item",
+        "rect": {
+          "x": 8,
+          "y": 52,
+          "w": 63,
+          "h": 76
+        }
+      },
+      {
+        "idx": 1,
+        "text": "数据看板",
+        "cls": "app-menu-text",
+        "rect": {
+          "x": 8,
+          "y": 104,
+          "w": 63,
+          "h": 20
+        }
+      },
+      {
+        "idx": 2,
+        "text": "智能分析",
+        "cls": "app-menu-item",
+        "rect": {
+          "x": 8,
+          "y": 136,
+          "w": 63,
+          "h": 76
+        }
+      },
+      {
+        "idx": 3,
+        "text": "智能分析",
+        "cls": "app-menu-text",
+        "rect": {
+          "x": 8,
+          "y": 188,
+          "w": 63,
+          "h": 20
+        }
+      },
+      {
+        "idx": 4,
+        "text": "数据中心",
+        "cls": "app-menu-item",
+        "rect": {
+          "x": 8,
+          "y": 220,
+          "w": 63,
+          "h": 76
+        }
+      },
+      {
+        "idx": 5,
+        "text": "数据中心",
+        "cls": "app-menu-text",
+        "rect": {
+          "x": 8,
+          "y": 272,
+          "w": 63,
+          "h": 20
+        }
+      },
+      {
+        "idx": 6,
+        "text": "平台管理",
+        "cls": "app-menu-item",
+        "rect": {
+          "x": 8,
+          "y": 304,
+          "w": 63,
+          "h": 76
+        }
+      },
+      {
+        "idx": 7,
+        "text": "平台管理",
+        "cls": "app-menu-text",
+        "rect": {
+          "x": 8,
+          "y": 356,
+          "w": 63,
+          "h": 20
+        }
+      }
+    ],
+    "tables": [],
+    "forms": [
+      {
+        "idx": 0,
+        "text": "人工智能推理平台",
+        "inputs": []
+      }
+    ],
+    "cards": []
+  }
+]

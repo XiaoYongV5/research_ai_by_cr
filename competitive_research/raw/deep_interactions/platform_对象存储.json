@@ -1,0 +1,498 @@
+{
+  "module": "平台管理",
+  "submodule": "对象存储",
+  "capability": "报警截图、录制片段、算法包等文件对象存储配置",
+  "url": "http://192.168.11.88:8081/app/main-app/open-center/object-storage/#/object_storage",
+  "title": "对象存储",
+  "bodyText": "人工智能推理平台\n搜索菜单\n数据看板\n智能分析\n数据中心\n平台管理\nAI仓库\n离线仓库\n用户及权限\n用户管理\n用户组管理\n系统权限\n系统设置\n基础信息\n系统主题\n网络配置\n站内信\n站内信\n开放能力\n接口授权\n接口文档\n免密登录\n对象存储\n对象存储\n创建对象存储\n名称\t类型\t存储空间\t路径\t操作\t\n \n\t\n \n\t\n \n\t\n \n\t\n \n\n暂无数据",
+  "controls": [
+    {
+      "idx": 1,
+      "tag": "DIV",
+      "text": "搜索菜单",
+      "placeholder": "",
+      "title": "",
+      "aria": "",
+      "cls": "custom-light-select-selector",
+      "rect": {
+        "x": 961,
+        "y": 6,
+        "w": 220,
+        "h": 32
+      },
+      "disabled": false
+    },
+    {
+      "idx": 12,
+      "tag": "BUTTON",
+      "text": "创建对象存储",
+      "placeholder": "",
+      "title": "",
+      "aria": "",
+      "cls": "custom-light-btn custom-light-btn-primary cr-btn-middle cr-btn",
+      "rect": {
+        "x": 296,
+        "y": 126,
+        "w": 98,
+        "h": 32
+      },
+      "disabled": false
+    }
+  ],
+  "menus": [
+    {
+      "idx": 0,
+      "text": "数据看板",
+      "cls": "app-menu-item",
+      "rect": {
+        "x": 8,
+        "y": 52,
+        "w": 63,
+        "h": 76
+      }
+    },
+    {
+      "idx": 1,
+      "text": "数据看板",
+      "cls": "app-menu-text",
+      "rect": {
+        "x": 8,
+        "y": 104,
+        "w": 63,
+        "h": 20
+      }
+    },
+    {
+      "idx": 2,
+      "text": "智能分析",
+      "cls": "app-menu-item",
+      "rect": {
+        "x": 8,
+        "y": 136,
+        "w": 63,
+        "h": 76
+      }
+    },
+    {
+      "idx": 3,
+      "text": "智能分析",
+      "cls": "app-menu-text",
+      "rect": {
+        "x": 8,
+        "y": 188,
+        "w": 63,
+        "h": 20
+      }
+    },
+    {
+      "idx": 4,
+      "text": "数据中心",
+      "cls": "app-menu-item",
+      "rect": {
+        "x": 8,
+        "y": 220,
+        "w": 63,
+        "h": 76
+      }
+    },
+    {
+      "idx": 5,
+      "text": "数据中心",
+      "cls": "app-menu-text",
+      "rect": {
+        "x": 8,
+        "y": 272,
+        "w": 63,
+        "h": 20
+      }
+    },
+    {
+      "idx": 6,
+      "text": "平台管理",
+      "cls": "app-menu-item active",
+      "rect": {
+        "x": 8,
+        "y": 304,
+        "w": 63,
+        "h": 76
+      }
+    },
+    {
+      "idx": 7,
+      "text": "平台管理",
+      "cls": "app-menu-text",
+      "rect": {
+        "x": 8,
+        "y": 356,
+        "w": 63,
+        "h": 20
+      }
+    },
+    {
+      "idx": 8,
+      "text": "AI仓库",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 87,
+        "y": 54,
+        "w": 185,
+        "h": 28
+      }
+    },
+    {
+      "idx": 9,
+      "text": "离线仓库",
+      "cls": "custom-light-menu-item custom-light-menu-item-only-child",
+      "rect": {
+        "x": 79,
+        "y": 86,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 10,
+      "text": "离线仓库",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 87,
+        "y": 86,
+        "w": 185,
+        "h": 32
+      }
+    },
+    {
+      "idx": 11,
+      "text": "用户及权限",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 87,
+        "y": 139,
+        "w": 185,
+        "h": 28
+      }
+    },
+    {
+      "idx": 12,
+      "text": "用户管理",
+      "cls": "custom-light-menu-item custom-light-menu-item-only-child",
+      "rect": {
+        "x": 79,
+        "y": 171,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 13,
+      "text": "用户管理",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 87,
+        "y": 171,
+        "w": 185,
+        "h": 32
+      }
+    },
+    {
+      "idx": 14,
+      "text": "用户组管理",
+      "cls": "custom-light-menu-item custom-light-menu-item-only-child",
+      "rect": {
+        "x": 79,
+        "y": 205,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 15,
+      "text": "用户组管理",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 87,
+        "y": 205,
+        "w": 185,
+        "h": 32
+      }
+    },
+    {
+      "idx": 16,
+      "text": "系统权限",
+      "cls": "custom-light-menu-item custom-light-menu-item-only-child",
+      "rect": {
+        "x": 79,
+        "y": 239,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 17,
+      "text": "系统权限",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 87,
+        "y": 239,
+        "w": 185,
+        "h": 32
+      }
+    },
+    {
+      "idx": 18,
+      "text": "系统设置",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 87,
+        "y": 292,
+        "w": 185,
+        "h": 28
+      }
+    },
+    {
+      "idx": 19,
+      "text": "基础信息",
+      "cls": "custom-light-menu-item custom-light-menu-item-only-child",
+      "rect": {
+        "x": 79,
+        "y": 324,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 20,
+      "text": "基础信息",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 87,
+        "y": 324,
+        "w": 185,
+        "h": 32
+      }
+    },
+    {
+      "idx": 21,
+      "text": "系统主题",
+      "cls": "custom-light-menu-item custom-light-menu-item-only-child",
+      "rect": {
+        "x": 79,
+        "y": 358,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 22,
+      "text": "系统主题",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 87,
+        "y": 358,
+        "w": 185,
+        "h": 32
+      }
+    },
+    {
+      "idx": 23,
+      "text": "网络配置",
+      "cls": "custom-light-menu-item custom-light-menu-item-only-child",
+      "rect": {
+        "x": 79,
+        "y": 392,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 24,
+      "text": "网络配置",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 87,
+        "y": 392,
+        "w": 185,
+        "h": 32
+      }
+    },
+    {
+      "idx": 25,
+      "text": "站内信",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 87,
+        "y": 445,
+        "w": 185,
+        "h": 28
+      }
+    },
+    {
+      "idx": 26,
+      "text": "站内信",
+      "cls": "custom-light-menu-item custom-light-menu-item-only-child",
+      "rect": {
+        "x": 79,
+        "y": 477,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 27,
+      "text": "站内信",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 87,
+        "y": 477,
+        "w": 185,
+        "h": 32
+      }
+    },
+    {
+      "idx": 28,
+      "text": "开放能力",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 87,
+        "y": 530,
+        "w": 185,
+        "h": 28
+      }
+    },
+    {
+      "idx": 29,
+      "text": "接口授权",
+      "cls": "custom-light-menu-item custom-light-menu-item-only-child",
+      "rect": {
+        "x": 79,
+        "y": 562,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 30,
+      "text": "接口授权",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 87,
+        "y": 562,
+        "w": 185,
+        "h": 32
+      }
+    },
+    {
+      "idx": 31,
+      "text": "接口文档",
+      "cls": "custom-light-menu-item custom-light-menu-item-only-child",
+      "rect": {
+        "x": 79,
+        "y": 596,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 32,
+      "text": "接口文档",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 87,
+        "y": 596,
+        "w": 185,
+        "h": 32
+      }
+    },
+    {
+      "idx": 33,
+      "text": "免密登录",
+      "cls": "custom-light-menu-item custom-light-menu-item-only-child",
+      "rect": {
+        "x": 79,
+        "y": 630,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 34,
+      "text": "免密登录",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 87,
+        "y": 630,
+        "w": 185,
+        "h": 32
+      }
+    },
+    {
+      "idx": 35,
+      "text": "对象存储",
+      "cls": "custom-light-menu-item custom-light-menu-item-selected custom-light-menu-item-only-child",
+      "rect": {
+        "x": 79,
+        "y": 664,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 36,
+      "text": "对象存储",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 87,
+        "y": 664,
+        "w": 185,
+        "h": 32
+      }
+    }
+  ],
+  "tables": [
+    {
+      "idx": 0,
+      "text": "名称 类型 存储空间 路径 操作 暂无数据",
+      "headers": [
+        "名称",
+        "类型",
+        "存储空间",
+        "路径",
+        "操作"
+      ]
+    },
+    {
+      "idx": 1,
+      "text": "名称 类型 存储空间 路径 操作",
+      "headers": [
+        "名称",
+        "类型",
+        "存储空间",
+        "路径",
+        "操作"
+      ]
+    },
+    {
+      "idx": 2,
+      "text": "暂无数据",
+      "headers": []
+    }
+  ],
+  "forms": [
+    {
+      "idx": 0,
+      "text": "人工智能推理平台",
+      "inputs": []
+    },
+    {
+      "idx": 2,
+      "text": "对象存储 创建对象存储 名称 类型 存储空间 路径 操作 暂无数据",
+      "inputs": []
+    },
+    {
+      "idx": 3,
+      "text": "创建对象存储 名称 类型 存储空间 路径 操作 暂无数据",
+      "inputs": []
+    }
+  ],
+  "cards": []
+}

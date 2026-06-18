@@ -1,0 +1,12 @@
+{
+  "localStorage": {
+    "voiceConfig": "{\"rate\":1,\"volume\":1,\"selectedLang\":\"Google Deutsch-de-DE\"}",
+    "theme": "\"custom-light\"",
+    "globalData": "{\"token\":\"[redacted]\",\"appNameEnum\":{\"COCKPIT_APP\":\"cockpit_app\",\"COCKPIT\":\"cockpit\",\"COCKPIT_FRAME\":\"cockpit_frame\",\"ALGO_INFO\":\"algo_info\",\"DISPATCH_PRE_PROCESS_ALGO_INFO_APP\":\"dispatch_pre_process_algo_info_app\",\"DISPATCH_PRE_PROCESS_ALGO_INFO\":\"dispatch_pre_process_algo_info\",\"DISPATCH_PRE_PROCESS_ALGO_INFO_DETAIL\":\"dispatch_pre_process_algo_info_detail\",\"AI_WAREHOUSE_MANAGEMENT\":\"ai_warehouse_management\",\"AI_WAREHOUSE_MANAGEMENT_APP\":\"ai_warehouse_management_app\",\"AI_WAREHOUSE_MANAGEMENT_ALGO\":\"ai_warehouse_management_algo\",\"AI_WAREHOUSE_MANAGEMENT_ALGO_DETAIL\":\"ai_warehouse_management_algo_detail\",\"AI_WAREHOUSE_MANAGEMENT_ALGO_GROUP\":\"ai_warehouse_management_algo_group\",\"AI_WAREHOUSE_MANAGEMENT_APPLICATION\":\"ai_warehouse_management_application\",\"AI_WAREHOUSE_MANAGEMENT_APPLICATION_DETAIL\":\"ai_warehouse_management_application_detail\",\"AI_WAREHOUSE_MANAGEMENT_APPLICATION_GROUP\":\"",
+    "publicKey":"[redacted]",
+    "token":"[redacted]",
+    "userInfo": "{\"id\":5,\"username\":\"admin\",\"name\":\"admin\",\"job_no\":\"1\",\"phone\":\"00000000000\",\"email\":\"00000000000@163.com\",\"is_original_pw\":0,\"user_id\":\"00000000000000000000000000000000\",\"user_token\":\"[redacted]\",\"token\":\"[redacted]\",\"userId\":\"00000000000000000000000000000000\"}",
+    "moduleSwitches": "{\"apa\":false,\"sls\":false,\"bp\":false}"
+  },
+  "sessionStorage": {}
+}

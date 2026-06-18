@@ -1,0 +1,764 @@
+{
+  "module": "平台管理",
+  "submodule": "用户管理",
+  "capability": "账号创建、用户状态、组织与权限入口",
+  "url": "http://192.168.11.88:8081/app/main-app/platform/user-permission/user/#/user",
+  "title": "用户管理",
+  "bodyText": "人工智能推理平台\n搜索菜单\n数据看板\n智能分析\n数据中心\n平台管理\nAI仓库\n离线仓库\n用户及权限\n用户管理\n用户组管理\n系统权限\n系统设置\n基础信息\n系统主题\n网络配置\n站内信\n站内信\n开放能力\n接口授权\n接口文档\n免密登录\n对象存储\n用户管理\n部门\n1 人\n全部\n未分组\n创建用户\n导入\n导出\n删除\n更多操作\n\tID\t用户名\t姓名\t工号\t操作\t\n \n\t\n \n\t\n \n\t\n \n\t\n \n\t\n \n\n\t5\t\nadmin\n\t\nadmin\n\t1\t\n编辑\n重置密码\n删除\n共 1 条\n1\n10 条/页",
+  "controls": [
+    {
+      "idx": 1,
+      "tag": "DIV",
+      "text": "搜索菜单",
+      "placeholder": "",
+      "title": "",
+      "aria": "",
+      "cls": "custom-light-select-selector",
+      "rect": {
+        "x": 961,
+        "y": 6,
+        "w": 220,
+        "h": 32
+      },
+      "disabled": false
+    },
+    {
+      "idx": 12,
+      "tag": "INPUT",
+      "text": "",
+      "placeholder": "部门名称",
+      "title": "",
+      "aria": "",
+      "cls": "custom-light-input",
+      "rect": {
+        "x": 326,
+        "y": 155,
+        "w": 171,
+        "h": 22
+      },
+      "disabled": false
+    },
+    {
+      "idx": 14,
+      "tag": "BUTTON",
+      "text": "创建用户",
+      "placeholder": "",
+      "title": "",
+      "aria": "",
+      "cls": "custom-light-btn custom-light-btn-primary cr-btn-middle cr-btn",
+      "rect": {
+        "x": 550,
+        "y": 126,
+        "w": 80,
+        "h": 32
+      },
+      "disabled": false
+    },
+    {
+      "idx": 15,
+      "tag": "BUTTON",
+      "text": "导入",
+      "placeholder": "",
+      "title": "",
+      "aria": "",
+      "cls": "custom-light-btn custom-light-btn-text cr-btn-mini cr-btn",
+      "rect": {
+        "x": 638,
+        "y": 130,
+        "w": 60,
+        "h": 24
+      },
+      "disabled": false
+    },
+    {
+      "idx": 16,
+      "tag": "BUTTON",
+      "text": "导出",
+      "placeholder": "",
+      "title": "",
+      "aria": "",
+      "cls": "custom-light-btn custom-light-btn-text cr-btn-mini cr-btn",
+      "rect": {
+        "x": 702,
+        "y": 130,
+        "w": 60,
+        "h": 24
+      },
+      "disabled": false
+    },
+    {
+      "idx": 17,
+      "tag": "BUTTON",
+      "text": "删除",
+      "placeholder": "",
+      "title": "",
+      "aria": "",
+      "cls": "custom-light-btn custom-light-btn-text custom-light-btn-dangerous cr-btn-mini cr-btn",
+      "rect": {
+        "x": 766,
+        "y": 130,
+        "w": 60,
+        "h": 24
+      },
+      "disabled": true
+    },
+    {
+      "idx": 18,
+      "tag": "DIV",
+      "text": "更多操作",
+      "placeholder": "",
+      "title": "",
+      "aria": "",
+      "cls": "cr-btn-wrap custom-light-dropdown-trigger",
+      "rect": {
+        "x": 830,
+        "y": 126,
+        "w": 84,
+        "h": 32
+      },
+      "disabled": false
+    },
+    {
+      "idx": 19,
+      "tag": "BUTTON",
+      "text": "更多操作",
+      "placeholder": "",
+      "title": "",
+      "aria": "",
+      "cls": "custom-light-btn custom-light-btn-text cr-btn-mini cr-btn",
+      "rect": {
+        "x": 830,
+        "y": 130,
+        "w": 84,
+        "h": 24
+      },
+      "disabled": false
+    },
+    {
+      "idx": 20,
+      "tag": "INPUT",
+      "text": "",
+      "placeholder": "姓名/用户名/工号",
+      "title": "",
+      "aria": "",
+      "cls": "custom-light-input",
+      "rect": {
+        "x": 1154,
+        "y": 131,
+        "w": 254,
+        "h": 22
+      },
+      "disabled": false
+    },
+    {
+      "idx": 23,
+      "tag": "BUTTON",
+      "text": "admin",
+      "placeholder": "",
+      "title": "",
+      "aria": "",
+      "cls": "custom-light-btn custom-light-btn-link cr-btn-mini cr-btn",
+      "rect": {
+        "x": 703,
+        "y": 215,
+        "w": 38,
+        "h": 24
+      },
+      "disabled": false
+    },
+    {
+      "idx": 24,
+      "tag": "BUTTON",
+      "text": "编辑",
+      "placeholder": "",
+      "title": "",
+      "aria": "",
+      "cls": "custom-light-btn custom-light-btn-link cr-btn-mini cr-btn",
+      "rect": {
+        "x": 1215,
+        "y": 215,
+        "w": 24,
+        "h": 24
+      },
+      "disabled": true
+    },
+    {
+      "idx": 25,
+      "tag": "BUTTON",
+      "text": "重置密码",
+      "placeholder": "",
+      "title": "",
+      "aria": "",
+      "cls": "custom-light-btn custom-light-btn-link cr-btn-mini cr-btn",
+      "rect": {
+        "x": 1259,
+        "y": 215,
+        "w": 50,
+        "h": 24
+      },
+      "disabled": false
+    },
+    {
+      "idx": 26,
+      "tag": "BUTTON",
+      "text": "删除",
+      "placeholder": "",
+      "title": "",
+      "aria": "",
+      "cls": "custom-light-btn custom-light-btn-link custom-light-btn-dangerous cr-btn-mini cr-btn",
+      "rect": {
+        "x": 1329,
+        "y": 215,
+        "w": 24,
+        "h": 24
+      },
+      "disabled": true
+    },
+    {
+      "idx": 29,
+      "tag": "DIV",
+      "text": "10 条/页",
+      "placeholder": "",
+      "title": "",
+      "aria": "",
+      "cls": "custom-light-select-selector",
+      "rect": {
+        "x": 555,
+        "y": 945,
+        "w": 98,
+        "h": 28
+      },
+      "disabled": false
+    }
+  ],
+  "menus": [
+    {
+      "idx": 0,
+      "text": "数据看板",
+      "cls": "app-menu-item",
+      "rect": {
+        "x": 8,
+        "y": 52,
+        "w": 63,
+        "h": 76
+      }
+    },
+    {
+      "idx": 1,
+      "text": "数据看板",
+      "cls": "app-menu-text",
+      "rect": {
+        "x": 8,
+        "y": 104,
+        "w": 63,
+        "h": 20
+      }
+    },
+    {
+      "idx": 2,
+      "text": "智能分析",
+      "cls": "app-menu-item",
+      "rect": {
+        "x": 8,
+        "y": 136,
+        "w": 63,
+        "h": 76
+      }
+    },
+    {
+      "idx": 3,
+      "text": "智能分析",
+      "cls": "app-menu-text",
+      "rect": {
+        "x": 8,
+        "y": 188,
+        "w": 63,
+        "h": 20
+      }
+    },
+    {
+      "idx": 4,
+      "text": "数据中心",
+      "cls": "app-menu-item",
+      "rect": {
+        "x": 8,
+        "y": 220,
+        "w": 63,
+        "h": 76
+      }
+    },
+    {
+      "idx": 5,
+      "text": "数据中心",
+      "cls": "app-menu-text",
+      "rect": {
+        "x": 8,
+        "y": 272,
+        "w": 63,
+        "h": 20
+      }
+    },
+    {
+      "idx": 6,
+      "text": "平台管理",
+      "cls": "app-menu-item active",
+      "rect": {
+        "x": 8,
+        "y": 304,
+        "w": 63,
+        "h": 76
+      }
+    },
+    {
+      "idx": 7,
+      "text": "平台管理",
+      "cls": "app-menu-text",
+      "rect": {
+        "x": 8,
+        "y": 356,
+        "w": 63,
+        "h": 20
+      }
+    },
+    {
+      "idx": 8,
+      "text": "AI仓库",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 87,
+        "y": 54,
+        "w": 185,
+        "h": 28
+      }
+    },
+    {
+      "idx": 9,
+      "text": "离线仓库",
+      "cls": "custom-light-menu-item custom-light-menu-item-only-child",
+      "rect": {
+        "x": 79,
+        "y": 86,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 10,
+      "text": "离线仓库",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 87,
+        "y": 86,
+        "w": 185,
+        "h": 32
+      }
+    },
+    {
+      "idx": 11,
+      "text": "用户及权限",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 87,
+        "y": 139,
+        "w": 185,
+        "h": 28
+      }
+    },
+    {
+      "idx": 12,
+      "text": "用户管理",
+      "cls": "custom-light-menu-item custom-light-menu-item-selected custom-light-menu-item-only-child",
+      "rect": {
+        "x": 79,
+        "y": 171,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 13,
+      "text": "用户管理",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 87,
+        "y": 171,
+        "w": 185,
+        "h": 32
+      }
+    },
+    {
+      "idx": 14,
+      "text": "用户组管理",
+      "cls": "custom-light-menu-item custom-light-menu-item-only-child",
+      "rect": {
+        "x": 79,
+        "y": 205,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 15,
+      "text": "用户组管理",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 87,
+        "y": 205,
+        "w": 185,
+        "h": 32
+      }
+    },
+    {
+      "idx": 16,
+      "text": "系统权限",
+      "cls": "custom-light-menu-item custom-light-menu-item-only-child",
+      "rect": {
+        "x": 79,
+        "y": 239,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 17,
+      "text": "系统权限",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 87,
+        "y": 239,
+        "w": 185,
+        "h": 32
+      }
+    },
+    {
+      "idx": 18,
+      "text": "系统设置",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 87,
+        "y": 292,
+        "w": 185,
+        "h": 28
+      }
+    },
+    {
+      "idx": 19,
+      "text": "基础信息",
+      "cls": "custom-light-menu-item custom-light-menu-item-only-child",
+      "rect": {
+        "x": 79,
+        "y": 324,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 20,
+      "text": "基础信息",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 87,
+        "y": 324,
+        "w": 185,
+        "h": 32
+      }
+    },
+    {
+      "idx": 21,
+      "text": "系统主题",
+      "cls": "custom-light-menu-item custom-light-menu-item-only-child",
+      "rect": {
+        "x": 79,
+        "y": 358,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 22,
+      "text": "系统主题",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 87,
+        "y": 358,
+        "w": 185,
+        "h": 32
+      }
+    },
+    {
+      "idx": 23,
+      "text": "网络配置",
+      "cls": "custom-light-menu-item custom-light-menu-item-only-child",
+      "rect": {
+        "x": 79,
+        "y": 392,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 24,
+      "text": "网络配置",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 87,
+        "y": 392,
+        "w": 185,
+        "h": 32
+      }
+    },
+    {
+      "idx": 25,
+      "text": "站内信",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 87,
+        "y": 445,
+        "w": 185,
+        "h": 28
+      }
+    },
+    {
+      "idx": 26,
+      "text": "站内信",
+      "cls": "custom-light-menu-item custom-light-menu-item-only-child",
+      "rect": {
+        "x": 79,
+        "y": 477,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 27,
+      "text": "站内信",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 87,
+        "y": 477,
+        "w": 185,
+        "h": 32
+      }
+    },
+    {
+      "idx": 28,
+      "text": "开放能力",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 87,
+        "y": 530,
+        "w": 185,
+        "h": 28
+      }
+    },
+    {
+      "idx": 29,
+      "text": "接口授权",
+      "cls": "custom-light-menu-item custom-light-menu-item-only-child",
+      "rect": {
+        "x": 79,
+        "y": 562,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 30,
+      "text": "接口授权",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 87,
+        "y": 562,
+        "w": 185,
+        "h": 32
+      }
+    },
+    {
+      "idx": 31,
+      "text": "接口文档",
+      "cls": "custom-light-menu-item custom-light-menu-item-only-child",
+      "rect": {
+        "x": 79,
+        "y": 596,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 32,
+      "text": "接口文档",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 87,
+        "y": 596,
+        "w": 185,
+        "h": 32
+      }
+    },
+    {
+      "idx": 33,
+      "text": "免密登录",
+      "cls": "custom-light-menu-item custom-light-menu-item-only-child",
+      "rect": {
+        "x": 79,
+        "y": 630,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 34,
+      "text": "免密登录",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 87,
+        "y": 630,
+        "w": 185,
+        "h": 32
+      }
+    },
+    {
+      "idx": 35,
+      "text": "对象存储",
+      "cls": "custom-light-menu-item custom-light-menu-item-only-child",
+      "rect": {
+        "x": 79,
+        "y": 664,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 36,
+      "text": "对象存储",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 87,
+        "y": 664,
+        "w": 185,
+        "h": 32
+      }
+    }
+  ],
+  "tables": [
+    {
+      "idx": 0,
+      "text": "ID 用户名 姓名 工号 操作 5 admin admin 1 编辑 重置密码 删除",
+      "headers": [
+        "ID",
+        "用户名",
+        "姓名",
+        "工号",
+        "操作"
+      ]
+    },
+    {
+      "idx": 1,
+      "text": "ID 用户名 姓名 工号 操作",
+      "headers": [
+        "ID",
+        "用户名",
+        "姓名",
+        "工号",
+        "操作"
+      ]
+    },
+    {
+      "idx": 2,
+      "text": "5 admin admin 1 编辑 重置密码 删除",
+      "headers": []
+    }
+  ],
+  "forms": [
+    {
+      "idx": 0,
+      "text": "人工智能推理平台",
+      "inputs": []
+    },
+    {
+      "idx": 2,
+      "text": "用户管理 部门 1 人 全部 未分组 创建用户 导入 导出 删除 更多操作 ID 用户名 姓名 工号 操作 5 admin admin 1 编辑 重置密码 删除 共 1 条 1 10 条/页",
+      "inputs": [
+        {
+          "placeholder": "部门名称",
+          "type": "text",
+          "value": ""
+        },
+        {
+          "placeholder": "",
+          "type": "text",
+          "value": ""
+        },
+        {
+          "placeholder": "姓名/用户名/工号",
+          "type": "text",
+          "value": ""
+        },
+        {
+          "placeholder": "",
+          "type": "checkbox",
+          "value": "on"
+        },
+        {
+          "placeholder": "",
+          "type": "checkbox",
+          "value": "on"
+        },
+        {
+          "placeholder": "",
+          "type": "search",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "idx": 3,
+      "text": "部门 1 人 全部 未分组 创建用户 导入 导出 删除 更多操作 ID 用户名 姓名 工号 操作 5 admin admin 1 编辑 重置密码 删除 共 1 条 1 10 条/页",
+      "inputs": [
+        {
+          "placeholder": "部门名称",
+          "type": "text",
+          "value": ""
+        },
+        {
+          "placeholder": "",
+          "type": "text",
+          "value": ""
+        },
+        {
+          "placeholder": "姓名/用户名/工号",
+          "type": "text",
+          "value": ""
+        },
+        {
+          "placeholder": "",
+          "type": "checkbox",
+          "value": "on"
+        },
+        {
+          "placeholder": "",
+          "type": "checkbox",
+          "value": "on"
+        },
+        {
+          "placeholder": "",
+          "type": "search",
+          "value": ""
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "idx": 0,
+      "text": "1 人",
+      "cls": "statics-total",
+      "rect": {
+        "x": 336,
+        "y": 123,
+        "w": 23,
+        "h": 19
+      }
+    }
+  ]
+}

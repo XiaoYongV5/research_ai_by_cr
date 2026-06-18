@@ -1,0 +1,41 @@
+{
+  "note": "/app/business_overview/#/business-overview",
+  "title": "404",
+  "url": "http://192.168.11.88:8081/app/business_overview/#/404",
+  "path": "/app/business_overview/#/404",
+  "bodyText": "404\n抱歉, 您访问的页面不存在\n返回首页",
+  "headings": [],
+  "controls": [
+    {
+      "idx": 0,
+      "tag": "BUTTON",
+      "cls": "custom-dark-btn custom-dark-btn-primary",
+      "text": "返回首页",
+      "placeholder": "",
+      "title": "",
+      "aria": "",
+      "disabled": false,
+      "rect": {
+        "x": 676,
+        "y": 688,
+        "w": 88,
+        "h": 32
+      }
+    }
+  ],
+  "tables": [],
+  "cards": [],
+  "menus": [],
+  "storageKeys": {
+    "localStorage": [
+      "voiceConfig",
+      "theme",
+      "globalData",
+      "publicKey",
+      "token",
+      "userInfo",
+      "moduleSwitches"
+    ],
+    "sessionStorage": []
+  }
+}

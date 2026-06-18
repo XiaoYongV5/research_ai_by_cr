@@ -1,0 +1,24 @@
+{
+  "note": "/app/system_setting/#/system-setting",
+  "title": "vue3-ts-cli",
+  "url": "http://192.168.11.88:8081/app/system_setting/#/system-setting",
+  "path": "/app/system_setting/#/system-setting",
+  "bodyText": "",
+  "headings": [],
+  "controls": [],
+  "tables": [],
+  "cards": [],
+  "menus": [],
+  "storageKeys": {
+    "localStorage": [
+      "voiceConfig",
+      "theme",
+      "globalData",
+      "publicKey",
+      "token",
+      "userInfo",
+      "moduleSwitches"
+    ],
+    "sessionStorage": []
+  }
+}

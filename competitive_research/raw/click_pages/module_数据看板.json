@@ -1,0 +1,231 @@
+{
+  "note": "点击 数据看板",
+  "title": "数据看板",
+  "url": "http://192.168.11.88:8081/app/main-app/cockpit/home/#/cockpit-home",
+  "path": "/app/main-app/cockpit/home/#/cockpit-home",
+  "bodyText": "人工智能推理平台\n搜索菜单\n数据看板\n智能分析\n数据中心\n平台管理\n数据看板 \n创建看板\n实时视频监控\n实时视频监控是以视频墙的方式来呈现摄像头直播流或演示直播流\n业务数据概览\n业务数据概览是以大屏可视化图表的方式来呈现系统的业务数据展示\n报警图片墙\n报警图片墙是将系统所产生的报警以图片墙的方式呈现\nAI智能管控中心\n通过可视化界面，对系统进行实时监控、智能分析与高效管控",
+  "menus": [
+    {
+      "idx": 0,
+      "tag": "DIV",
+      "text": "数据看板",
+      "placeholder": "",
+      "title": "",
+      "href": "",
+      "cls": "app-menu-item active",
+      "rect": {
+        "x": 8,
+        "y": 52,
+        "w": 63,
+        "h": 76
+      }
+    },
+    {
+      "idx": 1,
+      "tag": "DIV",
+      "text": "数据看板",
+      "placeholder": "",
+      "title": "",
+      "href": "",
+      "cls": "app-menu-text",
+      "rect": {
+        "x": 8,
+        "y": 104,
+        "w": 63,
+        "h": 20
+      }
+    },
+    {
+      "idx": 2,
+      "tag": "DIV",
+      "text": "智能分析",
+      "placeholder": "",
+      "title": "",
+      "href": "",
+      "cls": "app-menu-item",
+      "rect": {
+        "x": 8,
+        "y": 136,
+        "w": 63,
+        "h": 76
+      }
+    },
+    {
+      "idx": 3,
+      "tag": "DIV",
+      "text": "智能分析",
+      "placeholder": "",
+      "title": "",
+      "href": "",
+      "cls": "app-menu-text",
+      "rect": {
+        "x": 8,
+        "y": 188,
+        "w": 63,
+        "h": 20
+      }
+    },
+    {
+      "idx": 4,
+      "tag": "DIV",
+      "text": "数据中心",
+      "placeholder": "",
+      "title": "",
+      "href": "",
+      "cls": "app-menu-item",
+      "rect": {
+        "x": 8,
+        "y": 220,
+        "w": 63,
+        "h": 76
+      }
+    },
+    {
+      "idx": 5,
+      "tag": "DIV",
+      "text": "数据中心",
+      "placeholder": "",
+      "title": "",
+      "href": "",
+      "cls": "app-menu-text",
+      "rect": {
+        "x": 8,
+        "y": 272,
+        "w": 63,
+        "h": 20
+      }
+    },
+    {
+      "idx": 6,
+      "tag": "DIV",
+      "text": "平台管理",
+      "placeholder": "",
+      "title": "",
+      "href": "",
+      "cls": "app-menu-item",
+      "rect": {
+        "x": 8,
+        "y": 304,
+        "w": 63,
+        "h": 76
+      }
+    },
+    {
+      "idx": 7,
+      "tag": "DIV",
+      "text": "平台管理",
+      "placeholder": "",
+      "title": "",
+      "href": "",
+      "cls": "app-menu-text",
+      "rect": {
+        "x": 8,
+        "y": 356,
+        "w": 63,
+        "h": 20
+      }
+    }
+  ],
+  "controls": [
+    {
+      "idx": 7,
+      "tag": "BUTTON",
+      "text": "创建看板",
+      "placeholder": "",
+      "title": "",
+      "href": "",
+      "cls": "custom-light-btn custom-light-btn-link custom-light-btn-sm cr-btn-small cr-btn",
+      "rect": {
+        "x": 216,
+        "y": 68,
+        "w": 67,
+        "h": 28
+      }
+    }
+  ],
+  "tables": [],
+  "forms": [],
+  "cards": [
+    {
+      "idx": 0,
+      "text": "实时视频监控 实时视频监控是以视频墙的方式来呈现摄像头直播流或演示直播流",
+      "cls": "quick-app-item-card-wrap"
+    },
+    {
+      "idx": 1,
+      "text": "实时视频监控 实时视频监控是以视频墙的方式来呈现摄像头直播流或演示直播流",
+      "cls": "app-card-wrap-content"
+    },
+    {
+      "idx": 3,
+      "text": "实时视频监控",
+      "cls": "app-card-title"
+    },
+    {
+      "idx": 4,
+      "text": "实时视频监控是以视频墙的方式来呈现摄像头直播流或演示直播流",
+      "cls": "app-card-intro multiline"
+    },
+    {
+      "idx": 5,
+      "text": "业务数据概览 业务数据概览是以大屏可视化图表的方式来呈现系统的业务数据展示",
+      "cls": "quick-app-item-card-wrap"
+    },
+    {
+      "idx": 6,
+      "text": "业务数据概览 业务数据概览是以大屏可视化图表的方式来呈现系统的业务数据展示",
+      "cls": "app-card-wrap-content"
+    },
+    {
+      "idx": 8,
+      "text": "业务数据概览",
+      "cls": "app-card-title"
+    },
+    {
+      "idx": 9,
+      "text": "业务数据概览是以大屏可视化图表的方式来呈现系统的业务数据展示",
+      "cls": "app-card-intro multiline"
+    },
+    {
+      "idx": 10,
+      "text": "报警图片墙 报警图片墙是将系统所产生的报警以图片墙的方式呈现",
+      "cls": "quick-app-item-card-wrap"
+    },
+    {
+      "idx": 11,
+      "text": "报警图片墙 报警图片墙是将系统所产生的报警以图片墙的方式呈现",
+      "cls": "app-card-wrap-content"
+    },
+    {
+      "idx": 13,
+      "text": "报警图片墙",
+      "cls": "app-card-title"
+    },
+    {
+      "idx": 14,
+      "text": "报警图片墙是将系统所产生的报警以图片墙的方式呈现",
+      "cls": "app-card-intro multiline"
+    },
+    {
+      "idx": 15,
+      "text": "AI智能管控中心 通过可视化界面，对系统进行实时监控、智能分析与高效管控",
+      "cls": "quick-app-item-card-wrap"
+    },
+    {
+      "idx": 16,
+      "text": "AI智能管控中心 通过可视化界面，对系统进行实时监控、智能分析与高效管控",
+      "cls": "app-card-wrap-content"
+    },
+    {
+      "idx": 18,
+      "text": "AI智能管控中心",
+      "cls": "app-card-title"
+    },
+    {
+      "idx": 19,
+      "text": "通过可视化界面，对系统进行实时监控、智能分析与高效管控",
+      "cls": "app-card-intro multiline"
+    }
+  ],
+  "screenshot": "screenshots/module_数据看板.png"
+}

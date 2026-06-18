@@ -1,0 +1,1088 @@
+[
+  {
+    "id": "01_dashboard-001",
+    "module": "数据看板",
+    "moduleId": "dashboard",
+    "submodule": "数据看板首页",
+    "capability": "看板入口集合、创建看板、实时视频监控、业务数据概览、报警图片墙、AI 管控中心入口",
+    "actionType": "overview",
+    "actionLabel": "页面全貌",
+    "actionNote": "进入子模块后的页面全貌，用于识别信息架构、主操作区、筛选区和表格/卡片区。",
+    "url": "http://192.168.11.88:8081/app/main-app/cockpit/home/#/cockpit-home",
+    "screenshot": "screenshots_deep/01_dashboard/001_数据看板首页_页面全貌.png",
+    "meta": {},
+    "capturedAt": "2026-06-18T04:47:41.517Z"
+  },
+  {
+    "id": "01_dashboard-002",
+    "module": "数据看板",
+    "moduleId": "dashboard",
+    "submodule": "数据看板首页",
+    "capability": "看板入口集合、创建看板、实时视频监控、业务数据概览、报警图片墙、AI 管控中心入口",
+    "actionType": "scroll",
+    "actionLabel": "滚动位置_0%",
+    "actionNote": "记录页面不同滚动位置，补足表格、卡片和底部状态。",
+    "url": "http://192.168.11.88:8081/app/main-app/cockpit/home/#/cockpit-home",
+    "screenshot": "screenshots_deep/01_dashboard/002_数据看板首页_滚动位置_0_.png",
+    "meta": {
+      "scroll": {
+        "tag": "HTML",
+        "cls": " ",
+        "max": 0,
+        "top": 0
+      }
+    },
+    "capturedAt": "2026-06-18T04:47:41.948Z"
+  },
+  {
+    "id": "01_dashboard-003",
+    "module": "数据看板",
+    "moduleId": "dashboard",
+    "submodule": "数据看板首页",
+    "capability": "看板入口集合、创建看板、实时视频监控、业务数据概览、报警图片墙、AI 管控中心入口",
+    "actionType": "hover",
+    "actionLabel": "01_搜索菜单_悬停",
+    "actionNote": "悬停查看 搜索菜单 的 hover/提示状态",
+    "url": "http://192.168.11.88:8081/app/main-app/cockpit/home/#/cockpit-home",
+    "screenshot": "screenshots_deep/01_dashboard/003_数据看板首页_01_搜索菜单_悬停.png",
+    "meta": {
+      "candidate": {
+        "kind": "field",
+        "priority": 2,
+        "tag": "DIV",
+        "text": "搜索菜单",
+        "placeholder": "",
+        "title": "",
+        "aria": "",
+        "cls": "custom-light-select-selector",
+        "rect": {
+          "x": 961,
+          "y": 6,
+          "w": 220,
+          "h": 32,
+          "cx": 1071,
+          "cy": 22
+        },
+        "disabled": false
+      }
+    },
+    "capturedAt": "2026-06-18T04:47:42.306Z"
+  },
+  {
+    "id": "01_dashboard-004",
+    "module": "数据看板",
+    "moduleId": "dashboard",
+    "submodule": "数据看板首页",
+    "capability": "看板入口集合、创建看板、实时视频监控、业务数据概览、报警图片墙、AI 管控中心入口",
+    "actionType": "focus-or-open",
+    "actionLabel": "01_搜索菜单_点击后",
+    "actionNote": "点击后出现弹窗/下拉/提示：.custom-light-select-dropdown",
+    "url": "http://192.168.11.88:8081/app/main-app/cockpit/home/#/cockpit-home",
+    "screenshot": "screenshots_deep/01_dashboard/004_数据看板首页_01_搜索菜单_点击后.png",
+    "meta": {
+      "candidate": {
+        "kind": "field",
+        "priority": 2,
+        "tag": "DIV",
+        "text": "搜索菜单",
+        "placeholder": "",
+        "title": "",
+        "aria": "",
+        "cls": "custom-light-select-selector",
+        "rect": {
+          "x": 961,
+          "y": 6,
+          "w": 220,
+          "h": 32,
+          "cx": 1071,
+          "cy": 22
+        },
+        "disabled": false
+      },
+      "overlays": [
+        {
+          "selector": ".custom-light-select-dropdown",
+          "text": "数据看板 智能分析 媒体与输入 摄像头配置 算法配置 算法列表 人员库 算法底库 智能分析配置 视频流分析 图片分析 分析服务状态 结果推送 报警推送 报警弹窗及语音 数据中心 推理输出结果 报警日志 报警推送日志 人员识别结果 人员识别日志 陌生人识别日志 平台管理 AI仓库 离线仓库 用户及权限 用户管理 用户组管理 系统权限 系统设置 基础信息 系统主题 网络配置 站内信 站内信 开放能力 接口授权 接口文档 免密登录 对象存储"
+        }
+      ]
+    },
+    "capturedAt": "2026-06-18T04:47:43.427Z"
+  },
+  {
+    "id": "01_dashboard-005",
+    "module": "数据看板",
+    "moduleId": "dashboard",
+    "submodule": "数据看板首页",
+    "capability": "看板入口集合、创建看板、实时视频监控、业务数据概览、报警图片墙、AI 管控中心入口",
+    "actionType": "hover",
+    "actionLabel": "02_dropdown-trigger_悬停",
+    "actionNote": "悬停查看 dropdown-trigger 的 hover/提示状态",
+    "url": "http://192.168.11.88:8081/app/main-app/cockpit/home/#/cockpit-home",
+    "screenshot": "screenshots_deep/01_dashboard/005_数据看板首页_02_dropdown-trigger_悬停.png",
+    "meta": {
+      "candidate": {
+        "kind": "dropdown-trigger",
+        "priority": 3,
+        "tag": "DIV",
+        "text": "",
+        "placeholder": "",
+        "title": "",
+        "aria": "",
+        "cls": "flex-v-c custom-light-dropdown-trigger",
+        "rect": {
+          "x": 1233,
+          "y": 6,
+          "w": 32,
+          "h": 32,
+          "cx": 1249,
+          "cy": 22
+        },
+        "disabled": false
+      }
+    },
+    "capturedAt": "2026-06-18T04:47:44.323Z"
+  },
+  {
+    "id": "01_dashboard-006",
+    "module": "数据看板",
+    "moduleId": "dashboard",
+    "submodule": "数据看板首页",
+    "capability": "看板入口集合、创建看板、实时视频监控、业务数据概览、报警图片墙、AI 管控中心入口",
+    "actionType": "click",
+    "actionLabel": "02_dropdown-trigger_点击后",
+    "actionNote": "点击后出现弹窗/下拉/提示：.custom-light-dropdown",
+    "url": "http://192.168.11.88:8081/app/main-app/cockpit/home/#/cockpit-home",
+    "screenshot": "screenshots_deep/01_dashboard/006_数据看板首页_02_dropdown-trigger_点击后.png",
+    "meta": {
+      "candidate": {
+        "kind": "dropdown-trigger",
+        "priority": 3,
+        "tag": "DIV",
+        "text": "",
+        "placeholder": "",
+        "title": "",
+        "aria": "",
+        "cls": "flex-v-c custom-light-dropdown-trigger",
+        "rect": {
+          "x": 1233,
+          "y": 6,
+          "w": 32,
+          "h": 32,
+          "cx": 1249,
+          "cy": 22
+        },
+        "disabled": false
+      },
+      "overlays": [
+        {
+          "selector": ".custom-light-dropdown",
+          "text": "应用中心 数据看板 智能分析 数据中心 平台管理 数据看板 实时视频监控 业务数据概览 报警图片墙 AI智能管控中心"
+        }
+      ]
+    },
+    "capturedAt": "2026-06-18T04:47:45.411Z"
+  },
+  {
+    "id": "01_dashboard-007",
+    "module": "数据看板",
+    "moduleId": "dashboard",
+    "submodule": "数据看板首页",
+    "capability": "看板入口集合、创建看板、实时视频监控、业务数据概览、报警图片墙、AI 管控中心入口",
+    "actionType": "hover",
+    "actionLabel": "03_dropdown-trigger_悬停",
+    "actionNote": "悬停查看 dropdown-trigger 的 hover/提示状态",
+    "url": "http://192.168.11.88:8081/app/main-app/cockpit/home/#/cockpit-home",
+    "screenshot": "screenshots_deep/01_dashboard/007_数据看板首页_03_dropdown-trigger_悬停.png",
+    "meta": {
+      "candidate": {
+        "kind": "dropdown-trigger",
+        "priority": 3,
+        "tag": "DIV",
+        "text": "",
+        "placeholder": "",
+        "title": "",
+        "aria": "",
+        "cls": "flex-v-c message-info-btn custom-light-dropdown-trigger",
+        "rect": {
+          "x": 1275,
+          "y": 6,
+          "w": 32,
+          "h": 32,
+          "cx": 1291,
+          "cy": 22
+        },
+        "disabled": false
+      }
+    },
+    "capturedAt": "2026-06-18T04:47:46.307Z"
+  },
+  {
+    "id": "01_dashboard-008",
+    "module": "数据看板",
+    "moduleId": "dashboard",
+    "submodule": "数据看板首页",
+    "capability": "看板入口集合、创建看板、实时视频监控、业务数据概览、报警图片墙、AI 管控中心入口",
+    "actionType": "click",
+    "actionLabel": "03_dropdown-trigger_点击后",
+    "actionNote": "点击后出现弹窗/下拉/提示：.custom-light-dropdown",
+    "url": "http://192.168.11.88:8081/app/main-app/cockpit/home/#/cockpit-home",
+    "screenshot": "screenshots_deep/01_dashboard/008_数据看板首页_03_dropdown-trigger_点击后.png",
+    "meta": {
+      "candidate": {
+        "kind": "dropdown-trigger",
+        "priority": 3,
+        "tag": "DIV",
+        "text": "",
+        "placeholder": "",
+        "title": "",
+        "aria": "",
+        "cls": "flex-v-c message-info-btn custom-light-dropdown-trigger",
+        "rect": {
+          "x": 1275,
+          "y": 6,
+          "w": 32,
+          "h": 32,
+          "cx": 1291,
+          "cy": 22
+        },
+        "disabled": false
+      },
+      "overlays": [
+        {
+          "selector": ".custom-light-dropdown",
+          "text": "站内信 只看未读 全部标为已读 2026-06-10 17:14:58报警日志 已完成 2026-06-01到2026-06-19期间共1819条报警日志清理，查看详情 2026-06-10 16:43:12离线仓库 29:离岗识别 算法安装成功，查看详情 2026-06-10 16:43:10离线仓库 33:工衣工服识别 算法安装成功，查看详情 2026-06-10 16:43:05离线仓库 26:异常聚集识别 算法安装成功，查看详情 2026-06-10 16:43:04离线仓库 7:烟火识别 算法安装成功，查看详情 2026-06-10 16:42:43离线仓库 120:打电话识别 算法安装成功，查看详情 2026-06-10 16:42:41离线仓库 35:睡岗识别 算法安装成功，查看详情 2026-06-10 16:42:38离线仓库 86:翻越围栏识别 算法安装成功，查看详情 2026-06-10 16:42:07离线仓库 4:人员入侵识别 算法安装成功，查看详情 2026-06-10 16:42:07离线仓库 28:安全帽识别 算法安装成功，查看详情 查看历史消息"
+        }
+      ]
+    },
+    "capturedAt": "2026-06-18T04:47:47.404Z"
+  },
+  {
+    "id": "01_dashboard-009",
+    "module": "数据看板",
+    "moduleId": "dashboard",
+    "submodule": "数据看板首页",
+    "capability": "看板入口集合、创建看板、实时视频监控、业务数据概览、报警图片墙、AI 管控中心入口",
+    "actionType": "hover",
+    "actionLabel": "04_dropdown-trigger_悬停",
+    "actionNote": "悬停查看 dropdown-trigger 的 hover/提示状态",
+    "url": "http://192.168.11.88:8081/app/main-app/cockpit/home/#/cockpit-home",
+    "screenshot": "screenshots_deep/01_dashboard/009_数据看板首页_04_dropdown-trigger_悬停.png",
+    "meta": {
+      "candidate": {
+        "kind": "dropdown-trigger",
+        "priority": 3,
+        "tag": "DIV",
+        "text": "",
+        "placeholder": "",
+        "title": "",
+        "aria": "",
+        "cls": "cr-icon-btn-contain drop-menu custom-light-dropdown-trigger",
+        "rect": {
+          "x": 1317,
+          "y": 6,
+          "w": 32,
+          "h": 32,
+          "cx": 1333,
+          "cy": 22
+        },
+        "disabled": false
+      }
+    },
+    "capturedAt": "2026-06-18T04:47:48.301Z"
+  },
+  {
+    "id": "01_dashboard-010",
+    "module": "数据看板",
+    "moduleId": "dashboard",
+    "submodule": "数据看板首页",
+    "capability": "看板入口集合、创建看板、实时视频监控、业务数据概览、报警图片墙、AI 管控中心入口",
+    "actionType": "click",
+    "actionLabel": "04_dropdown-trigger_点击后",
+    "actionNote": "点击后出现弹窗/下拉/提示：.custom-light-dropdown",
+    "url": "http://192.168.11.88:8081/app/main-app/cockpit/home/#/cockpit-home",
+    "screenshot": "screenshots_deep/01_dashboard/010_数据看板首页_04_dropdown-trigger_点击后.png",
+    "meta": {
+      "candidate": {
+        "kind": "dropdown-trigger",
+        "priority": 3,
+        "tag": "DIV",
+        "text": "",
+        "placeholder": "",
+        "title": "",
+        "aria": "",
+        "cls": "cr-icon-btn-contain drop-menu custom-light-dropdown-trigger",
+        "rect": {
+          "x": 1317,
+          "y": 6,
+          "w": 32,
+          "h": 32,
+          "cx": 1333,
+          "cy": 22
+        },
+        "disabled": false
+      },
+      "overlays": [
+        {
+          "selector": ".custom-light-dropdown",
+          "text": "简体中文 繁體中文 English"
+        }
+      ]
+    },
+    "capturedAt": "2026-06-18T04:47:49.367Z"
+  },
+  {
+    "id": "01_dashboard-011",
+    "module": "数据看板",
+    "moduleId": "dashboard",
+    "submodule": "数据看板首页",
+    "capability": "看板入口集合、创建看板、实时视频监控、业务数据概览、报警图片墙、AI 管控中心入口",
+    "actionType": "hover",
+    "actionLabel": "05_dropdown-trigger_悬停",
+    "actionNote": "悬停查看 dropdown-trigger 的 hover/提示状态",
+    "url": "http://192.168.11.88:8081/app/main-app/cockpit/home/#/cockpit-home",
+    "screenshot": "screenshots_deep/01_dashboard/011_数据看板首页_05_dropdown-trigger_悬停.png",
+    "meta": {
+      "candidate": {
+        "kind": "dropdown-trigger",
+        "priority": 3,
+        "tag": "DIV",
+        "text": "",
+        "placeholder": "",
+        "title": "",
+        "aria": "",
+        "cls": "flex-v-c user-drop-menu-btn custom-light-dropdown-trigger",
+        "rect": {
+          "x": 1392,
+          "y": 6,
+          "w": 32,
+          "h": 32,
+          "cx": 1408,
+          "cy": 22
+        },
+        "disabled": false
+      }
+    },
+    "capturedAt": "2026-06-18T04:47:50.238Z"
+  },
+  {
+    "id": "01_dashboard-012",
+    "module": "数据看板",
+    "moduleId": "dashboard",
+    "submodule": "数据看板首页",
+    "capability": "看板入口集合、创建看板、实时视频监控、业务数据概览、报警图片墙、AI 管控中心入口",
+    "actionType": "click",
+    "actionLabel": "05_dropdown-trigger_点击后",
+    "actionNote": "点击后出现弹窗/下拉/提示：.custom-light-dropdown",
+    "url": "http://192.168.11.88:8081/app/main-app/cockpit/home/#/cockpit-home",
+    "screenshot": "screenshots_deep/01_dashboard/012_数据看板首页_05_dropdown-trigger_点击后.png",
+    "meta": {
+      "candidate": {
+        "kind": "dropdown-trigger",
+        "priority": 3,
+        "tag": "DIV",
+        "text": "",
+        "placeholder": "",
+        "title": "",
+        "aria": "",
+        "cls": "flex-v-c user-drop-menu-btn custom-light-dropdown-trigger",
+        "rect": {
+          "x": 1392,
+          "y": 6,
+          "w": 32,
+          "h": 32,
+          "cx": 1408,
+          "cy": 22
+        },
+        "disabled": false
+      },
+      "overlays": [
+        {
+          "selector": ".custom-light-dropdown",
+          "text": "admin 修改密码 退出登录"
+        }
+      ]
+    },
+    "capturedAt": "2026-06-18T04:47:51.316Z"
+  },
+  {
+    "id": "01_dashboard-013",
+    "module": "数据看板",
+    "moduleId": "dashboard",
+    "submodule": "数据看板首页",
+    "capability": "看板入口集合、创建看板、实时视频监控、业务数据概览、报警图片墙、AI 管控中心入口",
+    "actionType": "hover",
+    "actionLabel": "06_业务数据概览 业务数据概览是以大屏可视化图表的方式来呈现系统的业务数据展示_悬停",
+    "actionNote": "悬停查看 业务数据概览 业务数据概览是以大屏可视化图表的方式来呈现系统的业务数据展示 的 hover/提示状态",
+    "url": "http://192.168.11.88:8081/app/main-app/cockpit/home/#/cockpit-home",
+    "screenshot": "screenshots_deep/01_dashboard/013_数据看板首页_06_业务数据概览_业务数据概览是以大屏可视化图表的方式来呈现系统的业务数据展示_悬停.png",
+    "meta": {
+      "candidate": {
+        "kind": "card",
+        "priority": 6,
+        "tag": "DIV",
+        "text": "业务数据概览 业务数据概览是以大屏可视化图表的方式来呈现系统的业务数据展示",
+        "placeholder": "",
+        "title": "",
+        "aria": "",
+        "cls": "quick-app-item-card-wrap",
+        "rect": {
+          "x": 370,
+          "y": 107,
+          "w": 250,
+          "h": 233,
+          "cx": 494,
+          "cy": 224
+        },
+        "disabled": false
+      }
+    },
+    "capturedAt": "2026-06-18T04:47:52.190Z"
+  },
+  {
+    "id": "01_dashboard-014",
+    "module": "数据看板",
+    "moduleId": "dashboard",
+    "submodule": "数据看板首页",
+    "capability": "看板入口集合、创建看板、实时视频监控、业务数据概览、报警图片墙、AI 管控中心入口",
+    "actionType": "click",
+    "actionLabel": "06_业务数据概览 业务数据概览是以大屏可视化图表的方式来呈现系统的业务数据展示_点击后",
+    "actionNote": "点击后出现弹窗/下拉/提示：.custom-light-modal、[role=\"dialog\"]",
+    "url": "http://192.168.11.88:8081/app/main-app/cockpit/home/#/cockpit-home",
+    "screenshot": "screenshots_deep/01_dashboard/014_数据看板首页_06_业务数据概览_业务数据概览是以大屏可视化图表的方式来呈现系统的业务数据展示_点击后.png",
+    "meta": {
+      "candidate": {
+        "kind": "card",
+        "priority": 6,
+        "tag": "DIV",
+        "text": "业务数据概览 业务数据概览是以大屏可视化图表的方式来呈现系统的业务数据展示",
+        "placeholder": "",
+        "title": "",
+        "aria": "",
+        "cls": "quick-app-item-card-wrap",
+        "rect": {
+          "x": 370,
+          "y": 107,
+          "w": 250,
+          "h": 233,
+          "cx": 494,
+          "cy": 224
+        },
+        "disabled": false
+      },
+      "overlays": [
+        {
+          "selector": ".custom-light-modal",
+          "text": ""
+        },
+        {
+          "selector": "[role=\"dialog\"]",
+          "text": ""
+        }
+      ]
+    },
+    "capturedAt": "2026-06-18T04:47:53.321Z"
+  },
+  {
+    "id": "01_dashboard-015",
+    "module": "数据看板",
+    "moduleId": "dashboard",
+    "submodule": "数据看板首页",
+    "capability": "看板入口集合、创建看板、实时视频监控、业务数据概览、报警图片墙、AI 管控中心入口",
+    "actionType": "hover",
+    "actionLabel": "07_报警图片墙 报警图片墙是将系统所产生的报警以图片墙的方式呈现_悬停",
+    "actionNote": "悬停查看 报警图片墙 报警图片墙是将系统所产生的报警以图片墙的方式呈现 的 hover/提示状态",
+    "url": "http://192.168.11.88:8081/app/main-app/cockpit/home/#/cockpit-home",
+    "screenshot": "screenshots_deep/01_dashboard/015_数据看板首页_07_报警图片墙_报警图片墙是将系统所产生的报警以图片墙的方式呈现_悬停.png",
+    "meta": {
+      "candidate": {
+        "kind": "card",
+        "priority": 6,
+        "tag": "DIV",
+        "text": "报警图片墙 报警图片墙是将系统所产生的报警以图片墙的方式呈现",
+        "placeholder": "",
+        "title": "",
+        "aria": "",
+        "cls": "quick-app-item-card-wrap",
+        "rect": {
+          "x": 635,
+          "y": 107,
+          "w": 250,
+          "h": 233,
+          "cx": 760,
+          "cy": 224
+        },
+        "disabled": false
+      }
+    },
+    "capturedAt": "2026-06-18T04:47:54.171Z"
+  },
+  {
+    "id": "01_dashboard-016",
+    "module": "数据看板",
+    "moduleId": "dashboard",
+    "submodule": "数据看板首页",
+    "capability": "看板入口集合、创建看板、实时视频监控、业务数据概览、报警图片墙、AI 管控中心入口",
+    "actionType": "click",
+    "actionLabel": "07_报警图片墙 报警图片墙是将系统所产生的报警以图片墙的方式呈现_点击后",
+    "actionNote": "点击后出现弹窗/下拉/提示：.custom-light-modal、[role=\"dialog\"]",
+    "url": "http://192.168.11.88:8081/app/main-app/cockpit/home/#/cockpit-home",
+    "screenshot": "screenshots_deep/01_dashboard/016_数据看板首页_07_报警图片墙_报警图片墙是将系统所产生的报警以图片墙的方式呈现_点击后.png",
+    "meta": {
+      "candidate": {
+        "kind": "card",
+        "priority": 6,
+        "tag": "DIV",
+        "text": "报警图片墙 报警图片墙是将系统所产生的报警以图片墙的方式呈现",
+        "placeholder": "",
+        "title": "",
+        "aria": "",
+        "cls": "quick-app-item-card-wrap",
+        "rect": {
+          "x": 635,
+          "y": 107,
+          "w": 250,
+          "h": 233,
+          "cx": 760,
+          "cy": 224
+        },
+        "disabled": false
+      },
+      "overlays": [
+        {
+          "selector": ".custom-light-modal",
+          "text": ""
+        },
+        {
+          "selector": "[role=\"dialog\"]",
+          "text": ""
+        }
+      ]
+    },
+    "capturedAt": "2026-06-18T04:47:55.280Z"
+  },
+  {
+    "id": "01_dashboard-017",
+    "module": "数据看板",
+    "moduleId": "dashboard",
+    "submodule": "数据看板首页",
+    "capability": "看板入口集合、创建看板、实时视频监控、业务数据概览、报警图片墙、AI 管控中心入口",
+    "actionType": "hover",
+    "actionLabel": "08_AI智能管控中心 通过可视化界面，对系统进行实时监控、智能分析与高效管控_悬停",
+    "actionNote": "悬停查看 AI智能管控中心 通过可视化界面，对系统进行实时监控、智能分析与高效管控 的 hover/提示状态",
+    "url": "http://192.168.11.88:8081/app/main-app/cockpit/home/#/cockpit-home",
+    "screenshot": "screenshots_deep/01_dashboard/017_数据看板首页_08_AI智能管控中心_通过可视化界面，对系统进行实时监控、智能分析与高效管控_悬停.png",
+    "meta": {
+      "candidate": {
+        "kind": "card",
+        "priority": 6,
+        "tag": "DIV",
+        "text": "AI智能管控中心 通过可视化界面，对系统进行实时监控、智能分析与高效管控",
+        "placeholder": "",
+        "title": "",
+        "aria": "",
+        "cls": "quick-app-item-card-wrap",
+        "rect": {
+          "x": 901,
+          "y": 107,
+          "w": 250,
+          "h": 233,
+          "cx": 1026,
+          "cy": 224
+        },
+        "disabled": false
+      }
+    },
+    "capturedAt": "2026-06-18T04:47:56.135Z"
+  },
+  {
+    "id": "01_dashboard-018",
+    "module": "数据看板",
+    "moduleId": "dashboard",
+    "submodule": "数据看板首页",
+    "capability": "看板入口集合、创建看板、实时视频监控、业务数据概览、报警图片墙、AI 管控中心入口",
+    "actionType": "click",
+    "actionLabel": "08_AI智能管控中心 通过可视化界面，对系统进行实时监控、智能分析与高效管控_点击后",
+    "actionNote": "点击后出现弹窗/下拉/提示：.custom-light-modal、[role=\"dialog\"]",
+    "url": "http://192.168.11.88:8081/app/main-app/cockpit/home/#/cockpit-home",
+    "screenshot": "screenshots_deep/01_dashboard/018_数据看板首页_08_AI智能管控中心_通过可视化界面，对系统进行实时监控、智能分析与高效管控_点击后.png",
+    "meta": {
+      "candidate": {
+        "kind": "card",
+        "priority": 6,
+        "tag": "DIV",
+        "text": "AI智能管控中心 通过可视化界面，对系统进行实时监控、智能分析与高效管控",
+        "placeholder": "",
+        "title": "",
+        "aria": "",
+        "cls": "quick-app-item-card-wrap",
+        "rect": {
+          "x": 901,
+          "y": 107,
+          "w": 250,
+          "h": 233,
+          "cx": 1026,
+          "cy": 224
+        },
+        "disabled": false
+      },
+      "overlays": [
+        {
+          "selector": ".custom-light-modal",
+          "text": ""
+        },
+        {
+          "selector": "[role=\"dialog\"]",
+          "text": ""
+        }
+      ]
+    },
+    "capturedAt": "2026-06-18T04:47:57.270Z"
+  },
+  {
+    "id": "01_dashboard-019",
+    "module": "数据看板",
+    "moduleId": "dashboard",
+    "submodule": "AI智能管控中心",
+    "capability": "综合态势大屏、实时监控、报警趋势、排行榜与指挥视角",
+    "actionType": "overview",
+    "actionLabel": "页面全貌",
+    "actionNote": "进入子模块后的页面全貌，用于识别信息架构、主操作区、筛选区和表格/卡片区。",
+    "url": "http://192.168.11.88:8081/app/main-app/frame",
+    "screenshot": "screenshots_deep/01_dashboard/019_AI智能管控中心_页面全貌.png",
+    "meta": {},
+    "capturedAt": "2026-06-18T04:48:02.421Z"
+  },
+  {
+    "id": "01_dashboard-020",
+    "module": "数据看板",
+    "moduleId": "dashboard",
+    "submodule": "AI智能管控中心",
+    "capability": "综合态势大屏、实时监控、报警趋势、排行榜与指挥视角",
+    "actionType": "scroll",
+    "actionLabel": "滚动位置_0%",
+    "actionNote": "记录页面不同滚动位置，补足表格、卡片和底部状态。",
+    "url": "http://192.168.11.88:8081/app/main-app/frame",
+    "screenshot": "screenshots_deep/01_dashboard/020_AI智能管控中心_滚动位置_0_.png",
+    "meta": {
+      "scroll": {
+        "tag": "HTML",
+        "cls": " ",
+        "max": 0,
+        "top": 0
+      }
+    },
+    "capturedAt": "2026-06-18T04:48:02.927Z"
+  },
+  {
+    "id": "01_dashboard-021",
+    "module": "数据看板",
+    "moduleId": "dashboard",
+    "submodule": "AI智能管控中心",
+    "capability": "综合态势大屏、实时监控、报警趋势、排行榜与指挥视角",
+    "actionType": "hover",
+    "actionLabel": "01_搜索菜单_悬停",
+    "actionNote": "悬停查看 搜索菜单 的 hover/提示状态",
+    "url": "http://192.168.11.88:8081/app/main-app/frame",
+    "screenshot": "screenshots_deep/01_dashboard/021_AI智能管控中心_01_搜索菜单_悬停.png",
+    "meta": {
+      "candidate": {
+        "kind": "field",
+        "priority": 2,
+        "tag": "DIV",
+        "text": "搜索菜单",
+        "placeholder": "",
+        "title": "",
+        "aria": "",
+        "cls": "custom-light-select-selector",
+        "rect": {
+          "x": 961,
+          "y": 6,
+          "w": 220,
+          "h": 32,
+          "cx": 1071,
+          "cy": 22
+        },
+        "disabled": false
+      }
+    },
+    "capturedAt": "2026-06-18T04:48:03.367Z"
+  },
+  {
+    "id": "01_dashboard-022",
+    "module": "数据看板",
+    "moduleId": "dashboard",
+    "submodule": "AI智能管控中心",
+    "capability": "综合态势大屏、实时监控、报警趋势、排行榜与指挥视角",
+    "actionType": "focus-or-open",
+    "actionLabel": "01_搜索菜单_点击后",
+    "actionNote": "点击后出现弹窗/下拉/提示：.custom-light-select-dropdown",
+    "url": "http://192.168.11.88:8081/app/main-app/frame",
+    "screenshot": "screenshots_deep/01_dashboard/022_AI智能管控中心_01_搜索菜单_点击后.png",
+    "meta": {
+      "candidate": {
+        "kind": "field",
+        "priority": 2,
+        "tag": "DIV",
+        "text": "搜索菜单",
+        "placeholder": "",
+        "title": "",
+        "aria": "",
+        "cls": "custom-light-select-selector",
+        "rect": {
+          "x": 961,
+          "y": 6,
+          "w": 220,
+          "h": 32,
+          "cx": 1071,
+          "cy": 22
+        },
+        "disabled": false
+      },
+      "overlays": [
+        {
+          "selector": ".custom-light-select-dropdown",
+          "text": "数据看板 智能分析 媒体与输入 摄像头配置 算法配置 算法列表 人员库 算法底库 智能分析配置 视频流分析 图片分析 分析服务状态 结果推送 报警推送 报警弹窗及语音 数据中心 推理输出结果 报警日志 报警推送日志 人员识别结果 人员识别日志 陌生人识别日志 平台管理 AI仓库 离线仓库 用户及权限 用户管理 用户组管理 系统权限 系统设置 基础信息 系统主题 网络配置 站内信 站内信 开放能力 接口授权 接口文档 免密登录 对象存储"
+        }
+      ]
+    },
+    "capturedAt": "2026-06-18T04:48:04.567Z"
+  },
+  {
+    "id": "01_dashboard-023",
+    "module": "数据看板",
+    "moduleId": "dashboard",
+    "submodule": "AI智能管控中心",
+    "capability": "综合态势大屏、实时监控、报警趋势、排行榜与指挥视角",
+    "actionType": "hover",
+    "actionLabel": "02_dropdown-trigger_悬停",
+    "actionNote": "悬停查看 dropdown-trigger 的 hover/提示状态",
+    "url": "http://192.168.11.88:8081/app/main-app/frame",
+    "screenshot": "screenshots_deep/01_dashboard/023_AI智能管控中心_02_dropdown-trigger_悬停.png",
+    "meta": {
+      "candidate": {
+        "kind": "dropdown-trigger",
+        "priority": 3,
+        "tag": "DIV",
+        "text": "",
+        "placeholder": "",
+        "title": "",
+        "aria": "",
+        "cls": "flex-v-c custom-light-dropdown-trigger",
+        "rect": {
+          "x": 1233,
+          "y": 6,
+          "w": 32,
+          "h": 32,
+          "cx": 1249,
+          "cy": 22
+        },
+        "disabled": false
+      }
+    },
+    "capturedAt": "2026-06-18T04:48:05.550Z"
+  },
+  {
+    "id": "01_dashboard-024",
+    "module": "数据看板",
+    "moduleId": "dashboard",
+    "submodule": "AI智能管控中心",
+    "capability": "综合态势大屏、实时监控、报警趋势、排行榜与指挥视角",
+    "actionType": "click",
+    "actionLabel": "02_dropdown-trigger_点击后",
+    "actionNote": "点击后出现弹窗/下拉/提示：.custom-light-dropdown",
+    "url": "http://192.168.11.88:8081/app/main-app/frame",
+    "screenshot": "screenshots_deep/01_dashboard/024_AI智能管控中心_02_dropdown-trigger_点击后.png",
+    "meta": {
+      "candidate": {
+        "kind": "dropdown-trigger",
+        "priority": 3,
+        "tag": "DIV",
+        "text": "",
+        "placeholder": "",
+        "title": "",
+        "aria": "",
+        "cls": "flex-v-c custom-light-dropdown-trigger",
+        "rect": {
+          "x": 1233,
+          "y": 6,
+          "w": 32,
+          "h": 32,
+          "cx": 1249,
+          "cy": 22
+        },
+        "disabled": false
+      },
+      "overlays": [
+        {
+          "selector": ".custom-light-dropdown",
+          "text": "应用中心 数据看板 智能分析 数据中心 平台管理 数据看板 实时视频监控 业务数据概览 报警图片墙 AI智能管控中心"
+        }
+      ]
+    },
+    "capturedAt": "2026-06-18T04:48:06.720Z"
+  },
+  {
+    "id": "01_dashboard-025",
+    "module": "数据看板",
+    "moduleId": "dashboard",
+    "submodule": "AI智能管控中心",
+    "capability": "综合态势大屏、实时监控、报警趋势、排行榜与指挥视角",
+    "actionType": "hover",
+    "actionLabel": "03_dropdown-trigger_悬停",
+    "actionNote": "悬停查看 dropdown-trigger 的 hover/提示状态",
+    "url": "http://192.168.11.88:8081/app/main-app/frame",
+    "screenshot": "screenshots_deep/01_dashboard/025_AI智能管控中心_03_dropdown-trigger_悬停.png",
+    "meta": {
+      "candidate": {
+        "kind": "dropdown-trigger",
+        "priority": 3,
+        "tag": "DIV",
+        "text": "",
+        "placeholder": "",
+        "title": "",
+        "aria": "",
+        "cls": "flex-v-c message-info-btn custom-light-dropdown-trigger",
+        "rect": {
+          "x": 1275,
+          "y": 6,
+          "w": 32,
+          "h": 32,
+          "cx": 1291,
+          "cy": 22
+        },
+        "disabled": false
+      }
+    },
+    "capturedAt": "2026-06-18T04:48:07.690Z"
+  },
+  {
+    "id": "01_dashboard-026",
+    "module": "数据看板",
+    "moduleId": "dashboard",
+    "submodule": "AI智能管控中心",
+    "capability": "综合态势大屏、实时监控、报警趋势、排行榜与指挥视角",
+    "actionType": "click",
+    "actionLabel": "03_dropdown-trigger_点击后",
+    "actionNote": "点击后出现弹窗/下拉/提示：.custom-light-dropdown",
+    "url": "http://192.168.11.88:8081/app/main-app/frame",
+    "screenshot": "screenshots_deep/01_dashboard/026_AI智能管控中心_03_dropdown-trigger_点击后.png",
+    "meta": {
+      "candidate": {
+        "kind": "dropdown-trigger",
+        "priority": 3,
+        "tag": "DIV",
+        "text": "",
+        "placeholder": "",
+        "title": "",
+        "aria": "",
+        "cls": "flex-v-c message-info-btn custom-light-dropdown-trigger",
+        "rect": {
+          "x": 1275,
+          "y": 6,
+          "w": 32,
+          "h": 32,
+          "cx": 1291,
+          "cy": 22
+        },
+        "disabled": false
+      },
+      "overlays": [
+        {
+          "selector": ".custom-light-dropdown",
+          "text": "站内信 只看未读 全部标为已读 2026-06-10 17:14:58报警日志 已完成 2026-06-01到2026-06-19期间共1819条报警日志清理，查看详情 2026-06-10 16:43:12离线仓库 29:离岗识别 算法安装成功，查看详情 2026-06-10 16:43:10离线仓库 33:工衣工服识别 算法安装成功，查看详情 2026-06-10 16:43:05离线仓库 26:异常聚集识别 算法安装成功，查看详情 2026-06-10 16:43:04离线仓库 7:烟火识别 算法安装成功，查看详情 2026-06-10 16:42:43离线仓库 120:打电话识别 算法安装成功，查看详情 2026-06-10 16:42:41离线仓库 35:睡岗识别 算法安装成功，查看详情 2026-06-10 16:42:38离线仓库 86:翻越围栏识别 算法安装成功，查看详情 2026-06-10 16:42:07离线仓库 4:人员入侵识别 算法安装成功，查看详情 2026-06-10 16:42:07离线仓库 28:安全帽识别 算法安装成功，查看详情 查看历史消息"
+        }
+      ]
+    },
+    "capturedAt": "2026-06-18T04:48:08.833Z"
+  },
+  {
+    "id": "01_dashboard-027",
+    "module": "数据看板",
+    "moduleId": "dashboard",
+    "submodule": "AI智能管控中心",
+    "capability": "综合态势大屏、实时监控、报警趋势、排行榜与指挥视角",
+    "actionType": "hover",
+    "actionLabel": "04_dropdown-trigger_悬停",
+    "actionNote": "悬停查看 dropdown-trigger 的 hover/提示状态",
+    "url": "http://192.168.11.88:8081/app/main-app/frame",
+    "screenshot": "screenshots_deep/01_dashboard/027_AI智能管控中心_04_dropdown-trigger_悬停.png",
+    "meta": {
+      "candidate": {
+        "kind": "dropdown-trigger",
+        "priority": 3,
+        "tag": "DIV",
+        "text": "",
+        "placeholder": "",
+        "title": "",
+        "aria": "",
+        "cls": "cr-icon-btn-contain drop-menu custom-light-dropdown-trigger",
+        "rect": {
+          "x": 1317,
+          "y": 6,
+          "w": 32,
+          "h": 32,
+          "cx": 1333,
+          "cy": 22
+        },
+        "disabled": false
+      }
+    },
+    "capturedAt": "2026-06-18T04:48:09.798Z"
+  },
+  {
+    "id": "01_dashboard-028",
+    "module": "数据看板",
+    "moduleId": "dashboard",
+    "submodule": "AI智能管控中心",
+    "capability": "综合态势大屏、实时监控、报警趋势、排行榜与指挥视角",
+    "actionType": "click",
+    "actionLabel": "04_dropdown-trigger_点击后",
+    "actionNote": "点击后出现弹窗/下拉/提示：.custom-light-dropdown",
+    "url": "http://192.168.11.88:8081/app/main-app/frame",
+    "screenshot": "screenshots_deep/01_dashboard/028_AI智能管控中心_04_dropdown-trigger_点击后.png",
+    "meta": {
+      "candidate": {
+        "kind": "dropdown-trigger",
+        "priority": 3,
+        "tag": "DIV",
+        "text": "",
+        "placeholder": "",
+        "title": "",
+        "aria": "",
+        "cls": "cr-icon-btn-contain drop-menu custom-light-dropdown-trigger",
+        "rect": {
+          "x": 1317,
+          "y": 6,
+          "w": 32,
+          "h": 32,
+          "cx": 1333,
+          "cy": 22
+        },
+        "disabled": false
+      },
+      "overlays": [
+        {
+          "selector": ".custom-light-dropdown",
+          "text": "简体中文 繁體中文 English"
+        }
+      ]
+    },
+    "capturedAt": "2026-06-18T04:48:10.951Z"
+  },
+  {
+    "id": "01_dashboard-029",
+    "module": "数据看板",
+    "moduleId": "dashboard",
+    "submodule": "AI智能管控中心",
+    "capability": "综合态势大屏、实时监控、报警趋势、排行榜与指挥视角",
+    "actionType": "hover",
+    "actionLabel": "05_dropdown-trigger_悬停",
+    "actionNote": "悬停查看 dropdown-trigger 的 hover/提示状态",
+    "url": "http://192.168.11.88:8081/app/main-app/frame",
+    "screenshot": "screenshots_deep/01_dashboard/029_AI智能管控中心_05_dropdown-trigger_悬停.png",
+    "meta": {
+      "candidate": {
+        "kind": "dropdown-trigger",
+        "priority": 3,
+        "tag": "DIV",
+        "text": "",
+        "placeholder": "",
+        "title": "",
+        "aria": "",
+        "cls": "flex-v-c user-drop-menu-btn custom-light-dropdown-trigger",
+        "rect": {
+          "x": 1392,
+          "y": 6,
+          "w": 32,
+          "h": 32,
+          "cx": 1408,
+          "cy": 22
+        },
+        "disabled": false
+      }
+    },
+    "capturedAt": "2026-06-18T04:48:11.901Z"
+  },
+  {
+    "id": "01_dashboard-030",
+    "module": "数据看板",
+    "moduleId": "dashboard",
+    "submodule": "AI智能管控中心",
+    "capability": "综合态势大屏、实时监控、报警趋势、排行榜与指挥视角",
+    "actionType": "click",
+    "actionLabel": "05_dropdown-trigger_点击后",
+    "actionNote": "点击后出现弹窗/下拉/提示：.custom-light-dropdown",
+    "url": "http://192.168.11.88:8081/app/main-app/frame",
+    "screenshot": "screenshots_deep/01_dashboard/030_AI智能管控中心_05_dropdown-trigger_点击后.png",
+    "meta": {
+      "candidate": {
+        "kind": "dropdown-trigger",
+        "priority": 3,
+        "tag": "DIV",
+        "text": "",
+        "placeholder": "",
+        "title": "",
+        "aria": "",
+        "cls": "flex-v-c user-drop-menu-btn custom-light-dropdown-trigger",
+        "rect": {
+          "x": 1392,
+          "y": 6,
+          "w": 32,
+          "h": 32,
+          "cx": 1408,
+          "cy": 22
+        },
+        "disabled": false
+      },
+      "overlays": [
+        {
+          "selector": ".custom-light-dropdown",
+          "text": "admin 修改密码 退出登录"
+        }
+      ]
+    },
+    "capturedAt": "2026-06-18T04:48:13.076Z"
+  },
+  {
+    "id": "01_dashboard-031",
+    "module": "数据看板",
+    "moduleId": "dashboard",
+    "submodule": "AI智能管控中心",
+    "capability": "综合态势大屏、实时监控、报警趋势、排行榜与指挥视角",
+    "actionType": "scroll",
+    "actionLabel": "滚动位置_50%",
+    "actionNote": "记录页面不同滚动位置，补足表格、卡片和底部状态。",
+    "url": "http://192.168.11.88:8081/app/main-app/frame",
+    "screenshot": "screenshots_deep/01_dashboard/031_AI智能管控中心_滚动位置_50_.png",
+    "meta": {
+      "scroll": {
+        "tag": "HTML",
+        "cls": " ",
+        "max": 0,
+        "top": 0
+      }
+    },
+    "capturedAt": "2026-06-18T04:48:14.082Z"
+  },
+  {
+    "id": "01_dashboard-032",
+    "module": "数据看板",
+    "moduleId": "dashboard",
+    "submodule": "AI智能管控中心",
+    "capability": "综合态势大屏、实时监控、报警趋势、排行榜与指挥视角",
+    "actionType": "scroll",
+    "actionLabel": "滚动位置_100%",
+    "actionNote": "记录页面不同滚动位置，补足表格、卡片和底部状态。",
+    "url": "http://192.168.11.88:8081/app/main-app/frame",
+    "screenshot": "screenshots_deep/01_dashboard/032_AI智能管控中心_滚动位置_100_.png",
+    "meta": {
+      "scroll": {
+        "tag": "HTML",
+        "cls": " ",
+        "max": 0,
+        "top": 0
+      }
+    },
+    "capturedAt": "2026-06-18T04:48:14.593Z"
+  }
+]

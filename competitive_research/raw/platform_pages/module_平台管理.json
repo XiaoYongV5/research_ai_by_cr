@@ -1,0 +1,1171 @@
+{
+  "note": "点击平台管理一级模块",
+  "title": "离线仓库",
+  "url": "http://192.168.11.88:8081/app/main-app/platform/store/algo-store/#/algorithm-store",
+  "bodyText": "人工智能推理平台\n搜索菜单\n数据看板\n智能分析\n数据中心\n平台管理\nAI仓库\n离线仓库\n用户及权限\n用户管理\n用户组管理\n系统权限\n系统设置\n基础信息\n系统主题\n网络配置\n站内信\n站内信\n开放能力\n接口授权\n接口文档\n免密登录\n对象存储\n离线仓库\n上传\n算法\n解决方案\n一键全部安装\n吸烟识别\n已安装\nID:9|v18\n人员入侵识别\n已安装\nID:4|v17\n翻越围栏识别\n已安装\nID:86|v13\n工衣工服识别\n已安装\nID:33|v15\n睡岗识别\n已安装\nID:35|v14\n离岗识别\n已安装\nID:29|v14\n打电话识别\n已安装\nID:120|v11\n烟火识别\n已安装\nID:7|v17\n异常聚集识别\n已安装\nID:26|v10\n安全帽识别\n已安装\nID:28|v19",
+  "menus": [
+    {
+      "idx": 1,
+      "tag": "DIV",
+      "text": "搜索菜单",
+      "placeholder": "",
+      "cls": "cr-ant-tree header-search-menu flex-v-c page-header-right-btn",
+      "rect": {
+        "x": 961,
+        "y": 0,
+        "w": 220,
+        "h": 43
+      }
+    },
+    {
+      "idx": 6,
+      "tag": "SECTION",
+      "text": "数据看板 智能分析 数据中心 平台管理 AI仓库 离线仓库 用户及权限 用户管理 用户组管理 系统权限 系统设置 基础信息 系统主题 网络配置 站内信 站内信 开放能力 接口授权 接口文档 免密登录 对象存储",
+      "placeholder": "",
+      "cls": "custom-light-layout custom-light-layout-has-sider page-layout-left-menu show show-aside-bar",
+      "rect": {
+        "x": 0,
+        "y": 44,
+        "w": 280,
+        "h": 956
+      }
+    },
+    {
+      "idx": 7,
+      "tag": "ASIDE",
+      "text": "数据看板 智能分析 数据中心 平台管理",
+      "placeholder": "",
+      "cls": "app-menu-comp",
+      "rect": {
+        "x": 0,
+        "y": 44,
+        "w": 80,
+        "h": 956
+      }
+    },
+    {
+      "idx": 8,
+      "tag": "DIV",
+      "text": "数据看板",
+      "placeholder": "",
+      "cls": "app-menu-item",
+      "rect": {
+        "x": 8,
+        "y": 52,
+        "w": 63,
+        "h": 76
+      }
+    },
+    {
+      "idx": 10,
+      "tag": "DIV",
+      "text": "数据看板",
+      "placeholder": "",
+      "cls": "app-menu-text",
+      "rect": {
+        "x": 8,
+        "y": 104,
+        "w": 63,
+        "h": 20
+      }
+    },
+    {
+      "idx": 11,
+      "tag": "DIV",
+      "text": "智能分析",
+      "placeholder": "",
+      "cls": "app-menu-item",
+      "rect": {
+        "x": 8,
+        "y": 136,
+        "w": 63,
+        "h": 76
+      }
+    },
+    {
+      "idx": 13,
+      "tag": "DIV",
+      "text": "智能分析",
+      "placeholder": "",
+      "cls": "app-menu-text",
+      "rect": {
+        "x": 8,
+        "y": 188,
+        "w": 63,
+        "h": 20
+      }
+    },
+    {
+      "idx": 14,
+      "tag": "DIV",
+      "text": "数据中心",
+      "placeholder": "",
+      "cls": "app-menu-item",
+      "rect": {
+        "x": 8,
+        "y": 220,
+        "w": 63,
+        "h": 76
+      }
+    },
+    {
+      "idx": 16,
+      "tag": "DIV",
+      "text": "数据中心",
+      "placeholder": "",
+      "cls": "app-menu-text",
+      "rect": {
+        "x": 8,
+        "y": 272,
+        "w": 63,
+        "h": 20
+      }
+    },
+    {
+      "idx": 17,
+      "tag": "DIV",
+      "text": "平台管理",
+      "placeholder": "",
+      "cls": "app-menu-item active",
+      "rect": {
+        "x": 8,
+        "y": 304,
+        "w": 63,
+        "h": 76
+      }
+    },
+    {
+      "idx": 19,
+      "tag": "DIV",
+      "text": "平台管理",
+      "placeholder": "",
+      "cls": "app-menu-text",
+      "rect": {
+        "x": 8,
+        "y": 356,
+        "w": 63,
+        "h": 20
+      }
+    },
+    {
+      "idx": 20,
+      "tag": "UL",
+      "text": "AI仓库 离线仓库 用户及权限 用户管理 用户组管理 系统权限 系统设置 基础信息 系统主题 网络配置 站内信 站内信 开放能力 接口授权 接口文档 免密登录 对象存储",
+      "placeholder": "",
+      "cls": "custom-light-menu custom-light-menu-root custom-light-menu-inline custom-light-menu-light page-aside-bar-menu",
+      "rect": {
+        "x": 80,
+        "y": 44,
+        "w": 200,
+        "h": 956
+      }
+    },
+    {
+      "idx": 21,
+      "tag": "LI",
+      "text": "AI仓库 离线仓库",
+      "placeholder": "",
+      "cls": "custom-light-menu-submenu custom-light-menu-submenu-inline custom-light-menu-submenu-open custom-light-menu-submenu-selected",
+      "rect": {
+        "x": 80,
+        "y": 44,
+        "w": 200,
+        "h": 85
+      }
+    },
+    {
+      "idx": 22,
+      "tag": "DIV",
+      "text": "AI仓库",
+      "placeholder": "",
+      "cls": "custom-light-menu-submenu-title",
+      "rect": {
+        "x": 80,
+        "y": 54,
+        "w": 201,
+        "h": 28
+      }
+    },
+    {
+      "idx": 23,
+      "tag": "SPAN",
+      "text": "AI仓库",
+      "placeholder": "",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 88,
+        "y": 54,
+        "w": 185,
+        "h": 28
+      }
+    },
+    {
+      "idx": 24,
+      "tag": "UL",
+      "text": "离线仓库",
+      "placeholder": "",
+      "cls": "custom-light-menu custom-light-menu-sub custom-light-menu-inline",
+      "rect": {
+        "x": 80,
+        "y": 84,
+        "w": 200,
+        "h": 36
+      }
+    },
+    {
+      "idx": 25,
+      "tag": "LI",
+      "text": "离线仓库",
+      "placeholder": "",
+      "cls": "custom-light-menu-item custom-light-menu-item-selected custom-light-menu-item-only-child",
+      "rect": {
+        "x": 80,
+        "y": 86,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 26,
+      "tag": "SPAN",
+      "text": "离线仓库",
+      "placeholder": "",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 88,
+        "y": 86,
+        "w": 185,
+        "h": 32
+      }
+    },
+    {
+      "idx": 27,
+      "tag": "LI",
+      "text": "用户及权限 用户管理 用户组管理 系统权限",
+      "placeholder": "",
+      "cls": "custom-light-menu-submenu custom-light-menu-submenu-inline custom-light-menu-submenu-open",
+      "rect": {
+        "x": 80,
+        "y": 129,
+        "w": 200,
+        "h": 153
+      }
+    },
+    {
+      "idx": 28,
+      "tag": "DIV",
+      "text": "用户及权限",
+      "placeholder": "",
+      "cls": "custom-light-menu-submenu-title",
+      "rect": {
+        "x": 80,
+        "y": 139,
+        "w": 201,
+        "h": 28
+      }
+    },
+    {
+      "idx": 29,
+      "tag": "SPAN",
+      "text": "用户及权限",
+      "placeholder": "",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 88,
+        "y": 139,
+        "w": 185,
+        "h": 28
+      }
+    },
+    {
+      "idx": 30,
+      "tag": "UL",
+      "text": "用户管理 用户组管理 系统权限",
+      "placeholder": "",
+      "cls": "custom-light-menu custom-light-menu-sub custom-light-menu-inline",
+      "rect": {
+        "x": 80,
+        "y": 169,
+        "w": 200,
+        "h": 104
+      }
+    },
+    {
+      "idx": 31,
+      "tag": "LI",
+      "text": "用户管理",
+      "placeholder": "",
+      "cls": "custom-light-menu-item custom-light-menu-item-only-child",
+      "rect": {
+        "x": 80,
+        "y": 171,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 32,
+      "tag": "SPAN",
+      "text": "用户管理",
+      "placeholder": "",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 88,
+        "y": 171,
+        "w": 185,
+        "h": 32
+      }
+    },
+    {
+      "idx": 33,
+      "tag": "LI",
+      "text": "用户组管理",
+      "placeholder": "",
+      "cls": "custom-light-menu-item custom-light-menu-item-only-child",
+      "rect": {
+        "x": 80,
+        "y": 205,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 34,
+      "tag": "SPAN",
+      "text": "用户组管理",
+      "placeholder": "",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 88,
+        "y": 205,
+        "w": 185,
+        "h": 32
+      }
+    },
+    {
+      "idx": 35,
+      "tag": "LI",
+      "text": "系统权限",
+      "placeholder": "",
+      "cls": "custom-light-menu-item custom-light-menu-item-only-child",
+      "rect": {
+        "x": 80,
+        "y": 239,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 36,
+      "tag": "SPAN",
+      "text": "系统权限",
+      "placeholder": "",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 88,
+        "y": 239,
+        "w": 185,
+        "h": 32
+      }
+    },
+    {
+      "idx": 37,
+      "tag": "LI",
+      "text": "系统设置 基础信息 系统主题 网络配置",
+      "placeholder": "",
+      "cls": "custom-light-menu-submenu custom-light-menu-submenu-inline custom-light-menu-submenu-open",
+      "rect": {
+        "x": 80,
+        "y": 282,
+        "w": 200,
+        "h": 153
+      }
+    },
+    {
+      "idx": 38,
+      "tag": "DIV",
+      "text": "系统设置",
+      "placeholder": "",
+      "cls": "custom-light-menu-submenu-title",
+      "rect": {
+        "x": 80,
+        "y": 292,
+        "w": 201,
+        "h": 28
+      }
+    },
+    {
+      "idx": 39,
+      "tag": "SPAN",
+      "text": "系统设置",
+      "placeholder": "",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 88,
+        "y": 292,
+        "w": 185,
+        "h": 28
+      }
+    },
+    {
+      "idx": 40,
+      "tag": "UL",
+      "text": "基础信息 系统主题 网络配置",
+      "placeholder": "",
+      "cls": "custom-light-menu custom-light-menu-sub custom-light-menu-inline",
+      "rect": {
+        "x": 80,
+        "y": 322,
+        "w": 200,
+        "h": 104
+      }
+    },
+    {
+      "idx": 41,
+      "tag": "LI",
+      "text": "基础信息",
+      "placeholder": "",
+      "cls": "custom-light-menu-item custom-light-menu-item-only-child",
+      "rect": {
+        "x": 80,
+        "y": 324,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 42,
+      "tag": "SPAN",
+      "text": "基础信息",
+      "placeholder": "",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 88,
+        "y": 324,
+        "w": 185,
+        "h": 32
+      }
+    },
+    {
+      "idx": 43,
+      "tag": "LI",
+      "text": "系统主题",
+      "placeholder": "",
+      "cls": "custom-light-menu-item custom-light-menu-item-only-child",
+      "rect": {
+        "x": 80,
+        "y": 358,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 44,
+      "tag": "SPAN",
+      "text": "系统主题",
+      "placeholder": "",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 88,
+        "y": 358,
+        "w": 185,
+        "h": 32
+      }
+    },
+    {
+      "idx": 45,
+      "tag": "LI",
+      "text": "网络配置",
+      "placeholder": "",
+      "cls": "custom-light-menu-item custom-light-menu-item-only-child",
+      "rect": {
+        "x": 80,
+        "y": 392,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 46,
+      "tag": "SPAN",
+      "text": "网络配置",
+      "placeholder": "",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 88,
+        "y": 392,
+        "w": 185,
+        "h": 32
+      }
+    },
+    {
+      "idx": 47,
+      "tag": "LI",
+      "text": "站内信 站内信",
+      "placeholder": "",
+      "cls": "custom-light-menu-submenu custom-light-menu-submenu-inline custom-light-menu-submenu-open",
+      "rect": {
+        "x": 80,
+        "y": 435,
+        "w": 200,
+        "h": 85
+      }
+    },
+    {
+      "idx": 48,
+      "tag": "DIV",
+      "text": "站内信",
+      "placeholder": "",
+      "cls": "custom-light-menu-submenu-title",
+      "rect": {
+        "x": 80,
+        "y": 445,
+        "w": 201,
+        "h": 28
+      }
+    },
+    {
+      "idx": 49,
+      "tag": "SPAN",
+      "text": "站内信",
+      "placeholder": "",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 88,
+        "y": 445,
+        "w": 185,
+        "h": 28
+      }
+    },
+    {
+      "idx": 50,
+      "tag": "UL",
+      "text": "站内信",
+      "placeholder": "",
+      "cls": "custom-light-menu custom-light-menu-sub custom-light-menu-inline",
+      "rect": {
+        "x": 80,
+        "y": 475,
+        "w": 200,
+        "h": 36
+      }
+    },
+    {
+      "idx": 51,
+      "tag": "LI",
+      "text": "站内信",
+      "placeholder": "",
+      "cls": "custom-light-menu-item custom-light-menu-item-only-child",
+      "rect": {
+        "x": 80,
+        "y": 477,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 52,
+      "tag": "SPAN",
+      "text": "站内信",
+      "placeholder": "",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 88,
+        "y": 477,
+        "w": 185,
+        "h": 32
+      }
+    },
+    {
+      "idx": 53,
+      "tag": "LI",
+      "text": "开放能力 接口授权 接口文档 免密登录 对象存储",
+      "placeholder": "",
+      "cls": "custom-light-menu-submenu custom-light-menu-submenu-inline custom-light-menu-submenu-open",
+      "rect": {
+        "x": 80,
+        "y": 520,
+        "w": 200,
+        "h": 187
+      }
+    },
+    {
+      "idx": 54,
+      "tag": "DIV",
+      "text": "开放能力",
+      "placeholder": "",
+      "cls": "custom-light-menu-submenu-title",
+      "rect": {
+        "x": 80,
+        "y": 530,
+        "w": 201,
+        "h": 28
+      }
+    },
+    {
+      "idx": 55,
+      "tag": "SPAN",
+      "text": "开放能力",
+      "placeholder": "",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 88,
+        "y": 530,
+        "w": 185,
+        "h": 28
+      }
+    },
+    {
+      "idx": 56,
+      "tag": "UL",
+      "text": "接口授权 接口文档 免密登录 对象存储",
+      "placeholder": "",
+      "cls": "custom-light-menu custom-light-menu-sub custom-light-menu-inline",
+      "rect": {
+        "x": 80,
+        "y": 560,
+        "w": 200,
+        "h": 138
+      }
+    },
+    {
+      "idx": 57,
+      "tag": "LI",
+      "text": "接口授权",
+      "placeholder": "",
+      "cls": "custom-light-menu-item custom-light-menu-item-only-child",
+      "rect": {
+        "x": 80,
+        "y": 562,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 58,
+      "tag": "SPAN",
+      "text": "接口授权",
+      "placeholder": "",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 88,
+        "y": 562,
+        "w": 185,
+        "h": 32
+      }
+    },
+    {
+      "idx": 59,
+      "tag": "LI",
+      "text": "接口文档",
+      "placeholder": "",
+      "cls": "custom-light-menu-item custom-light-menu-item-only-child",
+      "rect": {
+        "x": 80,
+        "y": 596,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 60,
+      "tag": "SPAN",
+      "text": "接口文档",
+      "placeholder": "",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 88,
+        "y": 596,
+        "w": 185,
+        "h": 32
+      }
+    },
+    {
+      "idx": 61,
+      "tag": "LI",
+      "text": "免密登录",
+      "placeholder": "",
+      "cls": "custom-light-menu-item custom-light-menu-item-only-child",
+      "rect": {
+        "x": 80,
+        "y": 630,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 62,
+      "tag": "SPAN",
+      "text": "免密登录",
+      "placeholder": "",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 88,
+        "y": 630,
+        "w": 185,
+        "h": 32
+      }
+    },
+    {
+      "idx": 63,
+      "tag": "LI",
+      "text": "对象存储",
+      "placeholder": "",
+      "cls": "custom-light-menu-item custom-light-menu-item-only-child",
+      "rect": {
+        "x": 80,
+        "y": 664,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 64,
+      "tag": "SPAN",
+      "text": "对象存储",
+      "placeholder": "",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 88,
+        "y": 664,
+        "w": 185,
+        "h": 32
+      }
+    }
+  ],
+  "controls": [
+    {
+      "idx": 7,
+      "tag": "INPUT",
+      "text": "",
+      "placeholder": "搜索",
+      "cls": "custom-light-input",
+      "rect": {
+        "x": 613,
+        "y": 148,
+        "w": 354,
+        "h": 32
+      }
+    },
+    {
+      "idx": 9,
+      "tag": "BUTTON",
+      "text": "上传",
+      "placeholder": "",
+      "cls": "custom-light-btn custom-light-btn-primary btn-upload custom-light-dropdown-trigger",
+      "rect": {
+        "x": 1029,
+        "y": 148,
+        "w": 78,
+        "h": 32
+      }
+    },
+    {
+      "idx": 10,
+      "tag": "BUTTON",
+      "text": "一键全部安装",
+      "placeholder": "",
+      "cls": "custom-light-btn custom-light-btn-sm cr-btn-small cr-btn",
+      "rect": {
+        "x": 1308,
+        "y": 288,
+        "w": 108,
+        "h": 28
+      }
+    }
+  ],
+  "tables": [],
+  "cards": [
+    {
+      "idx": 0,
+      "tag": "DIV",
+      "text": "吸烟识别 已安装 ID:9|v18",
+      "placeholder": "",
+      "cls": "card",
+      "rect": {
+        "x": 328,
+        "y": 356,
+        "w": 346,
+        "h": 76
+      }
+    },
+    {
+      "idx": 1,
+      "tag": "DIV",
+      "text": "吸烟识别 已安装",
+      "placeholder": "",
+      "cls": "card-title",
+      "rect": {
+        "x": 401,
+        "y": 373,
+        "w": 224,
+        "h": 20
+      }
+    },
+    {
+      "idx": 2,
+      "tag": "DIV",
+      "text": "ID:9|v18",
+      "placeholder": "",
+      "cls": "card-info",
+      "rect": {
+        "x": 401,
+        "y": 395,
+        "w": 224,
+        "h": 20
+      }
+    },
+    {
+      "idx": 3,
+      "tag": "DIV",
+      "text": "人员入侵识别 已安装 ID:4|v17",
+      "placeholder": "",
+      "cls": "card",
+      "rect": {
+        "x": 686,
+        "y": 356,
+        "w": 346,
+        "h": 76
+      }
+    },
+    {
+      "idx": 4,
+      "tag": "DIV",
+      "text": "人员入侵识别 已安装",
+      "placeholder": "",
+      "cls": "card-title",
+      "rect": {
+        "x": 759,
+        "y": 373,
+        "w": 224,
+        "h": 20
+      }
+    },
+    {
+      "idx": 5,
+      "tag": "DIV",
+      "text": "ID:4|v17",
+      "placeholder": "",
+      "cls": "card-info",
+      "rect": {
+        "x": 759,
+        "y": 395,
+        "w": 224,
+        "h": 20
+      }
+    },
+    {
+      "idx": 6,
+      "tag": "DIV",
+      "text": "翻越围栏识别 已安装 ID:86|v13",
+      "placeholder": "",
+      "cls": "card",
+      "rect": {
+        "x": 1044,
+        "y": 356,
+        "w": 346,
+        "h": 76
+      }
+    },
+    {
+      "idx": 7,
+      "tag": "DIV",
+      "text": "翻越围栏识别 已安装",
+      "placeholder": "",
+      "cls": "card-title",
+      "rect": {
+        "x": 1117,
+        "y": 373,
+        "w": 224,
+        "h": 20
+      }
+    },
+    {
+      "idx": 8,
+      "tag": "DIV",
+      "text": "ID:86|v13",
+      "placeholder": "",
+      "cls": "card-info",
+      "rect": {
+        "x": 1117,
+        "y": 395,
+        "w": 224,
+        "h": 20
+      }
+    },
+    {
+      "idx": 9,
+      "tag": "DIV",
+      "text": "工衣工服识别 已安装 ID:33|v15",
+      "placeholder": "",
+      "cls": "card",
+      "rect": {
+        "x": 328,
+        "y": 444,
+        "w": 346,
+        "h": 76
+      }
+    },
+    {
+      "idx": 10,
+      "tag": "DIV",
+      "text": "工衣工服识别 已安装",
+      "placeholder": "",
+      "cls": "card-title",
+      "rect": {
+        "x": 401,
+        "y": 461,
+        "w": 224,
+        "h": 20
+      }
+    },
+    {
+      "idx": 11,
+      "tag": "DIV",
+      "text": "ID:33|v15",
+      "placeholder": "",
+      "cls": "card-info",
+      "rect": {
+        "x": 401,
+        "y": 483,
+        "w": 224,
+        "h": 20
+      }
+    },
+    {
+      "idx": 12,
+      "tag": "DIV",
+      "text": "睡岗识别 已安装 ID:35|v14",
+      "placeholder": "",
+      "cls": "card",
+      "rect": {
+        "x": 686,
+        "y": 444,
+        "w": 346,
+        "h": 76
+      }
+    },
+    {
+      "idx": 13,
+      "tag": "DIV",
+      "text": "睡岗识别 已安装",
+      "placeholder": "",
+      "cls": "card-title",
+      "rect": {
+        "x": 759,
+        "y": 461,
+        "w": 224,
+        "h": 20
+      }
+    },
+    {
+      "idx": 14,
+      "tag": "DIV",
+      "text": "ID:35|v14",
+      "placeholder": "",
+      "cls": "card-info",
+      "rect": {
+        "x": 759,
+        "y": 483,
+        "w": 224,
+        "h": 20
+      }
+    },
+    {
+      "idx": 15,
+      "tag": "DIV",
+      "text": "离岗识别 已安装 ID:29|v14",
+      "placeholder": "",
+      "cls": "card",
+      "rect": {
+        "x": 1044,
+        "y": 444,
+        "w": 346,
+        "h": 76
+      }
+    },
+    {
+      "idx": 16,
+      "tag": "DIV",
+      "text": "离岗识别 已安装",
+      "placeholder": "",
+      "cls": "card-title",
+      "rect": {
+        "x": 1117,
+        "y": 461,
+        "w": 224,
+        "h": 20
+      }
+    },
+    {
+      "idx": 17,
+      "tag": "DIV",
+      "text": "ID:29|v14",
+      "placeholder": "",
+      "cls": "card-info",
+      "rect": {
+        "x": 1117,
+        "y": 483,
+        "w": 224,
+        "h": 20
+      }
+    },
+    {
+      "idx": 18,
+      "tag": "DIV",
+      "text": "打电话识别 已安装 ID:120|v11",
+      "placeholder": "",
+      "cls": "card",
+      "rect": {
+        "x": 328,
+        "y": 532,
+        "w": 346,
+        "h": 76
+      }
+    },
+    {
+      "idx": 19,
+      "tag": "DIV",
+      "text": "打电话识别 已安装",
+      "placeholder": "",
+      "cls": "card-title",
+      "rect": {
+        "x": 401,
+        "y": 549,
+        "w": 224,
+        "h": 20
+      }
+    },
+    {
+      "idx": 20,
+      "tag": "DIV",
+      "text": "ID:120|v11",
+      "placeholder": "",
+      "cls": "card-info",
+      "rect": {
+        "x": 401,
+        "y": 571,
+        "w": 224,
+        "h": 20
+      }
+    },
+    {
+      "idx": 21,
+      "tag": "DIV",
+      "text": "烟火识别 已安装 ID:7|v17",
+      "placeholder": "",
+      "cls": "card",
+      "rect": {
+        "x": 686,
+        "y": 532,
+        "w": 346,
+        "h": 76
+      }
+    },
+    {
+      "idx": 22,
+      "tag": "DIV",
+      "text": "烟火识别 已安装",
+      "placeholder": "",
+      "cls": "card-title",
+      "rect": {
+        "x": 759,
+        "y": 549,
+        "w": 224,
+        "h": 20
+      }
+    },
+    {
+      "idx": 23,
+      "tag": "DIV",
+      "text": "ID:7|v17",
+      "placeholder": "",
+      "cls": "card-info",
+      "rect": {
+        "x": 759,
+        "y": 571,
+        "w": 224,
+        "h": 20
+      }
+    },
+    {
+      "idx": 24,
+      "tag": "DIV",
+      "text": "异常聚集识别 已安装 ID:26|v10",
+      "placeholder": "",
+      "cls": "card",
+      "rect": {
+        "x": 1044,
+        "y": 532,
+        "w": 346,
+        "h": 76
+      }
+    },
+    {
+      "idx": 25,
+      "tag": "DIV",
+      "text": "异常聚集识别 已安装",
+      "placeholder": "",
+      "cls": "card-title",
+      "rect": {
+        "x": 1117,
+        "y": 549,
+        "w": 224,
+        "h": 20
+      }
+    },
+    {
+      "idx": 26,
+      "tag": "DIV",
+      "text": "ID:26|v10",
+      "placeholder": "",
+      "cls": "card-info",
+      "rect": {
+        "x": 1117,
+        "y": 571,
+        "w": 224,
+        "h": 20
+      }
+    },
+    {
+      "idx": 27,
+      "tag": "DIV",
+      "text": "安全帽识别 已安装 ID:28|v19",
+      "placeholder": "",
+      "cls": "card",
+      "rect": {
+        "x": 328,
+        "y": 620,
+        "w": 346,
+        "h": 76
+      }
+    },
+    {
+      "idx": 28,
+      "tag": "DIV",
+      "text": "安全帽识别 已安装",
+      "placeholder": "",
+      "cls": "card-title",
+      "rect": {
+        "x": 401,
+        "y": 637,
+        "w": 224,
+        "h": 20
+      }
+    },
+    {
+      "idx": 29,
+      "tag": "DIV",
+      "text": "ID:28|v19",
+      "placeholder": "",
+      "cls": "card-info",
+      "rect": {
+        "x": 401,
+        "y": 659,
+        "w": 224,
+        "h": 20
+      }
+    }
+  ],
+  "screenshot": "screenshots/module_平台管理.png"
+}

@@ -1,0 +1,450 @@
+{
+  "note": "点击 算法配置 算法列表 人员库 算法底库",
+  "title": "摄像头配置",
+  "url": "http://192.168.11.88:8081/app/main-app/dispatch/media-input/video-input/#/basic-services/device-service/monitor-point",
+  "path": "/app/main-app/dispatch/media-input/video-input/#/basic-services/device-service/monitor-point",
+  "bodyText": "人工智能推理平台\n搜索菜单\n数据看板\n智能分析\n数据中心\n平台管理\n媒体与输入\n摄像头配置\n算法配置\n算法列表\n人员库\n算法底库\n智能分析配置\n视频流分析\n图片分析\n分析服务状态\n结果推送\n报警推送\n报警弹窗及语音\n摄像头配置\n分组\n视频源管理\n系统\n未分组\n新增摄像头\n刷新\n移动\n抓图\n导入\n导出\n删除\n\t预览图\tID\t名称\t\n连接状态\n\t流地址\t操作\t\n \n\t\n \n\t\n \n\t\n \n\t\n \n\t\n \n\t\n \n\n暂无数据",
+  "menus": [
+    {
+      "idx": 0,
+      "tag": "DIV",
+      "text": "数据看板",
+      "placeholder": "",
+      "title": "",
+      "href": "",
+      "cls": "app-menu-item",
+      "rect": {
+        "x": 8,
+        "y": 52,
+        "w": 63,
+        "h": 76
+      }
+    },
+    {
+      "idx": 1,
+      "tag": "DIV",
+      "text": "数据看板",
+      "placeholder": "",
+      "title": "",
+      "href": "",
+      "cls": "app-menu-text",
+      "rect": {
+        "x": 8,
+        "y": 104,
+        "w": 63,
+        "h": 20
+      }
+    },
+    {
+      "idx": 2,
+      "tag": "DIV",
+      "text": "智能分析",
+      "placeholder": "",
+      "title": "",
+      "href": "",
+      "cls": "app-menu-item active",
+      "rect": {
+        "x": 8,
+        "y": 136,
+        "w": 63,
+        "h": 76
+      }
+    },
+    {
+      "idx": 3,
+      "tag": "DIV",
+      "text": "智能分析",
+      "placeholder": "",
+      "title": "",
+      "href": "",
+      "cls": "app-menu-text",
+      "rect": {
+        "x": 8,
+        "y": 188,
+        "w": 63,
+        "h": 20
+      }
+    },
+    {
+      "idx": 4,
+      "tag": "DIV",
+      "text": "数据中心",
+      "placeholder": "",
+      "title": "",
+      "href": "",
+      "cls": "app-menu-item",
+      "rect": {
+        "x": 8,
+        "y": 220,
+        "w": 63,
+        "h": 76
+      }
+    },
+    {
+      "idx": 5,
+      "tag": "DIV",
+      "text": "数据中心",
+      "placeholder": "",
+      "title": "",
+      "href": "",
+      "cls": "app-menu-text",
+      "rect": {
+        "x": 8,
+        "y": 272,
+        "w": 63,
+        "h": 20
+      }
+    },
+    {
+      "idx": 6,
+      "tag": "DIV",
+      "text": "平台管理",
+      "placeholder": "",
+      "title": "",
+      "href": "",
+      "cls": "app-menu-item",
+      "rect": {
+        "x": 8,
+        "y": 304,
+        "w": 63,
+        "h": 76
+      }
+    },
+    {
+      "idx": 7,
+      "tag": "DIV",
+      "text": "平台管理",
+      "placeholder": "",
+      "title": "",
+      "href": "",
+      "cls": "app-menu-text",
+      "rect": {
+        "x": 8,
+        "y": 356,
+        "w": 63,
+        "h": 20
+      }
+    },
+    {
+      "idx": 8,
+      "tag": "LI",
+      "text": "摄像头配置",
+      "placeholder": "",
+      "title": "",
+      "href": "",
+      "cls": "custom-light-menu-item custom-light-menu-item-selected custom-light-menu-item-only-child",
+      "rect": {
+        "x": 80,
+        "y": 86,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 9,
+      "tag": "LI",
+      "text": "算法列表",
+      "placeholder": "",
+      "title": "",
+      "href": "",
+      "cls": "custom-light-menu-item custom-light-menu-item-only-child",
+      "rect": {
+        "x": 80,
+        "y": 171,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 10,
+      "tag": "LI",
+      "text": "人员库",
+      "placeholder": "",
+      "title": "",
+      "href": "",
+      "cls": "custom-light-menu-item custom-light-menu-item-only-child",
+      "rect": {
+        "x": 80,
+        "y": 205,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 11,
+      "tag": "LI",
+      "text": "算法底库",
+      "placeholder": "",
+      "title": "",
+      "href": "",
+      "cls": "custom-light-menu-item custom-light-menu-item-only-child",
+      "rect": {
+        "x": 80,
+        "y": 239,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 12,
+      "tag": "LI",
+      "text": "视频流分析",
+      "placeholder": "",
+      "title": "",
+      "href": "",
+      "cls": "custom-light-menu-item custom-light-menu-item-only-child",
+      "rect": {
+        "x": 80,
+        "y": 324,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 13,
+      "tag": "LI",
+      "text": "图片分析",
+      "placeholder": "",
+      "title": "",
+      "href": "",
+      "cls": "custom-light-menu-item custom-light-menu-item-only-child",
+      "rect": {
+        "x": 80,
+        "y": 358,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 14,
+      "tag": "LI",
+      "text": "分析服务状态",
+      "placeholder": "",
+      "title": "",
+      "href": "",
+      "cls": "custom-light-menu-item custom-light-menu-item-only-child",
+      "rect": {
+        "x": 80,
+        "y": 392,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 15,
+      "tag": "LI",
+      "text": "报警推送",
+      "placeholder": "",
+      "title": "",
+      "href": "",
+      "cls": "custom-light-menu-item custom-light-menu-item-only-child",
+      "rect": {
+        "x": 80,
+        "y": 477,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 16,
+      "tag": "LI",
+      "text": "报警弹窗及语音",
+      "placeholder": "",
+      "title": "",
+      "href": "",
+      "cls": "custom-light-menu-item custom-light-menu-item-only-child",
+      "rect": {
+        "x": 80,
+        "y": 511,
+        "w": 201,
+        "h": 32
+      }
+    }
+  ],
+  "controls": [
+    {
+      "idx": 7,
+      "tag": "BUTTON",
+      "text": "视频源管理",
+      "placeholder": "",
+      "title": "",
+      "href": "",
+      "cls": "custom-light-btn custom-light-btn-text cr-btn-mini cr-btn",
+      "rect": {
+        "x": 416,
+        "y": 127,
+        "w": 98,
+        "h": 24
+      }
+    },
+    {
+      "idx": 8,
+      "tag": "INPUT",
+      "text": "",
+      "placeholder": "分组名称",
+      "title": "",
+      "href": "",
+      "cls": "custom-light-input",
+      "rect": {
+        "x": 326,
+        "y": 164,
+        "w": 152,
+        "h": 22
+      }
+    },
+    {
+      "idx": 10,
+      "tag": "BUTTON",
+      "text": "新增摄像头",
+      "placeholder": "",
+      "title": "",
+      "href": "",
+      "cls": "custom-light-btn custom-light-btn-primary cr-btn-middle cr-btn",
+      "rect": {
+        "x": 538,
+        "y": 126,
+        "w": 86,
+        "h": 32
+      }
+    },
+    {
+      "idx": 11,
+      "tag": "BUTTON",
+      "text": "刷新",
+      "placeholder": "",
+      "title": "",
+      "href": "",
+      "cls": "custom-light-btn custom-light-btn-text cr-btn-mini cr-btn",
+      "rect": {
+        "x": 640,
+        "y": 130,
+        "w": 60,
+        "h": 24
+      }
+    },
+    {
+      "idx": 12,
+      "tag": "BUTTON",
+      "text": "移动",
+      "placeholder": "",
+      "title": "",
+      "href": "",
+      "cls": "custom-light-btn custom-light-btn-text cr-btn-mini cr-btn",
+      "rect": {
+        "x": 704,
+        "y": 130,
+        "w": 60,
+        "h": 24
+      }
+    },
+    {
+      "idx": 13,
+      "tag": "BUTTON",
+      "text": "抓图",
+      "placeholder": "",
+      "title": "",
+      "href": "",
+      "cls": "custom-light-btn custom-light-btn-text cr-btn-mini cr-btn",
+      "rect": {
+        "x": 768,
+        "y": 130,
+        "w": 60,
+        "h": 24
+      }
+    },
+    {
+      "idx": 14,
+      "tag": "BUTTON",
+      "text": "导入",
+      "placeholder": "",
+      "title": "",
+      "href": "",
+      "cls": "custom-light-btn custom-light-btn-text cr-btn-mini cr-btn",
+      "rect": {
+        "x": 832,
+        "y": 130,
+        "w": 60,
+        "h": 24
+      }
+    },
+    {
+      "idx": 15,
+      "tag": "BUTTON",
+      "text": "导出",
+      "placeholder": "",
+      "title": "",
+      "href": "",
+      "cls": "custom-light-btn custom-light-btn-text cr-btn-mini cr-btn",
+      "rect": {
+        "x": 896,
+        "y": 130,
+        "w": 58,
+        "h": 24
+      }
+    },
+    {
+      "idx": 16,
+      "tag": "BUTTON",
+      "text": "删除",
+      "placeholder": "",
+      "title": "",
+      "href": "",
+      "cls": "custom-light-btn custom-light-btn-text custom-light-btn-dangerous cr-btn-mini cr-btn",
+      "rect": {
+        "x": 958,
+        "y": 130,
+        "w": 58,
+        "h": 24
+      }
+    },
+    {
+      "idx": 17,
+      "tag": "INPUT",
+      "text": "",
+      "placeholder": "名称/流地址",
+      "title": "",
+      "href": "",
+      "cls": "custom-light-input",
+      "rect": {
+        "x": 1162,
+        "y": 131,
+        "w": 234,
+        "h": 22
+      }
+    }
+  ],
+  "tables": [
+    {
+      "idx": 0,
+      "text": "预览图 ID 名称 连接状态 流地址 操作 暂无数据",
+      "headers": [
+        "预览图",
+        "ID",
+        "名称",
+        "连接状态",
+        "流地址",
+        "操作"
+      ]
+    },
+    {
+      "idx": 1,
+      "text": "预览图 ID 名称 连接状态 流地址 操作",
+      "headers": [
+        "预览图",
+        "ID",
+        "名称",
+        "连接状态",
+        "流地址",
+        "操作"
+      ]
+    },
+    {
+      "idx": 2,
+      "text": "暂无数据",
+      "headers": []
+    }
+  ],
+  "forms": [],
+  "cards": [],
+  "screenshot": "screenshots/submenu_智能分析_算法配置_算法列表_人员库_算法底库.png"
+}

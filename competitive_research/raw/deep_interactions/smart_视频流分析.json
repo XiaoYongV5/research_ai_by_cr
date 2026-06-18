@@ -1,0 +1,543 @@
+{
+  "module": "智能分析",
+  "submodule": "视频流分析",
+  "capability": "将摄像头与算法组合成实时分析任务",
+  "url": "http://192.168.11.88:8081/app/main-app/dispatch/task/video-analysis/#/algorithm-dispatch/schedule-tasks/video-stream-analysis",
+  "title": "视频流分析",
+  "bodyText": "人工智能推理平台\n搜索菜单\n数据看板\n智能分析\n数据中心\n平台管理\n媒体与输入\n摄像头配置\n算法配置\n算法列表\n人员库\n算法底库\n智能分析配置\n视频流分析\n图片分析\n分析服务状态\n结果推送\n报警推送\n报警弹窗及语音\n视频流分析\n创建视频分析任务\nID\t任务名称\t\n任务启用状态\n\t报警推送输出\t分析结果推流\t操作\t\n \n\t\n \n\t\n \n\t\n \n\t\n \n\t\n \n\n2\t产品测试任务\t\n已停用\n\t\n未配置\n\t\n未启用\n\t\n启用\n详情\n演示视频\n删除\n共 1 条\n1\n20 条/页",
+  "controls": [
+    {
+      "idx": 1,
+      "tag": "DIV",
+      "text": "搜索菜单",
+      "placeholder": "",
+      "title": "",
+      "aria": "",
+      "cls": "custom-light-select-selector",
+      "rect": {
+        "x": 961,
+        "y": 6,
+        "w": 220,
+        "h": 32
+      },
+      "disabled": false
+    },
+    {
+      "idx": 12,
+      "tag": "BUTTON",
+      "text": "创建视频分析任务",
+      "placeholder": "",
+      "title": "",
+      "aria": "",
+      "cls": "custom-light-btn custom-light-btn-primary cr-btn-middle cr-btn",
+      "rect": {
+        "x": 304,
+        "y": 115,
+        "w": 122,
+        "h": 32
+      },
+      "disabled": false
+    },
+    {
+      "idx": 13,
+      "tag": "INPUT",
+      "text": "",
+      "placeholder": "ID/任务名称",
+      "title": "",
+      "aria": "",
+      "cls": "custom-light-input",
+      "rect": {
+        "x": 1244,
+        "y": 122,
+        "w": 136,
+        "h": 19
+      },
+      "disabled": false
+    },
+    {
+      "idx": 15,
+      "tag": "BUTTON",
+      "text": "启用",
+      "placeholder": "",
+      "title": "",
+      "aria": "",
+      "cls": "custom-light-btn custom-light-btn-link cr-btn-middle cr-btn",
+      "rect": {
+        "x": 1147,
+        "y": 208,
+        "w": 26,
+        "h": 32
+      },
+      "disabled": false
+    },
+    {
+      "idx": 16,
+      "tag": "BUTTON",
+      "text": "详情",
+      "placeholder": "",
+      "title": "",
+      "aria": "",
+      "cls": "custom-light-btn custom-light-btn-link cr-btn-middle cr-btn",
+      "rect": {
+        "x": 1193,
+        "y": 208,
+        "w": 26,
+        "h": 32
+      },
+      "disabled": false
+    },
+    {
+      "idx": 17,
+      "tag": "BUTTON",
+      "text": "演示视频",
+      "placeholder": "",
+      "title": "",
+      "aria": "",
+      "cls": "custom-light-btn custom-light-btn-link cr-btn-middle cr-btn",
+      "rect": {
+        "x": 1239,
+        "y": 208,
+        "w": 48,
+        "h": 32
+      },
+      "disabled": true
+    },
+    {
+      "idx": 18,
+      "tag": "BUTTON",
+      "text": "删除",
+      "placeholder": "",
+      "title": "",
+      "aria": "",
+      "cls": "custom-light-btn custom-light-btn-link custom-light-btn-dangerous cr-btn-middle cr-btn",
+      "rect": {
+        "x": 1307,
+        "y": 208,
+        "w": 26,
+        "h": 32
+      },
+      "disabled": false
+    },
+    {
+      "idx": 21,
+      "tag": "DIV",
+      "text": "20 条/页",
+      "placeholder": "",
+      "title": "",
+      "aria": "",
+      "cls": "custom-light-select-selector",
+      "rect": {
+        "x": 313,
+        "y": 937,
+        "w": 98,
+        "h": 28
+      },
+      "disabled": false
+    }
+  ],
+  "menus": [
+    {
+      "idx": 0,
+      "text": "数据看板",
+      "cls": "app-menu-item",
+      "rect": {
+        "x": 8,
+        "y": 52,
+        "w": 63,
+        "h": 76
+      }
+    },
+    {
+      "idx": 1,
+      "text": "数据看板",
+      "cls": "app-menu-text",
+      "rect": {
+        "x": 8,
+        "y": 104,
+        "w": 63,
+        "h": 20
+      }
+    },
+    {
+      "idx": 2,
+      "text": "智能分析",
+      "cls": "app-menu-item active",
+      "rect": {
+        "x": 8,
+        "y": 136,
+        "w": 63,
+        "h": 76
+      }
+    },
+    {
+      "idx": 3,
+      "text": "智能分析",
+      "cls": "app-menu-text",
+      "rect": {
+        "x": 8,
+        "y": 188,
+        "w": 63,
+        "h": 20
+      }
+    },
+    {
+      "idx": 4,
+      "text": "数据中心",
+      "cls": "app-menu-item",
+      "rect": {
+        "x": 8,
+        "y": 220,
+        "w": 63,
+        "h": 76
+      }
+    },
+    {
+      "idx": 5,
+      "text": "数据中心",
+      "cls": "app-menu-text",
+      "rect": {
+        "x": 8,
+        "y": 272,
+        "w": 63,
+        "h": 20
+      }
+    },
+    {
+      "idx": 6,
+      "text": "平台管理",
+      "cls": "app-menu-item",
+      "rect": {
+        "x": 8,
+        "y": 304,
+        "w": 63,
+        "h": 76
+      }
+    },
+    {
+      "idx": 7,
+      "text": "平台管理",
+      "cls": "app-menu-text",
+      "rect": {
+        "x": 8,
+        "y": 356,
+        "w": 63,
+        "h": 20
+      }
+    },
+    {
+      "idx": 8,
+      "text": "媒体与输入",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 87,
+        "y": 54,
+        "w": 185,
+        "h": 28
+      }
+    },
+    {
+      "idx": 9,
+      "text": "摄像头配置",
+      "cls": "custom-light-menu-item custom-light-menu-item-only-child",
+      "rect": {
+        "x": 79,
+        "y": 86,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 10,
+      "text": "摄像头配置",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 87,
+        "y": 86,
+        "w": 185,
+        "h": 32
+      }
+    },
+    {
+      "idx": 11,
+      "text": "算法配置",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 87,
+        "y": 139,
+        "w": 185,
+        "h": 28
+      }
+    },
+    {
+      "idx": 12,
+      "text": "算法列表",
+      "cls": "custom-light-menu-item custom-light-menu-item-only-child",
+      "rect": {
+        "x": 79,
+        "y": 171,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 13,
+      "text": "算法列表",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 87,
+        "y": 171,
+        "w": 185,
+        "h": 32
+      }
+    },
+    {
+      "idx": 14,
+      "text": "人员库",
+      "cls": "custom-light-menu-item custom-light-menu-item-only-child",
+      "rect": {
+        "x": 79,
+        "y": 205,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 15,
+      "text": "人员库",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 87,
+        "y": 205,
+        "w": 185,
+        "h": 32
+      }
+    },
+    {
+      "idx": 16,
+      "text": "算法底库",
+      "cls": "custom-light-menu-item custom-light-menu-item-only-child",
+      "rect": {
+        "x": 79,
+        "y": 239,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 17,
+      "text": "算法底库",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 87,
+        "y": 239,
+        "w": 185,
+        "h": 32
+      }
+    },
+    {
+      "idx": 18,
+      "text": "智能分析配置",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 87,
+        "y": 292,
+        "w": 185,
+        "h": 28
+      }
+    },
+    {
+      "idx": 19,
+      "text": "视频流分析",
+      "cls": "custom-light-menu-item custom-light-menu-item-selected custom-light-menu-item-only-child",
+      "rect": {
+        "x": 79,
+        "y": 324,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 20,
+      "text": "视频流分析",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 87,
+        "y": 324,
+        "w": 185,
+        "h": 32
+      }
+    },
+    {
+      "idx": 21,
+      "text": "图片分析",
+      "cls": "custom-light-menu-item custom-light-menu-item-only-child",
+      "rect": {
+        "x": 79,
+        "y": 358,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 22,
+      "text": "图片分析",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 87,
+        "y": 358,
+        "w": 185,
+        "h": 32
+      }
+    },
+    {
+      "idx": 23,
+      "text": "分析服务状态",
+      "cls": "custom-light-menu-item custom-light-menu-item-only-child",
+      "rect": {
+        "x": 79,
+        "y": 392,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 24,
+      "text": "分析服务状态",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 87,
+        "y": 392,
+        "w": 185,
+        "h": 32
+      }
+    },
+    {
+      "idx": 25,
+      "text": "结果推送",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 87,
+        "y": 445,
+        "w": 185,
+        "h": 28
+      }
+    },
+    {
+      "idx": 26,
+      "text": "报警推送",
+      "cls": "custom-light-menu-item custom-light-menu-item-only-child",
+      "rect": {
+        "x": 79,
+        "y": 477,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 27,
+      "text": "报警推送",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 87,
+        "y": 477,
+        "w": 185,
+        "h": 32
+      }
+    },
+    {
+      "idx": 28,
+      "text": "报警弹窗及语音",
+      "cls": "custom-light-menu-item custom-light-menu-item-only-child",
+      "rect": {
+        "x": 79,
+        "y": 511,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 29,
+      "text": "报警弹窗及语音",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 87,
+        "y": 511,
+        "w": 185,
+        "h": 32
+      }
+    }
+  ],
+  "tables": [
+    {
+      "idx": 0,
+      "text": "ID 任务名称 任务启用状态 报警推送输出 分析结果推流 操作 2 产品测试任务 已停用 未配置 未启用 启用 详情 演示视频 删除",
+      "headers": [
+        "ID",
+        "任务名称",
+        "任务启用状态",
+        "报警推送输出",
+        "分析结果推流",
+        "操作"
+      ]
+    },
+    {
+      "idx": 1,
+      "text": "ID 任务名称 任务启用状态 报警推送输出 分析结果推流 操作",
+      "headers": [
+        "ID",
+        "任务名称",
+        "任务启用状态",
+        "报警推送输出",
+        "分析结果推流",
+        "操作"
+      ]
+    },
+    {
+      "idx": 2,
+      "text": "2 产品测试任务 已停用 未配置 未启用 启用 详情 演示视频 删除",
+      "headers": []
+    }
+  ],
+  "forms": [
+    {
+      "idx": 0,
+      "text": "人工智能推理平台",
+      "inputs": []
+    }
+  ],
+  "cards": [
+    {
+      "idx": 0,
+      "text": "已停用",
+      "cls": "status-text",
+      "rect": {
+        "x": 697,
+        "y": 214,
+        "w": 126,
+        "h": 20
+      }
+    },
+    {
+      "idx": 1,
+      "text": "未配置",
+      "cls": "status-text",
+      "rect": {
+        "x": 847,
+        "y": 214,
+        "w": 126,
+        "h": 20
+      }
+    },
+    {
+      "idx": 2,
+      "text": "未启用",
+      "cls": "status-text",
+      "rect": {
+        "x": 997,
+        "y": 214,
+        "w": 126,
+        "h": 20
+      }
+    }
+  ]
+}

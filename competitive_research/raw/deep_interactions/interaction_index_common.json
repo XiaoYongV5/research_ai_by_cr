@@ -1,0 +1,146 @@
+[
+  {
+    "id": "00_common-001",
+    "module": "通用导航与顶部栏",
+    "moduleId": "common",
+    "submodule": "顶部栏与全局导航",
+    "capability": "搜索菜单、模块切换、账号入口、全局导航辅助能力",
+    "actionType": "overview",
+    "actionLabel": "顶部栏_默认态",
+    "actionNote": "记录全局顶部栏与左侧一级模块导航。",
+    "url": "http://192.168.11.88:8081/app/main-app/frame",
+    "screenshot": "screenshots_deep/00_common/001_顶部栏与全局导航_顶部栏_默认态.png",
+    "meta": {},
+    "capturedAt": "2026-06-18T05:07:18.436Z"
+  },
+  {
+    "id": "00_common-002",
+    "module": "通用导航与顶部栏",
+    "moduleId": "common",
+    "submodule": "顶部栏与全局导航",
+    "capability": "搜索菜单、模块切换、账号入口、全局导航辅助能力",
+    "actionType": "global-nav",
+    "actionLabel": "01_搜索菜单_点击状态",
+    "actionNote": "全局入口 搜索菜单 的点击/展开/跳转状态。",
+    "url": "http://192.168.11.88:8081/app/main-app/frame",
+    "screenshot": "screenshots_deep/00_common/002_顶部栏与全局导航_01_搜索菜单_点击状态.png",
+    "meta": {
+      "ok": {
+        "ok": true,
+        "text": "搜索菜单",
+        "rect": {
+          "x": 973,
+          "y": 6.5,
+          "w": 196,
+          "h": 30
+        },
+        "matched": "搜索菜单"
+      }
+    },
+    "capturedAt": "2026-06-18T05:07:19.591Z"
+  },
+  {
+    "id": "00_common-003",
+    "module": "通用导航与顶部栏",
+    "moduleId": "common",
+    "submodule": "顶部栏与全局导航",
+    "capability": "搜索菜单、模块切换、账号入口、全局导航辅助能力",
+    "actionType": "global-nav",
+    "actionLabel": "02_数据看板_点击状态",
+    "actionNote": "全局入口 数据看板 的点击/展开/跳转状态。",
+    "url": "http://192.168.11.88:8081/app/main-app/cockpit/home/#/cockpit-home",
+    "screenshot": "screenshots_deep/00_common/003_顶部栏与全局导航_02_数据看板_点击状态.png",
+    "meta": {
+      "ok": {
+        "ok": true,
+        "text": "数据看板",
+        "rect": {
+          "x": 8,
+          "y": 104,
+          "w": 63,
+          "h": 20
+        },
+        "matched": "数据看板"
+      }
+    },
+    "capturedAt": "2026-06-18T05:07:21.201Z"
+  },
+  {
+    "id": "00_common-004",
+    "module": "通用导航与顶部栏",
+    "moduleId": "common",
+    "submodule": "顶部栏与全局导航",
+    "capability": "搜索菜单、模块切换、账号入口、全局导航辅助能力",
+    "actionType": "global-nav",
+    "actionLabel": "03_智能分析_点击状态",
+    "actionNote": "全局入口 智能分析 的点击/展开/跳转状态。",
+    "url": "http://192.168.11.88:8081/app/main-app/dispatch/media-input/video-input/#/basic-services/device-service/monitor-point",
+    "screenshot": "screenshots_deep/00_common/004_顶部栏与全局导航_03_智能分析_点击状态.png",
+    "meta": {
+      "ok": {
+        "ok": true,
+        "text": "智能分析",
+        "rect": {
+          "x": 8,
+          "y": 188,
+          "w": 63,
+          "h": 20
+        },
+        "matched": "智能分析"
+      }
+    },
+    "capturedAt": "2026-06-18T05:07:22.821Z"
+  },
+  {
+    "id": "00_common-005",
+    "module": "通用导航与顶部栏",
+    "moduleId": "common",
+    "submodule": "顶部栏与全局导航",
+    "capability": "搜索菜单、模块切换、账号入口、全局导航辅助能力",
+    "actionType": "global-nav",
+    "actionLabel": "04_数据中心_点击状态",
+    "actionNote": "全局入口 数据中心 的点击/展开/跳转状态。",
+    "url": "http://192.168.11.88:8081/app/main-app/data/inference-output/algo/#/alarm-center/output-result/algorithm-log",
+    "screenshot": "screenshots_deep/00_common/005_顶部栏与全局导航_04_数据中心_点击状态.png",
+    "meta": {
+      "ok": {
+        "ok": true,
+        "text": "数据中心",
+        "rect": {
+          "x": 8,
+          "y": 272,
+          "w": 63,
+          "h": 20
+        },
+        "matched": "数据中心"
+      }
+    },
+    "capturedAt": "2026-06-18T05:07:24.439Z"
+  },
+  {
+    "id": "00_common-006",
+    "module": "通用导航与顶部栏",
+    "moduleId": "common",
+    "submodule": "顶部栏与全局导航",
+    "capability": "搜索菜单、模块切换、账号入口、全局导航辅助能力",
+    "actionType": "global-nav",
+    "actionLabel": "05_平台管理_点击状态",
+    "actionNote": "全局入口 平台管理 的点击/展开/跳转状态。",
+    "url": "http://192.168.11.88:8081/app/main-app/platform/store/algo-store/#/algorithm-store",
+    "screenshot": "screenshots_deep/00_common/006_顶部栏与全局导航_05_平台管理_点击状态.png",
+    "meta": {
+      "ok": {
+        "ok": true,
+        "text": "平台管理",
+        "rect": {
+          "x": 8,
+          "y": 356,
+          "w": 63,
+          "h": 20
+        },
+        "matched": "平台管理"
+      }
+    },
+    "capturedAt": "2026-06-18T05:07:26.083Z"
+  }
+]

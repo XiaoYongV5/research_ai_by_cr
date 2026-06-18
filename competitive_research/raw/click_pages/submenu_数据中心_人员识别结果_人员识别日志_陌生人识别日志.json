@@ -1,0 +1,411 @@
+{
+  "note": "点击 人员识别结果 人员识别日志 陌生人识别日志",
+  "title": "报警日志",
+  "url": "http://192.168.11.88:8081/app/main-app/data/inference-output/algo/#/alarm-center/output-result/algorithm-log",
+  "path": "/app/main-app/data/inference-output/algo/#/alarm-center/output-result/algorithm-log",
+  "bodyText": "人工智能推理平台\n搜索菜单\n数据看板\n智能分析\n数据中心\n平台管理\n推理输出结果\n报警日志\n报警推送日志\n人员识别结果\n人员识别日志\n陌生人识别日志\n报警日志\n自动清理已开启\n清理缓存\n视频流分析\n图片分析\n任务名称\n请选择\n摄像头\n异常类型\n请选择\n报警处理\n请选择\n报警归档\n请选择\n报警等级\n请选择\n开始时间\n结束时间\n拓展信息\n正误报统计\n重置\n查询\n推送\n处理\n归档\n导出\n删除\n表格视图\n宫格视图\n\t报警时间\t报警截图\t录制片段\t异常类型\t摄像头名称\t报警等级\t拓展信息\t处理状态\t归档状态\t\n \n\t\n \n\t\n \n\t\n \n\t\n \n\t\n \n\t\n \n\t\n \n\t\n \n\t\n \n\n暂无数据",
+  "menus": [
+    {
+      "idx": 0,
+      "tag": "DIV",
+      "text": "数据看板",
+      "placeholder": "",
+      "title": "",
+      "href": "",
+      "cls": "app-menu-item",
+      "rect": {
+        "x": 8,
+        "y": 52,
+        "w": 63,
+        "h": 76
+      }
+    },
+    {
+      "idx": 1,
+      "tag": "DIV",
+      "text": "数据看板",
+      "placeholder": "",
+      "title": "",
+      "href": "",
+      "cls": "app-menu-text",
+      "rect": {
+        "x": 8,
+        "y": 104,
+        "w": 63,
+        "h": 20
+      }
+    },
+    {
+      "idx": 2,
+      "tag": "DIV",
+      "text": "智能分析",
+      "placeholder": "",
+      "title": "",
+      "href": "",
+      "cls": "app-menu-item",
+      "rect": {
+        "x": 8,
+        "y": 136,
+        "w": 63,
+        "h": 76
+      }
+    },
+    {
+      "idx": 3,
+      "tag": "DIV",
+      "text": "智能分析",
+      "placeholder": "",
+      "title": "",
+      "href": "",
+      "cls": "app-menu-text",
+      "rect": {
+        "x": 8,
+        "y": 188,
+        "w": 63,
+        "h": 20
+      }
+    },
+    {
+      "idx": 4,
+      "tag": "DIV",
+      "text": "数据中心",
+      "placeholder": "",
+      "title": "",
+      "href": "",
+      "cls": "app-menu-item active",
+      "rect": {
+        "x": 8,
+        "y": 220,
+        "w": 63,
+        "h": 76
+      }
+    },
+    {
+      "idx": 5,
+      "tag": "DIV",
+      "text": "数据中心",
+      "placeholder": "",
+      "title": "",
+      "href": "",
+      "cls": "app-menu-text",
+      "rect": {
+        "x": 8,
+        "y": 272,
+        "w": 63,
+        "h": 20
+      }
+    },
+    {
+      "idx": 6,
+      "tag": "DIV",
+      "text": "平台管理",
+      "placeholder": "",
+      "title": "",
+      "href": "",
+      "cls": "app-menu-item",
+      "rect": {
+        "x": 8,
+        "y": 304,
+        "w": 63,
+        "h": 76
+      }
+    },
+    {
+      "idx": 7,
+      "tag": "DIV",
+      "text": "平台管理",
+      "placeholder": "",
+      "title": "",
+      "href": "",
+      "cls": "app-menu-text",
+      "rect": {
+        "x": 8,
+        "y": 356,
+        "w": 63,
+        "h": 20
+      }
+    },
+    {
+      "idx": 8,
+      "tag": "LI",
+      "text": "报警日志",
+      "placeholder": "",
+      "title": "",
+      "href": "",
+      "cls": "custom-light-menu-item custom-light-menu-item-selected custom-light-menu-item-only-child",
+      "rect": {
+        "x": 80,
+        "y": 86,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 9,
+      "tag": "LI",
+      "text": "报警推送日志",
+      "placeholder": "",
+      "title": "",
+      "href": "",
+      "cls": "custom-light-menu-item custom-light-menu-item-only-child",
+      "rect": {
+        "x": 80,
+        "y": 120,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 10,
+      "tag": "LI",
+      "text": "人员识别日志",
+      "placeholder": "",
+      "title": "",
+      "href": "",
+      "cls": "custom-light-menu-item custom-light-menu-item-only-child",
+      "rect": {
+        "x": 80,
+        "y": 205,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 11,
+      "tag": "LI",
+      "text": "陌生人识别日志",
+      "placeholder": "",
+      "title": "",
+      "href": "",
+      "cls": "custom-light-menu-item custom-light-menu-item-only-child",
+      "rect": {
+        "x": 80,
+        "y": 239,
+        "w": 201,
+        "h": 32
+      }
+    }
+  ],
+  "controls": [
+    {
+      "idx": 8,
+      "tag": "INPUT",
+      "text": "",
+      "placeholder": "请选择",
+      "title": "",
+      "href": "",
+      "cls": "custom-light-input",
+      "rect": {
+        "x": 498,
+        "y": 210,
+        "w": 169,
+        "h": 28
+      }
+    },
+    {
+      "idx": 13,
+      "tag": "INPUT",
+      "text": "",
+      "placeholder": "请选择日期",
+      "title": "",
+      "href": "",
+      "cls": "",
+      "rect": {
+        "x": 325,
+        "y": 273,
+        "w": 129,
+        "h": 22
+      }
+    },
+    {
+      "idx": 14,
+      "tag": "INPUT",
+      "text": "",
+      "placeholder": "请选择日期",
+      "title": "",
+      "href": "",
+      "cls": "",
+      "rect": {
+        "x": 510,
+        "y": 273,
+        "w": 129,
+        "h": 22
+      }
+    },
+    {
+      "idx": 15,
+      "tag": "INPUT",
+      "text": "",
+      "placeholder": "请输入",
+      "title": "",
+      "href": "",
+      "cls": "custom-light-input",
+      "rect": {
+        "x": 683,
+        "y": 270,
+        "w": 169,
+        "h": 28
+      }
+    },
+    {
+      "idx": 16,
+      "tag": "BUTTON",
+      "text": "正误报统计",
+      "placeholder": "",
+      "title": "",
+      "href": "",
+      "cls": "custom-light-btn custom-light-btn-text btn",
+      "rect": {
+        "x": 1130,
+        "y": 254,
+        "w": 98,
+        "h": 24
+      }
+    },
+    {
+      "idx": 17,
+      "tag": "BUTTON",
+      "text": "重置",
+      "placeholder": "",
+      "title": "",
+      "href": "",
+      "cls": "custom-light-btn custom-light-btn-text btn",
+      "rect": {
+        "x": 1251,
+        "y": 254,
+        "w": 62,
+        "h": 24
+      }
+    },
+    {
+      "idx": 18,
+      "tag": "BUTTON",
+      "text": "查询",
+      "placeholder": "",
+      "title": "",
+      "href": "",
+      "cls": "custom-light-btn custom-light-btn-primary btn",
+      "rect": {
+        "x": 1317,
+        "y": 254,
+        "w": 62,
+        "h": 24
+      }
+    },
+    {
+      "idx": 19,
+      "tag": "BUTTON",
+      "text": "推送",
+      "placeholder": "",
+      "title": "",
+      "href": "",
+      "cls": "custom-light-btn custom-light-btn-text btn push",
+      "rect": {
+        "x": 305,
+        "y": 322,
+        "w": 52,
+        "h": 20
+      }
+    },
+    {
+      "idx": 20,
+      "tag": "BUTTON",
+      "text": "处理",
+      "placeholder": "",
+      "title": "",
+      "href": "",
+      "cls": "custom-light-btn custom-light-btn-text btn custom-light-dropdown-trigger",
+      "rect": {
+        "x": 365,
+        "y": 322,
+        "w": 52,
+        "h": 20
+      }
+    },
+    {
+      "idx": 21,
+      "tag": "BUTTON",
+      "text": "归档",
+      "placeholder": "",
+      "title": "",
+      "href": "",
+      "cls": "custom-light-btn custom-light-btn-text btn custom-light-dropdown-trigger",
+      "rect": {
+        "x": 425,
+        "y": 322,
+        "w": 52,
+        "h": 20
+      }
+    },
+    {
+      "idx": 22,
+      "tag": "BUTTON",
+      "text": "导出",
+      "placeholder": "",
+      "title": "",
+      "href": "",
+      "cls": "custom-light-btn custom-light-btn-text btn",
+      "rect": {
+        "x": 485,
+        "y": 322,
+        "w": 52,
+        "h": 20
+      }
+    },
+    {
+      "idx": 23,
+      "tag": "BUTTON",
+      "text": "删除",
+      "placeholder": "",
+      "title": "",
+      "href": "",
+      "cls": "custom-light-btn custom-light-btn-text btn danger",
+      "rect": {
+        "x": 545,
+        "y": 322,
+        "w": 52,
+        "h": 20
+      }
+    }
+  ],
+  "tables": [
+    {
+      "idx": 0,
+      "text": "报警时间 报警截图 录制片段 异常类型 摄像头名称 报警等级 拓展信息 处理状态 归档状态 暂无数据",
+      "headers": [
+        "报警时间",
+        "报警截图",
+        "录制片段",
+        "异常类型",
+        "摄像头名称",
+        "报警等级",
+        "拓展信息",
+        "处理状态",
+        "归档状态"
+      ]
+    },
+    {
+      "idx": 1,
+      "text": "报警时间 报警截图 录制片段 异常类型 摄像头名称 报警等级 拓展信息 处理状态 归档状态",
+      "headers": [
+        "报警时间",
+        "报警截图",
+        "录制片段",
+        "异常类型",
+        "摄像头名称",
+        "报警等级",
+        "拓展信息",
+        "处理状态",
+        "归档状态"
+      ]
+    },
+    {
+      "idx": 2,
+      "text": "暂无数据",
+      "headers": []
+    }
+  ],
+  "forms": [],
+  "cards": [],
+  "screenshot": "screenshots/submenu_数据中心_人员识别结果_人员识别日志_陌生人识别日志.png"
+}

@@ -1,0 +1,41 @@
+{
+  "note": "登录后默认页",
+  "title": "数据看板首页",
+  "url": "http://192.168.11.88:8081/app/main-app/frame",
+  "path": "/app/main-app/frame",
+  "bodyText": "人工智能推理平台\n搜索菜单\n数据看板\n智能分析\n数据中心\n平台管理\n欢迎使用人工智能推理平台\n请跟随引导，开始添加摄像头，并创建第一个视频流分析任务吧\n开始配置",
+  "headings": [],
+  "controls": [
+    {
+      "idx": 8,
+      "tag": "BUTTON",
+      "cls": "custom-light-btn custom-light-btn-primary cr-btn-middle cr-btn",
+      "text": "开始配置",
+      "placeholder": "",
+      "title": "",
+      "aria": "",
+      "disabled": false,
+      "rect": {
+        "x": 620,
+        "y": 604,
+        "w": 200,
+        "h": 40
+      }
+    }
+  ],
+  "tables": [],
+  "cards": [],
+  "menus": [],
+  "storageKeys": {
+    "localStorage": [
+      "voiceConfig",
+      "theme",
+      "globalData",
+      "publicKey",
+      "token",
+      "userInfo",
+      "moduleSwitches"
+    ],
+    "sessionStorage": []
+  }
+}

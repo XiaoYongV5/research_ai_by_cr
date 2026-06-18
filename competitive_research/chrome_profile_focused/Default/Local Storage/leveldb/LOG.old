@@ -1,0 +1,13 @@
+2026/06/18-14:53:33.222 a90c Reusing MANIFEST F:\AI Agent\产品设计\产品规划\算法管理\competitive_research\chrome_profile_focused\Default\Local Storage\leveldb/MANIFEST-000001
+2026/06/18-14:53:33.227 a90c Recovering log #12
+2026/06/18-14:53:33.228 a90c Level-0 table #15: started
+2026/06/18-14:53:33.233 a90c Level-0 table #15: 34207 bytes OK
+2026/06/18-14:53:33.237 a90c Delete type=0 #12
+2026/06/18-14:53:33.238 3d90 Compacting 4@0 + 0@1 files
+2026/06/18-14:53:33.244 3d90 Generated table #17@0: 4 keys, 34393 bytes
+2026/06/18-14:53:33.244 3d90 Compacted 4@0 + 0@1 files => 34393 bytes
+2026/06/18-14:53:33.245 3d90 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/06/18-14:53:33.247 3d90 Delete type=2 #7
+2026/06/18-14:53:33.247 3d90 Delete type=2 #10
+2026/06/18-14:53:33.247 3d90 Delete type=2 #13
+2026/06/18-14:53:33.247 3d90 Delete type=2 #15

@@ -1,0 +1,1322 @@
+{
+  "module": "平台管理",
+  "submodule": "网络配置",
+  "capability": "平台部署网络、访问地址和服务连接参数配置",
+  "url": "http://192.168.11.88:8081/app/main-app/platform/system/network/#/network-config",
+  "title": "网络配置",
+  "bodyText": "人工智能推理平台\n搜索菜单\n数据看板\n智能分析\n数据中心\n平台管理\nAI仓库\n离线仓库\n用户及权限\n用户管理\n用户组管理\n系统权限\n系统设置\n基础信息\n系统主题\n网络配置\n站内信\n站内信\n开放能力\n接口授权\n接口文档\n免密登录\n对象存储\n网络配置\n网卡选择\nend0\n连接配置选择\nnet-static\nIP 获取方式\n静态\n自动获取\nIP 地址\n...\nIP 子网掩码\n...\nIP 默认网关\n...\nDNS 服务器\n...\n路由权重\n范围：-1 ~ 10000，-1 表示由系统决定路由权重，值越小优先级越高\n保 存",
+  "controls": [
+    {
+      "idx": 1,
+      "tag": "DIV",
+      "text": "搜索菜单",
+      "placeholder": "",
+      "title": "",
+      "aria": "",
+      "cls": "custom-light-select-selector",
+      "rect": {
+        "x": 961,
+        "y": 6,
+        "w": 220,
+        "h": 32
+      },
+      "disabled": false
+    },
+    {
+      "idx": 12,
+      "tag": "DIV",
+      "text": "end0",
+      "placeholder": "",
+      "title": "",
+      "aria": "",
+      "cls": "custom-light-select-selector",
+      "rect": {
+        "x": 424,
+        "y": 123,
+        "w": 224,
+        "h": 32
+      },
+      "disabled": false
+    },
+    {
+      "idx": 14,
+      "tag": "DIV",
+      "text": "net-static",
+      "placeholder": "",
+      "title": "",
+      "aria": "",
+      "cls": "custom-light-select-selector",
+      "rect": {
+        "x": 424,
+        "y": 171,
+        "w": 224,
+        "h": 32
+      },
+      "disabled": false
+    },
+    {
+      "idx": 36,
+      "tag": "SPAN",
+      "text": "",
+      "placeholder": "",
+      "title": "",
+      "aria": "Increase Value",
+      "cls": "custom-light-input-number-handler custom-light-input-number-handler-up",
+      "rect": {
+        "x": 625,
+        "y": 460,
+        "w": 22,
+        "h": 15
+      },
+      "disabled": false
+    },
+    {
+      "idx": 37,
+      "tag": "SPAN",
+      "text": "",
+      "placeholder": "",
+      "title": "",
+      "aria": "Decrease Value",
+      "cls": "custom-light-input-number-handler custom-light-input-number-handler-down custom-light-input-number-handler-down-disabled",
+      "rect": {
+        "x": 625,
+        "y": 475,
+        "w": 22,
+        "h": 15
+      },
+      "disabled": true
+    },
+    {
+      "idx": 39,
+      "tag": "BUTTON",
+      "text": "保 存",
+      "placeholder": "",
+      "title": "",
+      "aria": "",
+      "cls": "custom-light-btn custom-light-btn-primary cr-btn-middle cr-btn",
+      "rect": {
+        "x": 304,
+        "y": 530,
+        "w": 80,
+        "h": 32
+      },
+      "disabled": false
+    }
+  ],
+  "menus": [
+    {
+      "idx": 0,
+      "text": "数据看板",
+      "cls": "app-menu-item",
+      "rect": {
+        "x": 8,
+        "y": 52,
+        "w": 63,
+        "h": 76
+      }
+    },
+    {
+      "idx": 1,
+      "text": "数据看板",
+      "cls": "app-menu-text",
+      "rect": {
+        "x": 8,
+        "y": 104,
+        "w": 63,
+        "h": 20
+      }
+    },
+    {
+      "idx": 2,
+      "text": "智能分析",
+      "cls": "app-menu-item",
+      "rect": {
+        "x": 8,
+        "y": 136,
+        "w": 63,
+        "h": 76
+      }
+    },
+    {
+      "idx": 3,
+      "text": "智能分析",
+      "cls": "app-menu-text",
+      "rect": {
+        "x": 8,
+        "y": 188,
+        "w": 63,
+        "h": 20
+      }
+    },
+    {
+      "idx": 4,
+      "text": "数据中心",
+      "cls": "app-menu-item",
+      "rect": {
+        "x": 8,
+        "y": 220,
+        "w": 63,
+        "h": 76
+      }
+    },
+    {
+      "idx": 5,
+      "text": "数据中心",
+      "cls": "app-menu-text",
+      "rect": {
+        "x": 8,
+        "y": 272,
+        "w": 63,
+        "h": 20
+      }
+    },
+    {
+      "idx": 6,
+      "text": "平台管理",
+      "cls": "app-menu-item active",
+      "rect": {
+        "x": 8,
+        "y": 304,
+        "w": 63,
+        "h": 76
+      }
+    },
+    {
+      "idx": 7,
+      "text": "平台管理",
+      "cls": "app-menu-text",
+      "rect": {
+        "x": 8,
+        "y": 356,
+        "w": 63,
+        "h": 20
+      }
+    },
+    {
+      "idx": 8,
+      "text": "AI仓库",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 87,
+        "y": 54,
+        "w": 185,
+        "h": 28
+      }
+    },
+    {
+      "idx": 9,
+      "text": "离线仓库",
+      "cls": "custom-light-menu-item custom-light-menu-item-only-child",
+      "rect": {
+        "x": 79,
+        "y": 86,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 10,
+      "text": "离线仓库",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 87,
+        "y": 86,
+        "w": 185,
+        "h": 32
+      }
+    },
+    {
+      "idx": 11,
+      "text": "用户及权限",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 87,
+        "y": 139,
+        "w": 185,
+        "h": 28
+      }
+    },
+    {
+      "idx": 12,
+      "text": "用户管理",
+      "cls": "custom-light-menu-item custom-light-menu-item-only-child",
+      "rect": {
+        "x": 79,
+        "y": 171,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 13,
+      "text": "用户管理",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 87,
+        "y": 171,
+        "w": 185,
+        "h": 32
+      }
+    },
+    {
+      "idx": 14,
+      "text": "用户组管理",
+      "cls": "custom-light-menu-item custom-light-menu-item-only-child",
+      "rect": {
+        "x": 79,
+        "y": 205,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 15,
+      "text": "用户组管理",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 87,
+        "y": 205,
+        "w": 185,
+        "h": 32
+      }
+    },
+    {
+      "idx": 16,
+      "text": "系统权限",
+      "cls": "custom-light-menu-item custom-light-menu-item-only-child",
+      "rect": {
+        "x": 79,
+        "y": 239,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 17,
+      "text": "系统权限",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 87,
+        "y": 239,
+        "w": 185,
+        "h": 32
+      }
+    },
+    {
+      "idx": 18,
+      "text": "系统设置",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 87,
+        "y": 292,
+        "w": 185,
+        "h": 28
+      }
+    },
+    {
+      "idx": 19,
+      "text": "基础信息",
+      "cls": "custom-light-menu-item custom-light-menu-item-only-child",
+      "rect": {
+        "x": 79,
+        "y": 324,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 20,
+      "text": "基础信息",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 87,
+        "y": 324,
+        "w": 185,
+        "h": 32
+      }
+    },
+    {
+      "idx": 21,
+      "text": "系统主题",
+      "cls": "custom-light-menu-item custom-light-menu-item-only-child",
+      "rect": {
+        "x": 79,
+        "y": 358,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 22,
+      "text": "系统主题",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 87,
+        "y": 358,
+        "w": 185,
+        "h": 32
+      }
+    },
+    {
+      "idx": 23,
+      "text": "网络配置",
+      "cls": "custom-light-menu-item custom-light-menu-item-selected custom-light-menu-item-only-child",
+      "rect": {
+        "x": 79,
+        "y": 392,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 24,
+      "text": "网络配置",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 87,
+        "y": 392,
+        "w": 185,
+        "h": 32
+      }
+    },
+    {
+      "idx": 25,
+      "text": "站内信",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 87,
+        "y": 445,
+        "w": 185,
+        "h": 28
+      }
+    },
+    {
+      "idx": 26,
+      "text": "站内信",
+      "cls": "custom-light-menu-item custom-light-menu-item-only-child",
+      "rect": {
+        "x": 79,
+        "y": 477,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 27,
+      "text": "站内信",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 87,
+        "y": 477,
+        "w": 185,
+        "h": 32
+      }
+    },
+    {
+      "idx": 28,
+      "text": "开放能力",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 87,
+        "y": 530,
+        "w": 185,
+        "h": 28
+      }
+    },
+    {
+      "idx": 29,
+      "text": "接口授权",
+      "cls": "custom-light-menu-item custom-light-menu-item-only-child",
+      "rect": {
+        "x": 79,
+        "y": 562,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 30,
+      "text": "接口授权",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 87,
+        "y": 562,
+        "w": 185,
+        "h": 32
+      }
+    },
+    {
+      "idx": 31,
+      "text": "接口文档",
+      "cls": "custom-light-menu-item custom-light-menu-item-only-child",
+      "rect": {
+        "x": 79,
+        "y": 596,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 32,
+      "text": "接口文档",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 87,
+        "y": 596,
+        "w": 185,
+        "h": 32
+      }
+    },
+    {
+      "idx": 33,
+      "text": "免密登录",
+      "cls": "custom-light-menu-item custom-light-menu-item-only-child",
+      "rect": {
+        "x": 79,
+        "y": 630,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 34,
+      "text": "免密登录",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 87,
+        "y": 630,
+        "w": 185,
+        "h": 32
+      }
+    },
+    {
+      "idx": 35,
+      "text": "对象存储",
+      "cls": "custom-light-menu-item custom-light-menu-item-only-child",
+      "rect": {
+        "x": 79,
+        "y": 664,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 36,
+      "text": "对象存储",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 87,
+        "y": 664,
+        "w": 185,
+        "h": 32
+      }
+    }
+  ],
+  "tables": [],
+  "forms": [
+    {
+      "idx": 0,
+      "text": "人工智能推理平台",
+      "inputs": []
+    },
+    {
+      "idx": 2,
+      "text": "网卡选择 end0 连接配置选择 net-static IP 获取方式 静态 自动获取 IP 地址 ... IP 子网掩码 ... IP 默认网关 ... DNS 服务器 ... 路由权重 范围：-1 ~ 10000，-1 表示由系统决定路由权重，值越小优先级越高",
+      "inputs": [
+        {
+          "placeholder": "",
+          "type": "search",
+          "value": ""
+        },
+        {
+          "placeholder": "",
+          "type": "search",
+          "value": ""
+        },
+        {
+          "placeholder": "",
+          "type": "radio",
+          "value": "manual"
+        },
+        {
+          "placeholder": "",
+          "type": "radio",
+          "value": "auto"
+        },
+        {
+          "placeholder": "",
+          "type": "text",
+          "value": "192"
+        },
+        {
+          "placeholder": "",
+          "type": "text",
+          "value": "168"
+        },
+        {
+          "placeholder": "",
+          "type": "text",
+          "value": "11"
+        },
+        {
+          "placeholder": "",
+          "type": "text",
+          "value": "88"
+        },
+        {
+          "placeholder": "",
+          "type": "text",
+          "value": "255"
+        },
+        {
+          "placeholder": "",
+          "type": "text",
+          "value": "255"
+        },
+        {
+          "placeholder": "",
+          "type": "text",
+          "value": "255"
+        },
+        {
+          "placeholder": "",
+          "type": "text",
+          "value": "0"
+        },
+        {
+          "placeholder": "",
+          "type": "text",
+          "value": "192"
+        },
+        {
+          "placeholder": "",
+          "type": "text",
+          "value": "168"
+        },
+        {
+          "placeholder": "",
+          "type": "text",
+          "value": "11"
+        },
+        {
+          "placeholder": "",
+          "type": "text",
+          "value": "1"
+        },
+        {
+          "placeholder": "",
+          "type": "text",
+          "value": "8"
+        },
+        {
+          "placeholder": "",
+          "type": "text",
+          "value": "8"
+        },
+        {
+          "placeholder": "",
+          "type": "text",
+          "value": "8"
+        },
+        {
+          "placeholder": "",
+          "type": "text",
+          "value": "8"
+        },
+        {
+          "placeholder": "",
+          "type": "text",
+          "value": "-1"
+        }
+      ]
+    },
+    {
+      "idx": 3,
+      "text": "网卡选择 end0",
+      "inputs": [
+        {
+          "placeholder": "",
+          "type": "search",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "idx": 4,
+      "text": "网卡选择",
+      "inputs": []
+    },
+    {
+      "idx": 5,
+      "text": "网卡选择",
+      "inputs": []
+    },
+    {
+      "idx": 6,
+      "text": "end0",
+      "inputs": [
+        {
+          "placeholder": "",
+          "type": "search",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "idx": 7,
+      "text": "end0",
+      "inputs": [
+        {
+          "placeholder": "",
+          "type": "search",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "idx": 8,
+      "text": "end0",
+      "inputs": [
+        {
+          "placeholder": "",
+          "type": "search",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "idx": 9,
+      "text": "连接配置选择 net-static",
+      "inputs": [
+        {
+          "placeholder": "",
+          "type": "search",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "idx": 10,
+      "text": "连接配置选择",
+      "inputs": []
+    },
+    {
+      "idx": 11,
+      "text": "连接配置选择",
+      "inputs": []
+    },
+    {
+      "idx": 12,
+      "text": "net-static",
+      "inputs": [
+        {
+          "placeholder": "",
+          "type": "search",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "idx": 13,
+      "text": "net-static",
+      "inputs": [
+        {
+          "placeholder": "",
+          "type": "search",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "idx": 14,
+      "text": "net-static",
+      "inputs": [
+        {
+          "placeholder": "",
+          "type": "search",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "idx": 15,
+      "text": "IP 获取方式 静态 自动获取",
+      "inputs": [
+        {
+          "placeholder": "",
+          "type": "radio",
+          "value": "manual"
+        },
+        {
+          "placeholder": "",
+          "type": "radio",
+          "value": "auto"
+        }
+      ]
+    },
+    {
+      "idx": 16,
+      "text": "IP 获取方式",
+      "inputs": []
+    },
+    {
+      "idx": 17,
+      "text": "IP 获取方式",
+      "inputs": []
+    },
+    {
+      "idx": 18,
+      "text": "静态 自动获取",
+      "inputs": [
+        {
+          "placeholder": "",
+          "type": "radio",
+          "value": "manual"
+        },
+        {
+          "placeholder": "",
+          "type": "radio",
+          "value": "auto"
+        }
+      ]
+    },
+    {
+      "idx": 19,
+      "text": "静态 自动获取",
+      "inputs": [
+        {
+          "placeholder": "",
+          "type": "radio",
+          "value": "manual"
+        },
+        {
+          "placeholder": "",
+          "type": "radio",
+          "value": "auto"
+        }
+      ]
+    },
+    {
+      "idx": 20,
+      "text": "静态 自动获取",
+      "inputs": [
+        {
+          "placeholder": "",
+          "type": "radio",
+          "value": "manual"
+        },
+        {
+          "placeholder": "",
+          "type": "radio",
+          "value": "auto"
+        }
+      ]
+    },
+    {
+      "idx": 21,
+      "text": "IP 地址 ...",
+      "inputs": [
+        {
+          "placeholder": "",
+          "type": "text",
+          "value": "192"
+        },
+        {
+          "placeholder": "",
+          "type": "text",
+          "value": "168"
+        },
+        {
+          "placeholder": "",
+          "type": "text",
+          "value": "11"
+        },
+        {
+          "placeholder": "",
+          "type": "text",
+          "value": "88"
+        }
+      ]
+    },
+    {
+      "idx": 22,
+      "text": "IP 地址",
+      "inputs": []
+    },
+    {
+      "idx": 23,
+      "text": "IP 地址",
+      "inputs": []
+    },
+    {
+      "idx": 24,
+      "text": "...",
+      "inputs": [
+        {
+          "placeholder": "",
+          "type": "text",
+          "value": "192"
+        },
+        {
+          "placeholder": "",
+          "type": "text",
+          "value": "168"
+        },
+        {
+          "placeholder": "",
+          "type": "text",
+          "value": "11"
+        },
+        {
+          "placeholder": "",
+          "type": "text",
+          "value": "88"
+        }
+      ]
+    },
+    {
+      "idx": 25,
+      "text": "...",
+      "inputs": [
+        {
+          "placeholder": "",
+          "type": "text",
+          "value": "192"
+        },
+        {
+          "placeholder": "",
+          "type": "text",
+          "value": "168"
+        },
+        {
+          "placeholder": "",
+          "type": "text",
+          "value": "11"
+        },
+        {
+          "placeholder": "",
+          "type": "text",
+          "value": "88"
+        }
+      ]
+    },
+    {
+      "idx": 26,
+      "text": "...",
+      "inputs": [
+        {
+          "placeholder": "",
+          "type": "text",
+          "value": "192"
+        },
+        {
+          "placeholder": "",
+          "type": "text",
+          "value": "168"
+        },
+        {
+          "placeholder": "",
+          "type": "text",
+          "value": "11"
+        },
+        {
+          "placeholder": "",
+          "type": "text",
+          "value": "88"
+        }
+      ]
+    },
+    {
+      "idx": 27,
+      "text": "IP 子网掩码 ...",
+      "inputs": [
+        {
+          "placeholder": "",
+          "type": "text",
+          "value": "255"
+        },
+        {
+          "placeholder": "",
+          "type": "text",
+          "value": "255"
+        },
+        {
+          "placeholder": "",
+          "type": "text",
+          "value": "255"
+        },
+        {
+          "placeholder": "",
+          "type": "text",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "idx": 28,
+      "text": "IP 子网掩码",
+      "inputs": []
+    },
+    {
+      "idx": 29,
+      "text": "IP 子网掩码",
+      "inputs": []
+    },
+    {
+      "idx": 30,
+      "text": "...",
+      "inputs": [
+        {
+          "placeholder": "",
+          "type": "text",
+          "value": "255"
+        },
+        {
+          "placeholder": "",
+          "type": "text",
+          "value": "255"
+        },
+        {
+          "placeholder": "",
+          "type": "text",
+          "value": "255"
+        },
+        {
+          "placeholder": "",
+          "type": "text",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "idx": 31,
+      "text": "...",
+      "inputs": [
+        {
+          "placeholder": "",
+          "type": "text",
+          "value": "255"
+        },
+        {
+          "placeholder": "",
+          "type": "text",
+          "value": "255"
+        },
+        {
+          "placeholder": "",
+          "type": "text",
+          "value": "255"
+        },
+        {
+          "placeholder": "",
+          "type": "text",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "idx": 32,
+      "text": "...",
+      "inputs": [
+        {
+          "placeholder": "",
+          "type": "text",
+          "value": "255"
+        },
+        {
+          "placeholder": "",
+          "type": "text",
+          "value": "255"
+        },
+        {
+          "placeholder": "",
+          "type": "text",
+          "value": "255"
+        },
+        {
+          "placeholder": "",
+          "type": "text",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "idx": 33,
+      "text": "IP 默认网关 ...",
+      "inputs": [
+        {
+          "placeholder": "",
+          "type": "text",
+          "value": "192"
+        },
+        {
+          "placeholder": "",
+          "type": "text",
+          "value": "168"
+        },
+        {
+          "placeholder": "",
+          "type": "text",
+          "value": "11"
+        },
+        {
+          "placeholder": "",
+          "type": "text",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "idx": 34,
+      "text": "IP 默认网关",
+      "inputs": []
+    },
+    {
+      "idx": 35,
+      "text": "IP 默认网关",
+      "inputs": []
+    },
+    {
+      "idx": 36,
+      "text": "...",
+      "inputs": [
+        {
+          "placeholder": "",
+          "type": "text",
+          "value": "192"
+        },
+        {
+          "placeholder": "",
+          "type": "text",
+          "value": "168"
+        },
+        {
+          "placeholder": "",
+          "type": "text",
+          "value": "11"
+        },
+        {
+          "placeholder": "",
+          "type": "text",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "idx": 37,
+      "text": "...",
+      "inputs": [
+        {
+          "placeholder": "",
+          "type": "text",
+          "value": "192"
+        },
+        {
+          "placeholder": "",
+          "type": "text",
+          "value": "168"
+        },
+        {
+          "placeholder": "",
+          "type": "text",
+          "value": "11"
+        },
+        {
+          "placeholder": "",
+          "type": "text",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "idx": 38,
+      "text": "...",
+      "inputs": [
+        {
+          "placeholder": "",
+          "type": "text",
+          "value": "192"
+        },
+        {
+          "placeholder": "",
+          "type": "text",
+          "value": "168"
+        },
+        {
+          "placeholder": "",
+          "type": "text",
+          "value": "11"
+        },
+        {
+          "placeholder": "",
+          "type": "text",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "idx": 39,
+      "text": "DNS 服务器 ...",
+      "inputs": [
+        {
+          "placeholder": "",
+          "type": "text",
+          "value": "8"
+        },
+        {
+          "placeholder": "",
+          "type": "text",
+          "value": "8"
+        },
+        {
+          "placeholder": "",
+          "type": "text",
+          "value": "8"
+        },
+        {
+          "placeholder": "",
+          "type": "text",
+          "value": "8"
+        }
+      ]
+    },
+    {
+      "idx": 40,
+      "text": "DNS 服务器",
+      "inputs": []
+    },
+    {
+      "idx": 41,
+      "text": "DNS 服务器",
+      "inputs": []
+    },
+    {
+      "idx": 42,
+      "text": "...",
+      "inputs": [
+        {
+          "placeholder": "",
+          "type": "text",
+          "value": "8"
+        },
+        {
+          "placeholder": "",
+          "type": "text",
+          "value": "8"
+        },
+        {
+          "placeholder": "",
+          "type": "text",
+          "value": "8"
+        },
+        {
+          "placeholder": "",
+          "type": "text",
+          "value": "8"
+        }
+      ]
+    },
+    {
+      "idx": 43,
+      "text": "...",
+      "inputs": [
+        {
+          "placeholder": "",
+          "type": "text",
+          "value": "8"
+        },
+        {
+          "placeholder": "",
+          "type": "text",
+          "value": "8"
+        },
+        {
+          "placeholder": "",
+          "type": "text",
+          "value": "8"
+        },
+        {
+          "placeholder": "",
+          "type": "text",
+          "value": "8"
+        }
+      ]
+    },
+    {
+      "idx": 44,
+      "text": "...",
+      "inputs": [
+        {
+          "placeholder": "",
+          "type": "text",
+          "value": "8"
+        },
+        {
+          "placeholder": "",
+          "type": "text",
+          "value": "8"
+        },
+        {
+          "placeholder": "",
+          "type": "text",
+          "value": "8"
+        },
+        {
+          "placeholder": "",
+          "type": "text",
+          "value": "8"
+        }
+      ]
+    },
+    {
+      "idx": 45,
+      "text": "路由权重 范围：-1 ~ 10000，-1 表示由系统决定路由权重，值越小优先级越高",
+      "inputs": [
+        {
+          "placeholder": "",
+          "type": "text",
+          "value": "-1"
+        }
+      ]
+    },
+    {
+      "idx": 46,
+      "text": "路由权重",
+      "inputs": []
+    },
+    {
+      "idx": 47,
+      "text": "范围：-1 ~ 10000，-1 表示由系统决定路由权重，值越小优先级越高",
+      "inputs": [
+        {
+          "placeholder": "",
+          "type": "text",
+          "value": "-1"
+        }
+      ]
+    },
+    {
+      "idx": 48,
+      "text": "范围：-1 ~ 10000，-1 表示由系统决定路由权重，值越小优先级越高",
+      "inputs": [
+        {
+          "placeholder": "",
+          "type": "text",
+          "value": "-1"
+        }
+      ]
+    },
+    {
+      "idx": 49,
+      "text": "范围：-1 ~ 10000，-1 表示由系统决定路由权重，值越小优先级越高",
+      "inputs": [
+        {
+          "placeholder": "",
+          "type": "text",
+          "value": "-1"
+        }
+      ]
+    }
+  ],
+  "cards": []
+}

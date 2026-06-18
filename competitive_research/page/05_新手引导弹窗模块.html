@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>新手引导弹窗模块 - 竞品研究</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <div class="brand">
+        <a class="brand-text" href="index.html" aria-label="返回首页">
+          <span class="brand-kicker">Competitive Research</span>
+          <strong>人工智能推理平台</strong>
+        </a>
+        <button class="sidebar-toggle" type="button" aria-label="折叠菜单" aria-expanded="true"></button>
+      </div>
+      <nav class="doc-nav" aria-label="文档导航">
+        <a href="00_研究总览.html" data-title="00_研究总览">00_研究总览</a>
+<a href="01_数据看板模块.html" data-title="01_数据看板模块">01_数据看板模块</a>
+<a href="02_智能分析模块.html" data-title="02_智能分析模块">02_智能分析模块</a>
+<a href="03_数据中心模块.html" data-title="03_数据中心模块">03_数据中心模块</a>
+<a href="04_平台管理模块.html" data-title="04_平台管理模块">04_平台管理模块</a>
+<a aria-current="page" href="05_新手引导弹窗模块.html" data-title="05_新手引导弹窗模块">05_新手引导弹窗模块</a>
+<a href="06_跨模块依赖与交集.html" data-title="06_跨模块依赖与交集">06_跨模块依赖与交集</a>
+<a href="07_深度截图索引.html" data-title="07_深度截图索引">07_深度截图索引</a>
+      </nav>
+    </aside>
+    <main class="main">
+      <header class="page-header">
+        <div class="page-title-block">
+          <span class="page-kicker">HTML 阅读版</span>
+          <h1>新手引导弹窗模块</h1>
+        </div>
+        <nav class="page-pager page-pager-top" aria-label="文档翻页">
+    <a class="page-turn page-turn-prev" href="04_平台管理模块.html">
+    <span>上一篇</span>
+    <strong>04_平台管理模块</strong>
+  </a>
+    <a class="page-turn page-turn-next" href="06_跨模块依赖与交集.html">
+    <span>下一篇</span>
+    <strong>06_跨模块依赖与交集</strong>
+  </a>
+  </nav>
+      </header>
+      <div class="content-layout">
+        <article class="doc-content">
+          <h1 id="新手引导弹窗模块">新手引导弹窗模块</h1>
+<p>新手引导弹窗的核心不是“展示欢迎语”，而是把新用户从登录后的 AI 智能管控中心，带入平台最关键的冷启动链路：添加摄像头、创建视频流分析任务、配置报警输出，并最终回到数据中心或数据看板验证结果。</p>
+<p>本次重新梳理后，将“点击开始配置”作为主路径继续分析；“关闭弹窗”只作为跳过分支，不再作为引导流程的结束。</p>
+<h2 id="结论先行">结论先行</h2>
+<div class="table-wrap"><table><thead><tr><th>判断项</th><th>观察结论</th><th>产品影响</th></tr></thead><tbody><tr><td>弹窗目标</td><td>文案明确要求“添加摄像头，并创建第一个视频流分析任务”</td><td>引导的主任务应继续进入智能分析配置链路，而不是停留在弹窗层。</td></tr><tr><td>主按钮</td><td><code>开始配置</code> 是唯一主 CTA</td><td>该按钮应把用户带到可执行的配置页面或直接打开对应新增弹窗。</td></tr><tr><td>当前采集结果</td><td>历史截图显示点击 <code>开始配置</code> 后仍停留在 AI 智能管控中心空态</td><td>当前链路存在断点或采集未记录到后续跳转，文档应指出该风险。</td></tr><tr><td>正确业务闭环</td><td>摄像头配置 -&gt; 新增摄像头 -&gt; 视频流分析 -&gt; 创建任务 -&gt; 报警推送 -&gt; 报警日志/看板验证</td><td>新手引导应该围绕这条闭环设计，而不是仅解释弹窗视觉结构。</td></tr><tr><td>关闭入口</td><td>右上角关闭只适合熟练用户跳过</td><td>关闭后应保留可恢复入口，避免用户无法再次进入配置向导。</td></tr></tbody></table></div>
+<h2 id="1-弹窗出现冷启动入口">1. 弹窗出现：冷启动入口</h2>
+<p>首次登录后，系统在 AI 智能管控中心上方展示新手引导弹窗。底层是大屏化管控界面，弹窗把用户注意力从“看结果”转移到“先完成配置”。</p>
+<figure class="image-block"><img data-full="../screenshots_deep/05_guide/001_历史采集_01_after_login.png" alt="截图" loading="lazy" class="doc-image" src="../screenshots_deep/05_guide/001_历史采集_01_after_login.png" width="720"></figure>
+<figure class="image-block"><img data-full="../screenshots_deep/05_guide/002_历史采集_guide_01_initial_modal.png" alt="截图" loading="lazy" class="doc-image" src="../screenshots_deep/05_guide/002_历史采集_guide_01_initial_modal.png" width="720"></figure>
+<h3 id="弹窗设计拆解">弹窗设计拆解</h3>
+<div class="table-wrap"><table><thead><tr><th>元素</th><th>页面表现</th><th>产品设计说明</th></tr></thead><tbody><tr><td>背景</td><td>AI 智能管控中心大屏作为底层页面</td><td>先展示最终价值，让用户知道完成配置后能看到什么。</td></tr><tr><td>主标题</td><td>欢迎使用人工智能推理平台</td><td>建立系统定位，避免用户只把它理解为普通后台。</td></tr><tr><td>引导文案</td><td>引导用户添加摄像头，并创建第一个视频流分析任务</td><td>文案直接指向平台最小可用链路，即“输入源 + 分析任务”。</td></tr><tr><td>主按钮</td><td>开始配置</td><td>应承载真实业务跳转，而不是只关闭弹窗。</td></tr><tr><td>关闭按钮</td><td>弹窗右上角关闭</td><td>是跳过路径，不应成为默认分析主线。</td></tr></tbody></table></div>
+<h2 id="2-点击开始配置主链路不应中断">2. 点击开始配置：主链路不应中断</h2>
+<p>历史采集中的 <code>guide_02_after_start_config</code> 显示，点击 <code>开始配置</code> 后页面仍停留在 AI 智能管控中心空态，未记录到“新增摄像头”或“创建视频分析任务”的后续配置页。</p>
+<figure class="image-block"><img data-full="../screenshots_deep/05_guide/003_历史采集_guide_02_after_start_config.png" alt="截图" loading="lazy" class="doc-image" src="../screenshots_deep/05_guide/003_历史采集_guide_02_after_start_config.png" width="720"></figure>
+<h3 id="现状问题">现状问题</h3>
+<div class="table-wrap"><table><thead><tr><th>问题</th><th>说明</th><th>对用户的影响</th></tr></thead><tbody><tr><td>主 CTA 没有明显落到配置动作</td><td>点击后仍在管控中心页面，页面内容是空数据和暂无视频连接</td><td>新用户会产生“我已经点了开始配置，但下一步在哪里”的困惑。</td></tr><tr><td>没有直接打开新增表单</td><td>理想情况下应进入摄像头配置页，并自动打开 <code>新增摄像头</code> 弹窗</td><td>用户需要自己理解左侧菜单层级，冷启动成本变高。</td></tr><tr><td>没有形成步骤反馈</td><td>页面未展示“第 1 步/第 2 步/已完成”等状态</td><td>用户不知道自己处在配置链路的哪个阶段。</td></tr><tr><td>空态没有下一步 CTA</td><td>AI 管控中心展示暂无数据，但未把用户继续导向摄像头或任务配置</td><td>结果页和配置页之间缺少闭环桥接。</td></tr></tbody></table></div>
+<h3 id="产品判断">产品判断</h3>
+<p><code>开始配置</code> 点击后不应该只关闭弹窗，也不应该停留在 AI 管控中心。它应该继续深挖业务，至少进入以下两种路径之一：</p>
+<ul>
+<li>推荐路径 A：直接进入 <code>智能分析 &gt; 摄像头配置</code>，并打开 <code>新增摄像头</code> 弹窗。</li>
+<li>推荐路径 B：进入一个多步骤向导页，按顺序完成 <code>添加摄像头 -&gt; 创建视频分析任务 -&gt; 配置报警推送 -&gt; 查看结果</code>。</li>
+</ul>
+<h2 id="3-正确后续路径一添加摄像头">3. 正确后续路径一：添加摄像头</h2>
+<p>新手引导文案首先要求“添加摄像头”，因此点击开始配置后的第一站应是 <code>智能分析 &gt; 媒体与输入 &gt; 摄像头配置</code>。</p>
+<figure class="image-block"><img data-full="../screenshots_deep/05_guide/006_业务主线_摄像头配置页面全貌.png" alt="截图" loading="lazy" class="doc-image" src="../screenshots_deep/05_guide/006_业务主线_摄像头配置页面全貌.png" width="720"></figure>
+<h3 id="摄像头配置页设计要点">摄像头配置页设计要点</h3>
+<div class="table-wrap"><table><thead><tr><th>区域</th><th>页面内容</th><th>设计说明</th></tr></thead><tbody><tr><td>左侧分组</td><td>分组、系统、未分组</td><td>用分组管理大量摄像头，适合多点位、多区域场景。</td></tr><tr><td>主操作</td><td>新增摄像头、刷新、移动、抓图、导入、导出、删除</td><td>覆盖摄像头从创建、校验、批量维护到移除的全生命周期。</td></tr><tr><td>表格字段</td><td>预览图、ID、名称、连接状态、流地址、操作</td><td>预览图和连接状态帮助用户判断视频源是否真实可用。</td></tr><tr><td>搜索</td><td>名称/流地址</td><td>支持用户从大量摄像头中快速定位输入源。</td></tr></tbody></table></div>
+<p>点击 <code>新增摄像头</code> 后，系统展示添加摄像头弹窗。</p>
+<figure class="image-block"><img data-full="../screenshots_deep/05_guide/007_业务主线_新增摄像头弹窗.png" alt="截图" loading="lazy" class="doc-image" src="../screenshots_deep/05_guide/007_业务主线_新增摄像头弹窗.png" width="720"></figure>
+<h3 id="新增摄像头弹窗设计要点">新增摄像头弹窗设计要点</h3>
+<div class="table-wrap"><table><thead><tr><th>字段/按钮</th><th>页面内容</th><th>产品设计说明</th></tr></thead><tbody><tr><td>名称</td><td>摄像头名称</td><td>作为后续任务、报警日志、看板展示的主识别字段。</td></tr><tr><td>选择分组</td><td>请选择</td><td>让摄像头进入组织结构，后续便于批量管理和筛选。</td></tr><tr><td>GPS 信息</td><td>地理信息字段</td><td>支持地图、大屏态势或区域化管理扩展。</td></tr><tr><td>设备类型</td><td>实时视频</td><td>明确摄像头作为实时流输入。</td></tr><tr><td>原始流地址</td><td>RTSP/视频流地址输入</td><td>是 AI 分析链路的关键输入，必须做格式和连通性校验。</td></tr><tr><td>一键生成/快速填写</td><td>海康、大华、其他</td><td>降低常见厂商设备接入成本。</td></tr><tr><td>预览图/获取抓图</td><td>上传图片、获取抓图</td><td>用截图验证流是否可用，也为列表预览提供素材。</td></tr><tr><td>保存</td><td>最终创建动作</td><td>应在保存前校验流地址、连通性、分组和必填项。</td></tr></tbody></table></div>
+<h3 id="对新手引导的要求">对新手引导的要求</h3>
+<p><code>开始配置</code> 如果落到这里，最好不是只打开摄像头配置页，而是直接打开 <code>新增摄像头</code> 弹窗，并在弹窗上方保留步骤提示：</p>
+<div class="table-wrap"><table><thead><tr><th>步骤</th><th>引导文案建议</th><th>触发条件</th></tr></thead><tbody><tr><td>第 1 步</td><td>添加第一个摄像头，用于后续视频流分析</td><td>当前系统无摄像头或用户首次进入。</td></tr><tr><td>第 2 步</td><td>填写摄像头名称和原始流地址</td><td>用户打开新增摄像头弹窗。</td></tr><tr><td>第 3 步</td><td>点击获取抓图，确认视频流可用</td><td>用户填写流地址后。</td></tr><tr><td>第 4 步</td><td>保存摄像头，继续创建视频分析任务</td><td>摄像头保存成功后。</td></tr></tbody></table></div>
+<h2 id="4-正确后续路径二创建视频流分析任务">4. 正确后续路径二：创建视频流分析任务</h2>
+<p>摄像头添加完成后，引导应继续进入 <code>智能分析 &gt; 智能分析配置 &gt; 视频流分析</code>。这一步把摄像头和算法组合成可运行任务，是平台从“有输入源”走向“能产生结果”的关键。</p>
+<figure class="image-block"><img data-full="../screenshots_deep/05_guide/008_业务主线_视频流分析页面全貌.png" alt="截图" loading="lazy" class="doc-image" src="../screenshots_deep/05_guide/008_业务主线_视频流分析页面全貌.png" width="720"></figure>
+<h3 id="视频流分析页设计要点">视频流分析页设计要点</h3>
+<div class="table-wrap"><table><thead><tr><th>区域</th><th>页面内容</th><th>设计说明</th></tr></thead><tbody><tr><td>主按钮</td><td>创建视频分析任务</td><td>是新手引导的第二个核心 CTA。</td></tr><tr><td>搜索</td><td>ID/任务名称</td><td>支持任务数量增长后的快速检索。</td></tr><tr><td>表格字段</td><td>ID、任务名称、任务启用状态、报警推送输出、分析结果推流、操作</td><td>把任务运行、结果输出和推流状态放在列表中，便于运维判断链路是否完整。</td></tr><tr><td>行操作</td><td>启用、详情、演示视频、删除</td><td>覆盖任务运行、查看、验证和移除。</td></tr></tbody></table></div>
+<p>点击 <code>创建视频分析任务</code> 后，系统弹出任务类型选择。</p>
+<figure class="image-block"><img data-full="../screenshots_deep/05_guide/009_业务主线_创建视频分析任务弹窗.png" alt="截图" loading="lazy" class="doc-image" src="../screenshots_deep/05_guide/009_业务主线_创建视频分析任务弹窗.png" width="720"></figure>
+<h3 id="任务类型弹窗设计要点">任务类型弹窗设计要点</h3>
+<div class="table-wrap"><table><thead><tr><th>任务类型</th><th>页面说明</th><th>产品设计意义</th></tr></thead><tbody><tr><td>实时分析</td><td>对所选摄像头进行实时取流分析</td><td>适合固定点位、持续值守，是默认推荐路径。</td></tr><tr><td>轮巡分析</td><td>每次对一组摄像头进行分析，分析一定时间后自动切换到下一组，仅支持关键帧分析</td><td>适合摄像头多、算力有限的场景，用时间片降低算力压力。</td></tr><tr><td>确定</td><td>进入下一步任务配置</td><td>应继续进入摄像头选择、算法选择、规则区域、报警等级、输出配置等表单。</td></tr></tbody></table></div>
+<h3 id="对新手引导的要求-2">对新手引导的要求</h3>
+<p>新手引导应在摄像头保存成功后自动带用户进入 <code>创建视频分析任务</code>：</p>
+<div class="table-wrap"><table><thead><tr><th>步骤</th><th>引导内容</th><th>设计重点</th></tr></thead><tbody><tr><td>选择任务类型</td><td>推荐默认选择实时分析</td><td>降低第一条任务创建成本。</td></tr><tr><td>选择摄像头</td><td>默认选中刚创建的摄像头</td><td>保留上下文，避免用户重新查找。</td></tr><tr><td>选择算法</td><td>推荐已安装的常见算法，如人员入侵、烟火、安全帽等</td><td>让用户快速完成首个可运行任务。</td></tr><tr><td>配置规则</td><td>可先使用默认区域/默认阈值</td><td>新手路径不应要求复杂规则配置。</td></tr><tr><td>启用任务</td><td>创建后默认提示是否立即启用</td><td>确保用户能产生第一条结果。</td></tr></tbody></table></div>
+<h2 id="5-正确后续路径三配置报警推送">5. 正确后续路径三：配置报警推送</h2>
+<p>视频分析任务创建后，系统应继续提示用户是否配置报警推送。报警推送决定 AI 结果是否能进入外部系统或业务闭环。</p>
+<figure class="image-block"><img data-full="../screenshots_deep/05_guide/010_业务主线_报警推送页面全貌.png" alt="截图" loading="lazy" class="doc-image" src="../screenshots_deep/05_guide/010_业务主线_报警推送页面全貌.png" width="720"></figure>
+<p>点击 <code>创建推送</code> 后进入推送配置弹窗。</p>
+<figure class="image-block"><img data-full="../screenshots_deep/05_guide/011_业务主线_创建推送弹窗.png" alt="截图" loading="lazy" class="doc-image" src="../screenshots_deep/05_guide/011_业务主线_创建推送弹窗.png" width="720"></figure>
+<h3 id="创建推送弹窗设计要点">创建推送弹窗设计要点</h3>
+<div class="table-wrap"><table><thead><tr><th>配置项</th><th>页面内容</th><th>产品设计说明</th></tr></thead><tbody><tr><td>基础信息</td><td>名称、推送地址</td><td>定义外部系统接收地址和通道名称。</td></tr><tr><td>场景切换</td><td>视频流分析场景、图片分析场景</td><td>不同输入形态可能对应不同推送字段。</td></tr><tr><td>报警图片推送方式</td><td>base64、对象存储</td><td>兼容直接传输和文件对象引用两类集成方式。</td></tr><tr><td>报警视频推送方式</td><td>本地链接、对象存储</td><td>适配视频片段体积较大的传输场景。</td></tr><tr><td>推送信息</td><td>视频流分析共计 30 项，图片分析共计 19 项</td><td>说明系统支持字段级推送配置或字段预览。</td></tr><tr><td>预览/编辑</td><td>预览、编辑</td><td>帮助集成方确认推送 payload。</td></tr><tr><td>保存</td><td>最终创建推送配置</td><td>保存前应支持状态测试，避免配置成功但链路不可用。</td></tr></tbody></table></div>
+<h3 id="对新手引导的要求-3">对新手引导的要求</h3>
+<p>报警推送不一定是第一天必须完成，但新手引导应提示它的价值：</p>
+<ul>
+<li>如果用户只想在平台内查看结果，可以跳过推送，直接去数据中心查看报警日志。</li>
+<li>如果用户需要对接第三方系统，应继续配置推送地址、图片/视频推送方式和字段内容。</li>
+<li>配置完成后应引导用户做一次 <code>状态测试</code>，并把测试结果写入推送日志。</li>
+</ul>
+<h2 id="6-正确后续路径四查看结果和验证闭环">6. 正确后续路径四：查看结果和验证闭环</h2>
+<p>当摄像头、视频分析任务和推送策略配置完成后，引导应把用户带回结果消费层，验证“配置是否真的产生价值”。</p>
+<h3 id="在数据中心查看报警日志">在数据中心查看报警日志</h3>
+<figure class="image-block"><img data-full="../screenshots_deep/05_guide/012_业务主线_报警日志页面全貌.png" alt="截图" loading="lazy" class="doc-image" src="../screenshots_deep/05_guide/012_业务主线_报警日志页面全貌.png" width="720"></figure>
+<p>报警日志用于验证任务是否产生报警事件，并完成处理、归档、推送、导出等运营动作。</p>
+<div class="table-wrap"><table><thead><tr><th>区域</th><th>页面内容</th><th>产品设计说明</th></tr></thead><tbody><tr><td>筛选条件</td><td>任务名称、摄像头、异常类型、处理状态、归档状态、报警等级、时间范围</td><td>支持用户快速定位刚创建任务产生的报警。</td></tr><tr><td>表格字段</td><td>报警时间、报警截图、录制片段、异常类型、摄像头名称、报警等级、拓展信息、处理状态、归档状态</td><td>形成可审计的事件证据链。</td></tr><tr><td>批量操作</td><td>推送、处理、归档、导出、删除</td><td>让报警从识别结果进入运营处置闭环。</td></tr><tr><td>空态风险</td><td>暂无数据</td><td>新手路径应解释“暂无数据”的原因，例如任务未启用、摄像头无连接、算法未触发。</td></tr></tbody></table></div>
+<h3 id="回到数据看板查看整体态势">回到数据看板查看整体态势</h3>
+<figure class="image-block"><img data-full="../screenshots_deep/05_guide/013_业务主线_数据看板首页.png" alt="截图" loading="lazy" class="doc-image" src="../screenshots_deep/05_guide/013_业务主线_数据看板首页.png" width="720"></figure>
+<p>数据看板用于把配置成果转化为可见价值，例如实时视频、报警图片墙、业务数据概览和 AI 智能管控中心。</p>
+<div class="table-wrap"><table><thead><tr><th>看板入口</th><th>与新手引导的关系</th><th>设计说明</th></tr></thead><tbody><tr><td>实时视频监控</td><td>摄像头配置成功后可查看实时视频</td><td>验证输入源是否接入成功。</td></tr><tr><td>报警图片墙</td><td>任务产生报警后展示报警截图</td><td>验证算法输出是否产生事件。</td></tr><tr><td>业务数据概览</td><td>多任务、多算法运行后形成统计</td><td>验证平台长期运营价值。</td></tr><tr><td>AI 智能管控中心</td><td>汇总实时监控、报警趋势和排行</td><td>验证系统是否完成从配置到态势展示的闭环。</td></tr></tbody></table></div>
+<h2 id="7-推荐的新手引导流程设计">7. 推荐的新手引导流程设计</h2>
+<p>新手引导应该从单弹窗升级为状态化业务向导。建议设计如下：</p>
+<div class="table-wrap"><table><thead><tr><th>步骤</th><th>页面/弹窗</th><th>用户动作</th><th>系统反馈</th><th>完成条件</th></tr></thead><tbody><tr><td>0</td><td>欢迎弹窗</td><td>点击开始配置</td><td>进入摄像头配置，并自动打开新增摄像头弹窗</td><td>用户进入可执行配置状态。</td></tr><tr><td>1</td><td>新增摄像头弹窗</td><td>填写名称、分组、流地址，获取抓图</td><td>校验流地址和截图预览</td><td>摄像头保存成功且连接可用。</td></tr><tr><td>2</td><td>创建视频分析任务</td><td>选择实时分析，默认带入刚创建摄像头</td><td>进入算法/规则配置</td><td>任务创建成功。</td></tr><tr><td>3</td><td>启用任务</td><td>立即启用或稍后启用</td><td>显示任务启用状态和服务状态</td><td>任务处于已启用或已创建状态。</td></tr><tr><td>4</td><td>配置报警推送</td><td>创建推送或跳过</td><td>状态测试成功，或标记为稍后配置</td><td>推送配置完成或明确跳过。</td></tr><tr><td>5</td><td>查看结果</td><td>跳转报警日志或数据看板</td><td>展示报警、空态原因或下一步建议</td><td>用户看到第一条结果或明确知道为何暂无数据。</td></tr></tbody></table></div>
+<h2 id="8-现有链路的产品问题与优化建议">8. 现有链路的产品问题与优化建议</h2>
+<div class="table-wrap"><table><thead><tr><th>问题</th><th>当前表现</th><th>建议优化</th></tr></thead><tbody><tr><td>点击开始配置后的落点不清晰</td><td>历史截图显示仍在 AI 智能管控中心空态</td><td>直接跳转并打开 <code>新增摄像头</code> 弹窗，或进入可视化向导。</td></tr><tr><td>引导没有持续步骤</td><td>弹窗只负责开始，没有记录后续完成状态</td><td>增加顶部步骤条或侧边任务清单。</td></tr><tr><td>空态缺少解释</td><td>AI 管控中心和报警日志可能显示暂无数据</td><td>空态提示应解释原因，并提供“去添加摄像头/去创建任务/去启用任务”按钮。</td></tr><tr><td>关闭后难以恢复</td><td>用户关闭弹窗后可能找不到向导入口</td><td>在首页、顶部帮助或数据看板保留“新手配置向导”入口。</td></tr><tr><td>缺少上下文带入</td><td>摄像头创建后用户还要自己找任务页面</td><td>创建成功后自动带入刚创建摄像头，继续创建视频分析任务。</td></tr><tr><td>推送配置与结果验证脱节</td><td>新手可能不知道是否需要配置报警推送</td><td>在任务创建完成后给出两个明确选项：平台内查看、对接外部系统。</td></tr></tbody></table></div>
+<h2 id="9-关闭弹窗只应作为跳过分支">9. 关闭弹窗只应作为跳过分支</h2>
+<p>关闭弹窗不是主流程，只代表用户暂时不做配置。</p>
+<figure class="image-block"><img data-full="../screenshots_deep/05_guide/005_历史采集_guide_04_after_close.png" alt="截图" loading="lazy" class="doc-image" src="../screenshots_deep/05_guide/005_历史采集_guide_04_after_close.png" width="720"></figure>
+<p>关闭后的设计建议：</p>
+<ul>
+<li>页面右上角或数据看板首页保留 <code>新手配置向导</code> 入口。</li>
+<li>如果系统仍无摄像头或无分析任务，下次进入数据看板时可用轻提示提醒继续配置。</li>
+<li>对管理员和普通用户区分提示强度：管理员看到完整配置向导，普通用户看到“联系管理员配置摄像头/任务”。</li>
+<li>不要把“已关闭弹窗”简单等同于“已完成引导”，应分别记录 <code>已关闭</code>、<code>已开始</code>、<code>已完成摄像头</code>、<code>已完成任务</code> 等状态。</li>
+</ul>
+<h2 id="10-文档修正后的产品结论">10. 文档修正后的产品结论</h2>
+<p>新手引导弹窗应被定义为“AI 推理平台冷启动业务向导”，而不是“首页欢迎弹窗”。它的成功标准不是用户点击了关闭，也不是用户看到了 AI 管控中心，而是用户完成至少一个可运行的分析闭环：</p>
+<p>添加摄像头 -&gt; 创建视频流分析任务 -&gt; 启用任务 -&gt; 查看报警日志/数据看板。</p>
+<p>如果 <code>开始配置</code> 当前点击后无法直接进入该链路，这是需要在产品设计和实现上补齐的关键问题。</p>
+        </article>
+        <nav class="page-pager page-pager-bottom" aria-label="文档翻页">
+    <a class="page-turn page-turn-prev" href="04_平台管理模块.html">
+    <span>上一篇</span>
+    <strong>04_平台管理模块</strong>
+  </a>
+    <a class="page-turn page-turn-next" href="06_跨模块依赖与交集.html">
+    <span>下一篇</span>
+    <strong>06_跨模块依赖与交集</strong>
+  </a>
+  </nav>
+      </div>
+    </main>
+  </div>
+  <aside class="outline" id="page-outline" aria-label="页面大纲">
+    <div class="outline-rail" aria-hidden="true">
+      <span></span><span></span><span></span><span></span><span></span><span></span>
+    </div>
+    <section class="outline-panel">
+      <header class="outline-header">
+        <h2>大纲</h2>
+        <div class="outline-actions">
+          <button class="outline-pin" type="button" aria-pressed="false" title="固定大纲">固定</button>
+          <button class="outline-collapse" type="button" title="折叠大纲">折叠</button>
+        </div>
+      </header>
+      <div class="outline-scroll">
+        <div class="outline-group outline-leaf">
+        <a class="outline-link outline-level-2" href="#结论先行">结论先行</a>
+      </div>
+<details class="outline-group" open>
+      <summary><span class="outline-caret" aria-hidden="true"></span><a class="outline-link outline-level-2" href="#1-弹窗出现冷启动入口">1. 弹窗出现：冷启动入口</a></summary>
+      <div class="outline-children"><a class="outline-link outline-level-3" href="#弹窗设计拆解">弹窗设计拆解</a></div>
+    </details>
+<details class="outline-group" open>
+      <summary><span class="outline-caret" aria-hidden="true"></span><a class="outline-link outline-level-2" href="#2-点击开始配置主链路不应中断">2. 点击开始配置：主链路不应中断</a></summary>
+      <div class="outline-children"><a class="outline-link outline-level-3" href="#现状问题">现状问题</a>
+<a class="outline-link outline-level-3" href="#产品判断">产品判断</a></div>
+    </details>
+<details class="outline-group" open>
+      <summary><span class="outline-caret" aria-hidden="true"></span><a class="outline-link outline-level-2" href="#3-正确后续路径一添加摄像头">3. 正确后续路径一：添加摄像头</a></summary>
+      <div class="outline-children"><a class="outline-link outline-level-3" href="#摄像头配置页设计要点">摄像头配置页设计要点</a>
+<a class="outline-link outline-level-3" href="#新增摄像头弹窗设计要点">新增摄像头弹窗设计要点</a>
+<a class="outline-link outline-level-3" href="#对新手引导的要求">对新手引导的要求</a></div>
+    </details>
+<details class="outline-group" open>
+      <summary><span class="outline-caret" aria-hidden="true"></span><a class="outline-link outline-level-2" href="#4-正确后续路径二创建视频流分析任务">4. 正确后续路径二：创建视频流分析任务</a></summary>
+      <div class="outline-children"><a class="outline-link outline-level-3" href="#视频流分析页设计要点">视频流分析页设计要点</a>
+<a class="outline-link outline-level-3" href="#任务类型弹窗设计要点">任务类型弹窗设计要点</a>
+<a class="outline-link outline-level-3" href="#对新手引导的要求-2">对新手引导的要求</a></div>
+    </details>
+<details class="outline-group" open>
+      <summary><span class="outline-caret" aria-hidden="true"></span><a class="outline-link outline-level-2" href="#5-正确后续路径三配置报警推送">5. 正确后续路径三：配置报警推送</a></summary>
+      <div class="outline-children"><a class="outline-link outline-level-3" href="#创建推送弹窗设计要点">创建推送弹窗设计要点</a>
+<a class="outline-link outline-level-3" href="#对新手引导的要求-3">对新手引导的要求</a></div>
+    </details>
+<details class="outline-group" open>
+      <summary><span class="outline-caret" aria-hidden="true"></span><a class="outline-link outline-level-2" href="#6-正确后续路径四查看结果和验证闭环">6. 正确后续路径四：查看结果和验证闭环</a></summary>
+      <div class="outline-children"><a class="outline-link outline-level-3" href="#在数据中心查看报警日志">在数据中心查看报警日志</a>
+<a class="outline-link outline-level-3" href="#回到数据看板查看整体态势">回到数据看板查看整体态势</a></div>
+    </details>
+<div class="outline-group outline-leaf">
+        <a class="outline-link outline-level-2" href="#7-推荐的新手引导流程设计">7. 推荐的新手引导流程设计</a>
+      </div>
+<div class="outline-group outline-leaf">
+        <a class="outline-link outline-level-2" href="#8-现有链路的产品问题与优化建议">8. 现有链路的产品问题与优化建议</a>
+      </div>
+<div class="outline-group outline-leaf">
+        <a class="outline-link outline-level-2" href="#9-关闭弹窗只应作为跳过分支">9. 关闭弹窗只应作为跳过分支</a>
+      </div>
+<div class="outline-group outline-leaf">
+        <a class="outline-link outline-level-2" href="#10-文档修正后的产品结论">10. 文档修正后的产品结论</a>
+      </div>
+      </div>
+    </section>
+  </aside>
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox-close" type="button" aria-label="关闭图片预览">×</button>
+    <img alt="放大预览">
+    <div class="lightbox-caption"></div>
+  </div>
+  <script src="assets/lightbox.js"></script>
+</body>
+</html>

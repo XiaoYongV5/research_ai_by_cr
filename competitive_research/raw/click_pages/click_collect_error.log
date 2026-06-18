@@ -1,0 +1,4 @@
+Error: CDP timeout: Runtime.evaluate
+    at Timeout._onTimeout (file:///F:/AI%20Agent/%E4%BA%A7%E5%93%81%E8%AE%BE%E8%AE%A1/%E4%BA%A7%E5%93%81%E8%A7%84%E5%88%92/%E7%AE%97%E6%B3%95%E7%AE%A1%E7%90%86/competitive_research/automation/click_collect.mjs:76:18)
+    at listOnTimeout (node:internal/timers:605:17)
+    at process.processTimers (node:internal/timers:541:7)

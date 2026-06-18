@@ -1,0 +1,411 @@
+{
+  "module": "数据中心",
+  "submodule": "报警推送日志",
+  "capability": "推送结果审计、失败重推、推送状态与数据 ID 检索",
+  "url": "http://192.168.11.88:8081/app/main-app/data/inference-output/callback/#/open-ability/alarm-push/push-log",
+  "title": "报警推送日志",
+  "bodyText": "人工智能推理平台\n搜索菜单\n数据看板\n智能分析\n数据中心\n平台管理\n推理输出结果\n报警日志\n报警推送日志\n人员识别结果\n人员识别日志\n陌生人识别日志\n已开启自动重推，推送失败的日志将定期重新推送，下一次推送时间：2026-06-18 18:30:10\n报警推送日志\n自动清理已开启\n清理缓存\n筛选\n异常类型\n请选择\n开始时间\n结束时间\n重置\n查询\n导出\n失败重推\n\t推送时间\t报警截图\t录制片段\t异常类型\t推送状态\t数据 ID\t推送地址\t\n \n\t\n \n\t\n \n\t\n \n\t\n \n\t\n \n\t\n \n\t\n \n\n暂无数据",
+  "controls": [
+    {
+      "idx": 1,
+      "tag": "DIV",
+      "text": "搜索菜单",
+      "placeholder": "",
+      "title": "",
+      "aria": "",
+      "cls": "custom-light-select-selector",
+      "rect": {
+        "x": 961,
+        "y": 6,
+        "w": 220,
+        "h": 32
+      },
+      "disabled": false
+    },
+    {
+      "idx": 12,
+      "tag": "INPUT",
+      "text": "",
+      "placeholder": "数据ID/任务ID/摄像头ID/流地址",
+      "title": "",
+      "aria": "",
+      "cls": "custom-light-input cr-ant-input",
+      "rect": {
+        "x": 313,
+        "y": 198,
+        "w": 262,
+        "h": 32
+      },
+      "disabled": false
+    },
+    {
+      "idx": 13,
+      "tag": "DIV",
+      "text": "请选择",
+      "placeholder": "",
+      "title": "",
+      "aria": "",
+      "cls": "custom-light-select-selector",
+      "rect": {
+        "x": 591,
+        "y": 198,
+        "w": 262,
+        "h": 32
+      },
+      "disabled": false
+    },
+    {
+      "idx": 15,
+      "tag": "DIV",
+      "text": "",
+      "placeholder": "请选择日期时间",
+      "title": "",
+      "aria": "",
+      "cls": "custom-light-picker",
+      "rect": {
+        "x": 868,
+        "y": 198,
+        "w": 262,
+        "h": 32
+      },
+      "disabled": false
+    },
+    {
+      "idx": 16,
+      "tag": "INPUT",
+      "text": "",
+      "placeholder": "请选择日期时间",
+      "title": "",
+      "aria": "",
+      "cls": "",
+      "rect": {
+        "x": 880,
+        "y": 203,
+        "w": 220,
+        "h": 22
+      },
+      "disabled": false
+    },
+    {
+      "idx": 17,
+      "tag": "DIV",
+      "text": "",
+      "placeholder": "请选择日期时间",
+      "title": "",
+      "aria": "",
+      "cls": "custom-light-picker",
+      "rect": {
+        "x": 1146,
+        "y": 198,
+        "w": 262,
+        "h": 32
+      },
+      "disabled": false
+    },
+    {
+      "idx": 18,
+      "tag": "INPUT",
+      "text": "",
+      "placeholder": "请选择日期时间",
+      "title": "",
+      "aria": "",
+      "cls": "",
+      "rect": {
+        "x": 1158,
+        "y": 203,
+        "w": 220,
+        "h": 22
+      },
+      "disabled": false
+    },
+    {
+      "idx": 19,
+      "tag": "BUTTON",
+      "text": "重置",
+      "placeholder": "",
+      "title": "",
+      "aria": "",
+      "cls": "custom-light-btn custom-light-btn-text custom-light-btn-sm cr-btn-small cr-btn",
+      "rect": {
+        "x": 1259,
+        "y": 246,
+        "w": 70,
+        "h": 28
+      },
+      "disabled": false
+    },
+    {
+      "idx": 20,
+      "tag": "BUTTON",
+      "text": "查询",
+      "placeholder": "",
+      "title": "",
+      "aria": "",
+      "cls": "custom-light-btn custom-light-btn-primary custom-light-btn-sm cr-btn-small cr-btn",
+      "rect": {
+        "x": 1337,
+        "y": 246,
+        "w": 70,
+        "h": 28
+      },
+      "disabled": false
+    },
+    {
+      "idx": 21,
+      "tag": "SPAN",
+      "text": "失败重推",
+      "placeholder": "",
+      "title": "",
+      "aria": "",
+      "cls": "operate-btn custom-light-dropdown-trigger",
+      "rect": {
+        "x": 389,
+        "y": 313,
+        "w": 90,
+        "h": 28
+      },
+      "disabled": false
+    }
+  ],
+  "menus": [
+    {
+      "idx": 0,
+      "text": "数据看板",
+      "cls": "app-menu-item",
+      "rect": {
+        "x": 8,
+        "y": 52,
+        "w": 63,
+        "h": 76
+      }
+    },
+    {
+      "idx": 1,
+      "text": "数据看板",
+      "cls": "app-menu-text",
+      "rect": {
+        "x": 8,
+        "y": 104,
+        "w": 63,
+        "h": 20
+      }
+    },
+    {
+      "idx": 2,
+      "text": "智能分析",
+      "cls": "app-menu-item",
+      "rect": {
+        "x": 8,
+        "y": 136,
+        "w": 63,
+        "h": 76
+      }
+    },
+    {
+      "idx": 3,
+      "text": "智能分析",
+      "cls": "app-menu-text",
+      "rect": {
+        "x": 8,
+        "y": 188,
+        "w": 63,
+        "h": 20
+      }
+    },
+    {
+      "idx": 4,
+      "text": "数据中心",
+      "cls": "app-menu-item active",
+      "rect": {
+        "x": 8,
+        "y": 220,
+        "w": 63,
+        "h": 76
+      }
+    },
+    {
+      "idx": 5,
+      "text": "数据中心",
+      "cls": "app-menu-text",
+      "rect": {
+        "x": 8,
+        "y": 272,
+        "w": 63,
+        "h": 20
+      }
+    },
+    {
+      "idx": 6,
+      "text": "平台管理",
+      "cls": "app-menu-item",
+      "rect": {
+        "x": 8,
+        "y": 304,
+        "w": 63,
+        "h": 76
+      }
+    },
+    {
+      "idx": 7,
+      "text": "平台管理",
+      "cls": "app-menu-text",
+      "rect": {
+        "x": 8,
+        "y": 356,
+        "w": 63,
+        "h": 20
+      }
+    },
+    {
+      "idx": 8,
+      "text": "推理输出结果",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 88,
+        "y": 54,
+        "w": 185,
+        "h": 28
+      }
+    },
+    {
+      "idx": 9,
+      "text": "报警日志",
+      "cls": "custom-light-menu-item custom-light-menu-item-only-child",
+      "rect": {
+        "x": 80,
+        "y": 86,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 10,
+      "text": "报警日志",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 88,
+        "y": 86,
+        "w": 185,
+        "h": 32
+      }
+    },
+    {
+      "idx": 11,
+      "text": "报警推送日志",
+      "cls": "custom-light-menu-item custom-light-menu-item-selected custom-light-menu-item-only-child",
+      "rect": {
+        "x": 80,
+        "y": 120,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 12,
+      "text": "报警推送日志",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 88,
+        "y": 120,
+        "w": 185,
+        "h": 32
+      }
+    },
+    {
+      "idx": 13,
+      "text": "人员识别结果",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 88,
+        "y": 173,
+        "w": 185,
+        "h": 28
+      }
+    },
+    {
+      "idx": 14,
+      "text": "人员识别日志",
+      "cls": "custom-light-menu-item custom-light-menu-item-only-child",
+      "rect": {
+        "x": 80,
+        "y": 205,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 15,
+      "text": "人员识别日志",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 88,
+        "y": 205,
+        "w": 185,
+        "h": 32
+      }
+    },
+    {
+      "idx": 16,
+      "text": "陌生人识别日志",
+      "cls": "custom-light-menu-item custom-light-menu-item-only-child",
+      "rect": {
+        "x": 80,
+        "y": 239,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 17,
+      "text": "陌生人识别日志",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 88,
+        "y": 239,
+        "w": 185,
+        "h": 32
+      }
+    }
+  ],
+  "tables": [
+    {
+      "idx": 0,
+      "text": "推送时间 报警截图 录制片段 异常类型 推送状态 数据 ID 推送地址 暂无数据",
+      "headers": [
+        "推送时间",
+        "报警截图",
+        "录制片段",
+        "异常类型",
+        "推送状态",
+        "数据 ID",
+        "推送地址"
+      ]
+    },
+    {
+      "idx": 1,
+      "text": "推送时间 报警截图 录制片段 异常类型 推送状态 数据 ID 推送地址",
+      "headers": [
+        "推送时间",
+        "报警截图",
+        "录制片段",
+        "异常类型",
+        "推送状态",
+        "数据 ID",
+        "推送地址"
+      ]
+    },
+    {
+      "idx": 2,
+      "text": "暂无数据",
+      "headers": []
+    }
+  ],
+  "forms": [
+    {
+      "idx": 0,
+      "text": "人工智能推理平台",
+      "inputs": []
+    }
+  ],
+  "cards": []
+}

@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>跨模块依赖与交集 - 竞品研究</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <div class="brand">
+        <a class="brand-text" href="index.html" aria-label="返回首页">
+          <span class="brand-kicker">Competitive Research</span>
+          <strong>人工智能推理平台</strong>
+        </a>
+        <button class="sidebar-toggle" type="button" aria-label="折叠菜单" aria-expanded="true"></button>
+      </div>
+      <nav class="doc-nav" aria-label="文档导航">
+        <a href="00_研究总览.html" data-title="00_研究总览">00_研究总览</a>
+<a href="01_数据看板模块.html" data-title="01_数据看板模块">01_数据看板模块</a>
+<a href="02_智能分析模块.html" data-title="02_智能分析模块">02_智能分析模块</a>
+<a href="03_数据中心模块.html" data-title="03_数据中心模块">03_数据中心模块</a>
+<a href="04_平台管理模块.html" data-title="04_平台管理模块">04_平台管理模块</a>
+<a href="05_新手引导弹窗模块.html" data-title="05_新手引导弹窗模块">05_新手引导弹窗模块</a>
+<a aria-current="page" href="06_跨模块依赖与交集.html" data-title="06_跨模块依赖与交集">06_跨模块依赖与交集</a>
+<a href="07_深度截图索引.html" data-title="07_深度截图索引">07_深度截图索引</a>
+      </nav>
+    </aside>
+    <main class="main">
+      <header class="page-header">
+        <div class="page-title-block">
+          <span class="page-kicker">HTML 阅读版</span>
+          <h1>跨模块依赖与交集</h1>
+        </div>
+        <nav class="page-pager page-pager-top" aria-label="文档翻页">
+    <a class="page-turn page-turn-prev" href="05_新手引导弹窗模块.html">
+    <span>上一篇</span>
+    <strong>05_新手引导弹窗模块</strong>
+  </a>
+    <a class="page-turn page-turn-next" href="07_深度截图索引.html">
+    <span>下一篇</span>
+    <strong>07_深度截图索引</strong>
+  </a>
+  </nav>
+      </header>
+      <div class="content-layout">
+        <article class="doc-content">
+          <h1 id="跨模块依赖与交集">跨模块依赖与交集</h1>
+<p>四个大模块不是并列孤岛，而是围绕 AI 推理业务形成闭环：平台管理提供算法和治理基础，智能分析把输入源与算法编排成任务，数据中心沉淀结果并完成处置，数据看板消费指标并展示态势。</p>
+<h2 id="总体链路">总体链路</h2>
+<div class="table-wrap"><table><thead><tr><th>链路阶段</th><th>主责模块</th><th>关键对象</th><th>设计说明</th></tr></thead><tbody><tr><td>能力准备</td><td>平台管理</td><td>离线算法包、解决方案、权限、对象存储</td><td>算法安装、权限授权、存储和开放接口决定系统可用能力边界。</td></tr><tr><td>输入接入</td><td>智能分析</td><td>摄像头、视频源、图片输入、人员库、算法底库</td><td>让平台知道看哪里、识别什么、依赖哪些基础数据。</td></tr><tr><td>任务执行</td><td>智能分析</td><td>视频流分析任务、图片分析任务、分析服务</td><td>把输入与算法组合成可运行任务，并监控服务健康。</td></tr><tr><td>结果沉淀</td><td>数据中心</td><td>报警日志、推送日志、人员识别日志、陌生人日志</td><td>用于审计、处置、归档、导出和排障。</td></tr><tr><td>结果展示</td><td>数据看板</td><td>实时监控、业务概览、报警图片墙、AI 管控中心</td><td>面向管理者和值守人员展示全局态势。</td></tr></tbody></table></div>
+<h2 id="代表性证据截图">代表性证据截图</h2>
+<div class="table-wrap"><table><thead><tr><th>依赖关系</th><th>截图</th><th>产品解读</th></tr></thead><tbody><tr><td>平台管理 -&gt; 智能分析</td><td><img data-full="../screenshots_deep/04_platform_management/001_离线仓库_页面全貌.png" alt="截图" loading="lazy" class="doc-image" src="../screenshots_deep/04_platform_management/001_离线仓库_页面全貌.png" width="300"></td><td>离线仓库安装的算法包进入算法资产体系，之后才能在智能分析中创建任务或配置算法。</td></tr><tr><td>智能分析 -&gt; 数据中心</td><td><img data-full="../screenshots_deep/02_smart_analysis/089_视频流分析_页面全貌.png" alt="截图" loading="lazy" class="doc-image" src="../screenshots_deep/02_smart_analysis/089_视频流分析_页面全貌.png" width="300"></td><td>视频流分析任务产生报警或识别结果，数据中心承接这些输出并提供查询处置。</td></tr><tr><td>数据中心 -&gt; 数据看板</td><td><img data-full="../screenshots_deep/03_data_center/001_报警日志_页面全貌.png" alt="截图" loading="lazy" class="doc-image" src="../screenshots_deep/03_data_center/001_报警日志_页面全貌.png" width="300"></td><td>报警日志中的事件、状态和等级会成为看板报警趋势、图片墙和管控中心指标来源。</td></tr><tr><td>全局导航贯穿全模块</td><td><img data-full="../screenshots_deep/00_common/001_顶部栏与全局导航_顶部栏_默认态.png" alt="截图" loading="lazy" class="doc-image" src="../screenshots_deep/00_common/001_顶部栏与全局导航_顶部栏_默认态.png" width="300"></td><td>顶部搜索、应用中心、站内信和账号入口跨模块固定存在，降低在深层页面切换成本。</td></tr><tr><td>新手引导 -&gt; 智能分析</td><td><img data-full="../screenshots_deep/05_guide/001_历史采集_01_after_login.png" alt="截图" loading="lazy" class="doc-image" src="../screenshots_deep/05_guide/001_历史采集_01_after_login.png" width="300"></td><td>新手引导把用户直接带向添加摄像头和创建视频分析任务，是系统冷启动的跨模块入口。</td></tr></tbody></table></div>
+<h2 id="聚焦补图后的交集补充">聚焦补图后的交集补充</h2>
+<p>本次复查后，将顶部搜索、应用中心、通知、语言、账号统一归为公共顶部工具区；跨模块分析不再把它们重复计入每个业务模块，而是关注业务对象之间的依赖。</p>
+<div class="table-wrap"><table><thead><tr><th>依赖关系</th><th>聚焦截图</th><th>产品解读</th></tr></thead><tbody><tr><td>算法参数配置 -&gt; 任务运行</td><td><img data-full="../screenshots_focused/02_smart_analysis/015_算法详情-人员入侵识别_Tab_默认绘制样式.png" alt="截图" loading="lazy" class="doc-image" src="../screenshots_focused/02_smart_analysis/015_算法详情-人员入侵识别_Tab_默认绘制样式.png" width="280"></td><td>算法详情中的阈值、绘制对象和默认样式会影响后续视频/图片分析任务的识别结果与报警可解释性。</td></tr><tr><td>任务配置 -&gt; 报警日志</td><td><img data-full="../screenshots_focused/02_smart_analysis/023_视频流分析详情_Tab_查看报警.png" alt="截图" loading="lazy" class="doc-image" src="../screenshots_focused/02_smart_analysis/023_视频流分析详情_Tab_查看报警.png" width="280"></td><td>视频流分析详情中的“查看报警”与数据中心报警日志形成直接闭环，建议支持带条件跳转。</td></tr><tr><td>报警推送 -&gt; 对象存储</td><td><img data-full="../screenshots_focused/02_smart_analysis/042_报警推送创建_Tab_对象存储.png" alt="截图" loading="lazy" class="doc-image" src="../screenshots_focused/02_smart_analysis/042_报警推送创建_Tab_对象存储.png" width="280"></td><td>报警推送可选择 base64、对象存储、本地链接等证据交付方式，依赖平台管理中的存储配置。</td></tr><tr><td>平台治理 -&gt; 全局体验</td><td><img data-full="../screenshots_focused/04_platform_management/017_系统主题_操作_使_用.png" alt="截图" loading="lazy" class="doc-image" src="../screenshots_focused/04_platform_management/017_系统主题_操作_使_用.png" width="280"></td><td>系统主题、基础信息、站内信等平台配置会影响所有业务模块，是公共能力而不是单页能力。</td></tr></tbody></table></div>
+<h2 id="交集对象模型">交集对象模型</h2>
+<div class="table-wrap"><table><thead><tr><th>对象</th><th>涉及模块</th><th>生命周期与交集</th></tr></thead><tbody><tr><td>摄像头/视频源</td><td>智能分析、数据中心、数据看板</td><td>在摄像头配置中创建和分组；任务运行后生成报警；看板展示实时视频和报警态势。</td></tr><tr><td>算法</td><td>平台管理、智能分析、数据中心、数据看板</td><td>在离线仓库安装；在算法列表中配置；在任务中被调用；结果进入日志和看板统计。</td></tr><tr><td>分析任务</td><td>智能分析、数据中心、数据看板</td><td>在视频/图片分析中创建；运行后产生日志；状态和结果成为看板指标。</td></tr><tr><td>报警事件</td><td>智能分析、数据中心、数据看板、平台管理开放能力</td><td>由任务产生；在数据中心处理/归档/推送；看板消费趋势；开放能力向外部系统推送。</td></tr><tr><td>人员/陌生人</td><td>智能分析、数据中心</td><td>人员库维护基础数据；识别结果进入人员识别日志和陌生人日志。</td></tr><tr><td>用户/权限</td><td>平台管理、全部模块</td><td>用户、用户组、系统权限决定菜单、按钮和数据范围可见性。</td></tr><tr><td>对象存储</td><td>平台管理、数据中心、数据看板</td><td>存放报警截图、录制片段、算法包等文件资源，是日志证据和看板媒体展示的底座。</td></tr></tbody></table></div>
+<h2 id="产品设计建议">产品设计建议</h2>
+<ul>
+<li>建立跨模块上下文跳转：从报警日志跳任务详情，从看板指标跳过滤后的日志，从算法卡片跳算法任务列表。</li>
+<li>统一对象命名：摄像头、视频源、点位、监控点等概念应在不同模块保持一致，减少理解成本。</li>
+<li>强化空状态下一步：数据中心无报警时应提示去创建任务；看板无数据时应提示配置摄像头和算法；平台无密钥时提示创建访问密钥。</li>
+<li>把新手引导做成闭环任务清单：添加摄像头、选择算法、创建任务、配置推送、查看报警/看板。</li>
+<li>补齐审计：删除、安装、保存网络、重置密码、强制重启等高风险操作应有二次确认、操作人、时间、结果和回滚提示。</li>
+</ul>
+        </article>
+        <nav class="page-pager page-pager-bottom" aria-label="文档翻页">
+    <a class="page-turn page-turn-prev" href="05_新手引导弹窗模块.html">
+    <span>上一篇</span>
+    <strong>05_新手引导弹窗模块</strong>
+  </a>
+    <a class="page-turn page-turn-next" href="07_深度截图索引.html">
+    <span>下一篇</span>
+    <strong>07_深度截图索引</strong>
+  </a>
+  </nav>
+      </div>
+    </main>
+  </div>
+  <aside class="outline" id="page-outline" aria-label="页面大纲">
+    <div class="outline-rail" aria-hidden="true">
+      <span></span><span></span><span></span><span></span><span></span><span></span>
+    </div>
+    <section class="outline-panel">
+      <header class="outline-header">
+        <h2>大纲</h2>
+        <div class="outline-actions">
+          <button class="outline-pin" type="button" aria-pressed="false" title="固定大纲">固定</button>
+          <button class="outline-collapse" type="button" title="折叠大纲">折叠</button>
+        </div>
+      </header>
+      <div class="outline-scroll">
+        <div class="outline-group outline-leaf">
+        <a class="outline-link outline-level-2" href="#总体链路">总体链路</a>
+      </div>
+<div class="outline-group outline-leaf">
+        <a class="outline-link outline-level-2" href="#代表性证据截图">代表性证据截图</a>
+      </div>
+<div class="outline-group outline-leaf">
+        <a class="outline-link outline-level-2" href="#聚焦补图后的交集补充">聚焦补图后的交集补充</a>
+      </div>
+<div class="outline-group outline-leaf">
+        <a class="outline-link outline-level-2" href="#交集对象模型">交集对象模型</a>
+      </div>
+<div class="outline-group outline-leaf">
+        <a class="outline-link outline-level-2" href="#产品设计建议">产品设计建议</a>
+      </div>
+      </div>
+    </section>
+  </aside>
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox-close" type="button" aria-label="关闭图片预览">×</button>
+    <img alt="放大预览">
+    <div class="lightbox-caption"></div>
+  </div>
+  <script src="assets/lightbox.js"></script>
+</body>
+</html>

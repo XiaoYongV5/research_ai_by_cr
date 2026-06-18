@@ -1,0 +1,723 @@
+[
+  {
+    "note": "登录后默认页",
+    "title": "数据看板首页",
+    "url": "http://192.168.11.88:8081/app/main-app/frame",
+    "path": "/app/main-app/frame",
+    "bodyText": "人工智能推理平台\n搜索菜单\n数据看板\n智能分析\n数据中心\n平台管理\n欢迎使用人工智能推理平台\n请跟随引导，开始添加摄像头，并创建第一个视频流分析任务吧\n开始配置",
+    "headings": [],
+    "controls": [
+      {
+        "idx": 8,
+        "tag": "BUTTON",
+        "cls": "custom-light-btn custom-light-btn-primary cr-btn-middle cr-btn",
+        "text": "开始配置",
+        "placeholder": "",
+        "title": "",
+        "aria": "",
+        "disabled": false,
+        "rect": {
+          "x": 620,
+          "y": 604,
+          "w": 200,
+          "h": 40
+        }
+      }
+    ],
+    "tables": [],
+    "cards": [],
+    "menus": [],
+    "storageKeys": {
+      "localStorage": [
+        "voiceConfig",
+        "theme",
+        "globalData",
+        "publicKey",
+        "token",
+        "userInfo",
+        "moduleSwitches"
+      ],
+      "sessionStorage": []
+    },
+    "screenshot": "screenshots/01_after_login.png"
+  },
+  {
+    "note": "/app/cockpit/#/cockpit",
+    "title": "vue3-ts-cli",
+    "url": "http://192.168.11.88:8081/app/cockpit/#/cockpit",
+    "path": "/app/cockpit/#/cockpit",
+    "bodyText": "",
+    "headings": [],
+    "controls": [],
+    "tables": [],
+    "cards": [],
+    "menus": [],
+    "storageKeys": {
+      "localStorage": [
+        "voiceConfig",
+        "theme",
+        "globalData",
+        "publicKey",
+        "token",
+        "userInfo",
+        "moduleSwitches"
+      ],
+      "sessionStorage": []
+    },
+    "screenshot": "screenshots/route_data_dashboard.png"
+  },
+  {
+    "note": "/app/business_overview/#/business-overview",
+    "title": "404",
+    "url": "http://192.168.11.88:8081/app/business_overview/#/404",
+    "path": "/app/business_overview/#/404",
+    "bodyText": "404\n抱歉, 您访问的页面不存在\n返回首页",
+    "headings": [],
+    "controls": [
+      {
+        "idx": 0,
+        "tag": "BUTTON",
+        "cls": "custom-dark-btn custom-dark-btn-primary",
+        "text": "返回首页",
+        "placeholder": "",
+        "title": "",
+        "aria": "",
+        "disabled": false,
+        "rect": {
+          "x": 676,
+          "y": 688,
+          "w": 88,
+          "h": 32
+        }
+      }
+    ],
+    "tables": [],
+    "cards": [],
+    "menus": [],
+    "storageKeys": {
+      "localStorage": [
+        "voiceConfig",
+        "theme",
+        "globalData",
+        "publicKey",
+        "token",
+        "userInfo",
+        "moduleSwitches"
+      ],
+      "sessionStorage": []
+    },
+    "screenshot": "screenshots/route_business_overview.png"
+  },
+  {
+    "note": "/app/alarm_img_wall/",
+    "title": "登录",
+    "url": "http://192.168.11.88:8081/app/alarm_img_wall/#/login",
+    "path": "/app/alarm_img_wall/#/login",
+    "bodyText": "人工智能推理平台\n登录",
+    "headings": [],
+    "controls": [
+      {
+        "idx": 0,
+        "tag": "INPUT",
+        "cls": "el-input__inner",
+        "text": "",
+        "placeholder": "用户名/手机号",
+        "title": "",
+        "aria": "",
+        "disabled": false,
+        "rect": {
+          "x": 1110,
+          "y": 315,
+          "w": 260,
+          "h": 36
+        }
+      },
+      {
+        "idx": 1,
+        "tag": "INPUT",
+        "cls": "el-input__inner",
+        "text": "",
+        "placeholder": "请输入密码",
+        "title": "",
+        "aria": "",
+        "disabled": false,
+        "rect": {
+          "x": 1110,
+          "y": 367,
+          "w": 260,
+          "h": 36
+        }
+      },
+      {
+        "idx": 2,
+        "tag": "BUTTON",
+        "cls": "el-button login-button el-button--primary",
+        "text": "登录",
+        "placeholder": "",
+        "title": "",
+        "aria": "",
+        "disabled": false,
+        "rect": {
+          "x": 1110,
+          "y": 459,
+          "w": 260,
+          "h": 38
+        }
+      }
+    ],
+    "tables": [],
+    "cards": [],
+    "menus": [],
+    "storageKeys": {
+      "localStorage": [
+        "voiceConfig",
+        "theme",
+        "globalData",
+        "publicKey",
+        "token",
+        "userInfo",
+        "moduleSwitches"
+      ],
+      "sessionStorage": []
+    },
+    "screenshot": "screenshots/route_alarm_img_wall.png"
+  },
+  {
+    "note": "/app/video_analysis/#/video-analysis",
+    "title": "vue3-ts-cli",
+    "url": "http://192.168.11.88:8081/app/video_analysis/#/video-analysis",
+    "path": "/app/video_analysis/#/video-analysis",
+    "bodyText": "",
+    "headings": [],
+    "controls": [],
+    "tables": [],
+    "cards": [],
+    "menus": [],
+    "storageKeys": {
+      "localStorage": [
+        "voiceConfig",
+        "theme",
+        "globalData",
+        "publicKey",
+        "token",
+        "userInfo",
+        "moduleSwitches"
+      ],
+      "sessionStorage": []
+    },
+    "screenshot": "screenshots/route_video_analysis.png"
+  },
+  {
+    "note": "/app/image_analysis/#/image-analysis",
+    "title": "vue3-ts-cli",
+    "url": "http://192.168.11.88:8081/app/image_analysis/#/image-analysis",
+    "path": "/app/image_analysis/#/image-analysis",
+    "bodyText": "",
+    "headings": [],
+    "controls": [],
+    "tables": [],
+    "cards": [],
+    "menus": [],
+    "storageKeys": {
+      "localStorage": [
+        "voiceConfig",
+        "theme",
+        "globalData",
+        "publicKey",
+        "token",
+        "userInfo",
+        "moduleSwitches"
+      ],
+      "sessionStorage": []
+    },
+    "screenshot": "screenshots/route_image_analysis.png"
+  },
+  {
+    "note": "/app/universal_video_input/#/universal-video-input",
+    "title": "vue3-ts-cli",
+    "url": "http://192.168.11.88:8081/app/universal_video_input/#/universal-video-input",
+    "path": "/app/universal_video_input/#/universal-video-input",
+    "bodyText": "",
+    "headings": [],
+    "controls": [],
+    "tables": [],
+    "cards": [],
+    "menus": [],
+    "storageKeys": {
+      "localStorage": [
+        "voiceConfig",
+        "theme",
+        "globalData",
+        "publicKey",
+        "token",
+        "userInfo",
+        "moduleSwitches"
+      ],
+      "sessionStorage": []
+    },
+    "screenshot": "screenshots/route_universal_video_input.png"
+  },
+  {
+    "note": "/app/algo_info/#/algo-info",
+    "title": "vue3-ts-cli",
+    "url": "http://192.168.11.88:8081/app/algo_info/#/algo-info",
+    "path": "/app/algo_info/#/algo-info",
+    "bodyText": "",
+    "headings": [],
+    "controls": [],
+    "tables": [],
+    "cards": [],
+    "menus": [],
+    "storageKeys": {
+      "localStorage": [
+        "voiceConfig",
+        "theme",
+        "globalData",
+        "publicKey",
+        "token",
+        "userInfo",
+        "moduleSwitches"
+      ],
+      "sessionStorage": []
+    },
+    "screenshot": "screenshots/route_algo_info.png"
+  },
+  {
+    "note": "/app/executive_service/#/executive-service",
+    "title": "vue3-ts-cli",
+    "url": "http://192.168.11.88:8081/app/executive_service/#/executive-service",
+    "path": "/app/executive_service/#/executive-service",
+    "bodyText": "",
+    "headings": [],
+    "controls": [],
+    "tables": [],
+    "cards": [],
+    "menus": [],
+    "storageKeys": {
+      "localStorage": [
+        "voiceConfig",
+        "theme",
+        "globalData",
+        "publicKey",
+        "token",
+        "userInfo",
+        "moduleSwitches"
+      ],
+      "sessionStorage": []
+    },
+    "screenshot": "screenshots/route_executive_service.png"
+  },
+  {
+    "note": "/app/push_callback/#/push-callback",
+    "title": "vue3-ts-cli",
+    "url": "http://192.168.11.88:8081/app/push_callback/#/push-callback",
+    "path": "/app/push_callback/#/push-callback",
+    "bodyText": "",
+    "headings": [],
+    "controls": [],
+    "tables": [],
+    "cards": [],
+    "menus": [],
+    "storageKeys": {
+      "localStorage": [
+        "voiceConfig",
+        "theme",
+        "globalData",
+        "publicKey",
+        "token",
+        "userInfo",
+        "moduleSwitches"
+      ],
+      "sessionStorage": []
+    },
+    "screenshot": "screenshots/route_push_callback.png"
+  },
+  {
+    "note": "/app/algo_log/#/algo-log",
+    "title": "vue3-ts-cli",
+    "url": "http://192.168.11.88:8081/app/algo_log/#/algo-log",
+    "path": "/app/algo_log/#/algo-log",
+    "bodyText": "",
+    "headings": [],
+    "controls": [],
+    "tables": [],
+    "cards": [],
+    "menus": [],
+    "storageKeys": {
+      "localStorage": [
+        "voiceConfig",
+        "theme",
+        "globalData",
+        "publicKey",
+        "token",
+        "userInfo",
+        "moduleSwitches"
+      ],
+      "sessionStorage": []
+    },
+    "screenshot": "screenshots/route_algo_log.png"
+  },
+  {
+    "note": "/app/algo_store/#/algo-store",
+    "title": "vue3-ts-cli",
+    "url": "http://192.168.11.88:8081/app/algo_store/#/algo-store",
+    "path": "/app/algo_store/#/algo-store",
+    "bodyText": "",
+    "headings": [],
+    "controls": [],
+    "tables": [],
+    "cards": [],
+    "menus": [],
+    "storageKeys": {
+      "localStorage": [
+        "voiceConfig",
+        "theme",
+        "globalData",
+        "publicKey",
+        "token",
+        "userInfo",
+        "moduleSwitches"
+      ],
+      "sessionStorage": []
+    },
+    "screenshot": "screenshots/route_algo_store.png"
+  },
+  {
+    "note": "/app/face/#/face",
+    "title": "vue3-ts-cli",
+    "url": "http://192.168.11.88:8081/app/face/#/face",
+    "path": "/app/face/#/face",
+    "bodyText": "人员库\n分组\n全部\n未分组\n0\n陌生人\n0\n添加人员\n提取人员特征\n更多\n\t照片\t姓名\t提取状态\tID\t性别\t工号\t联系方式\t操作\t\n \n\t\n \n\t\n \n\t\n \n\t\n \n\t\n \n\t\n \n\t\n \n\t\n \n\n暂无数据",
+    "headings": [],
+    "controls": [
+      {
+        "idx": 0,
+        "tag": "INPUT",
+        "cls": "custom-light-input",
+        "text": "",
+        "placeholder": "分组名称",
+        "title": "",
+        "aria": "",
+        "disabled": false,
+        "rect": {
+          "x": 46,
+          "y": 112,
+          "w": 152,
+          "h": 22
+        }
+      },
+      {
+        "idx": 1,
+        "tag": "SPAN",
+        "cls": "anticon anticon-close-circle custom-light-input-clear-icon-hidden custom-light-input-clear-icon-has-suffix custom-light-input-clear-icon",
+        "text": "",
+        "placeholder": "",
+        "title": "",
+        "aria": "close-circle",
+        "disabled": false,
+        "rect": {
+          "x": 206,
+          "y": 117,
+          "w": 12,
+          "h": 12
+        }
+      },
+      {
+        "idx": 2,
+        "tag": "INPUT",
+        "cls": "",
+        "text": "",
+        "placeholder": "",
+        "title": "",
+        "aria": "for screen reader",
+        "disabled": false,
+        "rect": {
+          "x": 8,
+          "y": 155,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "idx": 4,
+        "tag": "BUTTON",
+        "cls": "custom-light-btn custom-light-btn-primary cr-btn-middle cr-btn",
+        "text": "添加人员",
+        "placeholder": "",
+        "title": "",
+        "aria": "",
+        "disabled": false,
+        "rect": {
+          "x": 258,
+          "y": 82,
+          "w": 80,
+          "h": 32
+        }
+      },
+      {
+        "idx": 5,
+        "tag": "BUTTON",
+        "cls": "custom-light-btn custom-light-btn-text cr-btn-middle cr-btn",
+        "text": "提取人员特征",
+        "placeholder": "",
+        "title": "",
+        "aria": "",
+        "disabled": false,
+        "rect": {
+          "x": 346,
+          "y": 82,
+          "w": 98,
+          "h": 32
+        }
+      },
+      {
+        "idx": 6,
+        "tag": "BUTTON",
+        "cls": "custom-light-btn custom-light-btn-text cr-btn-middle cr-btn",
+        "text": "更多",
+        "placeholder": "",
+        "title": "",
+        "aria": "",
+        "disabled": false,
+        "rect": {
+          "x": 452,
+          "y": 82,
+          "w": 80,
+          "h": 32
+        }
+      },
+      {
+        "idx": 7,
+        "tag": "INPUT",
+        "cls": "custom-light-input",
+        "text": "",
+        "placeholder": "姓名/ID/工号",
+        "title": "",
+        "aria": "",
+        "disabled": false,
+        "rect": {
+          "x": 1162,
+          "y": 87,
+          "w": 234,
+          "h": 22
+        }
+      },
+      {
+        "idx": 8,
+        "tag": "SPAN",
+        "cls": "anticon anticon-close-circle custom-light-input-clear-icon-hidden custom-light-input-clear-icon-has-suffix custom-light-input-clear-icon",
+        "text": "",
+        "placeholder": "",
+        "title": "",
+        "aria": "close-circle",
+        "disabled": false,
+        "rect": {
+          "x": 1404,
+          "y": 92,
+          "w": 12,
+          "h": 12
+        }
+      }
+    ],
+    "tables": [
+      {
+        "idx": 0,
+        "text": "照片 姓名 提取状态 ID 性别 工号 联系方式 操作 暂无数据",
+        "headers": [
+          "照片",
+          "姓名",
+          "提取状态",
+          "ID",
+          "性别",
+          "工号",
+          "联系方式",
+          "操作"
+        ]
+      },
+      {
+        "idx": 1,
+        "text": "照片 姓名 提取状态 ID 性别 工号 联系方式 操作",
+        "headers": [
+          "照片",
+          "姓名",
+          "提取状态",
+          "ID",
+          "性别",
+          "工号",
+          "联系方式",
+          "操作"
+        ]
+      },
+      {
+        "idx": 2,
+        "text": "暂无数据",
+        "headers": []
+      }
+    ],
+    "cards": [],
+    "menus": [],
+    "storageKeys": {
+      "localStorage": [
+        "voiceConfig",
+        "theme",
+        "globalData",
+        "publicKey",
+        "token",
+        "userInfo",
+        "moduleSwitches"
+      ],
+      "sessionStorage": []
+    },
+    "screenshot": "screenshots/route_face.png"
+  },
+  {
+    "note": "/app/algo_base_library/#/algo-base-library",
+    "title": "crbps-child-algo-base-library",
+    "url": "http://192.168.11.88:8081/app/algo_base_library/#/algo-base-library",
+    "path": "/app/algo_base_library/#/algo-base-library",
+    "bodyText": "",
+    "headings": [],
+    "controls": [],
+    "tables": [],
+    "cards": [],
+    "menus": [],
+    "storageKeys": {
+      "localStorage": [
+        "voiceConfig",
+        "theme",
+        "globalData",
+        "publicKey",
+        "token",
+        "userInfo",
+        "moduleSwitches"
+      ],
+      "sessionStorage": []
+    },
+    "screenshot": "screenshots/route_algo_base_library.png"
+  },
+  {
+    "note": "/app/open_center/#/open-center",
+    "title": "vue3-ts-cli",
+    "url": "http://192.168.11.88:8081/app/open_center/#/open-center",
+    "path": "/app/open_center/#/open-center",
+    "bodyText": "",
+    "headings": [],
+    "controls": [],
+    "tables": [],
+    "cards": [],
+    "menus": [],
+    "storageKeys": {
+      "localStorage": [
+        "voiceConfig",
+        "theme",
+        "globalData",
+        "publicKey",
+        "token",
+        "userInfo",
+        "moduleSwitches"
+      ],
+      "sessionStorage": []
+    },
+    "screenshot": "screenshots/route_open_center.png"
+  },
+  {
+    "note": "/app/ai_warehouse_management/#/ai-warehouse-management",
+    "title": "vue3-ts-cli",
+    "url": "http://192.168.11.88:8081/app/ai_warehouse_management/#/ai-warehouse-management",
+    "path": "/app/ai_warehouse_management/#/ai-warehouse-management",
+    "bodyText": "",
+    "headings": [],
+    "controls": [],
+    "tables": [],
+    "cards": [],
+    "menus": [],
+    "storageKeys": {
+      "localStorage": [
+        "voiceConfig",
+        "theme",
+        "globalData",
+        "publicKey",
+        "token",
+        "userInfo",
+        "moduleSwitches"
+      ],
+      "sessionStorage": []
+    },
+    "screenshot": "screenshots/route_ai_warehouse_management.png"
+  },
+  {
+    "note": "/app/system_setting/#/system-setting",
+    "title": "vue3-ts-cli",
+    "url": "http://192.168.11.88:8081/app/system_setting/#/system-setting",
+    "path": "/app/system_setting/#/system-setting",
+    "bodyText": "",
+    "headings": [],
+    "controls": [],
+    "tables": [],
+    "cards": [],
+    "menus": [],
+    "storageKeys": {
+      "localStorage": [
+        "voiceConfig",
+        "theme",
+        "globalData",
+        "publicKey",
+        "token",
+        "userInfo",
+        "moduleSwitches"
+      ],
+      "sessionStorage": []
+    },
+    "screenshot": "screenshots/route_system_setting.png"
+  },
+  {
+    "note": "/app/user_permission/#/user-permission",
+    "title": "vue3-ts-cli",
+    "url": "http://192.168.11.88:8081/app/user_permission/#/user-permission",
+    "path": "/app/user_permission/#/user-permission",
+    "bodyText": "",
+    "headings": [],
+    "controls": [],
+    "tables": [],
+    "cards": [],
+    "menus": [],
+    "storageKeys": {
+      "localStorage": [
+        "voiceConfig",
+        "theme",
+        "globalData",
+        "publicKey",
+        "token",
+        "userInfo",
+        "moduleSwitches"
+      ],
+      "sessionStorage": []
+    },
+    "screenshot": "screenshots/route_user_permission.png"
+  },
+  {
+    "note": "/app/menu_setting/#/menu-setting",
+    "title": "vue3-ts-cli",
+    "url": "http://192.168.11.88:8081/app/menu_setting/#/menu-setting",
+    "path": "/app/menu_setting/#/menu-setting",
+    "bodyText": "",
+    "headings": [],
+    "controls": [],
+    "tables": [],
+    "cards": [],
+    "menus": [],
+    "storageKeys": {
+      "localStorage": [
+        "voiceConfig",
+        "theme",
+        "globalData",
+        "publicKey",
+        "token",
+        "userInfo",
+        "moduleSwitches"
+      ],
+      "sessionStorage": []
+    },
+    "screenshot": "screenshots/route_menu_setting.png"
+  }
+]

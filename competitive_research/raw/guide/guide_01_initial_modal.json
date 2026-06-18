@@ -1,0 +1,283 @@
+{
+  "note": "登录后首次展示的新手引导弹窗",
+  "title": "数据看板首页",
+  "url": "http://192.168.11.88:8081/app/main-app/frame",
+  "bodyText": "人工智能推理平台\n搜索菜单\n数据看板\n智能分析\n数据中心\n平台管理",
+  "overlays": [],
+  "buttons": [
+    {
+      "idx": 0,
+      "tag": "BUTTON",
+      "text": "",
+      "cls": "flex-c cr-icon-btn cr-btn cr-icon-btn-small cr-icon-btn-text theme-aurora",
+      "id": "",
+      "role": "",
+      "aria": "",
+      "src": "",
+      "href": "",
+      "zIndex": "auto",
+      "position": "static",
+      "display": "flex",
+      "bg": "rgba(0, 0, 0, 0)",
+      "opacity": "1",
+      "borderRadius": "6px",
+      "rect": {
+        "x": 217,
+        "y": 8,
+        "w": 28,
+        "h": 28
+      }
+    },
+    {
+      "idx": 1,
+      "tag": "BUTTON",
+      "text": "",
+      "cls": "flex-c cr-icon-btn cr-btn cr-icon-btn-middle cr-icon-btn-text theme-aurora",
+      "id": "",
+      "role": "",
+      "aria": "",
+      "src": "",
+      "href": "",
+      "zIndex": "auto",
+      "position": "static",
+      "display": "flex",
+      "bg": "rgba(0, 0, 0, 0)",
+      "opacity": "1",
+      "borderRadius": "6px",
+      "rect": {
+        "x": 1191,
+        "y": 6,
+        "w": 32,
+        "h": 32
+      }
+    },
+    {
+      "idx": 2,
+      "tag": "BUTTON",
+      "text": "",
+      "cls": "flex-c cr-icon-btn cr-btn cr-icon-btn-middle cr-icon-btn-text theme-aurora",
+      "id": "",
+      "role": "",
+      "aria": "",
+      "src": "",
+      "href": "",
+      "zIndex": "auto",
+      "position": "static",
+      "display": "flex",
+      "bg": "rgba(0, 0, 0, 0)",
+      "opacity": "1",
+      "borderRadius": "6px",
+      "rect": {
+        "x": 1233,
+        "y": 6,
+        "w": 32,
+        "h": 32
+      }
+    },
+    {
+      "idx": 3,
+      "tag": "BUTTON",
+      "text": "",
+      "cls": "flex-c cr-icon-btn cr-btn cr-icon-btn-middle cr-icon-btn-text theme-aurora",
+      "id": "",
+      "role": "",
+      "aria": "",
+      "src": "",
+      "href": "",
+      "zIndex": "auto",
+      "position": "static",
+      "display": "flex",
+      "bg": "rgba(0, 0, 0, 0)",
+      "opacity": "1",
+      "borderRadius": "6px",
+      "rect": {
+        "x": 1275,
+        "y": 6,
+        "w": 32,
+        "h": 32
+      }
+    },
+    {
+      "idx": 4,
+      "tag": "BUTTON",
+      "text": "",
+      "cls": "flex-c cr-icon-btn cr-btn cr-icon-btn-middle cr-icon-btn-text theme-aurora",
+      "id": "",
+      "role": "",
+      "aria": "",
+      "src": "",
+      "href": "",
+      "zIndex": "auto",
+      "position": "static",
+      "display": "flex",
+      "bg": "rgba(0, 0, 0, 0)",
+      "opacity": "1",
+      "borderRadius": "6px",
+      "rect": {
+        "x": 1317,
+        "y": 6,
+        "w": 32,
+        "h": 32
+      }
+    },
+    {
+      "idx": 5,
+      "tag": "BUTTON",
+      "text": "",
+      "cls": "flex-c cr-icon-btn cr-btn cr-icon-btn-middle cr-icon-btn-text theme-aurora",
+      "id": "",
+      "role": "",
+      "aria": "",
+      "src": "",
+      "href": "",
+      "zIndex": "auto",
+      "position": "static",
+      "display": "flex",
+      "bg": "rgba(0, 0, 0, 0)",
+      "opacity": "1",
+      "borderRadius": "6px",
+      "rect": {
+        "x": 1392,
+        "y": 6,
+        "w": 32,
+        "h": 32
+      }
+    }
+  ],
+  "images": [
+    {
+      "idx": 0,
+      "tag": "IMG",
+      "text": "",
+      "cls": "custom-light-image-img",
+      "id": "",
+      "role": "",
+      "aria": "",
+      "src": "/app/main-app/assets/official-logo-light-c7e688ab.png",
+      "href": "",
+      "zIndex": "auto",
+      "position": "static",
+      "display": "block",
+      "bg": "rgba(0, 0, 0, 0)",
+      "opacity": "1",
+      "borderRadius": "0px",
+      "rect": {
+        "x": 16,
+        "y": 10,
+        "w": 47,
+        "h": 24
+      }
+    },
+    {
+      "idx": 2,
+      "tag": "IMG",
+      "text": "",
+      "cls": "",
+      "id": "",
+      "role": "",
+      "aria": "",
+      "src": "/mc/get_image?path=/menu-default-icon-cockpit.png",
+      "href": "",
+      "zIndex": "auto",
+      "position": "static",
+      "display": "block",
+      "bg": "rgba(0, 0, 0, 0)",
+      "opacity": "1",
+      "borderRadius": "0px",
+      "rect": {
+        "x": 20,
+        "y": 60,
+        "w": 40,
+        "h": 40
+      }
+    },
+    {
+      "idx": 4,
+      "tag": "IMG",
+      "text": "",
+      "cls": "",
+      "id": "",
+      "role": "",
+      "aria": "",
+      "src": "/mc/get_image?path=/menu-default-icon-dispatch.png",
+      "href": "",
+      "zIndex": "auto",
+      "position": "static",
+      "display": "block",
+      "bg": "rgba(0, 0, 0, 0)",
+      "opacity": "1",
+      "borderRadius": "0px",
+      "rect": {
+        "x": 20,
+        "y": 144,
+        "w": 40,
+        "h": 40
+      }
+    },
+    {
+      "idx": 6,
+      "tag": "IMG",
+      "text": "",
+      "cls": "",
+      "id": "",
+      "role": "",
+      "aria": "",
+      "src": "/mc/get_image?path=/menu-default-icon-data.png",
+      "href": "",
+      "zIndex": "auto",
+      "position": "static",
+      "display": "block",
+      "bg": "rgba(0, 0, 0, 0)",
+      "opacity": "1",
+      "borderRadius": "0px",
+      "rect": {
+        "x": 20,
+        "y": 228,
+        "w": 40,
+        "h": 40
+      }
+    },
+    {
+      "idx": 8,
+      "tag": "IMG",
+      "text": "",
+      "cls": "",
+      "id": "",
+      "role": "",
+      "aria": "",
+      "src": "/mc/get_image?path=/menu-default-icon-manager.png",
+      "href": "",
+      "zIndex": "auto",
+      "position": "static",
+      "display": "block",
+      "bg": "rgba(0, 0, 0, 0)",
+      "opacity": "1",
+      "borderRadius": "0px",
+      "rect": {
+        "x": 20,
+        "y": 312,
+        "w": 40,
+        "h": 40
+      }
+    }
+  ],
+  "localStorageKeys": [
+    "voiceConfig",
+    "theme",
+    "globalData",
+    "publicKey",
+    "token",
+    "userInfo",
+    "moduleSwitches"
+  ],
+  "scripts": [
+    "http://192.168.11.88:8081/app/main-app/assets/index-1-6a54d168-b3568442.js",
+    "http://192.168.11.88:8081/app/main-app/js/icon-font.js"
+  ],
+  "viewport": {
+    "width": 1440,
+    "height": 1000,
+    "devicePixelRatio": 1
+  },
+  "screenshot": "screenshots/guide_01_initial_modal.png"
+}

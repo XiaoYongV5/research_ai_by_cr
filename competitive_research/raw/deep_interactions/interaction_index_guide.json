@@ -1,0 +1,82 @@
+[
+  {
+    "id": "05_guide-001",
+    "module": "新手引导弹窗",
+    "moduleId": "guide",
+    "submodule": "首次登录引导弹窗",
+    "capability": "引导用户添加摄像头并创建第一个视频流分析任务",
+    "actionType": "legacy-guide",
+    "actionLabel": "引导弹窗历史截图",
+    "actionNote": "当前会话未稳定复现新手引导弹窗，已归档此前首次登录真实采集截图用于设计分析。",
+    "url": "",
+    "screenshot": "screenshots_deep/05_guide/001_历史采集_01_after_login.png",
+    "meta": {
+      "source": "screenshots/01_after_login.png"
+    },
+    "capturedAt": "2026-06-18T05:32:18.841Z"
+  },
+  {
+    "id": "05_guide-002",
+    "module": "新手引导弹窗",
+    "moduleId": "guide",
+    "submodule": "首次登录引导弹窗",
+    "capability": "引导用户添加摄像头并创建第一个视频流分析任务",
+    "actionType": "legacy-guide",
+    "actionLabel": "引导弹窗历史截图",
+    "actionNote": "当前会话未稳定复现新手引导弹窗，已归档此前首次登录真实采集截图用于设计分析。",
+    "url": "",
+    "screenshot": "screenshots_deep/05_guide/002_历史采集_guide_01_initial_modal.png",
+    "meta": {
+      "source": "screenshots/guide_01_initial_modal.png"
+    },
+    "capturedAt": "2026-06-18T05:32:18.844Z"
+  },
+  {
+    "id": "05_guide-003",
+    "module": "新手引导弹窗",
+    "moduleId": "guide",
+    "submodule": "首次登录引导弹窗",
+    "capability": "引导用户添加摄像头并创建第一个视频流分析任务",
+    "actionType": "legacy-guide",
+    "actionLabel": "开始配置点击后历史截图",
+    "actionNote": "当前会话未稳定复现新手引导弹窗，已归档此前首次登录真实采集截图用于设计分析。",
+    "url": "",
+    "screenshot": "screenshots_deep/05_guide/003_历史采集_guide_02_after_start_config.png",
+    "meta": {
+      "source": "screenshots/guide_02_after_start_config.png"
+    },
+    "capturedAt": "2026-06-18T05:32:18.845Z"
+  },
+  {
+    "id": "05_guide-004",
+    "module": "新手引导弹窗",
+    "moduleId": "guide",
+    "submodule": "首次登录引导弹窗",
+    "capability": "引导用户添加摄像头并创建第一个视频流分析任务",
+    "actionType": "legacy-guide",
+    "actionLabel": "引导弹窗历史截图",
+    "actionNote": "当前会话未稳定复现新手引导弹窗，已归档此前首次登录真实采集截图用于设计分析。",
+    "url": "",
+    "screenshot": "screenshots_deep/05_guide/004_历史采集_guide_03_after_reload_frame.png",
+    "meta": {
+      "source": "screenshots/guide_03_after_reload_frame.png"
+    },
+    "capturedAt": "2026-06-18T05:32:18.847Z"
+  },
+  {
+    "id": "05_guide-005",
+    "module": "新手引导弹窗",
+    "moduleId": "guide",
+    "submodule": "首次登录引导弹窗",
+    "capability": "引导用户添加摄像头并创建第一个视频流分析任务",
+    "actionType": "legacy-guide",
+    "actionLabel": "关闭后历史截图",
+    "actionNote": "当前会话未稳定复现新手引导弹窗，已归档此前首次登录真实采集截图用于设计分析。",
+    "url": "",
+    "screenshot": "screenshots_deep/05_guide/005_历史采集_guide_04_after_close.png",
+    "meta": {
+      "source": "screenshots/guide_04_after_close.png"
+    },
+    "capturedAt": "2026-06-18T05:32:18.848Z"
+  }
+]

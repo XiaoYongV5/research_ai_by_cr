@@ -1,0 +1,511 @@
+{
+  "module": "智能分析",
+  "submodule": "算法底库",
+  "capability": "算法基础库维护与算法底层资源管理",
+  "url": "http://192.168.11.88:8081/app/main-app/dispatch/dispatch_algo_base_library/#/algo_base_library",
+  "title": "算法底库",
+  "bodyText": "人工智能推理平台\n搜索菜单\n数据看板\n智能分析\n数据中心\n平台管理\n媒体与输入\n摄像头配置\n算法配置\n算法列表\n人员库\n算法底库\n智能分析配置\n视频流分析\n图片分析\n分析服务状态\n结果推送\n报警推送\n报警弹窗及语音\n算法底库\n列表\n工衣工服识别\n关联算法：\n工衣工服识别\n同步状态：\n同步详情\n立即同步\n标签：\nblue\n上传图片\n添加标签\n删除\nblue\nblue\nblue\nblue\nblue\nblue\nblue\n共 7 条\n1\n10 条/页",
+  "controls": [
+    {
+      "idx": 1,
+      "tag": "DIV",
+      "text": "搜索菜单",
+      "placeholder": "",
+      "title": "",
+      "aria": "",
+      "cls": "custom-light-select-selector",
+      "rect": {
+        "x": 961,
+        "y": 6,
+        "w": 220,
+        "h": 32
+      },
+      "disabled": false
+    },
+    {
+      "idx": 12,
+      "tag": "INPUT",
+      "text": "",
+      "placeholder": "底库名称",
+      "title": "",
+      "aria": "",
+      "cls": "custom-light-input",
+      "rect": {
+        "x": 324,
+        "y": 155,
+        "w": 174,
+        "h": 22
+      },
+      "disabled": false
+    },
+    {
+      "idx": 13,
+      "tag": "BUTTON",
+      "text": "同步详情",
+      "placeholder": "",
+      "title": "",
+      "aria": "",
+      "cls": "custom-light-btn cr-btn-mini cr-btn",
+      "rect": {
+        "x": 1125,
+        "y": 128,
+        "w": 82,
+        "h": 24
+      },
+      "disabled": false
+    },
+    {
+      "idx": 14,
+      "tag": "BUTTON",
+      "text": "立即同步",
+      "placeholder": "",
+      "title": "",
+      "aria": "",
+      "cls": "custom-light-btn cr-btn-mini cr-btn",
+      "rect": {
+        "x": 1215,
+        "y": 128,
+        "w": 82,
+        "h": 24
+      },
+      "disabled": false
+    },
+    {
+      "idx": 15,
+      "tag": "SPAN",
+      "text": "上传图片",
+      "placeholder": "",
+      "title": "",
+      "aria": "",
+      "cls": "custom-light-upload",
+      "rect": {
+        "x": 538,
+        "y": 217,
+        "w": 82,
+        "h": 19
+      },
+      "disabled": false
+    },
+    {
+      "idx": 16,
+      "tag": "BUTTON",
+      "text": "上传图片",
+      "placeholder": "",
+      "title": "",
+      "aria": "",
+      "cls": "custom-light-btn custom-light-btn-primary cr-btn-mini cr-btn",
+      "rect": {
+        "x": 538,
+        "y": 214,
+        "w": 82,
+        "h": 24
+      },
+      "disabled": false
+    },
+    {
+      "idx": 17,
+      "tag": "DIV",
+      "text": "添加标签",
+      "placeholder": "",
+      "title": "",
+      "aria": "",
+      "cls": "cr-btn-wrap custom-light-dropdown-trigger",
+      "rect": {
+        "x": 628,
+        "y": 214,
+        "w": 82,
+        "h": 24
+      },
+      "disabled": false
+    },
+    {
+      "idx": 18,
+      "tag": "BUTTON",
+      "text": "添加标签",
+      "placeholder": "",
+      "title": "",
+      "aria": "",
+      "cls": "custom-light-btn custom-light-btn-text cr-btn-mini cr-btn",
+      "rect": {
+        "x": 628,
+        "y": 214,
+        "w": 82,
+        "h": 24
+      },
+      "disabled": false
+    },
+    {
+      "idx": 19,
+      "tag": "BUTTON",
+      "text": "删除",
+      "placeholder": "",
+      "title": "",
+      "aria": "",
+      "cls": "custom-light-btn custom-light-btn-text custom-light-btn-dangerous cr-btn-mini cr-btn",
+      "rect": {
+        "x": 718,
+        "y": 214,
+        "w": 60,
+        "h": 24
+      },
+      "disabled": false
+    },
+    {
+      "idx": 22,
+      "tag": "DIV",
+      "text": "10 条/页",
+      "placeholder": "",
+      "title": "",
+      "aria": "",
+      "cls": "custom-light-select-selector",
+      "rect": {
+        "x": 538,
+        "y": 964,
+        "w": 98,
+        "h": 28
+      },
+      "disabled": false
+    }
+  ],
+  "menus": [
+    {
+      "idx": 0,
+      "text": "数据看板",
+      "cls": "app-menu-item",
+      "rect": {
+        "x": 8,
+        "y": 52,
+        "w": 63,
+        "h": 76
+      }
+    },
+    {
+      "idx": 1,
+      "text": "数据看板",
+      "cls": "app-menu-text",
+      "rect": {
+        "x": 8,
+        "y": 104,
+        "w": 63,
+        "h": 20
+      }
+    },
+    {
+      "idx": 2,
+      "text": "智能分析",
+      "cls": "app-menu-item active",
+      "rect": {
+        "x": 8,
+        "y": 136,
+        "w": 63,
+        "h": 76
+      }
+    },
+    {
+      "idx": 3,
+      "text": "智能分析",
+      "cls": "app-menu-text",
+      "rect": {
+        "x": 8,
+        "y": 188,
+        "w": 63,
+        "h": 20
+      }
+    },
+    {
+      "idx": 4,
+      "text": "数据中心",
+      "cls": "app-menu-item",
+      "rect": {
+        "x": 8,
+        "y": 220,
+        "w": 63,
+        "h": 76
+      }
+    },
+    {
+      "idx": 5,
+      "text": "数据中心",
+      "cls": "app-menu-text",
+      "rect": {
+        "x": 8,
+        "y": 272,
+        "w": 63,
+        "h": 20
+      }
+    },
+    {
+      "idx": 6,
+      "text": "平台管理",
+      "cls": "app-menu-item",
+      "rect": {
+        "x": 8,
+        "y": 304,
+        "w": 63,
+        "h": 76
+      }
+    },
+    {
+      "idx": 7,
+      "text": "平台管理",
+      "cls": "app-menu-text",
+      "rect": {
+        "x": 8,
+        "y": 356,
+        "w": 63,
+        "h": 20
+      }
+    },
+    {
+      "idx": 8,
+      "text": "媒体与输入",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 87,
+        "y": 54,
+        "w": 185,
+        "h": 28
+      }
+    },
+    {
+      "idx": 9,
+      "text": "摄像头配置",
+      "cls": "custom-light-menu-item custom-light-menu-item-only-child",
+      "rect": {
+        "x": 79,
+        "y": 86,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 10,
+      "text": "摄像头配置",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 87,
+        "y": 86,
+        "w": 185,
+        "h": 32
+      }
+    },
+    {
+      "idx": 11,
+      "text": "算法配置",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 87,
+        "y": 139,
+        "w": 185,
+        "h": 28
+      }
+    },
+    {
+      "idx": 12,
+      "text": "算法列表",
+      "cls": "custom-light-menu-item custom-light-menu-item-only-child",
+      "rect": {
+        "x": 79,
+        "y": 171,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 13,
+      "text": "算法列表",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 87,
+        "y": 171,
+        "w": 185,
+        "h": 32
+      }
+    },
+    {
+      "idx": 14,
+      "text": "人员库",
+      "cls": "custom-light-menu-item custom-light-menu-item-only-child",
+      "rect": {
+        "x": 79,
+        "y": 205,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 15,
+      "text": "人员库",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 87,
+        "y": 205,
+        "w": 185,
+        "h": 32
+      }
+    },
+    {
+      "idx": 16,
+      "text": "算法底库",
+      "cls": "custom-light-menu-item custom-light-menu-item-selected custom-light-menu-item-only-child",
+      "rect": {
+        "x": 79,
+        "y": 239,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 17,
+      "text": "算法底库",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 87,
+        "y": 239,
+        "w": 185,
+        "h": 32
+      }
+    },
+    {
+      "idx": 18,
+      "text": "智能分析配置",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 87,
+        "y": 292,
+        "w": 185,
+        "h": 28
+      }
+    },
+    {
+      "idx": 19,
+      "text": "视频流分析",
+      "cls": "custom-light-menu-item custom-light-menu-item-only-child",
+      "rect": {
+        "x": 79,
+        "y": 324,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 20,
+      "text": "视频流分析",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 87,
+        "y": 324,
+        "w": 185,
+        "h": 32
+      }
+    },
+    {
+      "idx": 21,
+      "text": "图片分析",
+      "cls": "custom-light-menu-item custom-light-menu-item-only-child",
+      "rect": {
+        "x": 79,
+        "y": 358,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 22,
+      "text": "图片分析",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 87,
+        "y": 358,
+        "w": 185,
+        "h": 32
+      }
+    },
+    {
+      "idx": 23,
+      "text": "分析服务状态",
+      "cls": "custom-light-menu-item custom-light-menu-item-only-child",
+      "rect": {
+        "x": 79,
+        "y": 392,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 24,
+      "text": "分析服务状态",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 87,
+        "y": 392,
+        "w": 185,
+        "h": 32
+      }
+    },
+    {
+      "idx": 25,
+      "text": "结果推送",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 87,
+        "y": 445,
+        "w": 185,
+        "h": 28
+      }
+    },
+    {
+      "idx": 26,
+      "text": "报警推送",
+      "cls": "custom-light-menu-item custom-light-menu-item-only-child",
+      "rect": {
+        "x": 79,
+        "y": 477,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 27,
+      "text": "报警推送",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 87,
+        "y": 477,
+        "w": 185,
+        "h": 32
+      }
+    },
+    {
+      "idx": 28,
+      "text": "报警弹窗及语音",
+      "cls": "custom-light-menu-item custom-light-menu-item-only-child",
+      "rect": {
+        "x": 79,
+        "y": 511,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 29,
+      "text": "报警弹窗及语音",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 87,
+        "y": 511,
+        "w": 185,
+        "h": 32
+      }
+    }
+  ],
+  "tables": [],
+  "forms": [
+    {
+      "idx": 0,
+      "text": "人工智能推理平台",
+      "inputs": []
+    }
+  ],
+  "cards": []
+}

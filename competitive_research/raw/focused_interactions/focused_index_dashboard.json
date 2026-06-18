@@ -1,0 +1,191 @@
+[
+  {
+    "id": "01_dashboard-001",
+    "module": "数据看板",
+    "moduleId": "dashboard",
+    "submodule": "数据看板首页",
+    "label": "业务区域默认态",
+    "note": "裁剪业务区域，排除顶部公共工具区和左侧一级导航",
+    "url": "http://192.168.11.88:8081/app/main-app/cockpit/home/#/cockpit-home",
+    "screenshot": "screenshots_focused/01_dashboard/001_数据看板首页_业务区域默认态.png",
+    "clip": {
+      "kind": "business",
+      "x": 280,
+      "y": 72,
+      "width": 1160,
+      "height": 928,
+      "scale": 1
+    },
+    "meta": {}
+  },
+  {
+    "id": "01_dashboard-002",
+    "module": "数据看板",
+    "moduleId": "dashboard",
+    "submodule": "数据看板首页",
+    "label": "Tab_实时视频监控",
+    "note": "点击或切换 Tab/分段控件：实时视频监控",
+    "url": "http://192.168.11.88:8081/app/main-app/cockpit/home/#/cockpit-home",
+    "screenshot": "screenshots_focused/01_dashboard/002_数据看板首页_Tab_实时视频监控.png",
+    "clip": {
+      "kind": "overlay",
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 1000,
+      "scale": 1
+    },
+    "meta": {
+      "click": {
+        "ok": true,
+        "text": "实时视频监控",
+        "found": {
+          "text": "实时视频监控",
+          "rect": {
+            "x": 121,
+            "y": 255,
+            "w": 216,
+            "h": 22
+          },
+          "className": "title overfl-oneline"
+        }
+      }
+    }
+  },
+  {
+    "id": "01_dashboard-003",
+    "module": "数据看板",
+    "moduleId": "dashboard",
+    "submodule": "数据看板首页",
+    "label": "Tab_业务数据概览",
+    "note": "点击或切换 Tab/分段控件：业务数据概览",
+    "url": "http://192.168.11.88:8081/app/main-app/cockpit/home/#/cockpit-home",
+    "screenshot": "screenshots_focused/01_dashboard/003_数据看板首页_Tab_业务数据概览.png",
+    "clip": {
+      "kind": "overlay",
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 1000,
+      "scale": 1
+    },
+    "meta": {
+      "click": {
+        "ok": true,
+        "text": "业务数据概览",
+        "found": {
+          "text": "业务数据概览",
+          "rect": {
+            "x": 387,
+            "y": 255,
+            "w": 216,
+            "h": 22
+          },
+          "className": "title overfl-oneline"
+        }
+      }
+    }
+  },
+  {
+    "id": "01_dashboard-004",
+    "module": "数据看板",
+    "moduleId": "dashboard",
+    "submodule": "数据看板首页",
+    "label": "Tab_报警图片墙",
+    "note": "点击或切换 Tab/分段控件：报警图片墙",
+    "url": "http://192.168.11.88:8081/app/main-app/cockpit/home/#/cockpit-home",
+    "screenshot": "screenshots_focused/01_dashboard/004_数据看板首页_Tab_报警图片墙.png",
+    "clip": {
+      "kind": "overlay",
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 1000,
+      "scale": 1
+    },
+    "meta": {
+      "click": {
+        "ok": true,
+        "text": "报警图片墙",
+        "found": {
+          "text": "报警图片墙",
+          "rect": {
+            "x": 652,
+            "y": 255,
+            "w": 216,
+            "h": 22
+          },
+          "className": "title overfl-oneline"
+        }
+      }
+    }
+  },
+  {
+    "id": "01_dashboard-005",
+    "module": "数据看板",
+    "moduleId": "dashboard",
+    "submodule": "数据看板首页",
+    "label": "Tab_AI智能管控中心",
+    "note": "点击或切换 Tab/分段控件：AI智能管控中心",
+    "url": "http://192.168.11.88:8081/app/main-app/cockpit/home/#/cockpit-home",
+    "screenshot": "screenshots_focused/01_dashboard/005_数据看板首页_Tab_AI智能管控中心.png",
+    "clip": {
+      "kind": "overlay",
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 1000,
+      "scale": 1
+    },
+    "meta": {
+      "click": {
+        "ok": true,
+        "text": "AI智能管控中心",
+        "found": {
+          "text": "AI智能管控中心",
+          "rect": {
+            "x": 918,
+            "y": 255,
+            "w": 216,
+            "h": 22
+          },
+          "className": "title overfl-oneline"
+        }
+      }
+    }
+  },
+  {
+    "id": "01_dashboard-006",
+    "module": "数据看板",
+    "moduleId": "dashboard",
+    "submodule": "数据看板首页",
+    "label": "操作_创建看板",
+    "note": "点击或定位业务操作：创建看板",
+    "url": "http://192.168.11.88:8081/app/main-app/cockpit/home/#/cockpit-home",
+    "screenshot": "screenshots_focused/01_dashboard/006_数据看板首页_操作_创建看板.png",
+    "clip": {
+      "kind": "overlay",
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 1000,
+      "scale": 1
+    },
+    "meta": {
+      "click": {
+        "ok": true,
+        "text": "创建看板",
+        "found": {
+          "text": "创建看板",
+          "rect": {
+            "x": 216,
+            "y": 68,
+            "w": 67,
+            "h": 28
+          },
+          "className": "custom-light-btn custom-light-btn-link custom-light-btn-sm cr-btn-small cr-btn"
+        }
+      }
+    }
+  }
+]

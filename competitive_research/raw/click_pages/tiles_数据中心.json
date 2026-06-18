@@ -1,0 +1,282 @@
+[
+  {
+    "idx": 1,
+    "text": "搜索菜单",
+    "visible": true,
+    "x": 961,
+    "y": 0,
+    "w": 220,
+    "h": 43,
+    "cls": "cr-ant-tree header-search-menu flex-v-c page-header-right-btn"
+  },
+  {
+    "idx": 6,
+    "text": "数据看板 智能分析 数据中心 平台管理 推理输出结果 报警日志 报警推送日志 人员识别结果 人员识别日志 陌生人识别日志",
+    "visible": true,
+    "x": 0,
+    "y": 44,
+    "w": 280,
+    "h": 956,
+    "cls": "custom-light-layout custom-light-layout-has-sider page-layout-left-menu show show-aside-bar"
+  },
+  {
+    "idx": 7,
+    "text": "数据看板 智能分析 数据中心 平台管理",
+    "visible": true,
+    "x": 0,
+    "y": 44,
+    "w": 80,
+    "h": 956,
+    "cls": "app-menu-comp"
+  },
+  {
+    "idx": 8,
+    "text": "数据看板",
+    "visible": true,
+    "x": 8,
+    "y": 52,
+    "w": 63,
+    "h": 76,
+    "cls": "app-menu-item"
+  },
+  {
+    "idx": 11,
+    "text": "数据看板",
+    "visible": true,
+    "x": 8,
+    "y": 104,
+    "w": 63,
+    "h": 20,
+    "cls": "app-menu-text"
+  },
+  {
+    "idx": 12,
+    "text": "智能分析",
+    "visible": true,
+    "x": 8,
+    "y": 136,
+    "w": 63,
+    "h": 76,
+    "cls": "app-menu-item"
+  },
+  {
+    "idx": 15,
+    "text": "智能分析",
+    "visible": true,
+    "x": 8,
+    "y": 188,
+    "w": 63,
+    "h": 20,
+    "cls": "app-menu-text"
+  },
+  {
+    "idx": 16,
+    "text": "数据中心",
+    "visible": true,
+    "x": 8,
+    "y": 220,
+    "w": 63,
+    "h": 76,
+    "cls": "app-menu-item active"
+  },
+  {
+    "idx": 19,
+    "text": "数据中心",
+    "visible": true,
+    "x": 8,
+    "y": 272,
+    "w": 63,
+    "h": 20,
+    "cls": "app-menu-text"
+  },
+  {
+    "idx": 20,
+    "text": "平台管理",
+    "visible": true,
+    "x": 8,
+    "y": 304,
+    "w": 63,
+    "h": 76,
+    "cls": "app-menu-item"
+  },
+  {
+    "idx": 23,
+    "text": "平台管理",
+    "visible": true,
+    "x": 8,
+    "y": 356,
+    "w": 63,
+    "h": 20,
+    "cls": "app-menu-text"
+  },
+  {
+    "idx": 24,
+    "text": "推理输出结果 报警日志 报警推送日志 人员识别结果 人员识别日志 陌生人识别日志",
+    "visible": true,
+    "x": 80,
+    "y": 44,
+    "w": 200,
+    "h": 956,
+    "cls": "custom-light-menu custom-light-menu-root custom-light-menu-inline custom-light-menu-light page-aside-bar-menu"
+  },
+  {
+    "idx": 25,
+    "text": "推理输出结果 报警日志 报警推送日志",
+    "visible": true,
+    "x": 80,
+    "y": 44,
+    "w": 200,
+    "h": 119,
+    "cls": "custom-light-menu-submenu custom-light-menu-submenu-inline custom-light-menu-submenu-open custom-light-menu-submenu-sele"
+  },
+  {
+    "idx": 26,
+    "text": "推理输出结果",
+    "visible": true,
+    "x": 80,
+    "y": 54,
+    "w": 201,
+    "h": 28,
+    "cls": "custom-light-menu-submenu-title"
+  },
+  {
+    "idx": 27,
+    "text": "推理输出结果",
+    "visible": true,
+    "x": 88,
+    "y": 54,
+    "w": 185,
+    "h": 28,
+    "cls": "custom-light-menu-title-content"
+  },
+  {
+    "idx": 29,
+    "text": "报警日志 报警推送日志",
+    "visible": true,
+    "x": 80,
+    "y": 84,
+    "w": 200,
+    "h": 70,
+    "cls": "custom-light-menu custom-light-menu-sub custom-light-menu-inline"
+  },
+  {
+    "idx": 30,
+    "text": "报警日志",
+    "visible": true,
+    "x": 80,
+    "y": 86,
+    "w": 201,
+    "h": 32,
+    "cls": "custom-light-menu-item custom-light-menu-item-selected custom-light-menu-item-only-child"
+  },
+  {
+    "idx": 31,
+    "text": "报警日志",
+    "visible": true,
+    "x": 88,
+    "y": 86,
+    "w": 185,
+    "h": 32,
+    "cls": "custom-light-menu-title-content"
+  },
+  {
+    "idx": 32,
+    "text": "报警推送日志",
+    "visible": true,
+    "x": 80,
+    "y": 120,
+    "w": 201,
+    "h": 32,
+    "cls": "custom-light-menu-item custom-light-menu-item-only-child"
+  },
+  {
+    "idx": 33,
+    "text": "报警推送日志",
+    "visible": true,
+    "x": 88,
+    "y": 120,
+    "w": 185,
+    "h": 32,
+    "cls": "custom-light-menu-title-content"
+  },
+  {
+    "idx": 34,
+    "text": "人员识别结果 人员识别日志 陌生人识别日志",
+    "visible": true,
+    "x": 80,
+    "y": 163,
+    "w": 200,
+    "h": 119,
+    "cls": "custom-light-menu-submenu custom-light-menu-submenu-inline custom-light-menu-submenu-open"
+  },
+  {
+    "idx": 35,
+    "text": "人员识别结果",
+    "visible": true,
+    "x": 80,
+    "y": 173,
+    "w": 201,
+    "h": 28,
+    "cls": "custom-light-menu-submenu-title"
+  },
+  {
+    "idx": 36,
+    "text": "人员识别结果",
+    "visible": true,
+    "x": 88,
+    "y": 173,
+    "w": 185,
+    "h": 28,
+    "cls": "custom-light-menu-title-content"
+  },
+  {
+    "idx": 38,
+    "text": "人员识别日志 陌生人识别日志",
+    "visible": true,
+    "x": 80,
+    "y": 203,
+    "w": 200,
+    "h": 70,
+    "cls": "custom-light-menu custom-light-menu-sub custom-light-menu-inline"
+  },
+  {
+    "idx": 39,
+    "text": "人员识别日志",
+    "visible": true,
+    "x": 80,
+    "y": 205,
+    "w": 201,
+    "h": 32,
+    "cls": "custom-light-menu-item custom-light-menu-item-only-child"
+  },
+  {
+    "idx": 40,
+    "text": "人员识别日志",
+    "visible": true,
+    "x": 88,
+    "y": 205,
+    "w": 185,
+    "h": 32,
+    "cls": "custom-light-menu-title-content"
+  },
+  {
+    "idx": 41,
+    "text": "陌生人识别日志",
+    "visible": true,
+    "x": 80,
+    "y": 239,
+    "w": 201,
+    "h": 32,
+    "cls": "custom-light-menu-item custom-light-menu-item-only-child"
+  },
+  {
+    "idx": 42,
+    "text": "陌生人识别日志",
+    "visible": true,
+    "x": 88,
+    "y": 239,
+    "w": 185,
+    "h": 32,
+    "cls": "custom-light-menu-title-content"
+  }
+]

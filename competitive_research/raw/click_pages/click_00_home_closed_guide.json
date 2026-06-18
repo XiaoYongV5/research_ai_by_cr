@@ -1,0 +1,134 @@
+{
+  "note": "登录后关闭新手引导",
+  "title": "数据看板首页",
+  "url": "http://192.168.11.88:8081/app/main-app/frame",
+  "path": "/app/main-app/frame",
+  "bodyText": "人工智能推理平台\n搜索菜单\n数据看板\n智能分析\n数据中心\n平台管理",
+  "menus": [
+    {
+      "idx": 0,
+      "tag": "DIV",
+      "text": "数据看板",
+      "placeholder": "",
+      "title": "",
+      "href": "",
+      "cls": "app-menu-item",
+      "rect": {
+        "x": 8,
+        "y": 52,
+        "w": 63,
+        "h": 76
+      }
+    },
+    {
+      "idx": 1,
+      "tag": "DIV",
+      "text": "数据看板",
+      "placeholder": "",
+      "title": "",
+      "href": "",
+      "cls": "app-menu-text",
+      "rect": {
+        "x": 8,
+        "y": 104,
+        "w": 63,
+        "h": 20
+      }
+    },
+    {
+      "idx": 2,
+      "tag": "DIV",
+      "text": "智能分析",
+      "placeholder": "",
+      "title": "",
+      "href": "",
+      "cls": "app-menu-item",
+      "rect": {
+        "x": 8,
+        "y": 136,
+        "w": 63,
+        "h": 76
+      }
+    },
+    {
+      "idx": 3,
+      "tag": "DIV",
+      "text": "智能分析",
+      "placeholder": "",
+      "title": "",
+      "href": "",
+      "cls": "app-menu-text",
+      "rect": {
+        "x": 8,
+        "y": 188,
+        "w": 63,
+        "h": 20
+      }
+    },
+    {
+      "idx": 4,
+      "tag": "DIV",
+      "text": "数据中心",
+      "placeholder": "",
+      "title": "",
+      "href": "",
+      "cls": "app-menu-item",
+      "rect": {
+        "x": 8,
+        "y": 220,
+        "w": 63,
+        "h": 76
+      }
+    },
+    {
+      "idx": 5,
+      "tag": "DIV",
+      "text": "数据中心",
+      "placeholder": "",
+      "title": "",
+      "href": "",
+      "cls": "app-menu-text",
+      "rect": {
+        "x": 8,
+        "y": 272,
+        "w": 63,
+        "h": 20
+      }
+    },
+    {
+      "idx": 6,
+      "tag": "DIV",
+      "text": "平台管理",
+      "placeholder": "",
+      "title": "",
+      "href": "",
+      "cls": "app-menu-item",
+      "rect": {
+        "x": 8,
+        "y": 304,
+        "w": 63,
+        "h": 76
+      }
+    },
+    {
+      "idx": 7,
+      "tag": "DIV",
+      "text": "平台管理",
+      "placeholder": "",
+      "title": "",
+      "href": "",
+      "cls": "app-menu-text",
+      "rect": {
+        "x": 8,
+        "y": 356,
+        "w": 63,
+        "h": 20
+      }
+    }
+  ],
+  "controls": [],
+  "tables": [],
+  "forms": [],
+  "cards": [],
+  "screenshot": "screenshots/click_00_home_closed_guide.png"
+}

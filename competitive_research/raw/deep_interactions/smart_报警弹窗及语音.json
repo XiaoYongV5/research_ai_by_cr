@@ -1,0 +1,827 @@
+{
+  "module": "智能分析",
+  "submodule": "报警弹窗及语音",
+  "capability": "报警提示方式、弹窗与语音播报配置",
+  "url": "http://192.168.11.88:8081/app/main-app/dispatch/result-push/modal-voice/#/modal-voice",
+  "title": "报警弹窗及语音",
+  "bodyText": "人工智能推理平台\n搜索菜单\n数据看板\n智能分析\n数据中心\n平台管理\n媒体与输入\n摄像头配置\n算法配置\n算法列表\n人员库\n算法底库\n智能分析配置\n视频流分析\n图片分析\n分析服务状态\n结果推送\n报警推送\n报警弹窗及语音\n报警弹窗及语音\n设置\n报警提醒以下选择的等级出现报警时，将进行提醒\n一级\n二级\n三级\n+ 2 ...\n报警语音提醒\n默认报警语音\n\ndefault.mp3\n\n试听\n替换\n恢复默认\n文字转语音设置\n声音\nGoogle Deutsch-de-DE\n语速\n音量\n系统报警弹窗提醒\n算法ID\t算法名称\t报警等级\t\n播报方式 \n\t操作\t\n \n\t\n \n\t\n \n\t\n \n\t\n \n\n4\t人员入侵识别\t三级\t默认语音\t\n试听\n编辑\n\n7\t烟火识别\t三级\t默认语音\t\n试听\n编辑\n\n9\t吸烟识别\t三级\t默认语音\t\n试听\n编辑\n\n26\t异常聚集识别\t三级\t默认语音\t\n试听\n编辑\n\n28\t安全帽识别\t三级\t默认语音\t\n试听\n编辑\n\n29\t离岗识别\t三级\t默认语音\t\n试听\n编辑\n\n33\t工衣工服识别\t三级\t默认语音\t\n试听\n编辑\n\n35\t睡岗识别\t三级\t默认语音\t\n试听\n编辑\n\n86\t翻越围栏识别\t三级\t默认语音\t\n试听\n编辑\n\n120\t打电话识别\t三级\t默认语音\t\n试听\n编辑\n共 10 条\n1\n10 条/页",
+  "controls": [
+    {
+      "idx": 1,
+      "tag": "DIV",
+      "text": "搜索菜单",
+      "placeholder": "",
+      "title": "",
+      "aria": "",
+      "cls": "custom-light-select-selector",
+      "rect": {
+        "x": 961,
+        "y": 6,
+        "w": 220,
+        "h": 32
+      },
+      "disabled": false
+    },
+    {
+      "idx": 12,
+      "tag": "DIV",
+      "text": "一级 二级 三级 + 2 ...",
+      "placeholder": "",
+      "title": "",
+      "aria": "",
+      "cls": "custom-light-select-selector",
+      "rect": {
+        "x": 309,
+        "y": 226,
+        "w": 256,
+        "h": 32
+      },
+      "disabled": false
+    },
+    {
+      "idx": 15,
+      "tag": "BUTTON",
+      "text": "试听",
+      "placeholder": "",
+      "title": "",
+      "aria": "",
+      "cls": "custom-light-btn custom-light-btn-link cr-btn-middle cr-btn",
+      "rect": {
+        "x": 321,
+        "y": 409,
+        "w": 44,
+        "h": 32
+      },
+      "disabled": false
+    },
+    {
+      "idx": 16,
+      "tag": "SPAN",
+      "text": "替换",
+      "placeholder": "",
+      "title": "",
+      "aria": "",
+      "cls": "custom-light-upload",
+      "rect": {
+        "x": 373,
+        "y": 417,
+        "w": 44,
+        "h": 19
+      },
+      "disabled": false
+    },
+    {
+      "idx": 17,
+      "tag": "BUTTON",
+      "text": "替换",
+      "placeholder": "",
+      "title": "",
+      "aria": "",
+      "cls": "custom-light-btn custom-light-btn-link cr-btn-middle cr-btn",
+      "rect": {
+        "x": 373,
+        "y": 409,
+        "w": 44,
+        "h": 32
+      },
+      "disabled": false
+    },
+    {
+      "idx": 18,
+      "tag": "BUTTON",
+      "text": "恢复默认",
+      "placeholder": "",
+      "title": "",
+      "aria": "",
+      "cls": "custom-light-btn custom-light-btn-text cr-btn-middle cr-btn",
+      "rect": {
+        "x": 463,
+        "y": 411,
+        "w": 90,
+        "h": 32
+      },
+      "disabled": true
+    },
+    {
+      "idx": 19,
+      "tag": "DIV",
+      "text": "Google Deutsch-de-DE",
+      "placeholder": "",
+      "title": "",
+      "aria": "",
+      "cls": "custom-light-select-selector",
+      "rect": {
+        "x": 385,
+        "y": 500,
+        "w": 180,
+        "h": 32
+      },
+      "disabled": false
+    },
+    {
+      "idx": 22,
+      "tag": "BUTTON",
+      "text": "试听",
+      "placeholder": "",
+      "title": "",
+      "aria": "",
+      "cls": "custom-light-btn custom-light-btn-link cr-btn-middle cr-btn",
+      "rect": {
+        "x": 1277,
+        "y": 158,
+        "w": 26,
+        "h": 32
+      },
+      "disabled": false
+    },
+    {
+      "idx": 23,
+      "tag": "BUTTON",
+      "text": "编辑",
+      "placeholder": "",
+      "title": "",
+      "aria": "",
+      "cls": "custom-light-btn custom-light-btn-link cr-btn-middle cr-btn",
+      "rect": {
+        "x": 1323,
+        "y": 158,
+        "w": 26,
+        "h": 32
+      },
+      "disabled": false
+    },
+    {
+      "idx": 24,
+      "tag": "BUTTON",
+      "text": "试听",
+      "placeholder": "",
+      "title": "",
+      "aria": "",
+      "cls": "custom-light-btn custom-light-btn-link cr-btn-middle cr-btn",
+      "rect": {
+        "x": 1277,
+        "y": 207,
+        "w": 26,
+        "h": 32
+      },
+      "disabled": false
+    },
+    {
+      "idx": 25,
+      "tag": "BUTTON",
+      "text": "编辑",
+      "placeholder": "",
+      "title": "",
+      "aria": "",
+      "cls": "custom-light-btn custom-light-btn-link cr-btn-middle cr-btn",
+      "rect": {
+        "x": 1323,
+        "y": 207,
+        "w": 26,
+        "h": 32
+      },
+      "disabled": false
+    },
+    {
+      "idx": 26,
+      "tag": "BUTTON",
+      "text": "试听",
+      "placeholder": "",
+      "title": "",
+      "aria": "",
+      "cls": "custom-light-btn custom-light-btn-link cr-btn-middle cr-btn",
+      "rect": {
+        "x": 1277,
+        "y": 256,
+        "w": 26,
+        "h": 32
+      },
+      "disabled": false
+    },
+    {
+      "idx": 27,
+      "tag": "BUTTON",
+      "text": "编辑",
+      "placeholder": "",
+      "title": "",
+      "aria": "",
+      "cls": "custom-light-btn custom-light-btn-link cr-btn-middle cr-btn",
+      "rect": {
+        "x": 1323,
+        "y": 256,
+        "w": 26,
+        "h": 32
+      },
+      "disabled": false
+    },
+    {
+      "idx": 28,
+      "tag": "BUTTON",
+      "text": "试听",
+      "placeholder": "",
+      "title": "",
+      "aria": "",
+      "cls": "custom-light-btn custom-light-btn-link cr-btn-middle cr-btn",
+      "rect": {
+        "x": 1277,
+        "y": 305,
+        "w": 26,
+        "h": 32
+      },
+      "disabled": false
+    },
+    {
+      "idx": 29,
+      "tag": "BUTTON",
+      "text": "编辑",
+      "placeholder": "",
+      "title": "",
+      "aria": "",
+      "cls": "custom-light-btn custom-light-btn-link cr-btn-middle cr-btn",
+      "rect": {
+        "x": 1323,
+        "y": 305,
+        "w": 26,
+        "h": 32
+      },
+      "disabled": false
+    },
+    {
+      "idx": 30,
+      "tag": "BUTTON",
+      "text": "试听",
+      "placeholder": "",
+      "title": "",
+      "aria": "",
+      "cls": "custom-light-btn custom-light-btn-link cr-btn-middle cr-btn",
+      "rect": {
+        "x": 1277,
+        "y": 354,
+        "w": 26,
+        "h": 32
+      },
+      "disabled": false
+    },
+    {
+      "idx": 31,
+      "tag": "BUTTON",
+      "text": "编辑",
+      "placeholder": "",
+      "title": "",
+      "aria": "",
+      "cls": "custom-light-btn custom-light-btn-link cr-btn-middle cr-btn",
+      "rect": {
+        "x": 1323,
+        "y": 354,
+        "w": 26,
+        "h": 32
+      },
+      "disabled": false
+    },
+    {
+      "idx": 32,
+      "tag": "BUTTON",
+      "text": "试听",
+      "placeholder": "",
+      "title": "",
+      "aria": "",
+      "cls": "custom-light-btn custom-light-btn-link cr-btn-middle cr-btn",
+      "rect": {
+        "x": 1277,
+        "y": 403,
+        "w": 26,
+        "h": 32
+      },
+      "disabled": false
+    },
+    {
+      "idx": 33,
+      "tag": "BUTTON",
+      "text": "编辑",
+      "placeholder": "",
+      "title": "",
+      "aria": "",
+      "cls": "custom-light-btn custom-light-btn-link cr-btn-middle cr-btn",
+      "rect": {
+        "x": 1323,
+        "y": 403,
+        "w": 26,
+        "h": 32
+      },
+      "disabled": false
+    },
+    {
+      "idx": 34,
+      "tag": "BUTTON",
+      "text": "试听",
+      "placeholder": "",
+      "title": "",
+      "aria": "",
+      "cls": "custom-light-btn custom-light-btn-link cr-btn-middle cr-btn",
+      "rect": {
+        "x": 1277,
+        "y": 452,
+        "w": 26,
+        "h": 32
+      },
+      "disabled": false
+    },
+    {
+      "idx": 35,
+      "tag": "BUTTON",
+      "text": "编辑",
+      "placeholder": "",
+      "title": "",
+      "aria": "",
+      "cls": "custom-light-btn custom-light-btn-link cr-btn-middle cr-btn",
+      "rect": {
+        "x": 1323,
+        "y": 452,
+        "w": 26,
+        "h": 32
+      },
+      "disabled": false
+    },
+    {
+      "idx": 36,
+      "tag": "BUTTON",
+      "text": "试听",
+      "placeholder": "",
+      "title": "",
+      "aria": "",
+      "cls": "custom-light-btn custom-light-btn-link cr-btn-middle cr-btn",
+      "rect": {
+        "x": 1277,
+        "y": 501,
+        "w": 26,
+        "h": 32
+      },
+      "disabled": false
+    },
+    {
+      "idx": 37,
+      "tag": "BUTTON",
+      "text": "编辑",
+      "placeholder": "",
+      "title": "",
+      "aria": "",
+      "cls": "custom-light-btn custom-light-btn-link cr-btn-middle cr-btn",
+      "rect": {
+        "x": 1323,
+        "y": 501,
+        "w": 26,
+        "h": 32
+      },
+      "disabled": false
+    },
+    {
+      "idx": 38,
+      "tag": "BUTTON",
+      "text": "试听",
+      "placeholder": "",
+      "title": "",
+      "aria": "",
+      "cls": "custom-light-btn custom-light-btn-link cr-btn-middle cr-btn",
+      "rect": {
+        "x": 1277,
+        "y": 550,
+        "w": 26,
+        "h": 32
+      },
+      "disabled": false
+    },
+    {
+      "idx": 39,
+      "tag": "BUTTON",
+      "text": "编辑",
+      "placeholder": "",
+      "title": "",
+      "aria": "",
+      "cls": "custom-light-btn custom-light-btn-link cr-btn-middle cr-btn",
+      "rect": {
+        "x": 1323,
+        "y": 550,
+        "w": 26,
+        "h": 32
+      },
+      "disabled": false
+    },
+    {
+      "idx": 40,
+      "tag": "BUTTON",
+      "text": "试听",
+      "placeholder": "",
+      "title": "",
+      "aria": "",
+      "cls": "custom-light-btn custom-light-btn-link cr-btn-middle cr-btn",
+      "rect": {
+        "x": 1277,
+        "y": 599,
+        "w": 26,
+        "h": 32
+      },
+      "disabled": false
+    },
+    {
+      "idx": 41,
+      "tag": "BUTTON",
+      "text": "编辑",
+      "placeholder": "",
+      "title": "",
+      "aria": "",
+      "cls": "custom-light-btn custom-light-btn-link cr-btn-middle cr-btn",
+      "rect": {
+        "x": 1323,
+        "y": 599,
+        "w": 26,
+        "h": 32
+      },
+      "disabled": false
+    },
+    {
+      "idx": 44,
+      "tag": "DIV",
+      "text": "10 条/页",
+      "placeholder": "",
+      "title": "",
+      "aria": "",
+      "cls": "custom-light-select-selector",
+      "rect": {
+        "x": 602,
+        "y": 962,
+        "w": 98,
+        "h": 28
+      },
+      "disabled": false
+    }
+  ],
+  "menus": [
+    {
+      "idx": 0,
+      "text": "数据看板",
+      "cls": "app-menu-item",
+      "rect": {
+        "x": 8,
+        "y": 52,
+        "w": 63,
+        "h": 76
+      }
+    },
+    {
+      "idx": 1,
+      "text": "数据看板",
+      "cls": "app-menu-text",
+      "rect": {
+        "x": 8,
+        "y": 104,
+        "w": 63,
+        "h": 20
+      }
+    },
+    {
+      "idx": 2,
+      "text": "智能分析",
+      "cls": "app-menu-item active",
+      "rect": {
+        "x": 8,
+        "y": 136,
+        "w": 63,
+        "h": 76
+      }
+    },
+    {
+      "idx": 3,
+      "text": "智能分析",
+      "cls": "app-menu-text",
+      "rect": {
+        "x": 8,
+        "y": 188,
+        "w": 63,
+        "h": 20
+      }
+    },
+    {
+      "idx": 4,
+      "text": "数据中心",
+      "cls": "app-menu-item",
+      "rect": {
+        "x": 8,
+        "y": 220,
+        "w": 63,
+        "h": 76
+      }
+    },
+    {
+      "idx": 5,
+      "text": "数据中心",
+      "cls": "app-menu-text",
+      "rect": {
+        "x": 8,
+        "y": 272,
+        "w": 63,
+        "h": 20
+      }
+    },
+    {
+      "idx": 6,
+      "text": "平台管理",
+      "cls": "app-menu-item",
+      "rect": {
+        "x": 8,
+        "y": 304,
+        "w": 63,
+        "h": 76
+      }
+    },
+    {
+      "idx": 7,
+      "text": "平台管理",
+      "cls": "app-menu-text",
+      "rect": {
+        "x": 8,
+        "y": 356,
+        "w": 63,
+        "h": 20
+      }
+    },
+    {
+      "idx": 8,
+      "text": "媒体与输入",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 87,
+        "y": 54,
+        "w": 185,
+        "h": 28
+      }
+    },
+    {
+      "idx": 9,
+      "text": "摄像头配置",
+      "cls": "custom-light-menu-item custom-light-menu-item-only-child",
+      "rect": {
+        "x": 79,
+        "y": 86,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 10,
+      "text": "摄像头配置",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 87,
+        "y": 86,
+        "w": 185,
+        "h": 32
+      }
+    },
+    {
+      "idx": 11,
+      "text": "算法配置",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 87,
+        "y": 139,
+        "w": 185,
+        "h": 28
+      }
+    },
+    {
+      "idx": 12,
+      "text": "算法列表",
+      "cls": "custom-light-menu-item custom-light-menu-item-only-child",
+      "rect": {
+        "x": 79,
+        "y": 171,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 13,
+      "text": "算法列表",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 87,
+        "y": 171,
+        "w": 185,
+        "h": 32
+      }
+    },
+    {
+      "idx": 14,
+      "text": "人员库",
+      "cls": "custom-light-menu-item custom-light-menu-item-only-child",
+      "rect": {
+        "x": 79,
+        "y": 205,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 15,
+      "text": "人员库",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 87,
+        "y": 205,
+        "w": 185,
+        "h": 32
+      }
+    },
+    {
+      "idx": 16,
+      "text": "算法底库",
+      "cls": "custom-light-menu-item custom-light-menu-item-only-child",
+      "rect": {
+        "x": 79,
+        "y": 239,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 17,
+      "text": "算法底库",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 87,
+        "y": 239,
+        "w": 185,
+        "h": 32
+      }
+    },
+    {
+      "idx": 18,
+      "text": "智能分析配置",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 87,
+        "y": 292,
+        "w": 185,
+        "h": 28
+      }
+    },
+    {
+      "idx": 19,
+      "text": "视频流分析",
+      "cls": "custom-light-menu-item custom-light-menu-item-only-child",
+      "rect": {
+        "x": 79,
+        "y": 324,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 20,
+      "text": "视频流分析",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 87,
+        "y": 324,
+        "w": 185,
+        "h": 32
+      }
+    },
+    {
+      "idx": 21,
+      "text": "图片分析",
+      "cls": "custom-light-menu-item custom-light-menu-item-only-child",
+      "rect": {
+        "x": 79,
+        "y": 358,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 22,
+      "text": "图片分析",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 87,
+        "y": 358,
+        "w": 185,
+        "h": 32
+      }
+    },
+    {
+      "idx": 23,
+      "text": "分析服务状态",
+      "cls": "custom-light-menu-item custom-light-menu-item-only-child",
+      "rect": {
+        "x": 79,
+        "y": 392,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 24,
+      "text": "分析服务状态",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 87,
+        "y": 392,
+        "w": 185,
+        "h": 32
+      }
+    },
+    {
+      "idx": 25,
+      "text": "结果推送",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 87,
+        "y": 445,
+        "w": 185,
+        "h": 28
+      }
+    },
+    {
+      "idx": 26,
+      "text": "报警推送",
+      "cls": "custom-light-menu-item custom-light-menu-item-only-child",
+      "rect": {
+        "x": 79,
+        "y": 477,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 27,
+      "text": "报警推送",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 87,
+        "y": 477,
+        "w": 185,
+        "h": 32
+      }
+    },
+    {
+      "idx": 28,
+      "text": "报警弹窗及语音",
+      "cls": "custom-light-menu-item custom-light-menu-item-selected custom-light-menu-item-only-child",
+      "rect": {
+        "x": 79,
+        "y": 511,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 29,
+      "text": "报警弹窗及语音",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 87,
+        "y": 511,
+        "w": 185,
+        "h": 32
+      }
+    }
+  ],
+  "tables": [
+    {
+      "idx": 0,
+      "text": "算法ID 算法名称 报警等级 播报方式 操作 4 人员入侵识别 三级 默认语音 试听 编辑 7 烟火识别 三级 默认语音 试听 编辑 9 吸烟识别 三级 默认语音 试听 编辑 26 异常聚集识别 三级 默认语音 试听 编辑 28 安全帽识别 三级 默认语音 试听 编辑 29 离岗识别 三级 默认语音 试听 编辑 33 工衣工服识别 三级 默认语音 试听 编辑 35 睡岗识别 三级 默认语音 试听 编辑 86 翻越围栏识别 三级 默认语音 试听 编辑 120 打电话识别 三级 默认语音 试听 编辑",
+      "headers": [
+        "算法ID",
+        "算法名称",
+        "报警等级",
+        "播报方式",
+        "操作"
+      ]
+    },
+    {
+      "idx": 1,
+      "text": "算法ID 算法名称 报警等级 播报方式 操作",
+      "headers": [
+        "算法ID",
+        "算法名称",
+        "报警等级",
+        "播报方式",
+        "操作"
+      ]
+    },
+    {
+      "idx": 2,
+      "text": "4 人员入侵识别 三级 默认语音 试听 编辑 7 烟火识别 三级 默认语音 试听 编辑 9 吸烟识别 三级 默认语音 试听 编辑 26 异常聚集识别 三级 默认语音 试听 编辑 28 安全帽识别 三级 默认语音 试听 编辑 29 离岗识别 三级 默认语音 试听 编辑 33 工衣工服识别 三级 默认语音 试听 编辑 35 睡岗识别 三级 默认语音 试听 编辑 86 翻越围栏识别 三级 默认语音 试听 编辑 120 打电话识别 三级 默认语音 试听 编辑",
+      "headers": []
+    }
+  ],
+  "forms": [
+    {
+      "idx": 0,
+      "text": "人工智能推理平台",
+      "inputs": []
+    }
+  ],
+  "cards": []
+}

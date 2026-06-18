@@ -1,0 +1,3374 @@
+[
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/",
+    "status": 200,
+    "mimeType": "text/html"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/main-app/cdn/css/base.css",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/main-app/cdn/css/custom-dark.css",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/main-app/cdn/css/custom-light.css",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/index-1-6a54d168-b3568442.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/@vue-1-6a54d168-5a13a467.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/vue-1-6a54d168-26f2d47d.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/vue-router-1-6a54d168-04289e53.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/vue-demi-1-6a54d168-e81808f2.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/pinia-1-6a54d168-ea788a72.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/@babel-1-6a54d168-fccfcab2.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/axios-1-6a54d168-fec38b54.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/crypto-js-1-6a54d168-e3a4fa94.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/@micro-zoe-1-6a54d168-6cd48652.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/@intlify-1-6a54d168-adce9b40.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/vue-i18n-1-6a54d168-c2562ca8.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/@ctrl-1-6a54d168-fb5a5473.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/@ant-design-1-6a54d168-3ade4477.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/resize-observer-polyfill-1-6a54d168-0f9f8adb.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/vue-types-1-6a54d168-ef06c517.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/dom-align-1-6a54d168-ecb06dd6.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/lodash-es-1-6a54d168-6d1fdea6.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/dayjs-1-6a54d168-b896a5a6.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/async-validator-1-6a54d168-dee29e8b.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/compute-scroll-into-view-1-6a54d168-183f845a.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/scroll-into-view-if-needed-1-6a54d168-e60ff95a.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/ant-design-vue-1-6a54d168-58b97f80.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/parseuri-1-6a54d168-65d5bbe3.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/ms-1-6a54d168-f6814399.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/has-cors-1-6a54d168-34a32e81.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/base64-arraybuffer-1-6a54d168-4b8f722f.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/engine.io-parser-1-6a54d168-ebb8384f.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/component-emitter-1-6a54d168-553b3552.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/parseqs-1-6a54d168-14adbcbb.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/yeast-1-6a54d168-03cece47.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/engine.io-client-1-6a54d168-9ba82182.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/socket.io-parser-1-6a54d168-def4176a.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/backo2-1-6a54d168-04fb8d2f.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/socket.io-client-1-6a54d168-438332ab.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/vue-resize-1-6a54d168-95d004f6.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/vue-observe-visibility-1-6a54d168-692715a6.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/vue-virtual-scroller-1-6a54d168-32775e18.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/base64-js-1-6a54d168-50a5cdf9.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/ieee754-1-6a54d168-44f7831e.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/buffer-1-6a54d168-f0bb0893.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/to-arraybuffer-1-6a54d168-a8ba35c1.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/jsbn-1-6a54d168-18596bc3.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/gm-crypto-1-6a54d168-633484a7.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/darkreader-1-6a54d168-011042e0.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/vue-toastification-1-6a54d168-8ed845aa.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/simple-uploader.js-1-6a54d168-3f28159c.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/mpegts.js-1-6a54d168-dfd59c66.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/lucide-vue-next-1-6a54d168-b7713902.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/nprogress-1-6a54d168-70967e7f.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/path-to-regexp-1-6a54d168-27ba1359.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/vue-virtual-scroller-4d71315f.css",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/vue-toastification-4522082c.css",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/nprogress-771398e6.css",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/index-138565c8.css",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/main-app/js/icon-font.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/main-app/cdn/css/base.css",
+    "status": 200,
+    "mimeType": "text/css"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/main-app/cdn/css/custom-dark.css",
+    "status": 200,
+    "mimeType": "text/css"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/vue-router-1-6a54d168-04289e53.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/main-app/cdn/css/custom-light.css",
+    "status": 200,
+    "mimeType": "text/css"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/index-1-6a54d168-b3568442.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/vue-virtual-scroller-4d71315f.css",
+    "status": 200,
+    "mimeType": "text/css"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/vue-1-6a54d168-26f2d47d.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/@vue-1-6a54d168-5a13a467.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/nprogress-771398e6.css",
+    "status": 200,
+    "mimeType": "text/css"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/vue-toastification-4522082c.css",
+    "status": 200,
+    "mimeType": "text/css"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/index-138565c8.css",
+    "status": 200,
+    "mimeType": "text/css"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/vue-demi-1-6a54d168-e81808f2.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/pinia-1-6a54d168-ea788a72.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/@babel-1-6a54d168-fccfcab2.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/axios-1-6a54d168-fec38b54.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/crypto-js-1-6a54d168-e3a4fa94.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/@micro-zoe-1-6a54d168-6cd48652.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/@intlify-1-6a54d168-adce9b40.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/vue-i18n-1-6a54d168-c2562ca8.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/@ctrl-1-6a54d168-fb5a5473.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/@ant-design-1-6a54d168-3ade4477.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/resize-observer-polyfill-1-6a54d168-0f9f8adb.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/vue-types-1-6a54d168-ef06c517.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/dom-align-1-6a54d168-ecb06dd6.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/lodash-es-1-6a54d168-6d1fdea6.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/dayjs-1-6a54d168-b896a5a6.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/scroll-into-view-if-needed-1-6a54d168-e60ff95a.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/compute-scroll-into-view-1-6a54d168-183f845a.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/async-validator-1-6a54d168-dee29e8b.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/ms-1-6a54d168-f6814399.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/parseuri-1-6a54d168-65d5bbe3.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/base64-arraybuffer-1-6a54d168-4b8f722f.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/has-cors-1-6a54d168-34a32e81.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/component-emitter-1-6a54d168-553b3552.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/engine.io-parser-1-6a54d168-ebb8384f.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/ant-design-vue-1-6a54d168-58b97f80.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/backo2-1-6a54d168-04fb8d2f.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/parseqs-1-6a54d168-14adbcbb.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/yeast-1-6a54d168-03cece47.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/socket.io-parser-1-6a54d168-def4176a.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/engine.io-client-1-6a54d168-9ba82182.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/vue-observe-visibility-1-6a54d168-692715a6.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/vue-resize-1-6a54d168-95d004f6.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/ieee754-1-6a54d168-44f7831e.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/base64-js-1-6a54d168-50a5cdf9.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/vue-virtual-scroller-1-6a54d168-32775e18.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/socket.io-client-1-6a54d168-438332ab.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/to-arraybuffer-1-6a54d168-a8ba35c1.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/buffer-1-6a54d168-f0bb0893.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/jsbn-1-6a54d168-18596bc3.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/gm-crypto-1-6a54d168-633484a7.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/darkreader-1-6a54d168-011042e0.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/vue-toastification-1-6a54d168-8ed845aa.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/simple-uploader.js-1-6a54d168-3f28159c.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/lucide-vue-next-1-6a54d168-b7713902.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/mpegts.js-1-6a54d168-dfd59c66.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/nprogress-1-6a54d168-70967e7f.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/path-to-regexp-1-6a54d168-27ba1359.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/main-app/js/icon-font.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/gsm/platform/info",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/main-app/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/main-app/favicon.ico",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/main-app/"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/main-app/favicon.ico",
+    "status": 200,
+    "mimeType": "image/vnd.microsoft.icon"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/gsm/platform/info",
+    "status": 200,
+    "mimeType": "application/json"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/login-1-6a54d168-09776203.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/main-app/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/login-5263a4c5.css",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/main-app/"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/login-5263a4c5.css",
+    "status": 200,
+    "mimeType": "text/css"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/login-1-6a54d168-09776203.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/um/get_public_key",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/main-app/user/login"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/login-bg-aurora-8ebc2b4a.png",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/main-app/user/login"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/login-bg-aurora-8ebc2b4a.png",
+    "status": 200,
+    "mimeType": "image/png"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/um/get_public_key",
+    "status": 200,
+    "mimeType": "application/json"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/um/user/login",
+    "method": "POST",
+    "documentURL": "http://192.168.11.88:8081/app/main-app/user/login"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/um/user/login",
+    "status": 200,
+    "mimeType": "application/json"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/pm/user_auth?user_id=00000000000000000000000000000000",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/main-app/user/login"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/mc/install_app_config",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/main-app/user/login"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/mc/menu/settings",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/main-app/user/login"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/platform/module-switches",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/main-app/user/login"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/pm/user_auth?user_id=00000000000000000000000000000000",
+    "status": 200,
+    "mimeType": "application/json"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/mc/menu/settings",
+    "status": 200,
+    "mimeType": "application/json"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/mc/install_app_config",
+    "status": 200,
+    "mimeType": "application/json"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/platform/module-switches",
+    "status": 200,
+    "mimeType": "application/json"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/list_api/cockpit",
+    "method": "POST",
+    "documentURL": "http://192.168.11.88:8081/app/main-app/user/login"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/list_api/cockpit",
+    "status": 200,
+    "mimeType": "application/json"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/web_message/message/get_unread_total",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/main-app/root"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/vam/stream/jobs?page_size=1&current=1",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/main-app/root"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/official-logo-light-c7e688ab.png",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/main-app/root"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/index-1-6a54d168-4fff6e00.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/main-app/root"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/index-e01135eb.css",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/main-app/root"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/official-logo-light-c7e688ab.png",
+    "status": 200,
+    "mimeType": "image/png"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/index-e01135eb.css",
+    "status": 200,
+    "mimeType": "text/css"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/index-1-6a54d168-4fff6e00.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/ai_center/",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/ai_center/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/mc/get_image?path=/menu-default-icon-cockpit.png",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/main-app/frame"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/mc/get_image?path=/menu-default-icon-dispatch.png",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/main-app/frame"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/mc/get_image?path=/menu-default-icon-data.png",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/main-app/frame"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/mc/get_image?path=/menu-default-icon-manager.png",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/main-app/frame"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/web_message/message/get_unread_total",
+    "status": 200,
+    "mimeType": "application/json"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/ai_center/",
+    "status": 200,
+    "mimeType": "text/html"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/vam/stream/jobs?page_size=1&current=1",
+    "status": 200,
+    "mimeType": "application/json"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/guide-background-image-768db842.png",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/main-app/frame"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/mc/get_image?path=/menu-default-icon-manager.png",
+    "status": 200,
+    "mimeType": "image/png"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/main-app/assets/guide-background-image-768db842.png",
+    "status": 200,
+    "mimeType": "image/png"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/mc/get_image?path=/menu-default-icon-cockpit.png",
+    "status": 200,
+    "mimeType": "image/png"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/mc/get_image?path=/menu-default-icon-dispatch.png",
+    "status": 200,
+    "mimeType": "image/png"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/mc/get_image?path=/menu-default-icon-data.png",
+    "status": 200,
+    "mimeType": "image/png"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/static/cdn/css/base.css",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/ai_center/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/static/cdn/css/custom-dark.css",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/ai_center/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/static/cdn/css/custom-light.css",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/ai_center/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/ai_center/chunk-vendors-0abc024d.1.e4381bea.9ce06cfe2af5c700.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/ai_center/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/ai_center/chunk-vendors-6a09ca90.1.e4381bea.de0206fa51ccefc2.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/ai_center/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/ai_center/chunk-vendors-9ec2cae7.1.e4381bea.09b7d2cb8dd1d931.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/ai_center/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/ai_center/chunk-vendors-429e44d0.1.e4381bea.2c22a1c802a6ee91.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/ai_center/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/ai_center/chunk-vendors-35ca9279.1.e4381bea.63849b386a935789.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/ai_center/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/ai_center/chunk-vendors-e108dc65.1.e4381bea.3ba3d3ed4148e356.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/ai_center/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/ai_center/chunk-vendors-895f5732.1.e4381bea.51a00ce6d0d8158b.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/ai_center/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/ai_center/chunk-vendors-1e5d6e1b.1.e4381bea.e564ef1199961f17.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/ai_center/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/ai_center/chunk-vendors-488e6a82.1.e4381bea.0ed6f318af50782e.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/ai_center/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/ai_center/chunk-vendors-2882e66b.1.e4381bea.76a0403b8e34e04d.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/ai_center/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/ai_center/chunk-vendors-aacc2dbb.1.e4381bea.cdf95a82b6f7db1e.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/ai_center/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/ai_center/chunk-vendors-bc050c32.1.e4381bea.392ce2fca0d5f22b.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/ai_center/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/ai_center/chunk-vendors-89d5c698.1.e4381bea.b66c192e5b09564f.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/ai_center/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/ai_center/chunk-vendors-78c94464.1.e4381bea.5d9d0e4293a9c57b.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/ai_center/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/ai_center/chunk-vendors-97095ff7.1.e4381bea.6123e74ee19d9f28.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/ai_center/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/ai_center/app.1.e4381bea.98b7638bf1e4c6a8.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/ai_center/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/ai_center/css/app.9e3c059e.css",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/ai_center/"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/static/cdn/css/base.css",
+    "status": 200,
+    "mimeType": "text/css"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/static/cdn/css/custom-dark.css",
+    "status": 200,
+    "mimeType": "text/css"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/static/cdn/css/custom-light.css",
+    "status": 200,
+    "mimeType": "text/css"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/ai_center/css/app.9e3c059e.css",
+    "status": 200,
+    "mimeType": "text/css"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/ai_center/chunk-vendors-0abc024d.1.e4381bea.9ce06cfe2af5c700.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/ai_center/chunk-vendors-6a09ca90.1.e4381bea.de0206fa51ccefc2.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/ai_center/chunk-vendors-9ec2cae7.1.e4381bea.09b7d2cb8dd1d931.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/ai_center/chunk-vendors-429e44d0.1.e4381bea.2c22a1c802a6ee91.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/ai_center/chunk-vendors-35ca9279.1.e4381bea.63849b386a935789.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/ai_center/chunk-vendors-e108dc65.1.e4381bea.3ba3d3ed4148e356.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/ai_center/chunk-vendors-895f5732.1.e4381bea.51a00ce6d0d8158b.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/ai_center/chunk-vendors-1e5d6e1b.1.e4381bea.e564ef1199961f17.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/ai_center/chunk-vendors-488e6a82.1.e4381bea.0ed6f318af50782e.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/ai_center/chunk-vendors-2882e66b.1.e4381bea.76a0403b8e34e04d.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/ai_center/chunk-vendors-aacc2dbb.1.e4381bea.cdf95a82b6f7db1e.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/ai_center/chunk-vendors-bc050c32.1.e4381bea.392ce2fca0d5f22b.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/ai_center/chunk-vendors-89d5c698.1.e4381bea.b66c192e5b09564f.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/ai_center/chunk-vendors-78c94464.1.e4381bea.5d9d0e4293a9c57b.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/ai_center/chunk-vendors-97095ff7.1.e4381bea.6123e74ee19d9f28.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/ai_center/app.1.e4381bea.98b7638bf1e4c6a8.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/ai_center/chunks/169.1.e4381bea.a422913768665714.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/ai_center/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/ai_center/chunks/32.1.e4381bea.9ba881b1636d5184.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/ai_center/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/ai_center/chunks/659.1.e4381bea.c11fe4c8b69cf0fa.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/ai_center/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/ai_center/chunks/472.1.e4381bea.319df8a9de62fe61.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/ai_center/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/ai_center/chunks/900.1.e4381bea.39820f69befca541.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/ai_center/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/ai_center/chunks/138.1.e4381bea.95229ae95734d176.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/ai_center/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/ai_center/chunks/463.1.e4381bea.bf951697b0f9e45f.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/ai_center/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/ai_center/chunks/792.1.e4381bea.072a50d5d8f8607b.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/ai_center/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/ai_center/chunks/622.1.e4381bea.0d0de3353f91f7f0.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/ai_center/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/ai_center/chunks/468.1.e4381bea.0d81762db8bc51fb.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/ai_center/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/ai_center/chunks/276.1.e4381bea.6887cd12246c2f50.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/ai_center/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/ai_center/chunks/563.1.e4381bea.adbe4b50616d3521.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/ai_center/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/ai_center/chunks/135.1.e4381bea.a36233dfa331214d.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/ai_center/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/ai_center/chunks/48.1.e4381bea.bba1e10735e45ef7.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/ai_center/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/ai_center/chunks/887.1.e4381bea.5cc57bf91ec7e488.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/ai_center/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/ai_center/chunks/318.1.e4381bea.185207045abc88a5.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/ai_center/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/ai_center/chunks/558.1.e4381bea.b75db3d2aa3a61b6.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/ai_center/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/ai_center/css/651.03ffd9a0.css",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/ai_center/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/ai_center/chunks/651.1.e4381bea.1376d377fa6915ee.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/ai_center/"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/ai_center/chunks/169.1.e4381bea.a422913768665714.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/ai_center/chunks/32.1.e4381bea.9ba881b1636d5184.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/ai_center/chunks/659.1.e4381bea.c11fe4c8b69cf0fa.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/ai_center/chunks/472.1.e4381bea.319df8a9de62fe61.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/ai_center/chunks/900.1.e4381bea.39820f69befca541.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/ai_center/chunks/138.1.e4381bea.95229ae95734d176.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/ai_center/css/651.03ffd9a0.css",
+    "status": 200,
+    "mimeType": "text/css"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/ai_center/chunks/463.1.e4381bea.bf951697b0f9e45f.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/ai_center/chunks/792.1.e4381bea.072a50d5d8f8607b.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/ai_center/chunks/622.1.e4381bea.0d0de3353f91f7f0.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/ai_center/chunks/468.1.e4381bea.0d81762db8bc51fb.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/ai_center/chunks/276.1.e4381bea.6887cd12246c2f50.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/ai_center/chunks/563.1.e4381bea.adbe4b50616d3521.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/ai_center/chunks/135.1.e4381bea.a36233dfa331214d.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/ai_center/chunks/48.1.e4381bea.bba1e10735e45ef7.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/ai_center/chunks/887.1.e4381bea.5cc57bf91ec7e488.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/ai_center/chunks/318.1.e4381bea.185207045abc88a5.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/ai_center/chunks/558.1.e4381bea.b75db3d2aa3a61b6.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/ai_center/chunks/651.1.e4381bea.1376d377fa6915ee.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/acm/algorithm/config?current=1&page_size=9999",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/ai_center/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/ai_center/img/background-image@2x.49a7666d.png",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/ai_center/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/ai_center/img/graphics@2x.e945e7fd.png",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/ai_center/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/ai_center/img/block-title-bg-406.f6a55404.png",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/ai_center/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/ai_center/img/data-statistics-card.3003f270.png",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/ai_center/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/ai_center/img/data-statistics-icon1.f1d6baa7.png",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/ai_center/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/ai_center/img/data-statistics-icon2.4ed57780.png",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/ai_center/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/ai_center/img/data-statistics-icon3.85457243.png",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/ai_center/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/ai_center/img/data-statistics-icon4.d44085f8.png",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/ai_center/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/ai_center/img/block-title-bg-1002.b573ff42.png",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/ai_center/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/ai_center/img/bubble-proport.b386a14c.png",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/ai_center/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/ai_center/img/bg-top-1.93c995e7.png",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/ai_center/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/ai_center/img/bg-top-2.b069d0b6.png",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/ai_center/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/ai_center/img/bg-top-3.930142aa.png",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/ai_center/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/ai_center/img/bg-top-4.2496cf75.png",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/ai_center/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/ai_center/img/border-bottom.e6384d8c.png",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/ai_center/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/ai_center/fonts/CKTKingkong.570f17b1.ttf",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/ai_center/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/ai_center/fonts/kuaikanshijieti.095199e6.ttf",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/ai_center/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/ai_center/fonts/Barlow-SemiBoldItalic.e6340521.ttf",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/ai_center/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/ai_center/fonts/Barlow-MediumItalic.422de9fc.ttf",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/ai_center/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/ai_center/fonts/Barlow-BoldItalic.7b1b6e86.ttf",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/ai_center/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/mc/cockpit?cockpit_id=e67e2b5871c84f288425c69b67e5b58d",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/ai_center/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/urp/data_overview/alarm_num",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/ai_center/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/urp/data_overview/routine",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/ai_center/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/urp/data_overview/alarm_tendency",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/ai_center/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/urp/data_overview/camera_statistics",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/ai_center/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/urp/data_overview/algo_statistics",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/ai_center/"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/ai_center/img/background-image@2x.49a7666d.png",
+    "status": 200,
+    "mimeType": "image/png"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/ai_center/img/graphics@2x.e945e7fd.png",
+    "status": 200,
+    "mimeType": "image/png"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/ai_center/img/block-title-bg-406.f6a55404.png",
+    "status": 200,
+    "mimeType": "image/png"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/ai_center/img/data-statistics-card.3003f270.png",
+    "status": 200,
+    "mimeType": "image/png"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/ai_center/img/data-statistics-icon1.f1d6baa7.png",
+    "status": 200,
+    "mimeType": "image/png"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/ai_center/img/data-statistics-icon2.4ed57780.png",
+    "status": 200,
+    "mimeType": "image/png"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/ai_center/img/data-statistics-icon3.85457243.png",
+    "status": 200,
+    "mimeType": "image/png"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/ai_center/img/data-statistics-icon4.d44085f8.png",
+    "status": 200,
+    "mimeType": "image/png"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/ai_center/img/block-title-bg-1002.b573ff42.png",
+    "status": 200,
+    "mimeType": "image/png"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/ai_center/img/bubble-proport.b386a14c.png",
+    "status": 200,
+    "mimeType": "image/png"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/ai_center/img/bg-top-1.93c995e7.png",
+    "status": 200,
+    "mimeType": "image/png"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/ai_center/img/bg-top-2.b069d0b6.png",
+    "status": 200,
+    "mimeType": "image/png"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/mc/cockpit?cockpit_id=e67e2b5871c84f288425c69b67e5b58d",
+    "status": 200,
+    "mimeType": "application/json"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/acm/algorithm/config?current=1&page_size=9999",
+    "status": 200,
+    "mimeType": "application/json"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/ai_center/fonts/CKTKingkong.570f17b1.ttf",
+    "status": 200,
+    "mimeType": "text/plain"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/gq/log/search",
+    "method": "POST",
+    "documentURL": "http://192.168.11.88:8081/app/ai_center/"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/urp/data_overview/routine",
+    "status": 200,
+    "mimeType": "application/json"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/urp/data_overview/alarm_num",
+    "status": 200,
+    "mimeType": "application/json"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/urp/data_overview/alarm_tendency",
+    "status": 200,
+    "mimeType": "application/json"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/ai_center/fonts/kuaikanshijieti.095199e6.ttf",
+    "status": 200,
+    "mimeType": "text/plain"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/ai_center/fonts/Barlow-SemiBoldItalic.e6340521.ttf",
+    "status": 200,
+    "mimeType": "text/plain"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/ai_center/fonts/Barlow-MediumItalic.422de9fc.ttf",
+    "status": 200,
+    "mimeType": "text/plain"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/ai_center/fonts/Barlow-BoldItalic.7b1b6e86.ttf",
+    "status": 200,
+    "mimeType": "text/plain"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/ai_center/img/bg-top-3.930142aa.png",
+    "status": 200,
+    "mimeType": "image/png"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/ai_center/img/bg-top-4.2496cf75.png",
+    "status": 200,
+    "mimeType": "image/png"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/ai_center/img/border-bottom.e6384d8c.png",
+    "status": 200,
+    "mimeType": "image/png"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/urp/data_overview/camera_statistics",
+    "status": 200,
+    "mimeType": "application/json"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/urp/data_overview/algo_statistics",
+    "status": 200,
+    "mimeType": "application/json"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/gq/log/search",
+    "status": 200,
+    "mimeType": "application/json"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/cockpit/",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/cockpit/"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/cockpit/",
+    "status": 200,
+    "mimeType": "text/html"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/cockpit/chunk-vendors.1.d4c4f1d9.7a1e3cac8cc3d9c2.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/cockpit/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/cockpit/app.1.d4c4f1d9.93d7ca148ae30a6e.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/cockpit/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/cockpit/css/app.61c24d73.css",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/cockpit/"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/cockpit/css/app.61c24d73.css",
+    "status": 200,
+    "mimeType": "text/css"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/cockpit/chunk-vendors.1.d4c4f1d9.7a1e3cac8cc3d9c2.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/cockpit/app.1.d4c4f1d9.93d7ca148ae30a6e.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/cockpit/favicon.ico",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/cockpit/"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/cockpit/favicon.ico",
+    "status": 200,
+    "mimeType": "image/vnd.microsoft.icon"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/pm/user_auth?user_id=00000000000000000000000000000000",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/cockpit/"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/pm/user_auth?user_id=00000000000000000000000000000000",
+    "status": 200,
+    "mimeType": "application/json"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/business_overview/",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/business_overview/"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/business_overview/",
+    "status": 200,
+    "mimeType": "text/html"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/business_overview/chunk-vendors.1.d860848e.e8ee0c232b2ebdd5.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/business_overview/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/business_overview/app.1.d860848e.32bdcaefd227598b.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/business_overview/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/business_overview/css/app.474cee67.css",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/business_overview/"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/business_overview/css/app.474cee67.css",
+    "status": 200,
+    "mimeType": "text/css"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/business_overview/app.1.d860848e.32bdcaefd227598b.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/business_overview/chunk-vendors.1.d860848e.e8ee0c232b2ebdd5.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/business_overview/chunks/462.1.d860848e.5ee27ce30eba72cf.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/business_overview/"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/business_overview/chunks/462.1.d860848e.5ee27ce30eba72cf.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/business_overview/favicon.ico",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/business_overview/"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/business_overview/favicon.ico",
+    "status": 200,
+    "mimeType": "image/vnd.microsoft.icon"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/alarm_img_wall/",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/alarm_img_wall/"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/alarm_img_wall/",
+    "status": 200,
+    "mimeType": "text/html"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/alarm_img_wall/chunk-common.1.050a56c1.ba0492f804b2dfa2a52e.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/alarm_img_wall/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/alarm_img_wall/chunk-vendors.1.050a56c1.ba0492f804b2dfa2a52e.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/alarm_img_wall/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/alarm_img_wall/css/chunk-common-1-1773986846275.css",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/alarm_img_wall/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/alarm_img_wall/css/chunk-vendors-1-1773986846275.css",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/alarm_img_wall/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/alarm_img_wall/index.1.050a56c1.ba0492f804b2dfa2a52e.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/alarm_img_wall/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/alarm_img_wall/chunk-e61cc9b2.1.050a56c1.ba0492f804b2dfa2a52e.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/alarm_img_wall/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/alarm_img_wall/code.1.050a56c1.ba0492f804b2dfa2a52e.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/alarm_img_wall/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/alarm_img_wall/css/chunk-e61cc9b2-1-1773986846275.css",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/alarm_img_wall/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/alarm_img_wall/css/code-1-1773986846275.css",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/alarm_img_wall/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/alarm_img_wall/css/other-1-1773986846275.css",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/alarm_img_wall/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/alarm_img_wall/other.1.050a56c1.ba0492f804b2dfa2a52e.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/alarm_img_wall/"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/alarm_img_wall/css/chunk-common-1-1773986846275.css",
+    "status": 200,
+    "mimeType": "text/css"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/alarm_img_wall/css/chunk-vendors-1-1773986846275.css",
+    "status": 200,
+    "mimeType": "text/css"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/alarm_img_wall/index.1.050a56c1.ba0492f804b2dfa2a52e.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/alarm_img_wall/chunk-e61cc9b2.1.050a56c1.ba0492f804b2dfa2a52e.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/alarm_img_wall/css/chunk-e61cc9b2-1-1773986846275.css",
+    "status": 200,
+    "mimeType": "text/css"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/alarm_img_wall/code.1.050a56c1.ba0492f804b2dfa2a52e.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/alarm_img_wall/css/code-1-1773986846275.css",
+    "status": 200,
+    "mimeType": "text/css"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/alarm_img_wall/css/other-1-1773986846275.css",
+    "status": 200,
+    "mimeType": "text/css"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/alarm_img_wall/other.1.050a56c1.ba0492f804b2dfa2a52e.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/alarm_img_wall/chunk-common.1.050a56c1.ba0492f804b2dfa2a52e.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/alarm_img_wall/chunk-vendors.1.050a56c1.ba0492f804b2dfa2a52e.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/alarm_img_wall/css/other-1-1773986846275.css",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/alarm_img_wall/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/alarm_img_wall/other.1.050a56c1.ba0492f804b2dfa2a52e.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/alarm_img_wall/"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/alarm_img_wall/css/other-1-1773986846275.css",
+    "status": 200,
+    "mimeType": "text/css"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/alarm_img_wall/other.1.050a56c1.ba0492f804b2dfa2a52e.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/alarm_img_wall/static/img/backgroundImage.ca15d13e.webp",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/alarm_img_wall/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/alarm_img_wall/static/img/decorate.3480d66e.webp",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/alarm_img_wall/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/alarm_img_wall/static/fonts/NotoSansHans-Regular.947974b8.otf",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/alarm_img_wall/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/alarm_img_wall/static/img/logoWhite.f36f7139.png",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/alarm_img_wall/"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/alarm_img_wall/static/img/decorate.3480d66e.webp",
+    "status": 200,
+    "mimeType": "text/plain"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/alarm_img_wall/static/img/backgroundImage.ca15d13e.webp",
+    "status": 200,
+    "mimeType": "text/plain"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/alarm_img_wall/static/img/logoWhite.f36f7139.png",
+    "status": 200,
+    "mimeType": "image/png"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/alarm_img_wall/static/fonts/NotoSansHans-Regular.947974b8.otf",
+    "status": 200,
+    "mimeType": "text/plain"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/alarm_img_wall/favicon.ico",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/alarm_img_wall/"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/alarm_img_wall/favicon.ico",
+    "status": 200,
+    "mimeType": "image/vnd.microsoft.icon"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/video_analysis/",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/video_analysis/"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/video_analysis/",
+    "status": 200,
+    "mimeType": "text/html"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/video_analysis/chunk-vendors.1.ecee27dc.2aa105ceef76eee2.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/video_analysis/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/video_analysis/app.1.ecee27dc.bf73ffba6d25fde2.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/video_analysis/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/video_analysis/css/app.3b295bbf.css",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/video_analysis/"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/video_analysis/css/app.3b295bbf.css",
+    "status": 200,
+    "mimeType": "text/css"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/video_analysis/chunk-vendors.1.ecee27dc.2aa105ceef76eee2.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/video_analysis/app.1.ecee27dc.bf73ffba6d25fde2.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/video_analysis/favicon.ico",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/video_analysis/"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/video_analysis/favicon.ico",
+    "status": 200,
+    "mimeType": "image/vnd.microsoft.icon"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/pm/user_auth?user_id=00000000000000000000000000000000",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/video_analysis/"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/pm/user_auth?user_id=00000000000000000000000000000000",
+    "status": 200,
+    "mimeType": "application/json"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/image_analysis/",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/image_analysis/"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/image_analysis/",
+    "status": 200,
+    "mimeType": "text/html"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/image_analysis/chunk-vendors.1.d67994bf.15633d625eb6874c.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/image_analysis/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/image_analysis/app.1.d67994bf.60bc2239a9e1fb7a.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/image_analysis/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/image_analysis/css/app.0fac0c95.css",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/image_analysis/"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/image_analysis/css/app.0fac0c95.css",
+    "status": 200,
+    "mimeType": "text/css"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/image_analysis/chunk-vendors.1.d67994bf.15633d625eb6874c.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/image_analysis/app.1.d67994bf.60bc2239a9e1fb7a.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/image_analysis/favicon.ico",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/image_analysis/"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/image_analysis/favicon.ico",
+    "status": 200,
+    "mimeType": "image/vnd.microsoft.icon"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/pm/user_auth?user_id=00000000000000000000000000000000",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/image_analysis/"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/pm/user_auth?user_id=00000000000000000000000000000000",
+    "status": 200,
+    "mimeType": "application/json"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/universal_video_input/",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/universal_video_input/"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/universal_video_input/",
+    "status": 200,
+    "mimeType": "text/html"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/universal_video_input/chunk-vendors.1.0ba63ea8.3e8b0dbeade34b50.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/universal_video_input/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/universal_video_input/app.1.0ba63ea8.768a02876c032b86.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/universal_video_input/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/universal_video_input/css/app.e0ff7e15.css",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/universal_video_input/"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/universal_video_input/css/app.e0ff7e15.css",
+    "status": 200,
+    "mimeType": "text/css"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/universal_video_input/chunk-vendors.1.0ba63ea8.3e8b0dbeade34b50.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/universal_video_input/app.1.0ba63ea8.768a02876c032b86.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/universal_video_input/favicon.ico",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/universal_video_input/"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/universal_video_input/favicon.ico",
+    "status": 200,
+    "mimeType": "image/vnd.microsoft.icon"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/pm/user_auth?user_id=00000000000000000000000000000000",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/universal_video_input/"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/pm/user_auth?user_id=00000000000000000000000000000000",
+    "status": 200,
+    "mimeType": "application/json"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/algo_info/",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/algo_info/"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/algo_info/",
+    "status": 200,
+    "mimeType": "text/html"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/algo_info/chunk-vendors.1.938e0522.194880910cd1d76f.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/algo_info/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/algo_info/app.1.938e0522.8bec210c406f758c.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/algo_info/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/algo_info/css/app.a9c60e52.css",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/algo_info/"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/algo_info/css/app.a9c60e52.css",
+    "status": 200,
+    "mimeType": "text/css"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/algo_info/chunk-vendors.1.938e0522.194880910cd1d76f.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/algo_info/app.1.938e0522.8bec210c406f758c.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/algo_info/favicon.ico",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/algo_info/"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/algo_info/favicon.ico",
+    "status": 200,
+    "mimeType": "image/vnd.microsoft.icon"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/pm/user_auth?user_id=00000000000000000000000000000000",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/algo_info/"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/pm/user_auth?user_id=00000000000000000000000000000000",
+    "status": 200,
+    "mimeType": "application/json"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/executive_service/",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/executive_service/"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/executive_service/",
+    "status": 200,
+    "mimeType": "text/html"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/executive_service/chunk-vendors.1.ba3c1fe2.6d2e90754de13f36.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/executive_service/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/executive_service/app.1.ba3c1fe2.5189ab11f06f142a.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/executive_service/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/executive_service/css/app.16d155e3.css",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/executive_service/"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/executive_service/css/app.16d155e3.css",
+    "status": 200,
+    "mimeType": "text/css"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/executive_service/chunk-vendors.1.ba3c1fe2.6d2e90754de13f36.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/executive_service/app.1.ba3c1fe2.5189ab11f06f142a.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/executive_service/favicon.ico",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/executive_service/"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/executive_service/favicon.ico",
+    "status": 200,
+    "mimeType": "image/vnd.microsoft.icon"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/pm/user_auth?user_id=00000000000000000000000000000000",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/executive_service/"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/pm/user_auth?user_id=00000000000000000000000000000000",
+    "status": 200,
+    "mimeType": "application/json"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/push_callback/",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/push_callback/"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/push_callback/",
+    "status": 200,
+    "mimeType": "text/html"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/push_callback/chunk-vendors.2.d0ed5750.432b1086f1745f2d.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/push_callback/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/push_callback/app.2.d0ed5750.09434a68bde28149.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/push_callback/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/push_callback/css/app.0ab1343c.css",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/push_callback/"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/push_callback/css/app.0ab1343c.css",
+    "status": 200,
+    "mimeType": "text/css"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/push_callback/chunk-vendors.2.d0ed5750.432b1086f1745f2d.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/push_callback/app.2.d0ed5750.09434a68bde28149.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/push_callback/favicon.ico",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/push_callback/"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/push_callback/favicon.ico",
+    "status": 200,
+    "mimeType": "image/vnd.microsoft.icon"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/pm/user_auth?user_id=00000000000000000000000000000000",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/push_callback/"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/pm/user_auth?user_id=00000000000000000000000000000000",
+    "status": 200,
+    "mimeType": "application/json"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/algo_log/",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/algo_log/"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/algo_log/",
+    "status": 200,
+    "mimeType": "text/html"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/static/cdn/css/base.css",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/algo_log/"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/static/cdn/css/base.css",
+    "status": 200,
+    "mimeType": "text/css"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/static/cdn/css/custom-dark.css",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/algo_log/"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/static/cdn/css/custom-dark.css",
+    "status": 200,
+    "mimeType": "text/css"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/static/cdn/css/custom-light.css",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/algo_log/"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/static/cdn/css/custom-light.css",
+    "status": 200,
+    "mimeType": "text/css"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/algo_log/chunk-vendors.1.a0e0330a.83229e25aad2048f.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/algo_log/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/algo_log/app.1.a0e0330a.7a207f187aa22872.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/algo_log/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/algo_log/css/app.0248ecbc.css",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/algo_log/"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/algo_log/css/app.0248ecbc.css",
+    "status": 200,
+    "mimeType": "text/css"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/algo_log/chunk-vendors.1.a0e0330a.83229e25aad2048f.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/algo_log/app.1.a0e0330a.7a207f187aa22872.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/algo_log/favicon.ico",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/algo_log/"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/algo_log/favicon.ico",
+    "status": 200,
+    "mimeType": "image/vnd.microsoft.icon"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/pm/user_auth?user_id=00000000000000000000000000000000",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/algo_log/"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/pm/user_auth?user_id=00000000000000000000000000000000",
+    "status": 200,
+    "mimeType": "application/json"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/algo_store/",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/algo_store/"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/algo_store/",
+    "status": 200,
+    "mimeType": "text/html"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/algo_store/chunk-vendors.1.0f425d55.65e3924619e02aa1.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/algo_store/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/algo_store/app.1.0f425d55.b66f56b5cc6c1ed5.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/algo_store/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/algo_store/css/app.f1b02a66.css",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/algo_store/"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/algo_store/css/app.f1b02a66.css",
+    "status": 200,
+    "mimeType": "text/css"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/algo_store/chunk-vendors.1.0f425d55.65e3924619e02aa1.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/algo_store/app.1.0f425d55.b66f56b5cc6c1ed5.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/algo_store/favicon.ico",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/algo_store/"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/algo_store/favicon.ico",
+    "status": 200,
+    "mimeType": "image/vnd.microsoft.icon"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/pm/user_auth?user_id=00000000000000000000000000000000",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/algo_store/"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/pm/user_auth?user_id=00000000000000000000000000000000",
+    "status": 200,
+    "mimeType": "application/json"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/face/",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/face/"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/face/",
+    "status": 200,
+    "mimeType": "text/html"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/face/chunk-vendors.1.256c02d1.6a88feb83ca728a1.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/face/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/face/app.1.256c02d1.8c1d61b3d59d8bfd.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/face/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/face/css/app.d7fae8c3.css",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/face/"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/face/css/app.d7fae8c3.css",
+    "status": 200,
+    "mimeType": "text/css"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/face/chunk-vendors.1.256c02d1.6a88feb83ca728a1.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/face/app.1.256c02d1.8c1d61b3d59d8bfd.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/face/favicon.ico",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/face/"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/face/favicon.ico",
+    "status": 200,
+    "mimeType": "image/vnd.microsoft.icon"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/pm/user_auth?user_id=00000000000000000000000000000000",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/face/"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/pm/user_auth?user_id=00000000000000000000000000000000",
+    "status": 200,
+    "mimeType": "application/json"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/face/css/606.31b07aaa.css",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/face/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/face/chunks/606.1.256c02d1.649e29a6f3a6f408.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/face/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/face/css/674.742d83e2.css",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/face/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/face/chunks/674.1.256c02d1.bce104b47e02ee69.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/face/"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/face/css/674.742d83e2.css",
+    "status": 200,
+    "mimeType": "text/css"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/face/css/606.31b07aaa.css",
+    "status": 200,
+    "mimeType": "text/css"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/face/chunks/606.1.256c02d1.649e29a6f3a6f408.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/face/chunks/674.1.256c02d1.bce104b47e02ee69.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/fl/department_tree",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/face/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/fl/stranger_user?current=1&page_size=10&search=",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/face/"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/fl/department_tree",
+    "status": 200,
+    "mimeType": "application/json"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/fl/face_user_list?current=1&page_size=10&department_id=00000000000000000000000000000000",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/face/"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/fl/stranger_user?current=1&page_size=10&search=",
+    "status": 200,
+    "mimeType": "application/json"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/fl/face_user_list?current=1&page_size=10&department_id=00000000000000000000000000000000",
+    "status": 200,
+    "mimeType": "application/json"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/algo_base_library/",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/algo_base_library/"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/algo_base_library/",
+    "status": 200,
+    "mimeType": "text/html"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/algo_base_library/chunk-vendors.1.4a400f9c.58c2d13453d1bfa5.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/algo_base_library/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/algo_base_library/app.1.4a400f9c.913a6b6a490ecf77.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/algo_base_library/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/algo_base_library/css/app.d69567a3.css",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/algo_base_library/"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/algo_base_library/css/app.d69567a3.css",
+    "status": 200,
+    "mimeType": "text/css"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/algo_base_library/app.1.4a400f9c.913a6b6a490ecf77.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/algo_base_library/chunk-vendors.1.4a400f9c.58c2d13453d1bfa5.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/algo_base_library/favicon.ico",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/algo_base_library/"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/algo_base_library/favicon.ico",
+    "status": 200,
+    "mimeType": "image/vnd.microsoft.icon"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/pm/user_auth?user_id=00000000000000000000000000000000",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/algo_base_library/"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/pm/user_auth?user_id=00000000000000000000000000000000",
+    "status": 200,
+    "mimeType": "application/json"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/open_center/",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/open_center/"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/open_center/",
+    "status": 200,
+    "mimeType": "text/html"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/open_center/chunk-vendors.1.80b9d06f.6bc51cd05912a65e.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/open_center/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/open_center/app.1.80b9d06f.641622fdf24ac1e1.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/open_center/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/open_center/css/app.a39bb44b.css",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/open_center/"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/open_center/css/app.a39bb44b.css",
+    "status": 200,
+    "mimeType": "text/css"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/open_center/chunk-vendors.1.80b9d06f.6bc51cd05912a65e.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/open_center/app.1.80b9d06f.641622fdf24ac1e1.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/open_center/favicon.ico",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/open_center/"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/open_center/favicon.ico",
+    "status": 200,
+    "mimeType": "image/vnd.microsoft.icon"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/pm/user_auth?user_id=00000000000000000000000000000000",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/open_center/"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/pm/user_auth?user_id=00000000000000000000000000000000",
+    "status": 200,
+    "mimeType": "application/json"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/ai_warehouse_management/",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/ai_warehouse_management/"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/ai_warehouse_management/",
+    "status": 200,
+    "mimeType": "text/html"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/ai_warehouse_management/chunk-vendors.1.81217540.104cfaee0c04e6b8.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/ai_warehouse_management/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/ai_warehouse_management/app.1.81217540.a3f9a82344aea23d.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/ai_warehouse_management/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/ai_warehouse_management/css/app.efb66c1b.css",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/ai_warehouse_management/"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/ai_warehouse_management/css/app.efb66c1b.css",
+    "status": 200,
+    "mimeType": "text/css"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/ai_warehouse_management/chunk-vendors.1.81217540.104cfaee0c04e6b8.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/ai_warehouse_management/app.1.81217540.a3f9a82344aea23d.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/ai_warehouse_management/favicon.ico",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/ai_warehouse_management/"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/ai_warehouse_management/favicon.ico",
+    "status": 200,
+    "mimeType": "image/vnd.microsoft.icon"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/pm/user_auth?user_id=00000000000000000000000000000000",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/ai_warehouse_management/"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/pm/user_auth?user_id=00000000000000000000000000000000",
+    "status": 200,
+    "mimeType": "application/json"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/system_setting/",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/system_setting/"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/system_setting/",
+    "status": 200,
+    "mimeType": "text/html"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/system_setting/chunk-vendors.1.6c3ecb88.1b2ad2ac94b2dc5b.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/system_setting/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/system_setting/app.1.6c3ecb88.6e2118a65a29f3e7.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/system_setting/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/system_setting/css/app.453e12a0.css",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/system_setting/"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/system_setting/css/app.453e12a0.css",
+    "status": 200,
+    "mimeType": "text/css"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/system_setting/chunk-vendors.1.6c3ecb88.1b2ad2ac94b2dc5b.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/system_setting/app.1.6c3ecb88.6e2118a65a29f3e7.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/system_setting/favicon.ico",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/system_setting/"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/system_setting/favicon.ico",
+    "status": 200,
+    "mimeType": "image/vnd.microsoft.icon"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/pm/user_auth?user_id=00000000000000000000000000000000",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/system_setting/"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/pm/user_auth?user_id=00000000000000000000000000000000",
+    "status": 200,
+    "mimeType": "application/json"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/user_permission/",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/user_permission/"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/user_permission/",
+    "status": 200,
+    "mimeType": "text/html"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/user_permission/chunk-vendors.1.5c443056.3c357822f1d4c414.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/user_permission/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/user_permission/app.1.5c443056.1a637c17d0cb2b2d.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/user_permission/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/user_permission/css/app.abb2420a.css",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/user_permission/"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/user_permission/css/app.abb2420a.css",
+    "status": 200,
+    "mimeType": "text/css"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/user_permission/chunk-vendors.1.5c443056.3c357822f1d4c414.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/user_permission/app.1.5c443056.1a637c17d0cb2b2d.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/user_permission/favicon.ico",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/user_permission/"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/user_permission/favicon.ico",
+    "status": 200,
+    "mimeType": "image/vnd.microsoft.icon"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/pm/user_auth?user_id=00000000000000000000000000000000",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/user_permission/"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/pm/user_auth?user_id=00000000000000000000000000000000",
+    "status": 200,
+    "mimeType": "application/json"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/menu_setting/",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/menu_setting/"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/menu_setting/",
+    "status": 200,
+    "mimeType": "text/html"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/menu_setting/chunk-vendors.1.f8822687.99f0cf65776b0201.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/menu_setting/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/menu_setting/app.1.f8822687.ebe8ba06a021e049.js",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/menu_setting/"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/menu_setting/css/app.28c84a7e.css",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/menu_setting/"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/menu_setting/css/app.28c84a7e.css",
+    "status": 200,
+    "mimeType": "text/css"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/menu_setting/chunk-vendors.1.f8822687.99f0cf65776b0201.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/menu_setting/app.1.f8822687.ebe8ba06a021e049.js",
+    "status": 200,
+    "mimeType": "application/x-javascript"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/pm/user_auth?user_id=00000000000000000000000000000000",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/menu_setting/"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/pm/user_auth?user_id=00000000000000000000000000000000",
+    "status": 200,
+    "mimeType": "application/json"
+  },
+  {
+    "type": "request",
+    "url": "http://192.168.11.88:8081/app/menu_setting/favicon.ico",
+    "method": "GET",
+    "documentURL": "http://192.168.11.88:8081/app/menu_setting/"
+  },
+  {
+    "type": "response",
+    "url": "http://192.168.11.88:8081/app/menu_setting/favicon.ico",
+    "status": 200,
+    "mimeType": "image/vnd.microsoft.icon"
+  }
+]

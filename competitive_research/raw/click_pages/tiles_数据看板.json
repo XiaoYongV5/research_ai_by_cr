@@ -1,0 +1,112 @@
+[
+  {
+    "idx": 1,
+    "text": "搜索菜单",
+    "visible": true,
+    "x": 961,
+    "y": 0,
+    "w": 220,
+    "h": 43,
+    "cls": "cr-ant-tree header-search-menu flex-v-c page-header-right-btn"
+  },
+  {
+    "idx": 6,
+    "text": "数据看板 智能分析 数据中心 平台管理",
+    "visible": true,
+    "x": 0,
+    "y": 44,
+    "w": 80,
+    "h": 956,
+    "cls": "custom-light-layout page-layout-left-menu show hide-aside-bar"
+  },
+  {
+    "idx": 7,
+    "text": "数据看板 智能分析 数据中心 平台管理",
+    "visible": true,
+    "x": 0,
+    "y": 44,
+    "w": 80,
+    "h": 956,
+    "cls": "app-menu-comp"
+  },
+  {
+    "idx": 8,
+    "text": "数据看板",
+    "visible": true,
+    "x": 8,
+    "y": 52,
+    "w": 63,
+    "h": 76,
+    "cls": "app-menu-item active"
+  },
+  {
+    "idx": 11,
+    "text": "数据看板",
+    "visible": true,
+    "x": 8,
+    "y": 104,
+    "w": 63,
+    "h": 20,
+    "cls": "app-menu-text"
+  },
+  {
+    "idx": 12,
+    "text": "智能分析",
+    "visible": true,
+    "x": 8,
+    "y": 136,
+    "w": 63,
+    "h": 76,
+    "cls": "app-menu-item"
+  },
+  {
+    "idx": 15,
+    "text": "智能分析",
+    "visible": true,
+    "x": 8,
+    "y": 188,
+    "w": 63,
+    "h": 20,
+    "cls": "app-menu-text"
+  },
+  {
+    "idx": 16,
+    "text": "数据中心",
+    "visible": true,
+    "x": 8,
+    "y": 220,
+    "w": 63,
+    "h": 76,
+    "cls": "app-menu-item"
+  },
+  {
+    "idx": 19,
+    "text": "数据中心",
+    "visible": true,
+    "x": 8,
+    "y": 272,
+    "w": 63,
+    "h": 20,
+    "cls": "app-menu-text"
+  },
+  {
+    "idx": 20,
+    "text": "平台管理",
+    "visible": true,
+    "x": 8,
+    "y": 304,
+    "w": 63,
+    "h": 76,
+    "cls": "app-menu-item"
+  },
+  {
+    "idx": 23,
+    "text": "平台管理",
+    "visible": true,
+    "x": 8,
+    "y": 356,
+    "w": 63,
+    "h": 20,
+    "cls": "app-menu-text"
+  }
+]

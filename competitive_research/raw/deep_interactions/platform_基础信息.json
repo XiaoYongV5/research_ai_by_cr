@@ -1,0 +1,1064 @@
+{
+  "module": "平台管理",
+  "submodule": "基础信息",
+  "capability": "平台名称、标识与基础展示信息配置",
+  "url": "http://192.168.11.88:8081/app/main-app/platform/system/base-info/#/base-info",
+  "title": "基础信息",
+  "bodyText": "人工智能推理平台\n搜索菜单\n数据看板\n智能分析\n数据中心\n平台管理\nAI仓库\n离线仓库\n用户及权限\n用户管理\n用户组管理\n系统权限\n系统设置\n基础信息\n系统主题\n网络配置\n站内信\n站内信\n开放能力\n接口授权\n接口文档\n免密登录\n对象存储\n基础信息\n界面配置\n平台名称\n人工智能推理平台\n默认语言\n简体中文\n平台标识\n人工智能推理平台\n原彩标识\n适用白色、浅色内容，建议使用带透明背景的品牌标志(.png)\n上 传\n人工智能推理平台\n浅色标识\n适用暗色、深色内容，建议使用带透明背景的品牌标志(.png)\n上 传\n人工智能推理平台\n浏览器标识\n浏览器标签的前置标识，仅支持ico图片文件(.ico)\n上 传\n系统配置\n文件清理\n存储空间占比超过设定值时，将以 10% 的力度自动清理报警图片、录制视频等文件\n80%\n系统时间\n时区\nUTC+08:00\n日期\n2026-06-18\n时间\n09:19:56\n同步本机时间\n系统版本\n模块\n版本\nCRIP\nv3.14.0\nCRBPS\nv2.0.0",
+  "controls": [
+    {
+      "idx": 1,
+      "tag": "DIV",
+      "text": "搜索菜单",
+      "placeholder": "",
+      "title": "",
+      "aria": "",
+      "cls": "custom-light-select-selector",
+      "rect": {
+        "x": 961,
+        "y": 6,
+        "w": 220,
+        "h": 32
+      },
+      "disabled": false
+    },
+    {
+      "idx": 13,
+      "tag": "DIV",
+      "text": "简体中文",
+      "placeholder": "",
+      "title": "",
+      "aria": "",
+      "cls": "custom-light-select-selector",
+      "rect": {
+        "x": 489,
+        "y": 208,
+        "w": 418,
+        "h": 32
+      },
+      "disabled": false
+    },
+    {
+      "idx": 15,
+      "tag": "SPAN",
+      "text": "上 传",
+      "placeholder": "",
+      "title": "",
+      "aria": "",
+      "cls": "custom-light-upload",
+      "rect": {
+        "x": 579,
+        "y": 449,
+        "w": 70,
+        "h": 19
+      },
+      "disabled": false
+    },
+    {
+      "idx": 16,
+      "tag": "BUTTON",
+      "text": "上 传",
+      "placeholder": "",
+      "title": "",
+      "aria": "",
+      "cls": "custom-light-btn custom-light-btn-sm cr-btn-small cr-btn",
+      "rect": {
+        "x": 579,
+        "y": 445,
+        "w": 70,
+        "h": 28
+      },
+      "disabled": false
+    },
+    {
+      "idx": 17,
+      "tag": "SPAN",
+      "text": "上 传",
+      "placeholder": "",
+      "title": "",
+      "aria": "",
+      "cls": "custom-light-upload",
+      "rect": {
+        "x": 845,
+        "y": 449,
+        "w": 70,
+        "h": 19
+      },
+      "disabled": false
+    },
+    {
+      "idx": 18,
+      "tag": "BUTTON",
+      "text": "上 传",
+      "placeholder": "",
+      "title": "",
+      "aria": "",
+      "cls": "custom-light-btn custom-light-btn-sm cr-btn-small cr-btn",
+      "rect": {
+        "x": 845,
+        "y": 445,
+        "w": 70,
+        "h": 28
+      },
+      "disabled": false
+    },
+    {
+      "idx": 19,
+      "tag": "SPAN",
+      "text": "上 传",
+      "placeholder": "",
+      "title": "",
+      "aria": "",
+      "cls": "custom-light-upload",
+      "rect": {
+        "x": 1111,
+        "y": 449,
+        "w": 70,
+        "h": 19
+      },
+      "disabled": false
+    },
+    {
+      "idx": 20,
+      "tag": "BUTTON",
+      "text": "上 传",
+      "placeholder": "",
+      "title": "",
+      "aria": "",
+      "cls": "custom-light-btn custom-light-btn-sm cr-btn-small cr-btn",
+      "rect": {
+        "x": 1111,
+        "y": 445,
+        "w": 70,
+        "h": 28
+      },
+      "disabled": false
+    },
+    {
+      "idx": 21,
+      "tag": "BUTTON",
+      "text": "同步本机时间",
+      "placeholder": "",
+      "title": "",
+      "aria": "",
+      "cls": "custom-light-btn cr-btn-middle cr-btn",
+      "rect": {
+        "x": 531,
+        "y": 816,
+        "w": 98,
+        "h": 32
+      },
+      "disabled": false
+    }
+  ],
+  "menus": [
+    {
+      "idx": 0,
+      "text": "数据看板",
+      "cls": "app-menu-item",
+      "rect": {
+        "x": 8,
+        "y": 52,
+        "w": 63,
+        "h": 76
+      }
+    },
+    {
+      "idx": 1,
+      "text": "数据看板",
+      "cls": "app-menu-text",
+      "rect": {
+        "x": 8,
+        "y": 104,
+        "w": 63,
+        "h": 20
+      }
+    },
+    {
+      "idx": 2,
+      "text": "智能分析",
+      "cls": "app-menu-item",
+      "rect": {
+        "x": 8,
+        "y": 136,
+        "w": 63,
+        "h": 76
+      }
+    },
+    {
+      "idx": 3,
+      "text": "智能分析",
+      "cls": "app-menu-text",
+      "rect": {
+        "x": 8,
+        "y": 188,
+        "w": 63,
+        "h": 20
+      }
+    },
+    {
+      "idx": 4,
+      "text": "数据中心",
+      "cls": "app-menu-item",
+      "rect": {
+        "x": 8,
+        "y": 220,
+        "w": 63,
+        "h": 76
+      }
+    },
+    {
+      "idx": 5,
+      "text": "数据中心",
+      "cls": "app-menu-text",
+      "rect": {
+        "x": 8,
+        "y": 272,
+        "w": 63,
+        "h": 20
+      }
+    },
+    {
+      "idx": 6,
+      "text": "平台管理",
+      "cls": "app-menu-item active",
+      "rect": {
+        "x": 8,
+        "y": 304,
+        "w": 63,
+        "h": 76
+      }
+    },
+    {
+      "idx": 7,
+      "text": "平台管理",
+      "cls": "app-menu-text",
+      "rect": {
+        "x": 8,
+        "y": 356,
+        "w": 63,
+        "h": 20
+      }
+    },
+    {
+      "idx": 8,
+      "text": "AI仓库",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 87,
+        "y": 54,
+        "w": 185,
+        "h": 28
+      }
+    },
+    {
+      "idx": 9,
+      "text": "离线仓库",
+      "cls": "custom-light-menu-item custom-light-menu-item-only-child",
+      "rect": {
+        "x": 79,
+        "y": 86,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 10,
+      "text": "离线仓库",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 87,
+        "y": 86,
+        "w": 185,
+        "h": 32
+      }
+    },
+    {
+      "idx": 11,
+      "text": "用户及权限",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 87,
+        "y": 139,
+        "w": 185,
+        "h": 28
+      }
+    },
+    {
+      "idx": 12,
+      "text": "用户管理",
+      "cls": "custom-light-menu-item custom-light-menu-item-only-child",
+      "rect": {
+        "x": 79,
+        "y": 171,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 13,
+      "text": "用户管理",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 87,
+        "y": 171,
+        "w": 185,
+        "h": 32
+      }
+    },
+    {
+      "idx": 14,
+      "text": "用户组管理",
+      "cls": "custom-light-menu-item custom-light-menu-item-only-child",
+      "rect": {
+        "x": 79,
+        "y": 205,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 15,
+      "text": "用户组管理",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 87,
+        "y": 205,
+        "w": 185,
+        "h": 32
+      }
+    },
+    {
+      "idx": 16,
+      "text": "系统权限",
+      "cls": "custom-light-menu-item custom-light-menu-item-only-child",
+      "rect": {
+        "x": 79,
+        "y": 239,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 17,
+      "text": "系统权限",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 87,
+        "y": 239,
+        "w": 185,
+        "h": 32
+      }
+    },
+    {
+      "idx": 18,
+      "text": "系统设置",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 87,
+        "y": 292,
+        "w": 185,
+        "h": 28
+      }
+    },
+    {
+      "idx": 19,
+      "text": "基础信息",
+      "cls": "custom-light-menu-item custom-light-menu-item-selected custom-light-menu-item-only-child",
+      "rect": {
+        "x": 79,
+        "y": 324,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 20,
+      "text": "基础信息",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 87,
+        "y": 324,
+        "w": 185,
+        "h": 32
+      }
+    },
+    {
+      "idx": 21,
+      "text": "系统主题",
+      "cls": "custom-light-menu-item custom-light-menu-item-only-child",
+      "rect": {
+        "x": 79,
+        "y": 358,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 22,
+      "text": "系统主题",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 87,
+        "y": 358,
+        "w": 185,
+        "h": 32
+      }
+    },
+    {
+      "idx": 23,
+      "text": "网络配置",
+      "cls": "custom-light-menu-item custom-light-menu-item-only-child",
+      "rect": {
+        "x": 79,
+        "y": 392,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 24,
+      "text": "网络配置",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 87,
+        "y": 392,
+        "w": 185,
+        "h": 32
+      }
+    },
+    {
+      "idx": 25,
+      "text": "站内信",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 87,
+        "y": 445,
+        "w": 185,
+        "h": 28
+      }
+    },
+    {
+      "idx": 26,
+      "text": "站内信",
+      "cls": "custom-light-menu-item custom-light-menu-item-only-child",
+      "rect": {
+        "x": 79,
+        "y": 477,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 27,
+      "text": "站内信",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 87,
+        "y": 477,
+        "w": 185,
+        "h": 32
+      }
+    },
+    {
+      "idx": 28,
+      "text": "开放能力",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 87,
+        "y": 530,
+        "w": 185,
+        "h": 28
+      }
+    },
+    {
+      "idx": 29,
+      "text": "接口授权",
+      "cls": "custom-light-menu-item custom-light-menu-item-only-child",
+      "rect": {
+        "x": 79,
+        "y": 562,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 30,
+      "text": "接口授权",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 87,
+        "y": 562,
+        "w": 185,
+        "h": 32
+      }
+    },
+    {
+      "idx": 31,
+      "text": "接口文档",
+      "cls": "custom-light-menu-item custom-light-menu-item-only-child",
+      "rect": {
+        "x": 79,
+        "y": 596,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 32,
+      "text": "接口文档",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 87,
+        "y": 596,
+        "w": 185,
+        "h": 32
+      }
+    },
+    {
+      "idx": 33,
+      "text": "免密登录",
+      "cls": "custom-light-menu-item custom-light-menu-item-only-child",
+      "rect": {
+        "x": 79,
+        "y": 630,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 34,
+      "text": "免密登录",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 87,
+        "y": 630,
+        "w": 185,
+        "h": 32
+      }
+    },
+    {
+      "idx": 35,
+      "text": "对象存储",
+      "cls": "custom-light-menu-item custom-light-menu-item-only-child",
+      "rect": {
+        "x": 79,
+        "y": 664,
+        "w": 201,
+        "h": 32
+      }
+    },
+    {
+      "idx": 36,
+      "text": "对象存储",
+      "cls": "custom-light-menu-title-content",
+      "rect": {
+        "x": 87,
+        "y": 664,
+        "w": 185,
+        "h": 32
+      }
+    }
+  ],
+  "tables": [],
+  "forms": [
+    {
+      "idx": 0,
+      "text": "人工智能推理平台",
+      "inputs": []
+    },
+    {
+      "idx": 2,
+      "text": "基础信息 界面配置 平台名称 人工智能推理平台 默认语言 简体中文 平台标识 人工智能推理平台 原彩标识 适用白色、浅色内容，建议使用带透明背景的品牌标志(.png) 上 传 人工智能推理平台 浅色标识 适用暗色、深色内容，建议使用带透明背景的品牌标志(.png) 上 传 人工智能推理平台 浏览器标识 浏览器标签的前置标识，仅支持ico图片文件(.ico) 上 传 系统配置 文件清理 存储空间占比超过设定值时，将以 10% 的力度自动清理报警图片、录制视频等文件 80% 系统时间 时区 UTC+08:00 日期 2026-06-18 时间 09:19:56 同步本机时间 系统版本 模块 版本 CRIP v3.14.0 CRBPS v2.0.0",
+      "inputs": [
+        {
+          "placeholder": "",
+          "type": "search",
+          "value": ""
+        },
+        {
+          "placeholder": "",
+          "type": "file",
+          "value": ""
+        },
+        {
+          "placeholder": "",
+          "type": "file",
+          "value": ""
+        },
+        {
+          "placeholder": "",
+          "type": "file",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "idx": 3,
+      "text": "界面配置 平台名称 人工智能推理平台 默认语言 简体中文 平台标识 人工智能推理平台 原彩标识 适用白色、浅色内容，建议使用带透明背景的品牌标志(.png) 上 传 人工智能推理平台 浅色标识 适用暗色、深色内容，建议使用带透明背景的品牌标志(.png) 上 传 人工智能推理平台 浏览器标识 浏览器标签的前置标识，仅支持ico图片文件(.ico) 上 传 系统配置 文件清理 存储空间占比超过设定值时，将以 10% 的力度自动清理报警图片、录制视频等文件 80% 系统时间 时区 UTC+08:00 日期 2026-06-18 时间 09:19:56 同步本机时间 系统版本 模块 版本 CRIP v3.14.0 CRBPS v2.0.0",
+      "inputs": [
+        {
+          "placeholder": "",
+          "type": "search",
+          "value": ""
+        },
+        {
+          "placeholder": "",
+          "type": "file",
+          "value": ""
+        },
+        {
+          "placeholder": "",
+          "type": "file",
+          "value": ""
+        },
+        {
+          "placeholder": "",
+          "type": "file",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "idx": 4,
+      "text": "界面配置 平台名称 人工智能推理平台 默认语言 简体中文 平台标识 人工智能推理平台 原彩标识 适用白色、浅色内容，建议使用带透明背景的品牌标志(.png) 上 传 人工智能推理平台 浅色标识 适用暗色、深色内容，建议使用带透明背景的品牌标志(.png) 上 传 人工智能推理平台 浏览器标识 浏览器标签的前置标识，仅支持ico图片文件(.ico) 上 传 系统配置 文件清理 存储空间占比超过设定值时，将以 10% 的力度自动清理报警图片、录制视频等文件 80% 系统时间 时区 UTC+08:00 日期 2026-06-18 时间 09:19:56 同步本机时间 系统版本 模块 版本 CRIP v3.14.0 CRBPS v2.0.0",
+      "inputs": [
+        {
+          "placeholder": "",
+          "type": "search",
+          "value": ""
+        },
+        {
+          "placeholder": "",
+          "type": "file",
+          "value": ""
+        },
+        {
+          "placeholder": "",
+          "type": "file",
+          "value": ""
+        },
+        {
+          "placeholder": "",
+          "type": "file",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "idx": 5,
+      "text": "平台名称 人工智能推理平台",
+      "inputs": []
+    },
+    {
+      "idx": 6,
+      "text": "平台名称",
+      "inputs": []
+    },
+    {
+      "idx": 7,
+      "text": "人工智能推理平台",
+      "inputs": []
+    },
+    {
+      "idx": 8,
+      "text": "人工智能推理平台",
+      "inputs": []
+    },
+    {
+      "idx": 9,
+      "text": "人工智能推理平台",
+      "inputs": []
+    },
+    {
+      "idx": 10,
+      "text": "默认语言 简体中文",
+      "inputs": [
+        {
+          "placeholder": "",
+          "type": "search",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "idx": 11,
+      "text": "默认语言",
+      "inputs": []
+    },
+    {
+      "idx": 12,
+      "text": "简体中文",
+      "inputs": [
+        {
+          "placeholder": "",
+          "type": "search",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "idx": 13,
+      "text": "简体中文",
+      "inputs": [
+        {
+          "placeholder": "",
+          "type": "search",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "idx": 14,
+      "text": "简体中文",
+      "inputs": [
+        {
+          "placeholder": "",
+          "type": "search",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "idx": 15,
+      "text": "平台标识 人工智能推理平台 原彩标识 适用白色、浅色内容，建议使用带透明背景的品牌标志(.png) 上 传 人工智能推理平台 浅色标识 适用暗色、深色内容，建议使用带透明背景的品牌标志(.png) 上 传 人工智能推理平台 浏览器标识 浏览器标签的前置标识，仅支持ico图片文件(.ico) 上 传",
+      "inputs": [
+        {
+          "placeholder": "",
+          "type": "file",
+          "value": ""
+        },
+        {
+          "placeholder": "",
+          "type": "file",
+          "value": ""
+        },
+        {
+          "placeholder": "",
+          "type": "file",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "idx": 16,
+      "text": "平台标识",
+      "inputs": []
+    },
+    {
+      "idx": 17,
+      "text": "人工智能推理平台 原彩标识 适用白色、浅色内容，建议使用带透明背景的品牌标志(.png) 上 传 人工智能推理平台 浅色标识 适用暗色、深色内容，建议使用带透明背景的品牌标志(.png) 上 传 人工智能推理平台 浏览器标识 浏览器标签的前置标识，仅支持ico图片文件(.ico) 上 传",
+      "inputs": [
+        {
+          "placeholder": "",
+          "type": "file",
+          "value": ""
+        },
+        {
+          "placeholder": "",
+          "type": "file",
+          "value": ""
+        },
+        {
+          "placeholder": "",
+          "type": "file",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "idx": 18,
+      "text": "人工智能推理平台 原彩标识 适用白色、浅色内容，建议使用带透明背景的品牌标志(.png) 上 传 人工智能推理平台 浅色标识 适用暗色、深色内容，建议使用带透明背景的品牌标志(.png) 上 传 人工智能推理平台 浏览器标识 浏览器标签的前置标识，仅支持ico图片文件(.ico) 上 传",
+      "inputs": [
+        {
+          "placeholder": "",
+          "type": "file",
+          "value": ""
+        },
+        {
+          "placeholder": "",
+          "type": "file",
+          "value": ""
+        },
+        {
+          "placeholder": "",
+          "type": "file",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "idx": 19,
+      "text": "人工智能推理平台 原彩标识 适用白色、浅色内容，建议使用带透明背景的品牌标志(.png) 上 传 人工智能推理平台 浅色标识 适用暗色、深色内容，建议使用带透明背景的品牌标志(.png) 上 传 人工智能推理平台 浏览器标识 浏览器标签的前置标识，仅支持ico图片文件(.ico) 上 传",
+      "inputs": [
+        {
+          "placeholder": "",
+          "type": "file",
+          "value": ""
+        },
+        {
+          "placeholder": "",
+          "type": "file",
+          "value": ""
+        },
+        {
+          "placeholder": "",
+          "type": "file",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "idx": 20,
+      "text": "人工智能推理平台",
+      "inputs": []
+    },
+    {
+      "idx": 21,
+      "text": "人工智能推理平台",
+      "inputs": []
+    },
+    {
+      "idx": 22,
+      "text": "人工智能推理平台",
+      "inputs": []
+    },
+    {
+      "idx": 23,
+      "text": "人工智能推理平台",
+      "inputs": []
+    },
+    {
+      "idx": 24,
+      "text": "人工智能推理平台",
+      "inputs": []
+    },
+    {
+      "idx": 25,
+      "text": "文件清理 存储空间占比超过设定值时，将以 10% 的力度自动清理报警图片、录制视频等文件 80%",
+      "inputs": []
+    },
+    {
+      "idx": 26,
+      "text": "文件清理",
+      "inputs": []
+    },
+    {
+      "idx": 27,
+      "text": "存储空间占比超过设定值时，将以 10% 的力度自动清理报警图片、录制视频等文件 80%",
+      "inputs": []
+    },
+    {
+      "idx": 28,
+      "text": "存储空间占比超过设定值时，将以 10% 的力度自动清理报警图片、录制视频等文件 80%",
+      "inputs": []
+    },
+    {
+      "idx": 29,
+      "text": "存储空间占比超过设定值时，将以 10% 的力度自动清理报警图片、录制视频等文件 80%",
+      "inputs": []
+    },
+    {
+      "idx": 30,
+      "text": "存储空间占比超过设定值时，将以 10% 的力度自动清理报警图片、录制视频等文件 80%",
+      "inputs": []
+    },
+    {
+      "idx": 31,
+      "text": "系统时间 时区 UTC+08:00 日期 2026-06-18 时间 09:19:56 同步本机时间",
+      "inputs": []
+    },
+    {
+      "idx": 32,
+      "text": "系统时间",
+      "inputs": []
+    },
+    {
+      "idx": 33,
+      "text": "时区 UTC+08:00 日期 2026-06-18 时间 09:19:56 同步本机时间",
+      "inputs": []
+    },
+    {
+      "idx": 34,
+      "text": "时区 UTC+08:00 日期 2026-06-18 时间 09:19:56 同步本机时间",
+      "inputs": []
+    },
+    {
+      "idx": 35,
+      "text": "时区 UTC+08:00 日期 2026-06-18 时间 09:19:56 同步本机时间",
+      "inputs": []
+    },
+    {
+      "idx": 36,
+      "text": "时区 UTC+08:00 日期 2026-06-18 时间 09:19:56 同步本机时间",
+      "inputs": []
+    }
+  ],
+  "cards": [
+    {
+      "idx": 0,
+      "text": "界面配置 平台名称 人工智能推理平台 默认语言 简体中文 平台标识 人工智能推理平台 原彩标识 适用白色、浅色内容，建议使用带透明背景的品牌标志(.png) 上 传 人工智能推理平台 浅色标识 适用暗色、深色内容，建议使用带透明背景的品牌标志(.png) 上 传 人工智能推理平台 浏览器标识 浏览器标签的前置标识，仅支持ico图片文件(.ico) 上 传 系统配置 文件清理 存储空间占比超过设定值时，将以 10% 的力度自动清理报警图片、录制视频等文件 80% 系统时间 时区 UTC+08:00 日期 2026-06-18 时间 09:19:56 同步本机时间 系统版本 模块 版本 CRIP v3.14.0 CRBPS v2.0.0",
+      "cls": "card-list",
+      "rect": {
+        "x": 280,
+        "y": 96,
+        "w": 1160,
+        "h": 1026
+      }
+    },
+    {
+      "idx": 1,
+      "text": "界面配置 平台名称 人工智能推理平台 默认语言 简体中文 平台标识 人工智能推理平台 原彩标识 适用白色、浅色内容，建议使用带透明背景的品牌标志(.png) 上 传 人工智能推理平台 浅色标识 适用暗色、深色内容，建议使用带透明背景的品牌标志(.png) 上 传 人工智能推理平台 浏览器标识 浏览器标签的前置标识，仅支持ico图片文件(.ico) 上 传",
+      "cls": "card-container",
+      "rect": {
+        "x": 280,
+        "y": 96,
+        "w": 1160,
+        "h": 434
+      }
+    },
+    {
+      "idx": 2,
+      "text": "界面配置",
+      "cls": "card-header",
+      "rect": {
+        "x": 304,
+        "y": 120,
+        "w": 1112,
+        "h": 24
+      }
+    },
+    {
+      "idx": 3,
+      "text": "界面配置",
+      "cls": "card-title",
+      "rect": {
+        "x": 304,
+        "y": 120,
+        "w": 1112,
+        "h": 24
+      }
+    },
+    {
+      "idx": 4,
+      "text": "平台名称 人工智能推理平台 默认语言 简体中文 平台标识 人工智能推理平台 原彩标识 适用白色、浅色内容，建议使用带透明背景的品牌标志(.png) 上 传 人工智能推理平台 浅色标识 适用暗色、深色内容，建议使用带透明背景的品牌标志(.png) 上 传 人工智能推理平台 浏览器标识 浏览器标签的前置标识，仅支持ico图片文件(.ico) 上 传",
+      "cls": "card-content",
+      "rect": {
+        "x": 304,
+        "y": 160,
+        "w": 1112,
+        "h": 330
+      }
+    },
+    {
+      "idx": 5,
+      "text": "系统配置 文件清理 存储空间占比超过设定值时，将以 10% 的力度自动清理报警图片、录制视频等文件 80% 系统时间 时区 UTC+08:00 日期 2026-06-18 时间 09:19:56 同步本机时间",
+      "cls": "card-container",
+      "rect": {
+        "x": 280,
+        "y": 538,
+        "w": 1160,
+        "h": 366
+      }
+    },
+    {
+      "idx": 6,
+      "text": "系统配置",
+      "cls": "card-header",
+      "rect": {
+        "x": 304,
+        "y": 562,
+        "w": 1112,
+        "h": 24
+      }
+    },
+    {
+      "idx": 7,
+      "text": "系统配置",
+      "cls": "card-title",
+      "rect": {
+        "x": 304,
+        "y": 562,
+        "w": 1112,
+        "h": 24
+      }
+    },
+    {
+      "idx": 8,
+      "text": "文件清理 存储空间占比超过设定值时，将以 10% 的力度自动清理报警图片、录制视频等文件 80% 系统时间 时区 UTC+08:00 日期 2026-06-18 时间 09:19:56 同步本机时间",
+      "cls": "card-content",
+      "rect": {
+        "x": 304,
+        "y": 602,
+        "w": 1112,
+        "h": 262
+      }
+    },
+    {
+      "idx": 9,
+      "text": "存储空间占比超过设定值时，将以 10% 的力度自动清理报警图片、录制视频等文件 80%",
+      "cls": "form-content-card flex-v-c",
+      "rect": {
+        "x": 489,
+        "y": 602,
+        "w": 418,
+        "h": 114
+      }
+    },
+    {
+      "idx": 10,
+      "text": "时区 UTC+08:00 日期 2026-06-18 时间 09:19:56 同步本机时间",
+      "cls": "form-content-card flex-v-c",
+      "rect": {
+        "x": 489,
+        "y": 732,
+        "w": 418,
+        "h": 132
+      }
+    },
+    {
+      "idx": 11,
+      "text": "系统版本 模块 版本 CRIP v3.14.0 CRBPS v2.0.0",
+      "cls": "card-container",
+      "rect": {
+        "x": 280,
+        "y": 912,
+        "w": 1160,
+        "h": 210
+      }
+    },
+    {
+      "idx": 12,
+      "text": "系统版本",
+      "cls": "card-header",
+      "rect": {
+        "x": 304,
+        "y": 936,
+        "w": 1112,
+        "h": 24
+      }
+    },
+    {
+      "idx": 13,
+      "text": "系统版本",
+      "cls": "card-title",
+      "rect": {
+        "x": 304,
+        "y": 936,
+        "w": 1112,
+        "h": 24
+      }
+    },
+    {
+      "idx": 14,
+      "text": "模块 版本 CRIP v3.14.0 CRBPS v2.0.0",
+      "cls": "card-content",
+      "rect": {
+        "x": 304,
+        "y": 976,
+        "w": 1112,
+        "h": 122
+      }
+    }
+  ]
+}
