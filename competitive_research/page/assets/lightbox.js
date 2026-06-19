@@ -19,13 +19,52 @@
   const image = box?.querySelector('img');
   const caption = box?.querySelector('.lightbox-caption');
   const close = box?.querySelector('.lightbox-close');
+  let lightboxImages = [];
+  let lightboxIndex = -1;
+
+  function getImageSource(target) {
+    return target?.getAttribute('data-full') || target?.currentSrc || target?.getAttribute('src') || target?.src || '';
+  }
+
+  function getImageCaption(target, src) {
+    return target?.closest('td, figure, p')?.innerText?.trim()?.replace(/\s+/g, ' ').slice(0, 220)
+      || target?.alt
+      || src;
+  }
+
+  function refreshLightboxImages() {
+    lightboxImages = Array.from(document.querySelectorAll('.doc-content img')).filter(getImageSource);
+  }
+
+  function showLightboxImage(index) {
+    if (!box || !image || !caption || !lightboxImages.length) return;
+    const total = lightboxImages.length;
+    lightboxIndex = ((index % total) + total) % total;
+    const target = lightboxImages[lightboxIndex];
+    const src = getImageSource(target);
+    const text = getImageCaption(target, src);
+    image.src = src;
+    image.alt = target.alt || 'Image preview';
+    caption.textContent = (lightboxIndex + 1) + ' / ' + total + (text ? ' - ' + text : '');
+    box.querySelectorAll('.lightbox-nav').forEach((button) => {
+      button.hidden = total < 2;
+    });
+  }
+
+  function stepLightbox(delta) {
+    if (!box?.classList.contains('is-open')) return;
+    showLightboxImage(lightboxIndex + delta);
+  }
 
   function openLightbox(target) {
     if (!box || !image || !caption) return;
-    const src = target.getAttribute('data-full') || target.currentSrc || target.src;
-    image.src = src;
-    image.alt = target.alt || '放大预览';
-    caption.textContent = target.closest('td, figure, p')?.innerText?.trim()?.slice(0, 220) || src;
+    refreshLightboxImages();
+    let index = lightboxImages.indexOf(target);
+    if (index === -1) {
+      lightboxImages.push(target);
+      index = lightboxImages.length - 1;
+    }
+    showLightboxImage(index);
     box.classList.add('is-open');
     box.setAttribute('aria-hidden', 'false');
     document.body.style.overflow = 'hidden';
@@ -37,9 +76,20 @@
     box.setAttribute('aria-hidden', 'true');
     document.body.style.overflow = '';
     image.removeAttribute('src');
+    lightboxIndex = -1;
   }
 
   if (box && image && caption && close) {
+    const prev = document.createElement('button');
+    prev.type = 'button';
+    prev.className = 'lightbox-nav lightbox-prev';
+    prev.setAttribute('aria-label', 'Previous image');
+    const next = document.createElement('button');
+    next.type = 'button';
+    next.className = 'lightbox-nav lightbox-next';
+    next.setAttribute('aria-label', 'Next image');
+    box.append(prev, next);
+
     document.addEventListener('click', (event) => {
       const target = event.target.closest('.doc-content img');
       if (!target) return;
@@ -51,9 +101,64 @@
     box.addEventListener('click', (event) => {
       if (event.target === box) closeLightbox();
     });
+    prev.addEventListener('click', () => stepLightbox(-1));
+    next.addEventListener('click', () => stepLightbox(1));
     document.addEventListener('keydown', (event) => {
-      if (event.key === 'Escape' && box.classList.contains('is-open')) closeLightbox();
+      if (!box.classList.contains('is-open')) return;
+      if (event.key === 'Escape') {
+        closeLightbox();
+      } else if (event.key === 'ArrowLeft' || event.key === 'Left') {
+        event.preventDefault();
+        stepLightbox(-1);
+      } else if (event.key === 'ArrowRight' || event.key === 'Right') {
+        event.preventDefault();
+        stepLightbox(1);
+      }
     });
+  }
+
+  const docContent = document.querySelector('.doc-content');
+  const pageFile = decodeURIComponent(location.pathname.split('/').pop() || '');
+  if (docContent && /^0[1-7]_/.test(pageFile)) {
+    const backTop = document.createElement('button');
+    backTop.type = 'button';
+    backTop.className = 'reading-top';
+    backTop.setAttribute('aria-label', 'Back to top');
+    backTop.innerHTML = '<span class="reading-top-arrow" aria-hidden="true"></span><span class="reading-top-value">0%</span>';
+    document.body.append(backTop);
+
+    const progressValue = backTop.querySelector('.reading-top-value');
+    let readFrame = 0;
+    let returningTop = false;
+
+    function syncReadProgress() {
+      readFrame = 0;
+      const rect = docContent.getBoundingClientRect();
+      const contentTop = window.scrollY + rect.top;
+      const contentBottom = contentTop + docContent.offsetHeight;
+      const start = Math.max(0, contentTop - 24);
+      const end = Math.max(start + 1, contentBottom - window.innerHeight + 24);
+      const progress = Math.min(1, Math.max(0, (window.scrollY - start) / (end - start)));
+      const percent = Math.round(progress * 100);
+      backTop.style.setProperty('--read-progress', (percent * 3.6) + 'deg');
+      progressValue.textContent = percent + '%';
+      backTop.setAttribute('aria-label', 'Back to top, ' + percent + '% read');
+      if (returningTop && window.scrollY <= 2) returningTop = false;
+      backTop.classList.toggle('is-visible', window.scrollY > 160 && !returningTop);
+    }
+
+    function scheduleReadProgress() {
+      if (!readFrame) readFrame = requestAnimationFrame(syncReadProgress);
+    }
+
+    backTop.addEventListener('click', () => {
+      returningTop = true;
+      backTop.classList.remove('is-visible');
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+    syncReadProgress();
+    document.addEventListener('scroll', scheduleReadProgress, { passive: true });
+    window.addEventListener('resize', scheduleReadProgress);
   }
 
   const outline = document.getElementById('page-outline');

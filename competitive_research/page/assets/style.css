@@ -681,6 +681,125 @@ td .doc-image {
   text-align: center;
   font-size: 13px;
 }
+.lightbox-nav {
+  position: fixed;
+  top: 50%;
+  z-index: 51;
+  width: 48px;
+  height: 48px;
+  border: 0;
+  border-radius: 50%;
+  background: rgba(255,255,255,.95);
+  color: #111827;
+  box-shadow: 0 18px 45px rgba(0,0,0,.25);
+  cursor: pointer;
+  transform: translateY(-50%);
+}
+.lightbox-nav:hover {
+  background: #ffffff;
+}
+.lightbox-nav::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 12px;
+  height: 12px;
+  border-top: 2px solid currentColor;
+  border-right: 2px solid currentColor;
+}
+.lightbox-prev {
+  left: 24px;
+}
+.lightbox-next {
+  right: 24px;
+}
+.lightbox-prev::before {
+  transform: translate(-35%, -50%) rotate(-135deg);
+}
+.lightbox-next::before {
+  transform: translate(-65%, -50%) rotate(45deg);
+}
+.lightbox-nav[hidden] {
+  display: none;
+}
+
+.reading-top {
+  --read-progress: 0deg;
+  position: fixed;
+  right: 22px;
+  bottom: 22px;
+  z-index: 40;
+  width: 68px;
+  height: 68px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: conic-gradient(var(--accent) var(--read-progress), #e2e8f0 0);
+  box-shadow: 0 18px 44px rgba(15, 23, 42, .18);
+  cursor: pointer;
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(10px);
+  transition: opacity .18s ease, transform .18s ease, box-shadow .18s ease;
+}
+.reading-top::before {
+  content: "";
+  position: absolute;
+  inset: 5px;
+  border-radius: 50%;
+  background: #ffffff;
+}
+.reading-top.is-visible {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0);
+}
+.reading-top:hover {
+  box-shadow: 0 22px 52px rgba(15, 23, 42, .24);
+}
+.reading-top-arrow {
+  position: absolute;
+  top: 13px;
+  left: 50%;
+  z-index: 1;
+  width: 18px;
+  height: 22px;
+  transform: translateX(-50%);
+}
+.reading-top-arrow::before {
+  content: "";
+  position: absolute;
+  left: 3px;
+  top: 2px;
+  width: 12px;
+  height: 12px;
+  border-top: 2px solid #1f2937;
+  border-left: 2px solid #1f2937;
+  transform: rotate(45deg);
+}
+.reading-top-arrow::after {
+  content: "";
+  position: absolute;
+  left: 8px;
+  top: 5px;
+  width: 2px;
+  height: 17px;
+  border-radius: 999px;
+  background: #1f2937;
+}
+.reading-top-value {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 11px;
+  z-index: 1;
+  color: #1f2937;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+}
 
 .index-page {
   min-height: 100vh;
@@ -1032,6 +1151,10 @@ td .doc-image {
   .outline-scroll {
     max-height: min(58vh, 500px);
   }
+  .reading-top {
+    right: 18px;
+    bottom: 86px;
+  }
 }
 @media (max-width: 860px) {
   .app-shell { display: block; }
@@ -1063,6 +1186,20 @@ td .doc-image {
   .content-layout { padding: 18px; }
   .doc-content { padding: 18px; }
   .lightbox { padding: 18px; }
+  .lightbox-nav {
+    width: 40px;
+    height: 40px;
+  }
+  .lightbox-prev {
+    left: 10px;
+  }
+  .lightbox-next {
+    right: 10px;
+  }
+  .lightbox-caption {
+    left: 18px;
+    right: 18px;
+  }
   .outline {
     right: 12px;
     bottom: 12px;
@@ -1070,6 +1207,19 @@ td .doc-image {
   }
   .outline-panel {
     border-radius: 8px;
+  }
+  .reading-top {
+    right: 16px;
+    bottom: 86px;
+    width: 60px;
+    height: 60px;
+  }
+  .reading-top-arrow {
+    top: 11px;
+  }
+  .reading-top-value {
+    bottom: 9px;
+    font-size: 11px;
   }
   .index-shell {
     width: min(100% - 22px, 720px);

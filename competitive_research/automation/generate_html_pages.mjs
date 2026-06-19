@@ -1143,6 +1143,125 @@ td .doc-image {
   text-align: center;
   font-size: 13px;
 }
+.lightbox-nav {
+  position: fixed;
+  top: 50%;
+  z-index: 51;
+  width: 48px;
+  height: 48px;
+  border: 0;
+  border-radius: 50%;
+  background: rgba(255,255,255,.95);
+  color: #111827;
+  box-shadow: 0 18px 45px rgba(0,0,0,.25);
+  cursor: pointer;
+  transform: translateY(-50%);
+}
+.lightbox-nav:hover {
+  background: #ffffff;
+}
+.lightbox-nav::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 12px;
+  height: 12px;
+  border-top: 2px solid currentColor;
+  border-right: 2px solid currentColor;
+}
+.lightbox-prev {
+  left: 24px;
+}
+.lightbox-next {
+  right: 24px;
+}
+.lightbox-prev::before {
+  transform: translate(-35%, -50%) rotate(-135deg);
+}
+.lightbox-next::before {
+  transform: translate(-65%, -50%) rotate(45deg);
+}
+.lightbox-nav[hidden] {
+  display: none;
+}
+
+.reading-top {
+  --read-progress: 0deg;
+  position: fixed;
+  right: 22px;
+  bottom: 22px;
+  z-index: 40;
+  width: 68px;
+  height: 68px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: conic-gradient(var(--accent) var(--read-progress), #e2e8f0 0);
+  box-shadow: 0 18px 44px rgba(15, 23, 42, .18);
+  cursor: pointer;
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(10px);
+  transition: opacity .18s ease, transform .18s ease, box-shadow .18s ease;
+}
+.reading-top::before {
+  content: "";
+  position: absolute;
+  inset: 5px;
+  border-radius: 50%;
+  background: #ffffff;
+}
+.reading-top.is-visible {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0);
+}
+.reading-top:hover {
+  box-shadow: 0 22px 52px rgba(15, 23, 42, .24);
+}
+.reading-top-arrow {
+  position: absolute;
+  top: 13px;
+  left: 50%;
+  z-index: 1;
+  width: 18px;
+  height: 22px;
+  transform: translateX(-50%);
+}
+.reading-top-arrow::before {
+  content: "";
+  position: absolute;
+  left: 3px;
+  top: 2px;
+  width: 12px;
+  height: 12px;
+  border-top: 2px solid #1f2937;
+  border-left: 2px solid #1f2937;
+  transform: rotate(45deg);
+}
+.reading-top-arrow::after {
+  content: "";
+  position: absolute;
+  left: 8px;
+  top: 5px;
+  width: 2px;
+  height: 17px;
+  border-radius: 999px;
+  background: #1f2937;
+}
+.reading-top-value {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 11px;
+  z-index: 1;
+  color: #1f2937;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+}
 
 .index-page {
   min-height: 100vh;
@@ -1494,6 +1613,10 @@ td .doc-image {
   .outline-scroll {
     max-height: min(58vh, 500px);
   }
+  .reading-top {
+    right: 18px;
+    bottom: 86px;
+  }
 }
 @media (max-width: 860px) {
   .app-shell { display: block; }
@@ -1525,6 +1648,20 @@ td .doc-image {
   .content-layout { padding: 18px; }
   .doc-content { padding: 18px; }
   .lightbox { padding: 18px; }
+  .lightbox-nav {
+    width: 40px;
+    height: 40px;
+  }
+  .lightbox-prev {
+    left: 10px;
+  }
+  .lightbox-next {
+    right: 10px;
+  }
+  .lightbox-caption {
+    left: 18px;
+    right: 18px;
+  }
   .outline {
     right: 12px;
     bottom: 12px;
@@ -1532,6 +1669,19 @@ td .doc-image {
   }
   .outline-panel {
     border-radius: 8px;
+  }
+  .reading-top {
+    right: 16px;
+    bottom: 86px;
+    width: 60px;
+    height: 60px;
+  }
+  .reading-top-arrow {
+    top: 11px;
+  }
+  .reading-top-value {
+    bottom: 9px;
+    font-size: 11px;
   }
   .index-shell {
     width: min(100% - 22px, 720px);
@@ -1608,6 +1758,42 @@ const lightboxJs = `
   const image = box?.querySelector('img');
   const caption = box?.querySelector('.lightbox-caption');
   const close = box?.querySelector('.lightbox-close');
+  let lightboxImages = [];
+  let lightboxIndex = -1;
+
+  function getImageSource(target) {
+    return target?.getAttribute('data-full') || target?.currentSrc || target?.getAttribute('src') || target?.src || '';
+  }
+
+  function getImageCaption(target, src) {
+    return target?.closest('td, figure, p')?.innerText?.trim()?.replace(/\\s+/g, ' ').slice(0, 220)
+      || target?.alt
+      || src;
+  }
+
+  function refreshLightboxImages() {
+    lightboxImages = Array.from(document.querySelectorAll('.doc-content img')).filter(getImageSource);
+  }
+
+  function showLightboxImage(index) {
+    if (!box || !image || !caption || !lightboxImages.length) return;
+    const total = lightboxImages.length;
+    lightboxIndex = ((index % total) + total) % total;
+    const target = lightboxImages[lightboxIndex];
+    const src = getImageSource(target);
+    const text = getImageCaption(target, src);
+    image.src = src;
+    image.alt = target.alt || 'Image preview';
+    caption.textContent = (lightboxIndex + 1) + ' / ' + total + (text ? ' - ' + text : '');
+    box.querySelectorAll('.lightbox-nav').forEach((button) => {
+      button.hidden = total < 2;
+    });
+  }
+
+  function stepLightbox(delta) {
+    if (!box?.classList.contains('is-open')) return;
+    showLightboxImage(lightboxIndex + delta);
+  }
 
   function openLightbox(target) {
     if (!box || !image || !caption) return;
@@ -1615,6 +1801,13 @@ const lightboxJs = `
     image.src = src;
     image.alt = target.alt || '放大预览';
     caption.textContent = target.closest('td, figure, p')?.innerText?.trim()?.slice(0, 220) || src;
+    refreshLightboxImages();
+    let index = lightboxImages.indexOf(target);
+    if (index === -1) {
+      lightboxImages.push(target);
+      index = lightboxImages.length - 1;
+    }
+    showLightboxImage(index);
     box.classList.add('is-open');
     box.setAttribute('aria-hidden', 'false');
     document.body.style.overflow = 'hidden';
@@ -1626,9 +1819,20 @@ const lightboxJs = `
     box.setAttribute('aria-hidden', 'true');
     document.body.style.overflow = '';
     image.removeAttribute('src');
+    lightboxIndex = -1;
   }
 
   if (box && image && caption && close) {
+    const prev = document.createElement('button');
+    prev.type = 'button';
+    prev.className = 'lightbox-nav lightbox-prev';
+    prev.setAttribute('aria-label', 'Previous image');
+    const next = document.createElement('button');
+    next.type = 'button';
+    next.className = 'lightbox-nav lightbox-next';
+    next.setAttribute('aria-label', 'Next image');
+    box.append(prev, next);
+
     document.addEventListener('click', (event) => {
       const target = event.target.closest('.doc-content img');
       if (!target) return;
@@ -1640,9 +1844,64 @@ const lightboxJs = `
     box.addEventListener('click', (event) => {
       if (event.target === box) closeLightbox();
     });
+    prev.addEventListener('click', () => stepLightbox(-1));
+    next.addEventListener('click', () => stepLightbox(1));
     document.addEventListener('keydown', (event) => {
-      if (event.key === 'Escape' && box.classList.contains('is-open')) closeLightbox();
+      if (!box.classList.contains('is-open')) return;
+      if (event.key === 'Escape') {
+        closeLightbox();
+      } else if (event.key === 'ArrowLeft' || event.key === 'Left') {
+        event.preventDefault();
+        stepLightbox(-1);
+      } else if (event.key === 'ArrowRight' || event.key === 'Right') {
+        event.preventDefault();
+        stepLightbox(1);
+      }
     });
+  }
+
+  const docContent = document.querySelector('.doc-content');
+  const pageFile = decodeURIComponent(location.pathname.split('/').pop() || '');
+  if (docContent && /^0[1-7]_/.test(pageFile)) {
+    const backTop = document.createElement('button');
+    backTop.type = 'button';
+    backTop.className = 'reading-top';
+    backTop.setAttribute('aria-label', 'Back to top');
+    backTop.innerHTML = '<span class="reading-top-arrow" aria-hidden="true"></span><span class="reading-top-value">0%</span>';
+    document.body.append(backTop);
+
+    const progressValue = backTop.querySelector('.reading-top-value');
+    let readFrame = 0;
+    let returningTop = false;
+
+    function syncReadProgress() {
+      readFrame = 0;
+      const rect = docContent.getBoundingClientRect();
+      const contentTop = window.scrollY + rect.top;
+      const contentBottom = contentTop + docContent.offsetHeight;
+      const start = Math.max(0, contentTop - 24);
+      const end = Math.max(start + 1, contentBottom - window.innerHeight + 24);
+      const progress = Math.min(1, Math.max(0, (window.scrollY - start) / (end - start)));
+      const percent = Math.round(progress * 100);
+      backTop.style.setProperty('--read-progress', (percent * 3.6) + 'deg');
+      progressValue.textContent = percent + '%';
+      backTop.setAttribute('aria-label', 'Back to top, ' + percent + '% read');
+      if (returningTop && window.scrollY <= 2) returningTop = false;
+      backTop.classList.toggle('is-visible', window.scrollY > 160 && !returningTop);
+    }
+
+    function scheduleReadProgress() {
+      if (!readFrame) readFrame = requestAnimationFrame(syncReadProgress);
+    }
+
+    backTop.addEventListener('click', () => {
+      returningTop = true;
+      backTop.classList.remove('is-visible');
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+    syncReadProgress();
+    document.addEventListener('scroll', scheduleReadProgress, { passive: true });
+    window.addEventListener('resize', scheduleReadProgress);
   }
 
   const outline = document.getElementById('page-outline');
