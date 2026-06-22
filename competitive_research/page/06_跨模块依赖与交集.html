@@ -30,24 +30,12 @@
     <main class="main">
       <header class="page-header">
         <div class="page-title-block">
-          <span class="page-kicker">HTML 阅读版</span>
           <h1>跨模块依赖与交集</h1>
         </div>
-        <nav class="page-pager page-pager-top" aria-label="文档翻页">
-    <a class="page-turn page-turn-prev" href="05_新手引导弹窗模块.html">
-    <span>上一篇</span>
-    <strong>05_新手引导弹窗模块</strong>
-  </a>
-    <a class="page-turn page-turn-next" href="07_深度截图索引.html">
-    <span>下一篇</span>
-    <strong>07_深度截图索引</strong>
-  </a>
-  </nav>
       </header>
       <div class="content-layout">
         <article class="doc-content">
-          <h1 id="跨模块依赖与交集">跨模块依赖与交集</h1>
-<p>四个大模块不是并列孤岛，而是围绕 AI 推理业务形成闭环：平台管理提供算法和治理基础，智能分析把输入源与算法编排成任务，数据中心沉淀结果并完成处置，数据看板消费指标并展示态势。</p>
+          <p>四个大模块不是并列孤岛，而是围绕 AI 推理业务形成闭环：平台管理提供算法和治理基础，智能分析把输入源与算法编排成任务，数据中心沉淀结果并完成处置，数据看板消费指标并展示态势。</p>
 <h2 id="总体链路">总体链路</h2>
 <div class="table-wrap"><table><thead><tr><th>链路阶段</th><th>主责模块</th><th>关键对象</th><th>设计说明</th></tr></thead><tbody><tr><td>能力准备</td><td>平台管理</td><td>离线算法包、解决方案、权限、对象存储</td><td>算法安装、权限授权、存储和开放接口决定系统可用能力边界。</td></tr><tr><td>输入接入</td><td>智能分析</td><td>摄像头、视频源、图片输入、人员库、算法底库</td><td>让平台知道看哪里、识别什么、依赖哪些基础数据。</td></tr><tr><td>任务执行</td><td>智能分析</td><td>视频流分析任务、图片分析任务、分析服务</td><td>把输入与算法组合成可运行任务，并监控服务健康。</td></tr><tr><td>结果沉淀</td><td>数据中心</td><td>报警日志、推送日志、人员识别日志、陌生人日志</td><td>用于审计、处置、归档、导出和排障。</td></tr><tr><td>结果展示</td><td>数据看板</td><td>实时监控、业务概览、报警图片墙、AI 管控中心</td><td>面向管理者和值守人员展示全局态势。</td></tr></tbody></table></div>
 <h2 id="代表性证据截图">代表性证据截图</h2>

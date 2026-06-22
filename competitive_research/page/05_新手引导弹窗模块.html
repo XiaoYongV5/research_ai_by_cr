@@ -30,24 +30,12 @@
     <main class="main">
       <header class="page-header">
         <div class="page-title-block">
-          <span class="page-kicker">HTML 阅读版</span>
           <h1>新手引导弹窗模块</h1>
         </div>
-        <nav class="page-pager page-pager-top" aria-label="文档翻页">
-    <a class="page-turn page-turn-prev" href="04_平台管理模块.html">
-    <span>上一篇</span>
-    <strong>04_平台管理模块</strong>
-  </a>
-    <a class="page-turn page-turn-next" href="06_跨模块依赖与交集.html">
-    <span>下一篇</span>
-    <strong>06_跨模块依赖与交集</strong>
-  </a>
-  </nav>
       </header>
       <div class="content-layout">
         <article class="doc-content">
-          <h1 id="新手引导弹窗模块">新手引导弹窗模块</h1>
-<p>新手引导弹窗的核心不是“展示欢迎语”，而是把新用户从登录后的 AI 智能管控中心，带入平台最关键的冷启动链路：添加摄像头、创建视频流分析任务、配置报警输出，并最终回到数据中心或数据看板验证结果。</p>
+          <p>新手引导弹窗的核心不是“展示欢迎语”，而是把新用户从登录后的 AI 智能管控中心，带入平台最关键的冷启动链路：添加摄像头、创建视频流分析任务、配置报警输出，并最终回到数据中心或数据看板验证结果。</p>
 <p>本次重新梳理后，将“点击开始配置”作为主路径继续分析；“关闭弹窗”只作为跳过分支，不再作为引导流程的结束。</p>
 <h2 id="结论先行">结论先行</h2>
 <div class="table-wrap"><table><thead><tr><th>判断项</th><th>观察结论</th><th>产品影响</th></tr></thead><tbody><tr><td>弹窗目标</td><td>文案明确要求“添加摄像头，并创建第一个视频流分析任务”</td><td>引导的主任务应继续进入智能分析配置链路，而不是停留在弹窗层。</td></tr><tr><td>主按钮</td><td><code>开始配置</code> 是唯一主 CTA</td><td>该按钮应把用户带到可执行的配置页面或直接打开对应新增弹窗。</td></tr><tr><td>当前采集结果</td><td>历史截图显示点击 <code>开始配置</code> 后仍停留在 AI 智能管控中心空态</td><td>当前链路存在断点或采集未记录到后续跳转，文档应指出该风险。</td></tr><tr><td>正确业务闭环</td><td>摄像头配置 -&gt; 新增摄像头 -&gt; 视频流分析 -&gt; 创建任务 -&gt; 报警推送 -&gt; 报警日志/看板验证</td><td>新手引导应该围绕这条闭环设计，而不是仅解释弹窗视觉结构。</td></tr><tr><td>关闭入口</td><td>右上角关闭只适合熟练用户跳过</td><td>关闭后应保留可恢复入口，避免用户无法再次进入配置向导。</td></tr></tbody></table></div>

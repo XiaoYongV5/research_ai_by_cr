@@ -119,7 +119,7 @@
 
   const docContent = document.querySelector('.doc-content');
   const pageFile = decodeURIComponent(location.pathname.split('/').pop() || '');
-  if (docContent && /^0[1-7]_/.test(pageFile)) {
+  if (docContent && /^0[0-7]_/.test(pageFile)) {
     const backTop = document.createElement('button');
     backTop.type = 'button';
     backTop.className = 'reading-top';
